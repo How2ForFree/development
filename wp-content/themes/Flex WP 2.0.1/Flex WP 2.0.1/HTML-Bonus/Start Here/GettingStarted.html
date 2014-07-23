@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>The Flex Template - Getting Started</title>
+<style type="text/css">
+html{background: #222 url(images/bg.jpg) no-repeat fixed top center;}
+body { background: white; margin: 40px auto; font-family: Lucida Grande, Arial, Helvetica, sans-serif; font-size: 12px; color: #202020; line-height: 20px; width: 800px; padding: 50px;}
+h1 { margin-top: 0px; }
+fieldset { margin: 30px 0; padding: 30px; }
+legend { font-size: 18px; padding: 0 10px; color: #202020; }
+pre, xmp {
+	border: solid 1px #ccc;
+	padding:15px; 
+	background: #efefef;
+	width:700px;
+	}
+a {color: #1386d7;}
+hr{
+	background: #FFF;
+	height: 1px;
+	border: 0px;
+	border-bottom: 1px dotted #c2c2c2;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+a img {padding: 3px; background: #eee; border: 1px solid #ccc; width: 95%; height: 95%; margin: 10px auto;}
+a img:hover {background: #afdeff;}
+ul.nobullets {
+	list-style: none;
+	}
+	
+.social img{width:285px; height: 70px; text-align: center;}
+.social {text-align: center;}
+</style>
+</head>
+
+<body>
+<h1><center><img src="images/logo.jpg" /></center></h1>
+<p><center>Created: March 10, 2010<br />
+Version: HTML/CSS<br />
+By: Brandon R Jones<br />
+Contact Info: http://makedesignnotwar.com<br />
+Wordpress version coming at the end of March!<br />
+Also Available: <a href="http://themeforest.net/user/epicera/portfolio?ref=epicera">View my full line of products.</a><br /><br /></center>
+
+Thank you for purchasing this template!. If you have any questions that are beyond the scope of this help file, please feel free to email me via my user page contact form. Thanks so much!</p>
+<p>
+	<br />
+<center>
+<h2>TABLE OF CONTENTS</h2>
+
+A) HTML Structure <br />
+B) CSS Files<br />
+C) Javascript <br />
+D) PSD Files<br />
+E) Fonts Used<br />
+F) Cufon Implementation<br />
+G) Customization and Contact Form<br />
+H) Using the VGrid on the Homepage and Launching the Lightbox<br />
+</center>
+	<br />
+</p>
+<p>
+-- ORGANIZATION --
+First - a note on the organization of this template.
+I have placed all essential non-html files inside of the "assets" folder. There you'll find the primary images, javascript, css, and other files that are essential to each version of this template.<br /><br />
+Above this folder I have grouped each "color" inside of it's own folder. You'll notice that there are 12 main .html files. You will also notice that each of these files is referencing it's respecitive "skin" files at the very top of the header - ie: the white version references skins/quick-styles.css. All skin files are located inside this folder.<br /><br />
+
+The files inside of each theme folder are just for quick access - you can re-organize their proximity to the files in the "assets" folder at your own pleasure. <br /><br />
+The CSS file in those folder (quick-styles.css) doesn't cover the main styling for the template, only those styles that differentiate each theme from each other.
+</p>
+
+<fieldset>
+<legend>A) HTML Structure</legend>
+This theme includes two major layout options: a variable grid layout (the homepage), and a fixed width layout with two possible configurations: Full Width, and 2 Column. <br />
+
+All of the information within the main content area is nested within a div with an id of "grid-content". The header section is located under the "top-bar" ID. <br /><br />
+The navigation is located in the "navigation"" class inside the "top-bar". <br />
+Each "module" on the homepage is nested inside a DIV with a class of both "post_float" and "rounded". <br />
+The main content columns on the other pages are nested inside the div with the ID of "container". <br />
+The left column content is within a div with an id of "single_post". <br />
+The sidebar's (column #2) content is within a div with an id of "sidebar". <br />
+The footer content is within a div with an id of "footer".<br /><br />
+
+If you would like to edit the color, font, or style of any elements in one of these columns, you would do the following:<br /><br />
+<xmp>#content a {<br />
+   color: #someColor;<br />
+}</xmp> <br />
+
+If you find that your new style is not overriding, it is most likely because of a specificity problem. Scroll down in your CSS file and make sure that there isn't a similar style that has more weight. <br /><br />
+
+I.E.<br />
+<xmp>.green a {<br />
+color: #someColor;<br />
+}</xmp><br />
+
+So, to ensure that your new styles are applied, make sure that they carry enough "weight" and that there isn't a style lower in the CSS file that is being applied after yours. <br /><br />
+
+The file "style.css" loads all of the major stylesheets for this template. The styling for this theme are stored in 3 key locations: core.css (main styling) , quick-styles.css , and typography.css Finally, there are a handful of other CSS files that include styling for the various third party plugins, such as the dropdown, prettyPhoto, etc. I have taken the time to separate these other stylesheets into the "import" folder.<br />
+</fieldset>
+
+
+<fieldset>
+<legend>B) CSS</legend>
+
+I'm using one main CSS file in this theme to load all other stylesheets (style.css). There are several support stylesheets (for IE browsers and the jQuery stuff) located inside the "import" folder. The site also includes a generic reset stylesheet (reset.css) inside the hacks folder. Many browser interpret the default behavior of html elements differently. By using a general reset CSS rule, we can work round this. This file also contains some general styling, such as anchor tag colors, font-sizes, etc. Keep in mind, that these values might be overridden somewhere else in the file. 
+<br /><br />
+The main file (core.css) contains all of the universal stylings for the pages. The file is separated into sections using:  
+<br /><br />
+/* Main Section */<br />
+
+some code<br /><br />
+
+/* Footer */<br />
+
+some code<br />
+
+etc, etc. <br /><br />
+
+If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited. <br /><br />
+
+I've also done by best to keep this code as organized as possible. Take a few minutes to familiarize yourself with what's in each file before you start your styling, and it should be a breeze.<br /><br />
+
+</fieldset>
+
+<fieldset>
+<legend>C) Javascript</legend>
+
+This theme imports several Javascript files.<br /><br />
+
+  1) jquery-1.3.2.min.js | The main jQuery script.<br />
+  2) jquery.ceebox.min.js | The jQuery script that drives the image lightbox.<br />
+  3) jquery.vgrid.0.1.5.min.js | The Variable Grid plugin.<br />
+  4) superfish.js | The dropdown menu script.<br />
+  5) hoverIntent | A support file for the dropdown menu.<br />
+  6) cufon-yui.js | The main text-replacement script.<br />
+  7) Leageu_Gothic_400.font.js | OFL ... | The "font" files for the CUFON font replacement.<br />
+  8) swfobject.js | A script for Flash Support.<br />
+  9) flex.js | The main JS file that runs any necessary activation scripts for the other files.<br /><br />
+
+A) jQuery is a Javascript library that greatly reduces the amount of code that you must write. <br />
+B) Most of the animation in this site is carried out from open source scripts that are "tried and true". To get support about how to modify these, please refer to their author sites:<br /><br />
+
+"CUFON": http://cufon.shoqolate.com/generate/<br />
+"CeeBox (lightbox)": http://catcubed.com/2008/12/23/ceebox-a-thickboxvideobox-mashup/<br />
+"jQuery": http://jquery.com/<br />
+"VGrid": http://blog.xlune.com/2009/09/vgrid/demo001.html
+"Super Simple Contact Form": http://supersimple.org/contact 
+
+For these scripts, I stuck to conventional implementation, so if you run into problems trying to customize them, the support information should be readily available on those sites. <br /><br />
+
+<br />
+</fieldset>
+
+<fieldset>
+<legend>D) PSD Files</legend>
+
+I've included several psds with this theme:<br /><br />
+
+   1) The main layout PSD file (sorted inside by color - you must download this file)<br />
+   2) The "chop" psd files. These are sorted by name, and represent the EXACT images you'll need to overwrite if you're interested in restyling this theme. The match up perfectly with the CSS dimmensions, and their names are EXACTLY the same as the files you'll need to overwrite.<br /><br />
+
+To change the logo at the top of the header, simply replace that logo with your own and adjust the height/width/padding of that space to your own liking. <br /><br />
+
+All of these files are organized using the highest design standards, and can be editted in any version of photoshop after CS3.
+</fieldset>
+
+<fieldset>
+<legend>E) Fonts Used</legend>
+League Gothic : Navigation Block Font (http://www.theleagueofmoveabletype.com/fonts/7-league-gothic)<br />
+Georgia : System Font<br />
+</fieldset>
+
+
+<fieldset>
+<legend>F) CUFON Implementation</legend>
+This site uses CUFON for font-replacement in the navigation, the headlines, and several other spots. It's accomplished using the basic CUFON-installation as described on their site. Notice the references to CUFON fonts inside the header-section of each HTML file, and the "replacement" declaration inside the flex.js file.<br /><br />
+The fonts are then given their style inside the main template stylesheets (most are in core.css).
+</fieldset>
+
+
+<fieldset>
+<legend>G) Customization and Contact Form Usage</legend>
+You can quickly create your own custom stylesheets by over-writing the quick-styles.css file with your own adjustments. Keep in mind that you will need to keep track of the original styling in case your new styles compete with them. You can also add new background graphics and other customizations here sa well.<br /><br />
+
+The Contact Form is quite simple to use, but as it's the only PHP file, I should walk you through it. It's been built using the Super Simple Contact Form Maker : http://supersimple.org/contact. First, there's a good chance that you'll want to ignore the large block of PHP at the top of this page. If all you want to do is setup your email address, just scroll down to line 272-275 in the code:<br />
+
+<xmp>//now get the recipient(s)
+$_to[] = "YourEmail@Address.here";
+</xmp>
+<br />
+Just enter your email address instead of "YourEmail@Address.here" and the form will be setup. To make customizations to this form, I highly recommend reading the documentation at the Super Simple Contact Form website, as that's what I used to create the form. Just insert the code that they give you into this framework and you'll be good to go.
+
+</fieldset>
+
+
+<fieldset>
+<legend>H) Using the VGrid on the Homepage and Launching the Lightbox</legend>
+This is actually pretty simple, as the plugin does most of the work for you. Keep in mind that all content goes inside the "grid-content" DIV, and tha each module is wrapped with a DIV that has the "post_float" and "rounded" classes. Here's a quick example of what a module looks like, but you'll also notice that I've left additional notes inside the index.html file for you :)
+
+<xmp><div class="post_float rounded"> 																		
+<a class="ceebox" title="Lightbox Example" href="destination_path.jpg">
+  <img width="200" height="130" src="imagepath.jpg"  alt="" title="imagesample" />
+</a>							
+			
+<h2><a class="ceebox" title="Lightbox Example" href="destination_path.jpg">Lightbox Example</a></h2>
+                               				
+<div class="post_tags">This is a Quick Project Description<br /></div>            
+</div>
+</xmp>
+
+Notice the three main sections of that module - 1) the hyper-linked image thumbnail. 2) the Title wrapped in H2 tags, and 3) the short description wrapped in the "post_tags" DIV.
+
+<p><b>Launching the Lightbox</b></p>
+For any link that you want to include the lightbox, just include the class of "ceebox" inside the A tag:
+
+<xmp><a class="ceebox" title="Lightbox Example" href="destination_path.jpg">
+<img width="200" height="130" src="imagepath.jpg"  alt="" title="imagesample" />
+</a>							
+</xmp>
+
+Galleries are handled a little differently because it forces us to load the CEEBOX class outside of the actual A tag (in this example it's loaded in the "post_float" DIV):
+
+<xmp><div class="post_float rounded ceebox"> 	
+<a title="Gallery Example" href="gallery_imagepath1.jpg">
+<img width="200" height="130" src="imagepath.jpg"  alt="" title="imagesample" />
+</a>	
+			
+	<div class="gallery-hider">
+	<a href="gallery_imagepath2.jpg" title="Image Title">link</a>		
+	<a href="gallery_imagepath3.jpg" title="Image Title">link</a>	
+	</div>			
+
+...
+</div>				
+</xmp>
+
+Note that galleries only work if the 2nd, 3rd, 4th, etc. images are embedded inside a DIV that has a CEEBOX class - in this case we are "hiding" the 2nd, 3rd, 4th, etc. images inside an invisible DIV called "gallery-hider"
+
+You can read more about how to use this both inside my HTML comments, and at the official site for the lightbox: <a href="http://catcubed.com/2008/12/23/ceebox-a-thickboxvideobox-mashup/">CEEBOX OFFICIAL SITE</a>. Please take some time to check out the huge amount of options that the lightbox has - there's a very good chance that any question that you might have for me gets covered somewhere on that page.
+</fieldset>
+
+
+<fieldset>
+<legend>I) Updates</legend>
+None yet :)
+</fieldset>	
+
+Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section. <br /><br />

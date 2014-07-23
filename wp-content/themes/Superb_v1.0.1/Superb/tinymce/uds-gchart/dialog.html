@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>UDS GChart</title>
+	<script type="text/javascript" src="../tiny_mce_popup.js"></script>
+	<script type="text/javascript" src="../utils/mctabs.js"></script>
+	<script type="text/javascript" src="../utils/form_utils.js"></script>
+	<script type="text/javascript">
+		var udsGChart = {
+			init : function(ed) {
+				var dom = ed.dom, f = document.forms[0], n = ed.selection.getNode(), w;
+				
+				//f.text.value = ed.selection.getContent();
+			},
+		
+			update : function() {
+				var ed = tinyMCEPopup.editor, f = document.forms[0], st = '';
+				
+				var lat = 'lat="51.507222" ';
+				if(f.lat.value != '') {
+					lat = 'lat="'+f.lat.value+'" ';
+				}
+				
+				
+				
+				var code = '[GChart '++']';
+				
+				ed.execCommand("mceInsertContent", false, code);
+				tinyMCEPopup.close();
+			}
+		};
+		
+		tinyMCEPopup.requireLangPack();
+		tinyMCEPopup.onInit.add(udsGChart.init, udsGChart);
+	</script>
+	<style>
+	#general_panel table {
+		width: 100%;
+	}
+	
+	.panel_wrapper div.current {
+		height: auto;
+	}
+	
+	textarea#text {
+		width: 100%;
+		height: 100px;
+	}
+	</style>
+</head>
+<body>
+<form onsubmit="udsGChart.update();return false;" action="#">
+	<div class="tabs">
+		<ul>
+			<li id="general_tab" class="current"><span><a href="javascript:mcTabs.displayTab('general_tab','general_panel');" onmousedown="return false;">UDS GChart</a></span></li>
+		</ul>
+	</div>
+
+	<div class="panel_wrapper">
+		<div id="general_panel" class="panel current">
+			<table border="0" cellpadding="4" cellspacing="0">
+					<tr>
+                        <td><label for="lat">Latitude</label></td>
+                        <td>
+                        	<input type="text" name="lat" id="lat" value="" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="lng">Longitude</label></td>
+                        <td>
+                        	<input type="text" name="lng" id="lng" value="" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="zoom">Zoom</label></td>
+                        <td>
+                        	<select name="zoom" id="zoom">
+                        		<option value="1">1</option>
+                        		<option value="2">2</option>
+                        		<option value="3">3</option>
+                        		<option value="4">4</option>
+                        		<option value="5">5</option>
+                        		<option value="6">6</option>
+                        		<option value="7">7</option>
+                        		<option value="8">8</option>
+                        		<option value="9">9</option>
+                        		<option value="10">10</option>
+                        		<option value="11">11</option>
+                        		<option value="12">12</option>
+                        		<option value="13" selected="selected">13</option>
+                        		<option value="14">14</option>
+                        		<option value="15">15</option>
+                        		<option value="16">16</option>
+                        		<option value="17">17</option>
+                        		<option value="18">18</option>
+                        		<option value="19">19</option>
+                        		<option value="20">20</option>
+                        	</select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="type">Type</label></td>
+                        <td>
+                        	<select name="type" id="type">
+                        		<option value="HYBRID" selected="selected">Hybrid</option>
+                        		<option value="ROADMAP">Road map</option>
+                        		<option value="SATELLITE">Satellite</option>
+                        		<option value="TERRAIN">Terrain</option>
+                        	</select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="width">Width (px, %)</label></td>
+                        <td>
+                        	<input type="text" name="width" id="width" value="100%" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Height">Height (px, %)</label></td>
+                        <td>
+                        	<input type="text" name="height" id="height" value="300px" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="marker">Show Marker</label></td>
+                        <td>
+                        	<input type="checkbox" name="marker" id="marker" checked="checked" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="wheel">Allow Mouse Wheel Scrolling</label></td>
+                        <td>
+                        	<input type="checkbox" name="wheel" id="wheel" checked="checked" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="scale_control">Show Scale Control</label></td>
+                        <td>
+                        	<input type="checkbox" name="scale_control" id="scale_control" checked="checked" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="map_type_control">Show Map Type Control</label></td>
+                        <td>
+                        	<input type="checkbox" name="map_type_control" id="map_type_control" checked="checked" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="navigation_control">Show Navigation Control</label></td>
+                        <td>
+                        	<input type="checkbox" name="navigation_control" id="navigation_control" checked="checked" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="street_view_control">Show Street View Control</label></td>
+                        <td>
+                        	<input type="checkbox" name="street_view_control" id="street_view_control" checked="checked" />
+                        </td>
+                    </tr>
+            </table>
+		</div>
+	</div>
+
+	<div class="mceActionPanel">
+		<div style="float: left">
+			<input type="submit" id="insert" name="insert" value="{#insert}" />
+		</div>
+
+		<div style="float: right">
+			<input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+		</div>
+	</div>
+</form>
+</body>
+</html>

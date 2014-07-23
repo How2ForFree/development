@@ -1,0 +1,117 @@
+/**
+ * Your Inspiration Themes
+ * 
+ * In this files the framework register default metaboxes.
+ * 
+ * @package WordPress
+ * @subpackage Your Inspiration Themes
+ * @author Your Inspiration Themes Team <info@yourinspirationthemes.com>
+ *
+ * This source file is subject to the GNU GENERAL PUBLIC LICENSE (GPL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://www.gnu.org/licenses/gpl-3.0.txt
+ */
+
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/EInbV5DfGHOiMmvb1Xr-hnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+.slider-testimonials.slider .usquare_module_wrapper h2 { font-size: 14px; font-family: 'Open Sans', sans-serif; color: #aa620d; font-style: normal; font-weight: 800; }
+.slider-testimonials.slider .usquare_module_wrapper span, .slider-testimonials.slider .usquare_block_extended, .slider-testimonials.slider .usquare_block_extended .usquare_about { font-size: 13px; font-family: 'Kameron', sans-serif; color: #676768; font-style: normal; font-weight: 400; }
+.post-title, .post-title a { font-size: 17px; font-family: 'Open Sans', sans-serif; color: #676768; font-style: normal; font-weight: 400; }
+.blog-big .meta a { font-size: 12px; font-family: 'Kameron', sans-serif; color: #000000; font-style: normal; font-weight: 400; }
+.blog-big .meta a:hover { color: #333333; }
+.blog-big-ribbon .date-comments .date .month { font-size: 22px; font-family: 'Open Sans', sans-serif; color: #a5a4a4; font-style: normal; font-weight: 400; }
+.blog-big-ribbon .date-comments .date .day { font-size: 48px; font-family: 'Arbutus Slab', sans-serif; color: #a5a4a4; font-style: normal; font-weight: 400; }
+.section.blog .post .meta h4 a, .section.blog .sticky .the-content h4 a { font-size: 12px; font-family: 'Open Sans', sans-serif; color: #676768; font-style: normal; font-weight: 400; }
+.section.blog .post .meta h4 a:hover, .section.blog .sticky .the-content h4 a:hover { color: #d98104; }
+#copyright { background: #333333; }
+#footer { background-color: #ffffff; background-image: url(''); background-repeat: repeat; background-position: top left; background-attachment: scroll; }
+.boxed #wrapper { background-color: #ffffff; }
+code, pre, body hr, #copyright .inner, #footer .inner, .gallery img, .gallery img, .content .archive-list ul, .content .archive-list ul li, .more-projects-widget .work-thumb, .more-projects-widget .controls, .more-projects-widget .top, .featured-projects-widget img, .thumb-project img, #searchform input, .portfolio-categories ul li, .portfolio-categories ul li:hover, .recent-comments .avatar img, .content .contact-form li.submit-button input, #portfolio .read-more, #portfolio .more-link, #portfolio .read-more:hover, #portfolio .more-link:hover, .accordion-title, .accordion-item-thumb img, form input[type="text"], form textarea, .testimonial-page, div.section-caption .caption, .line, .last-tweets-widget ul li, .toggle p.tab-index, .toggle .content-tab, .testimonial, .google-map-frame, .section.blog .post, .section.blog h4.other-articles, .section.blog .sticky .thumbnail, .section .portfolio-sticky .work-categories, .testimonial, #searchform input, .blog-big .meta p, .blog-big p.list-tags, .blog-small .image-wrap, .comment-container, .image-square-style #comments img.avatar, #comments .comment-author img, .comment-meta, #respond input, #respond textarea, img.comment-avatar, .portfolio-big-image a.thumb, .portfolio-big-image a.more, .portfolio-big-image a.more:hover, .portfolio-big-image .work-thumbnail a.nozoom, .portfolio-big-image .work-skillsdate, .internal_page_item, .gallery-wrap li h5, .gallery-filters, .portfolio-full-description a.thumb, .portfolio-full-description a.more, .portfolio-full-description a.more:hover, .portfolio-full-description .work-skillsdate, .related_img, #portfolio.columns .overlay_a, .yit-widget-content .widget, .slider.thumbnails .showcase-thumbnail img, .slider.thumbnails .showcase-thumbnail img:hover, .slider.thumbnails .showcase-thumbnail.active img, .recent-post .thumb-img img, .widget_archive ul li a, .widget_archive ul li a:hover, .widget_nav_menu ul li a, .widget_nav_menu ul li a:hover, .widget_pages ul li a, .widget_pages ul li a:hover, .widget_categories ul li a, .widget_categories ul li a:hover, #searchform input, .widget_flickrRSS img, .widget_nav_menu ul li a, .widget_pages ul li a, .widget_categories ul li a, .widget_archive ul li a:hover, .widget_nav_menu ul li.current_page_item > a, .widget_pages ul li.current_page_item > a, .widget_categories ul li.current_page_item > a, .testimonial-widget div.name-testimonial, .last-tweets-widget ul li, .yit-widget-content .widget, .portfolio-categories ul li, .recent-comments .avatar img, .more-projects-widget .work-thumb, .more-projects-widget .controls, .more-projects-widget .top, .featured-projects-widget img, .thumb-project img, .picture_overlay, #respond textarea:focus, .section-portfolio-classic .work-projects a.img { border-color: #dfdcdc; }
+#header { background-color: #333333; background-image: url(''); background-repeat: repeat; background-position: top left; background-attachment: scroll; }
+#nav { background-color: #333333; }
+#nav ul.sub-menu, #nav ul.children { background-color: #2c2b2b; }
+#nav ul li a:hover, #nav ul li:hover a { background-color: #2c2b2b; }
+#nav .current-menu-item > a, #nav .current-menu-ancestor > a, #nav .current_page_ancestor > a,div#nav ul .current_page_item > a { background-color: #2c2b2b; }
+#nav .megamenu ul.sub-menu li.menu-item-custom-content p { color: #ffffff; }
+#nav .megamenu ul.sub-menu li.menu-item-custom-content span.highlight { color: #ffffff; }
+.error-404-text p { font-size: 18px; font-family: 'Kameron', sans-serif; color: #676768; font-style: normal; font-weight: 400; }
+.error-404-text p a { color: #aa620d; }
+.error-404-text p a:hover { color: #d98104; }
+.testimonial .testimonial-text p, .testimonial .testimonial-text-full p, .testimonial-page .testimonial-text-full p { font-size: 12px; font-family: 'Droid Sans', sans-serif; color: #585555; font-style: normal; font-weight: 400; }
+.testimonial .testimonial-name a.name, .testimonial .testimonial-name p.name, .testimonial-page .testimonial-name a.name, .testimonial-page .testimonial-name p.name { font-size: 22px; font-family: 'Shadows Into Light', sans-serif; color: #ab5705; font-style: normal; font-weight: 400; }
+.testimonials-slider ul.testimonials li blockquote p a, .testimonials-flexslider ul li blockquote p a { font-size: 24px; font-family: 'Rokkitt', sans-serif; color: #747373; font-style: normal; font-weight: 400; }
+.testimonials-slider ul.testimonials li p.meta, .testimonials-slider ul.testimonials li p.meta a, .testimonials-flexslider ul li p.meta a { font-size: 13px; font-family: 'Droid Sans', sans-serif; color: #aa620d; font-style: normal; font-weight: 400; }
+.testimonial .testimonial-name a.website, .testimonial .testimonial-name span.website, .testimonial-page .testimonial-name a.website, .testimonial-page .testimonial-name span.website { font-size: 12px; font-family: 'Droid Sans', sans-serif; color: #1c1c1c; font-style: normal; font-weight: 400; }
+.testimonial blockquote { font-size: 14px; font-family: 'Arial, Helvetica', sans-serif; color: #2e2d2d; font-style: normal; font-weight: 400; }
+.testimonials-slider ul.testimonials li p.meta a:hover, .testimonials-flexslider ul li p.meta a:hover { color: #3e3d3d; }
+#footer, #footer p, #footer li { font-size: 12px; font-family: 'Open Sans', sans-serif; color: #676768; font-style: normal; font-weight: 400; }
+#footer a { color: #D98004; }
+#footer a:hover { color: #AA620D; }
+#footer h3 { font-size: 14px; font-family: 'Open Sans', sans-serif; color: #676768; font-style: normal; font-weight: 800; }
+#copyright, #copyright div p, #copyright p, #copyright a, #copyright p a, #copyright div p a { font-size: 14px; font-family: 'Kameron', sans-serif; color: #959292; font-style: normal; font-weight: 400; }
+#copyright a, #copyright div a, #copyright div p a { color: #c5c3c3; }
+#copyright a:hover, #copyright div a:hover, #copyright div p a:hover { color: #e3910f; }
+a, p, li, address, dd, blockquote, td, th, .paragraph-links a, a.text-color, ul.filters li a, .menu-select select, .testimonial-widget li a, .testimonial-widget li p, #search_mini, .newsletter-input input, .newsletter-submit input, .features-tab-container .features-tab-labels li, .features-tab-content, .portfolio-libra .work-projects ul.pagination_nav li a { font-size: 14px; font-family: 'Kameron', sans-serif; color: #747373; font-style: normal; font-weight: 400; }
+a, a.text-color:hover, ul.filters li a:hover, ul.filters li a.active { color: #aa620d; }
+a:hover, body .login_register a:hover, #multistep_step1 .step1_login_form form.login_checkout .lost_password:hover, .portfolio-libra .work-projects ul.pagination_nav li a:hover, a:hover .title-highlight { color: #d98104; }
+#page-meta #yit-breadcrumb, #page-meta #yit-breadcrumb a, .breadcrumbs span { font-size: 12px; font-family: 'Open Sans', sans-serif; color: #888787; font-style: normal; font-weight: 400; }
+#page-meta #yit-breadcrumb a:hover { color: #535353; }
+#page-meta #yit-breadcrumb a.current { color: #363f4a; }
+h1, h1 a { font-size: 22px; font-family: 'Open Sans', sans-serif; color: #3e3d3d; font-style: normal; font-weight: 800; }
+h2, h2 a { font-size: 15px; font-family: 'Open Sans', sans-serif; color: #3e3d3d; font-style: normal; font-weight: 800; }
+h3, h3 a { font-size: 17px; font-family: 'Open Sans', sans-serif; color: #3e3d3d; font-style: normal; font-weight: 800; }
+h4, h4 a { font-size: 16px; font-family: 'Open Sans', sans-serif; color: #3e3d3d; font-style: normal; font-weight: 800; }
+h5, h5 a { font-size: 15px; font-family: 'Open Sans', sans-serif; color: #3e3d3d; font-style: normal; font-weight: 800; }
+h6, h6 a { font-size: 14px; font-family: 'Open Sans', sans-serif; color: #3e3d3d; font-style: normal; font-weight: 800; }
+.special-font { font-size: 12px; font-family: 'Shadows Into Light', sans-serif; color: #030303; font-style: normal; font-weight: 400; }
+h1 span.title-highlight, h2 span.title-highlight, h3 span.title-highlight, h4 span.title-highlight, h5 span.title-highlight, h6 span.title-highlight, .box-sections span.title-highlight, .box-sections-border span.title-highlight { color: #c27d05; }
+#header #logo #textual, span.logo { font-size: 42px; font-family: 'Open Sans', sans-serif; color: #ffffff; font-style: normal; font-weight: 800; }
+#header #logo #textual span { font-size: 42px; font-family: 'Open Sans', sans-serif; color: #c27d05; font-style: normal; font-weight: 800; }
+#header #logo #tagline { font-size: 13px; font-family: 'Open Sans', sans-serif; color: #ffffff; font-style: normal; font-weight: 400; }
+#header #logo #tagline span { font-size: 13px; font-family: 'Open Sans', sans-serif; color: #c27d05; font-style: normal; font-weight: 400; }
+#nav ul li, #nav ul li a { font-size: 15px; font-family: 'Open Sans', sans-serif; color: #ffffff; font-style: normal; font-weight: 400; }
+#nav ul li a:hover { color: #f4a00c; }
+#nav .current-menu-item > a, #nav .current-menu-ancestor > a, div#nav ul .current_page_item > a { color: #ffffff; }
+#nav ul li ul li a, #nav .megamenu ul.sub-menu li li a { font-size: 13px; font-family: 'Open Sans', sans-serif; color: #ffffff; font-style: normal; font-weight: 400; }
+#nav ul li ul li a:hover, #nav .megamenu ul.sub-menu li li a:hover { color: #f4a00c; }
+#nav ul ul .current-menu-item > a, #nav ul ul .current-menu-ancestor > a, div#nav ul ul .current_page_item > a, #nav .megamenu ul.sub-menu li a { color: #aa620d; }
+.sidebar h1, .sidebar h2, .sidebar h3, .sidebar h4, .sidebar h5, .sidebar h6 { font-size: 15px; font-family: 'Open Sans', sans-serif; color: #3e3d3d; font-style: normal; font-weight: 800; }
+.sidebar p, .sidebar li, .sidebar div { font-size: 14px; font-family: 'Kameron', sans-serif; color: #747373; font-style: normal; font-weight: 400; }
+.sidebar a { color: #d98104; }
+.sidebar a:hover { color: #aa620d; }
+.testimonial-widget li blockquote p, .testimonial-widget li blockquote p:first-child { font-size: 12px; font-family: 'Kameron', sans-serif; color: #747373; font-style: normal; font-weight: 400; }
+.testimonial-widget li .name-testimonial { font-size: 12px; font-family: 'Kameron', sans-serif; color: #151515; font-style: normal; font-weight: 400; }
+.testimonial-widget li .url-testimonial { font-size: 12px; font-family: 'Kameron', sans-serif; color: #747373; font-style: normal; font-weight: 400; }.error-404-image {margin-top:70px;}.blog-big .meta, .blog-small .meta { background: #ffffff; }
+
+/********************************************
+
+In this file you can add your custom CSS.
+It will always override rules in style.css.
+Good work... and good luck! :)
+
+********************************************/

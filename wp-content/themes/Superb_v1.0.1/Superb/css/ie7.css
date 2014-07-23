@@ -1,0 +1,27 @@
+.nav li ul {
+	left: 0px;
+}
+
+.nav li ul li {
+	margin-bottom: -3px;
+}
+
+.footer-column .uds-twitter-widget ul li.tweet .tweet-footer-top {
+	position: relative;
+	top: 1px;
+}
+
+.footer-column .uds-twitter-widget ul li {
+	list-style-image: none;
+	list-style-position: outside;
+}
+
+#footer-bottom-inner {
+	overflow: hidden;
+	height: 38px;
+}
+
+#footer-bottom-inner .right {
+	position: relative;
+	top: -45px;
+}

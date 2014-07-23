@@ -1,0 +1,24 @@
+body {
+	background:none;
+	background: black url(images/grungebg.jpg) repeat top left fixed;
+}
+
+a {color:#c21515;}
+a:hover {color:#c21515;}
+.post_float h2 a{color: white !important;}
+.post_float img {border:1px solid #222222;}
+#grid-content .post_float {background-color:black;}
+.rounded {border:1px solid #222;}
+#top_bar {background:transparent url(images/headerbg_carbon.png) repeat-x top left;	}
+#right_links a{	color: white !important;}
+#footer {background:black url(images/footerbg_carbon.png) repeat-x top left;}
+#footer{color: #999;}
+#footer h2{color: white !important;}
+#footer a {color:#ffffff;}
+#footer a.url {color:#c21515;}
+#footer ul li{font-style: italic;}
+
+
+
+
+

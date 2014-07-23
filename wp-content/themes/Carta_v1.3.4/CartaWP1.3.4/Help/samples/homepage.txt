@@ -1,0 +1,25 @@
+[raw]
+
+[promo]This is "Carta", a powerful WordPress theme for your next project.<br /> Take a moment to navigate through the sections and discover all its features.[/promo]
+	
+[col-m]
+<h3>The Engine</h3>
+<p>This theme comes with a massive Back-End Administration of 40+ options that lets you customize every part of your website without any effort.</p>
+<p>From the brand new WordPress 3 features to a Custom Slides Manager, anything was built to make things easy for you.</p>
+[/col-m]
+
+[col-m]
+<h3>All In One</h3>
+<p>Carta includes 5 Different Complete Themes and many Skins, not just different backgrounds.</p>
+<p>Its variation capability make it suitable for any kind of project. You're actually getting 5 different themes in one.</p>
+[/col-m]
+		
+[col-m align="right"]
+<h3>Aestethics</h3>
+<p>From the stunning Shout to the minimal Missive, every shade of Carta was created in the name of originality, but always keeping an eye to the adaptability.</p>
+<p>That's why it also comes with 15 Selected Fonts to make your website even more unique.</p>
+[/col-m]
+
+[clear]
+
+[/raw]

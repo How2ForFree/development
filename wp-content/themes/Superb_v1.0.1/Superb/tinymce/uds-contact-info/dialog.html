@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>UDS Contact Info</title>
+	<script type="text/javascript" src="../tiny_mce_popup.js"></script>
+	<script type="text/javascript" src="../utils/mctabs.js"></script>
+	<script type="text/javascript" src="../utils/form_utils.js"></script>
+	<script type="text/javascript">
+		var udsContactInfo = {
+			init : function(ed) {
+				var dom = ed.dom, f = document.forms[0], n = ed.selection.getNode(), w;
+				
+				//f.text.value = ed.selection.getContent();
+			},
+		
+			update : function() {
+				var ed = tinyMCEPopup.editor, f = document.forms[0], st = '';
+		
+				var content = ed.selection.getContent();
+				
+				var name = '';
+				if(f.name.value != '') {
+					name = ' name="' + f.name.value + '"';
+				}
+				
+				var tel = '';
+				if(f.tel.value != '') {
+					tel = ' tel="' + f.tel.value + '"';
+				}
+				
+				var email = '';
+				if(f.email.value != '') {
+					email = ' email="' + f.email.value + '"';
+				}
+				
+				var address = '';
+				if(f.address.value != '') {
+					address = ' address="' + f.address.value + '"';
+				}
+				
+				var address1 = '';
+				if(f.address1.value != '') {
+					address1 = ' address1="' + f.address1.value + '"';
+				}
+				
+				var address2 = '';
+				if(f.address2.value != '') {
+					address2 = ' address2="' + f.address2.value + '"';
+				}
+				
+				var code = '[contact '+name+tel+email+address+address1+address2+']';
+				
+				ed.execCommand("mceInsertContent", false, code);
+				tinyMCEPopup.close();
+			}
+		};
+		
+		tinyMCEPopup.requireLangPack();
+		tinyMCEPopup.onInit.add(udsContactInfo.init, udsContactInfo);
+	</script>
+	<style>
+	#general_panel table {
+		width: 100%;
+	}
+	
+	.panel_wrapper div.current {
+		height: auto;
+	}
+	
+	textarea#text {
+		width: 100%;
+		height: 100px;
+	}
+	</style>
+</head>
+<body>
+<form onsubmit="udsContactInfo.update();return false;" action="#">
+	<div class="tabs">
+		<ul>
+			<li id="general_tab" class="current"><span><a href="javascript:mcTabs.displayTab('general_tab','general_panel');" onmousedown="return false;">UDS Contact Info</a></span></li>
+		</ul>
+	</div>
+
+	<div class="panel_wrapper">
+		<div id="general_panel" class="panel current">
+			<table border="0" cellpadding="4" cellspacing="0">
+					<tr>
+                        <td><label for="name">Name</label></td>
+                        <td>
+                        	<input type="text" name="name" id="name" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="tel">Phone</label></td>
+                        <td>
+                        	<input type="text" name="tel" id="tel" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">E-mail</label></td>
+                        <td>
+                        	<input type="text" name="email" id="email" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="address">Address Line 1</label></td>
+                        <td>
+                        	<input type="text" name="address" id="address" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="address1">Address Line 2</label></td>
+                        <td>
+                        	<input type="text" name="address1" id="address1" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="address2">Address Line 3</label></td>
+                        <td>
+                        	<input type="text" name="address2" id="address2" />
+                        </td>
+                    </tr>
+            </table>
+		</div>
+	</div>
+
+	<div class="mceActionPanel">
+		<div style="float: left">
+			<input type="submit" id="insert" name="insert" value="{#insert}" />
+		</div>
+
+		<div style="float: right">
+			<input type="ContactInfo" id="cancel" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+		</div>
+	</div>
+</form>
+</body>
+</html>

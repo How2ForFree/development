@@ -1,0 +1,301 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Flex - Getting Started</title>
+<style type="text/css">
+html{background: #222 url(images/bg.jpg) no-repeat fixed top center;}
+body { background: white; margin: 40px auto; font-family: Lucida Grande, Arial, Helvetica, sans-serif; font-size: 12px; color: #202020; line-height: 20px; width: 800px; padding: 50px;}
+h1 { margin-top: 0px; }
+fieldset { margin: 30px 0; padding: 30px; }
+legend { font-size: 18px; padding: 0 10px; color: #202020; }
+pre, xmp {
+	border: solid 1px #ccc;
+	padding:15px; 
+	background: #efefef;
+	width:700px;
+	}
+a {color: #1386d7;}
+hr{
+	background: #FFF;
+	height: 1px;
+	border: 0px;
+	border-bottom: 1px dotted #c2c2c2;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+a img {padding: 3px; background: #eee; border: 1px solid #ccc; width: 95%; height: 95%; margin: 10px auto;}
+a img:hover {background: #afdeff;}
+ul.nobullets {
+	list-style: none;
+	}
+	
+.social img{width:285px; height: 70px; text-align: center;}
+.social {text-align: center;}
+</style>
+</head>
+
+<body>
+<h1><center><img src="images/logo.jpg" /><br />
+wplocker.com
+</center></h1>
+<p>Flex is a image-oriented wordpress theme that was developed to be an affordable solution for people looking to start a Wordpress based portfolio and blog. This theme comes fully equipped with up to date features seen across many of todays top industry standard community based sites. Features include image galleries, lightboxes, sidebar widgets, and much more.</p>
+
+<p> Please take the time to read through the instructions listed here, as many support related questions can be answered simply by re-reading these instructions.</p>
+
+<p><img src="images/clock.png" style="float: left; margin: 5px 10px 10px 0;" /><b>Time Note:</b> I recommend that you allocate between 2 and 3 hours to install this theme properly. Some users may finish in 30 minutes, some may take an entire day... but just keep in mind that this is a bit more advanced than your everyday generic WP Theme, and that there is a small learning curve involved in figuring out how to use it (as there is with any premium theme). The large number of "custom features" that you'll find in this theme require users to take a few minutes to really understand how they work - so I recommend that you take your time with this and don't rush it.</p>
+
+<p><img src="images/file-edit.png" style="float: left; margin: 5px 10px 10px 0;" /><b>Code Note:</b> Coding knowledge isn't mandatory to set up this theme, but it also won't hurt if you want to make any modifications beyond what's covered in this manual. As with any Wordpress theme, making changes takes time and coding... certainly not any more coding that you might require for any other Premium theme that's accomplishing the same effects, but if you're totally new to HTML or XML, I highly recommend you take the time to read the documentation before you jump in. Keep in mind you can also peek at the HTML structural notes inside the HTML Bonus folder in the "Getting Started" document.</p>
+
+<p><img src="images/star.png" style="float: left; margin: 5px 10px 10px 0;" /><b>Updates Note:</b> I fully intend to continue working on this theme for at least a few more versions until I'm satisfied that I've provided as many cool features as I deem necessary. <br />While I won't be adding every single bell and whistle that's out there, I will be listening closely to everyone who's bought this theme and has insight into improving it.<br /><br />
+</p>
+
+
+
+<fieldset>
+<legend>1. Pre Installation and Setup Steps</legend>
+<p>Put on your Wordpress hats... we're about to start the installation. First things first. You need a working verion of Wordpress. I built this using Wordpress 2.9.2.</p>
+
+<p> I haven't tested for versions earlier than this, and I highly recommend that you simply update your WP installation if you're on one of the older frameworks. The future will invetiably bring new versions of WP as well... and I can't offer any warranties that this theme will work for them, but I'll be doing my best to keep this theme as up to date as possible.</p>
+
+<p>I'll be making lots of references to the Worpdress admin panel in this documentation. If you're totally new to Wordpress, take a few minutes to familiarize yourself with how the admin panel is laid out so you won't be lost when I instruct you to open up "Appearance > Widgets" or something like that. :)</p>
+
+<p><strong>- Installing Needed Plugins –</strong></p>
+
+<p><strong>Step 1</strong>) You will need to locate and install the 1 plugin that this theme requires to run properly.  If you're using Wordpress 2.7 or a more recent version, you can install theme plugins automatically by simply searching for them using the new "Add New" plugin tool.</p>
+
+<p>
+Alternatively, you can manually download these files from their respective websites. Then upload the plugins and read the installation instructions that come with each. Usually installing a plugin is as simply as uploading it to the plugins directory of your wordpress install.</p>
+
+<p><ul>
+<li><a href="http://ideasilo.wordpress.com/2007/04/30/contact-form-7/">Contact Form 7</a></li>
+</ul></p>
+
+<p>Keep in mind that you'll need to <b>"Activate"</b> the plugin after you have installed it. You can do this from the "Plugins" admin page.</p>
+<br />
+<p><strong>Setting Up Needed Plugin –</strong></p>
+
+<hr />
+
+
+<p><strong>Contact Form 7</strong> : This plugin allows you to include a contact form on any page or post inside of Wordpress, and it's quite handy. Technically, this plugin isn't required for this theme to run and there are a bunch of other great contact form plugins out there, but this is my form of choice. Once activated, you can access this plugin's admin panel through the sidebar: </p>
+<p><img src="images/contactform-1.jpg" /></p>
+I won't go into details, but once you've setup your first form inside of the admin panel, you can add it to any page using a "shortcode":
+<pre><code>[contact-form 1 "Contact form 1"]</code></pre>
+<p>That's it! Super simple contact forms. Refer to the <a href="http://ideasilo.wordpress.com/2007/04/30/contact-form-7/">author's documentation</a> for additional notes on how to use it:</p>
+<br />
+<hr />
+
+
+
+</fieldset>
+
+<fieldset>
+<legend>2. Installing and Setting Up The Theme</legend>
+<p><strong>Theme Installation –</strong></p>
+
+<p><strong>Setting Up The Theme –</strong> This next section will take you through the process of uploading, activating, and setting the theme up. I'll go into details below, but here's a checklist that you can use just to get a feel for the process:
+	<ul class="nobullets">
+		<li><b>1)</b> Upload the Theme</li>
+		<li><b>2)</b> Activate the Theme</li>
+		<li><b>3)</b> Fill out the Flex Settings</li>
+		<li><b>4)</b> Setup the sidebar widgets</li>
+		<li><b>5)</b> Import demo content (optional, but recommended for most people)</li>
+	</ul>
+</p>
+<br />
+<hr />
+<p><b>Step 1) Upload the Theme</b> : Located within the files you downloaded inside the 'www' folder there is a folder named 'flex'. This is the folder and contents you will need to upload to your webserver. If you already have wordpress installed and running on your domain, then you will need to place this folder ('flex') in the folder found in your web directories path which looks somewhat like this '/wp-content/themes/'.</p><p> Users who don't want to deal with uploading the theme manually into the web server, you can also just the "Appearance > Add New Themes > Upload" option. Just upload the zipped up theme folder that's been provided in the "www-zip" folder. </p>
+<br />
+<hr />
+<p><b>Step 2) Activate the Theme</b> : Once the folder 'flex' has been uploaded inside of the folder '/wp-content/themes/', you can then login to your wordpress admin and go to themes to click on and activate the Flex theme. Depending on a few things you might get some error type messages, this just means that you'll need to set some things up first before you are off and running. Ignore them and select "Activate".</p><p>At this point your website isn't going to look right... that's totally okay - you still need to setup a few things.</p>
+<p>Note: If you run into problems during installation/activation, please check out <a href="http://wiki.envato.com/buying/support-buying/solving-broken-theme-issues/">this screencast</a>
+<br />
+<hr />
+
+<p><b>Step 3) Fill out the Flex Settings</b> : In the left sidebar of your Wordpress admin panel, you should see a new tab at the bottom called "Flex Settings", you will need to go through this entire page and fill it out with your content. </p><p><b>NOTE:</b> You probably won't be able to enter all of this until you enter some content into your blog (posts, pages, etc.). You can do this on your own, or just import the demo content in Step 05. I just want you to open this up and get familiar at this point. We'll be back shortly. 
+	</p><p>
+	This is going to be the "go-to" page for all Flex related stuff. It controls layouts, optional features, and lots of other theme related things. Take a few minutes to get friendly with it. 
+</p><p>
+I've also included a big screenshot of what my version looks like for the demo. There's instructions inside the panel, just follow them and you should be just fine :) It also won't hurt if you want to copy some of the settings that I've selected (after you enter the demo content). *Note that this screenshot may not represent exactly what is in your version as I'll likely be updating this admin panel from time to time.
+
+</p>
+<p><a href="images/flex_admin.png"><img src="images/flex_admin.png" /></a></p>
+<br /><hr />
+
+<p><b>Step 4) Setup the sidebar widgets</b> : This theme uses 5 different "sidebars" inside of the "Appearance > Widgets" page: Main Sidebar, Footer 1, Footer 2, Footer 3, Footer 4.
+	<br /><br />
+	You can add any widgets into these "sidebars" by just clicking and dragging them from the widget library to the sidebar. For the demo, I've actually only used a few "Text" widgets, a Recent Comments widget, and the Categories widget. The images below show the widgets as I have them in the demo, but experiment until you get the content that you desire in your sidebar. Note that for the Footer widgets, it's recommended that you only add one widget per sidebar.
+</p>
+<p><a href="images/flex-sidebar1.png"><img src="images/flex-sidebar1.png" /></a></p>
+<p>And here is an image of what my demo sidebar looks like with all the widgets open. You will notice that in some spots, I'm using actual coding inside of a "Text Widget". You can do this too if you know a little HTML - or you can just use the standard Wordpress widgets as they were meant to be used. I've done this just to illustrate how you can get creative with widgets.</p>
+
+<p><a href="images/flex-sidebar2.png"><img src="images/flex-sidebar2.png" /></a></p>
+
+
+<br /><hr />
+
+<p><b>Step 5) Importing the "demo" content</b> : This is an optional step, but I've found that it's often helpful to provide the exact content that's shown in the Demo just so you can see how things are setup there. You can obviously delete any of the unwanted content later, but unless you are super comfortable with Wordpress (and some of the new features like Post-Thumbnails), it's  worth it just to see how things work in this theme.
+<br /><br />
+<b>Full demo Content (full_demo.xml)</b>: This file will basically import all the content that you've seen in the demo. Once you get this imported, you can edit/delete/add content as you please.</p>
+
+<p>You'll find this file inside the "demo Content" folder. Importing this files is easy. Simply navigate to "TOOLS > IMPORT > WORDPRESS, and then select the .XML (also referred to as an .WXR file) file of your choice. When prompted to "Download Attachements", I recommend that you do so. Again, you can delete all of the demo-content later on.</p>
+
+<p><a href="images/import1.jpg"><img src="images/import1.jpg" /></a></p>
+
+<p>Once the import is done (it might take a little bit of time), you can begin poking your nose around the theme content. You can also now return to the Flex Options screen and begin making your own changes to that screen.</p>
+
+</fieldset>
+<fieldset>
+<legend>3. Using this Theme</legend>
+
+<p>Almost there! So you've installed the theme now, activated all the plugins, setup the custom theme options, and you should have some content in there now. This final section will walk you through how to use the theme the best way possible. Note: This is probably the trickiest part of using this theme, so take a moment and read this section through once or twice before you dig in. </p>
+
+<p><strong>Wordpress Post Thumbnails<br /></strong>This is an awesome new feature for Wordpress version 2.9 that allows us to quickly create an image-thumbnail to each post and then present it on the homepage. You will find the Post Thumbnail tool inside the right sidebar of the Post Editor. Using it is pretty easy - the following notes correspond to the next 5 screenshots:  <br /><br />
+	
+	1. Find the "Post-Thumbnail" selector at the right-sidebar, click the "Set Thumbnail" link.<br />
+	2. This will launch the standard "Upload Media" lightbox. Select the "Select Files" link.<br />
+	3. Once you have selected your image (any size will work, but the thumbnail will be resized to 200px x 130px), you just need to select the "Use as thumbnail" link. Then click the X to exit the lightbox.<br />
+	4. Now you have selected your thumbnail! You can re-click the thumbnail to make any cropping changes if you'd like.<br />
+	5. This just shows the screen for "Edit Image". To use this, just make your changes and select the "Apply changes to Thumbnail" radio button. Note - for cropping, you need to just drag your mose over the image to make your select, and THEN hit the "CROP" button - then hit SAVE. It takes a few tries to get comfortable for most users.
+	
+	<p><a href="images/thumb-1.png"><img src="images/thumb-1.png" /></a></p>
+	<p><a href="images/thumb-2.png"><img src="images/thumb-2.png" /></a></p>
+	<p><a href="images/thumb-3.png"><img src="images/thumb-3.png" /></a></p>
+	<p><a href="images/thumb-4.png"><img src="images/thumb-4.png" /></a></p>
+	<p><a href="images/thumb-5.png"><img src="images/thumb-5.png" /></a></p>
+	
+	Note - if you don't select a thumbnail (and if you post any plain-text articles, you might not even want a thumbnail), the theme will default to using your "placeholder" thumbnail as specified in the admin panel.<br /><br />
+	
+<hr />
+
+
+<p><strong>Custom Fields<br /></strong>Custom fields are the way that we'll be telling some post-links to open up inside a lightbox. We're also using one custom field to remove the sidebar in some of your posts. Before we dig into actually using these custom fields, I'd like to briefly summarize what they are and where they are used in the theme. The following screenshots outline the 3 main custom-fields used in Flex:<br /><br />
+	
+	1. <b>lightbox_link</b>: Adding this custom field (the value will be an image or media URL) will tell the browser to open the link inside a lightbox. <br />
+	2. <b>lightbox_gallery_link</b>: Similar to the "lightbox_link" field, this tells the browser to open up inside a lightbox. The only difference: if there more than one image inside the posts "gallery", it will be displayed in the lightbox as Next/Previous links. Again, the value will be an image or media URL and it will represent the first image that you want opened in the gallery.<br />
+	3. <b>remove_sidebar</b>: Optional: In case you don't want a sidebar in any of your posts or pages, you can use this custom field. The value should just be "yes".<br />
+	
+	<p><a href="images/custom1.png"><img src="images/custom1.png" /></a></p>
+	<p><a href="images/custom2.png"><img src="images/custom2.png" /></a></p>
+	<p><a href="images/custom3.png"><img src="images/custom3.png" /></a></p>
+	
+	To add your own custom fields, just select them from the "Add a new custom field" menu inside the post editor. 
+	
+</fieldset>
+
+<fieldset>
+<legend>4. Conclusion</legend>
+<p>This completes the formal documenation on how to set this theme up. From here, the possibilities are pretty much unlimited for what you can accomplish with this theme. While I can't help out with individual customization requests, I have taken some time to jot out some ideas, tips, and advice on customizing this theme beyond the default settings.</p>
+
+<p><b>Adding your own content:</b> At this point you can also begin changing/deleting the "demo content" from what's in there to what you want. Your workflow for most posts should look like this:<br /><br />
+	
+	1. Add new post.<br />
+	2. Set a thumbnail.<br />
+	3. Set the Lightbox custom field (or just leave it be to open inside a normal post template).<br />
+	4. Test your new post out.<br />
+	5. Rinse, Repeat.<br />	
+</p>
+
+<p>Before making any customizations to the template files: Keep a backup of the original, working files before you try any major changes.</p>
+
+<p><b>Getting your Logo Position just right:</b> The demo has a specific logo placement, but you can very easily change this by adding some basic CSS specifications inside the Custom CSS field in the admin panel. For instance, if you wanted to move the logo down 10px and to the right 10px, you would do the following: </p>
+
+<xmp>#logo {
+padding:0px 0; /* This just resets the padding to zero. */
+margin-top: 10px;  
+margin-left: 10px;
+}</xmp>
+
+<p><b>Basic CSS/Skin Customization:</b> The first, easiest way is to edit the custom stylesheets found in the "library/css/custom" folder. These stylesheets allow users familiar with CSS to quickly change the link colors and background images for the theme and alter the colors, so take a few minutes to investigate a few of these to see how they work. You can also load in other custom styles in here and it should override the core.css file. Keep in mind that making changes to CUFON often requires you to use the "custom/cufon.js" file. Users that are confident can actually dig into the core.css and other files to make more dramatic changes. </p>
+
+<p><a href="http://www.w3schools.com/css/">Basic CSS Training</a><br />
+   <a href="http://getfirebug.com/">Firebug Plugin</a>: this is a browser plugin that will help you find what lines in the CSS you need to edit.<br />
+</p>
+
+<p><b>Additional Customization:</b> you can find more information about the third party plugins to really dig into customizing this theme. Please reference the documentation for the third party scripts (as well as Wordpress) that are used in this theme, as follows:</p>
+
+1. <a href="http://catcubed.com/2009/11/19/ceebox-2-0/">CeeBox (The Lightbox)</a><br />
+2. <a href="http://codex.wordpress.org/Main_Page">Wordpress Codex</a><br />
+3. <a href="http://wiki.github.com/sorccu/cufon/usage">Using CUFON</a><br />
+4. <a href="http://blog.xlune.com/2009/09/vgrid/demo004.html">jQuery VGrid Demos</a>
+
+</fieldset>
+
+<fieldset>
+<legend>5. Advanced Modifications:</legend>
+
+Here are a few modifications that you can make if you're looking to take this theme even further. Disclaimer: Keep in mind, this is all stuff that's completely out of the scope of the theme as you've bought it, so if you run into issues here, I can't guarantee that I can help out. As always, keep a backup of the original, working files before you try any major changes. These are simply some ideas for ways that you can take this theme and make it your own using a little extra time and hard work. With that said, here's a few ideas for modifications:
+<br /><br />
+<hr />
+<b>Changing the size of the module thumbnail</b>: ADVANCED! You've been warned! To change the size of the thumbnails, you'll need to make the following changes:<br />
+	1. In functions.php, change the following numbers to your desired dimmensions (width, height):
+	<xmp>if ( function_exists( 'add_theme_support' ) ) { // Added in 2.9
+	    add_theme_support( 'post-thumbnails' );
+	    set_post_thumbnail_size( 200, 130, true ); // Normal post thumbnails
+	}</xmp><br />
+	2. Adjust the CSS accordingly. In core.css, line 192:
+	<xmp>#grid-content .post_float {
+background-color:#FFFFFF;
+height:190px;
+margin:0 8px 8px 0;
+overflow:hidden;
+padding:14px;
+width:208px;
+}</xmp>
+
+Taking it even further: You can also theoretically select a specific category to have bigger thumbnail images by creating a new CSS class that has bigger dimmensions, but as this is even more advanced, I'll refer you to a great resource that will get you started on this modification: <a href="http://markjaquith.wordpress.com/2009/12/23/new-in-wordpress-2-9-post-thumbnail-images/">Advanced Post Thumbanail Usage</a>. Note that each module DIV is automatically assigned a "category-XXXXX" class, which you can use to override the default CSS rules. You'll then need to sort out how to change the PHP to suit your goals. Keep in mind, this is all stuff that's completely out of the scope of the theme as you've bought it, so if you run into issues here, I can't guarantee that I can assist with it.
+<br /><br />
+<hr />
+<b>Changing the VGRID Settings</b>: ADVANCED! You've been warned! To change the various settings for the VGRID, just open up the /assets/js/flex.js file and find the VGRID section:
+
+<xmp>
+	/* JQUERY GRID ACTIVATION */
+	$("#grid-content").vgrid({
+		easeing: "easeOutQuint",
+		time: 500,
+		delay: 0
+	});
+	
+	$(window).load(function () {
+		$("#grid-content").vgrid({
+			easeing: "easeOutQuint",
+			time: 400,
+			delay: 5,
+			fadeIn: {
+				time: 500,
+				delay: 5
+			}
+		});
+		
+	var hsort_flg = false;
+	$("#hsort").click(function(e){
+		hsort_flg = !hsort_flg;
+		$("#grid-content").vgsort(function(a, b){
+			var _a = $(a).find('div').text();
+			var _b = $(b).find('div').text();
+			var _c = hsort_flg ? 1 : -1 ;
+			return (_a > _b) ? _c * -1 : _c ;
+		}, "easeInOutExpo", 300, 0);
+		return false;
+	});
+
+	$("#rsort").click(function(e){
+		$("#grid-content").vgsort(function(a, b){
+			return Math.random() > 0.5 ? 1 : -1 ;
+		}, "easeInOutExpo", 300, 50);
+		return false;
+	});</xmp>
+	 Keep in mind that I've built this theme by reverse-engineering the VGRID plugin, which was created by a non-English speaking coder, and there is no official documentation for this plugin. To state it simply, this is totally new territory - it's really fun to play with, but you'll need to really look at the <a href="http://blog.xlune.com/2009/09/vgrid/demo004.html">jQuery VGrid Demos</a> for the plugin to see how they work.
+</fieldset>
+<br />
+<div class="social">
+<h3>Here's a few quick ways to get notifications about new products and updates to this product:</h3>
+<a href="http://themeforest.net/user/epicera/follow"><img src="http://www.makedesignnotwar.com/Marketing/tf_follow.gif" alt="MakeDesign,NotWar" width="285" height="70" /></a> <a href="http://twitter.com/makedesign"><img src="http://www.makedesignnotwar.com/Marketing/twitter_follow.gif" alt="MakeDesign,NotWar" width="285" height="70" /></a> <a href="http://makedesign.tumblr.com"><img src="http://www.makedesignnotwar.com/Marketing/tumblr_follow.gif" alt="MakeDesign,NotWar" width="285" height="70" /></a> <a href="http://themeforest.net/feeds/new-themeforest-items.atom"><img src="http://www.makedesignnotwar.com/Marketing/rss_follow.gif" alt="MakeDesign,NotWar" width="285" height="70" /></a> <a href="http://blog.epicerastudio.com"><img src="http://www.makedesignnotwar.com/Marketing/wordpress_follow.gif" alt="MakeDesign,NotWar" width="285" height="70" /></a> <a href="http://makedesignnotwar.com"><img src="http://www.makedesignnotwar.com/Marketing/portfolio_follow.gif" alt="MakeDesign,NotWar" width="285" height="70" /></a> <a href="http://www.facebook.com/help/#/pages/Make-Design-Not-War/268538259636"><img src="http://www.makedesignnotwar.com/Marketing/facebook_follow.gif" alt="MakeDesign,NotWar" width="285" height="70" /></a><br />
+<br />
+</div>
+</body>
+</html>

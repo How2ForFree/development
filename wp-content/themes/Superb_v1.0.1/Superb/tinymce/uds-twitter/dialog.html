@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>UDS Twitter</title>
+	<script type="text/javascript" src="../tiny_mce_popup.js"></script>
+	<script type="text/javascript" src="../utils/mctabs.js"></script>
+	<script type="text/javascript" src="../utils/form_utils.js"></script>
+	<script type="text/javascript">
+		var udsTwitter = {
+			init : function(ed) {
+				var dom = ed.dom, f = document.forms[0], n = ed.selection.getNode(), w;
+				
+				//f.text.value = ed.selection.getContent();
+			},
+		
+			update : function() {
+				var ed = tinyMCEPopup.editor, f = document.forms[0], st = '';
+				
+				var user = '';
+				if(f.user.value != '') {
+					user = ' user="' + f.user.value + '"';
+				}
+				
+				var count = '';
+				if(f.count.value != '') {
+					count = ' count="' + f.count.value + '"';
+				}
+				
+				var code = '[twitter'+user+count+']';
+				
+				ed.execCommand("mceInsertContent", false, code);
+				tinyMCEPopup.close();
+			}
+		};
+		
+		tinyMCEPopup.requireLangPack();
+		tinyMCEPopup.onInit.add(udsTwitter.init, udsTwitter);
+	</script>
+	<style>
+	#general_panel table {
+		width: 100%;
+	}
+	
+	.panel_wrapper div.current {
+		height: auto;
+	}
+	
+	textarea#text {
+		width: 100%;
+		height: 100px;
+	}
+	</style>
+</head>
+<body>
+<form onsubmit="udsTwitter.update();return false;" action="#">
+	<div class="tabs">
+		<ul>
+			<li id="general_tab" class="current"><span><a href="javascript:mcTabs.displayTab('general_tab','general_panel');" onmousedown="return false;">UDS Twitter</a></span></li>
+		</ul>
+	</div>
+
+	<div class="panel_wrapper">
+		<div id="general_panel" class="panel current">
+			<table border="0" cellpadding="4" cellspacing="0">
+                    <tr>
+                        <td><label for="user">Username</label></td>
+                        <td>
+                        	<input type="text" name="user" id="user" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="count"># of tweets to show</label></td>
+                        <td>
+                        	<select name="count" id="count">
+                        		<option value="1">1</option>
+                        		<option value="2">2</option>
+                        		<option value="3">3</option>
+                        		<option value="4">4</option>
+                        		<option value="5">5</option>
+                        		<option value="6">6</option>
+                        		<option value="7">7</option>
+                        		<option value="8">8</option>
+                        		<option value="9">9</option>
+                        		<option value="10">10</option>
+                        	</select>
+                        </td>
+                    </tr>
+            </table>
+		</div>
+	</div>
+
+	<div class="mceActionPanel">
+		<div style="float: left">
+			<input type="submit" id="insert" name="insert" value="{#insert}" />
+		</div>
+
+		<div style="float: right">
+			<input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+		</div>
+	</div>
+</form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+/*
+Theme Name: Fadelicious
+Theme URI: http://fadelicious.iki-bir.com/wp
+Description: Awesome Wordpress blog & portfolio theme.
+Version: 1.5.1
+Author: elemis
+Author URI: http://themeforest.net/user/elemis
+Tags: wordpress, portfolio, fade, blog
+*/
+
+@import "style/css/reset.css";
+@import "style/css/layout.css";
+@import "style/css/skin.css";
+@import "style/css/gray.css";

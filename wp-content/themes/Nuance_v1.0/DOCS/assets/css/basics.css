@@ -1,0 +1,115 @@
+#templ-name h1 {
+	width: 960px;
+	margin: 0 auto;
+	padding: 30px 0;
+	text-align: center;
+	color: #ececec;
+	font-weight: bold;
+	font-size: 28px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 10px;
+}
+
+h5 {
+	margin-top: 20px;
+}
+
+h1 { font-size: 30px; }
+h2 { font-size: 26px; }
+h3 { font-size: 22px; }
+h4 { font-size: 20px; }
+h5 { font-size: 18px; }
+h6 { font-size: 16px; }
+
+h2 a, h5 a {
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+#content h1 {
+	margin-bottom: 40px;
+}
+
+#content p {
+	padding-bottom: 15px;
+}
+
+span.highlight {
+	color: #1a99b0;
+}
+
+#content a {
+	color: #d42057;
+	text-decoration: none;
+}
+
+#content a:hover {
+	color: #919191;
+}
+
+.hr {
+	width: 900px;
+	height: 8px;
+	background-color: #dfdede;
+	margin: 40px 0;
+}
+
+div.seperator {
+	width: auto;
+	height: 8px;
+	background-color: #dfdede;
+	margin: 20px 0;
+}
+
+ul.alpha {
+	list-style:upper-alpha outside none;
+}
+
+ol ul {
+	list-style-type:lower-latin;
+	padding-left: 2em;
+}
+
+ol ul li {
+	background-image: none;
+	padding-left: 0em;
+}
+
+ul li {
+	background: url(../images/general/ul.jpg) no-repeat 0 10px;
+	padding-left: 1.5em;
+}
+
+ol, ul {
+	padding:0 1.5em 1.5em 3.5em;
+}
+
+small {
+	font-size: 10px;
+}
+
+small.highlight {
+	color: #000000;
+}
+
+small.break {
+	display: block;
+}
+
+/* CODE TAG FOR EXAMPLE PAGE */
+
+code, pre {
+	background: url("../images/general/template-example-pre-bg.gif") repeat scroll 0 0 #E8EBEC;
+	border: 1px dotted #BBBBBB;
+	color: #333333;
+	font: 13px/18px Consolas,"Courier New",Courier,monospace;
+	padding: 18px 5px;
+	margin-bottom: 15px;
+}
+
+code {
+	background-image: none;
+	padding: 1px 3px;
+}

@@ -1,0 +1,240 @@
+misc:
+  # Options
+  options:
+    name:     Misc Options
+    context:  side
+    priority: low
+  title:
+    name: Hide Title
+    type: select
+    default:  no
+    options:  { no: No, yes: Yes }
+# Slider configuration
+slider:
+  # Options
+  options:
+    name:     Slider Options
+    context:  normal
+    priority: high
+
+  # Slider Variant
+  variant:
+    name: Variant
+    type: header
+    
+  # Slider style
+  style:
+    name:     Style
+    type:     select
+    default:  none
+    options:  { none: None, promote: Promote, custom: Custom Image, cycle: Cycle}
+
+  # Cycle Options 
+  cycle:
+    name: Cycle Options
+    type: header
+  # Cycle effect
+  cycle_effect:
+    name:     Effect
+    type:     select
+    class:    left-col
+    default:  bounce
+    options:  { cover: Cover, fade: Fade, scrollUp: Scroll Up, scrollRight: Scroll Right, scrollDown: Scroll Down, scrollLeft: Scroll Left, turnUp: Turn Up, turnRight: Turn Right, turnDown: Turn Down, turnLeft: Turn Left,  wipe: Wipe }
+  # Cycle timeout
+  cycle_timeout:
+    name:     Timeout
+    type:     text
+    class:    right-col
+    default:  2000
+  # Cycle speed
+  cycle_speed:
+    name:     Speed
+    type:     text
+    class:    left-col
+    default:  2000
+  # Cycle delay
+  cycle_delay:
+    name:     Delay
+    type:     text
+    class:    right-col
+    default:  2000
+    
+  # ****************************************************************************************                                     
+  # 1. Image header
+  image_header_1:
+    name: 1. Slide
+    type: header
+  # 1. Image name
+  image_name_1:
+     name: Title
+     type: text
+     class: left-col 
+  # 1. Long Description
+  image_desc_1:
+    name:   Description
+    type:   textarea
+    class:  right-col
+  # 1. Short Description
+  image_desc_small_1:
+     name: Short description
+     type: text
+     class: left-col        
+  # 1. Image URL     
+  image_url_1:
+    name:     Image URL
+    type:     text     
+    class:    left-col
+  # 1. Icon URL     
+  image_icon_1:
+    name:     Icon URL
+    type:     text     
+    class:    left-col    
+  # 1. Image name
+  image_link_1:
+    name: Image Link
+    type: text     
+    class: left-col
+
+  # ****************************************************************************************                                     
+  # 2. Image header
+  image_header_2:
+    name: 2. Slide
+    type: header
+  # 2. Image name
+  image_name_2:
+     name: Title
+     type: text
+     class: left-col
+  # 2. Image Description
+  image_desc_2:
+    name: Description
+    type: textarea
+    class: right-col
+  # 2. Short Description
+  image_desc_small_2:
+     name: Short description
+     type: text
+     class: left-col      
+  # 2. Image URL     
+  image_url_2:
+    name:     Image URL
+    type:     text     
+    class: left-col
+  # 2. Icon URL     
+  image_icon_2:
+    name:     Icon URL
+    type:     text     
+    class:    left-col      
+  # 2. Image name
+  image_link_2:
+    name: Image Link
+    type: text     
+    class: left-col
+    
+  # ****************************************************************************************                                         
+  # 3. Image header
+  image_header_3:
+    name: 3. Slide
+    type: header
+  # 3. Image name
+  image_name_3:
+     name: Title
+     type: text
+     class: left-col
+  # 3. Image Description
+  image_desc_3:
+    name: Description
+    type: textarea
+    class: right-col
+  # 3. Short Description
+  image_desc_small_3:
+     name: Short description
+     type: text
+     class: left-col      
+  # 3. Image URL     
+  image_url_3:
+    name:     Image URL
+    type:     text     
+    class: left-col
+  # 3. Icon URL     
+  image_icon_3:
+    name:     Icon URL
+    type:     text     
+    class:    left-col     
+  # 3. Image name
+  image_link_3:
+    name: Image Link
+    type: text     
+    class: left-col
+    
+  # ****************************************************************************************                                         
+  # 4. Image header
+  image_header_4:
+    name: 4. Slide
+    type: header
+  # 4. Image name
+  image_name_4:
+     name: Title
+     type: text
+     class: left-col
+  # 4. Image Description
+  image_desc_4:
+    name: Description
+    type: textarea
+    class: right-col
+  # 4. Short Description
+  image_desc_small_4:
+     name: Short description
+     type: text
+     class: left-col      
+  # 4. Image URL     
+  image_url_4:
+    name:     Image URL
+    type:     text     
+    class: left-col
+  # 4. Icon URL     
+  image_icon_4:
+    name:     Icon URL
+    type:     text     
+    class:    left-col     
+  # 4. Image name
+  image_link_4:
+    name: Image Link
+    type: text     
+    class: left-col    
+
+  # ****************************************************************************************                                     
+  # 5. Image header
+  image_header_5:
+    name: 5. Slide
+    type: header
+  # 5. Image name
+  image_name_5:
+     name: Title
+     type: text
+     class: left-col
+  # 5. Image Description
+  image_desc_5:
+    name: Description
+    type: textarea
+    class: right-col
+  # 5. Short Description
+  image_desc_small_5:
+     name: Short description
+     type: text
+     class: left-col      
+  # 5. Image URL     
+  image_url_5:
+    name:     Image URL
+    type:     text     
+    class: left-col
+  # 5. Icon URL     
+  image_icon_5:
+    name:     Icon URL
+    type:     text     
+    class:    left-col     
+  # 5. Image name
+  image_link_5:
+    name: Image Link
+    type: text     
+    class: left-col

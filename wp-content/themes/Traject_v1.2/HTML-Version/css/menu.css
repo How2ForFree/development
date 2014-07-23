@@ -1,0 +1,24 @@
+ul#MegaMenu{position:relative;float:left;width:100%;list-style:none;z-index:99;margin:0;padding:0}
+ul#MegaMenu li{float:left;position:relative;background:none;margin:0;padding:0}
+ul#MegaMenu li a{float:left;padding:18px 16px 19px 8px}
+ul#MegaMenu li a span.mm-arrow{background:transparent url(../images/mm-arrows.gif) no-repeat 0 0;width:12px;height:12px;position:absolute;top:22px;right:9px}
+ul#MegaMenu li a:hover span.mm-arrow{background-position:0 -38px}
+ul#MegaMenu li .sub{position:absolute;top:54px;left:-25px;float:left;display:block;visibility:hidden;padding:0}
+ul#MegaMenu li .row{float:left;width:100%;margin-bottom:10px}
+ul#MegaMenu li .sub ul{position:relative;list-style:none;width:150px;float:left;margin:0;padding:0}
+ul#MegaMenu .sub ul li{width:100%}
+ul#MegaMenu .sub ul li h2 a{background-image:none;margin:0;padding:0}
+ul#MegaMenu .sub ul li a{float:none;text-indent:0;height:auto;background:url(../images/MegaMenu-Sub-Bullet.gif) no-repeat 4px 8px;display:block;text-decoration:none;padding:5px 5px 3px 20px}
+ul#MegaMenu .sub ul li a:hover{background-position:4px -23px}
+.mm-sub-top,.mm-sub-tl,.mm-sub-tr,.mm-sub-tm{height:28px}
+.mm-sub-bottom{clear:both}
+.mm-sub-bottom,.mm-sub-bl,.mm-sub-br,.mm-sub-bm{height:33px}
+.mm-sub-tr{float:right;width:19px;background:transparent url(../images/MegaMenu-Sub-TR.png) no-repeat 0 0}
+.mm-sub-tl{float:left;width:19px;background:transparent url(../images/MegaMenu-Sub-TL.png) no-repeat 0 0}
+.mm-sub-tm{background:transparent url(../images/MegaMenu-Sub-TM.png) repeat-x 0 0;margin:0 19px}
+.mm-sub-br{float:right;width:19px;background:transparent url(../images/MegaMenu-Sub-BR.png) no-repeat 0 0}
+.mm-sub-bl{float:left;width:19px;background:transparent url(../images/MegaMenu-Sub-BL.png) no-repeat 0 0}
+.mm-sub-bm{background:transparent url(../images/MegaMenu-Sub-BM.png) repeat-x 0 0;margin:0 19px}
+.mm-sub-r{float:right;width:19px;background:transparent url(../images/MegaMenu-Sub-R.png) repeat-y 0 0}
+.mm-sub-l{float:left;width:19px;background:transparent url(../images/MegaMenu-Sub-L.png) repeat-y 0 0}
+.mm-sub-m{background:transparent url(../images/MegaMenu-Sub-Repeat.gif) repeat 0 0;margin:0 19px;padding:0 15px}

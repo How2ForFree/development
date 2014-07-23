@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+.slider_shadow	{ background:url(gfx/slider_shadow_4.png) no-repeat bottom center;}
+#slider_freshcubes {width:920px; height:350px; overflow:hidden; position:relative; background:no-repeat; margin:0 0 0 0; cursor:pointer;}
+#fresh_cube_data {display:none;}
+.fresh_cube {width:120px; height:120px; position: absolute;  display:block;}
+.slide_info	{ background:url(gfx/black_50.png); width:920px; height:80px; padding:0 20px; position:absolute; top:280px; cursor:auto;}
+ul#fresh_cube_nav_wrapper {position:absolute; margin:0; top:30px; right:20px; list-style:none;}
+ul#fresh_cube_nav_wrapper li { display:block; background:url(gfx/dot_passive.png) no-repeat center center; float:left; width:10px; height:10px; padding:5px; cursor:pointer;}
+ul#fresh_cube_nav_wrapper li:hover,	ul#fresh_cube_nav_wrapper li.active	{background:url(gfx/dot_active.png) no-repeat center center;}
+.slide_info	 h4	{ padding:18px 0 0 0; color:#FFF; font-size:19px;}
+.slide_info	p	{ color:#CCC;}
+.slide_left	{ width:40px; height:40px; position:absolute; left:20px; top:160px; cursor:pointer;	}
+.slide_right	{ width:40px; height:40px; position:absolute; right:20px; top:160px; cursor:pointer;	}
+

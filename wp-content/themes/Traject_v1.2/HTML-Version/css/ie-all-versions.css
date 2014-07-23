@@ -1,0 +1,7 @@
+ul.post-list li p{padding:.5em 0 0}
+button.btn span{padding-top:15px}
+a.boxLink,a.boxLink:link,a.boxLink:visited{line-height:1.8em}
+#SlideShow .ssOverlay-1{filter:alpha(opacity=50)}
+#SlideShow .ssOverlay-2{filter:alpha(opacity=70)}
+.breadcrumbs{zoom:1;position:relative}
+#PageOverlayContent,.portfolioArea{zoom:1}

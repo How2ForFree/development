@@ -1,0 +1,344 @@
+/* quote */
+blockquote {
+	border: none;
+}
+
+/* testimonials - circle style */
+.testimonial-circle-style {
+    background-color: #ebebeb;
+	border-radius: 3px;
+	padding: 15px 25px 25px 25px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.testimonial-circle-style blockquote {
+	background: url("../images/small-quote.png") no-repeat scroll 0px 15px transparent;
+	margin-bottom: 0px;
+	padding: 20px 35px;
+}
+.testimonial-circle-style .thumbnail {
+	width: 100px;
+	height: 100px;
+	background-color: #dedede;
+	box-shadow: none;
+    background: none;
+    border: 10px solid #dcdbdb;
+	border-radius: 50%;
+	padding: 0px;
+    position: absolute;
+    right: 0px;
+    bottom: -15px;
+    left: auto;
+    top: auto;
+	margin-top: 60px;
+}
+.testimonial-circle-style .thumbnail img {
+    width: 100px;
+	height: 100px;
+	border-radius: 50%;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+.testimonial-circle-style .testimonial-text {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 60px;
+    min-height: 0;
+}
+.testimonial-circle-style .testimonial-text p {
+    margin: 0;
+}
+.testimonial-circle-style .testimonial-name {
+    margin-bottom: 60px;
+	
+}
+.testimonial-circle-style .testimonial-quote {
+	width: 100%;
+	height: 75px;
+	display: block;
+    background: url("../images/testimonials-libra-quote.png") 35px bottom no-repeat;
+	
+}
+.testimonial-circle-style .testimonial-name p, .testimonial-circle-style .testimonial-name a {
+    line-height: 1.6em;
+	display: block;
+}
+.testimonial-circle-style .testimonial-name p.name, .testimonial-circle-style .testimonial-name a.name {
+	color: #3b4752;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	font-weight: 800;
+}
+.testimonial-circle-style .testimonial-name a.website, .testimonial-circle-style .testimonial-name span.website {
+    float: none;
+    line-height: 1.6em;
+}
+/* testimonials - quote style */
+.testimonial-quote-style {
+    padding: 12px;
+    border: solid 1px #e6e4e4;
+	margin-bottom: 20px;
+	position: relative;
+	background-color: #ffffff;
+}
+.testimonial-quote-style blockquote {
+	background: url("../images/small-quote.png") no-repeat scroll 0px 15px transparent;
+    color: #2E2D2D;
+    font-size: 14px;
+	margin-bottom: 0px;
+	padding: 20px 35px;
+}
+.testimonial-quote-style .thumbnail {
+	box-shadow: none;
+    background: none;
+    border: none;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: auto;
+    top: auto;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+.testimonial-quote-style .thumbnail img {
+    width: 87px;
+    height: 85px;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+#ie8 .testimonial-quote-style .thumbnail img {
+	max-width: 87px;
+}
+.testimonial-quote-style .testimonial-text {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 10px;
+    min-height: 0;
+}
+.testimonial-quote-style .testimonial-text p {
+    
+}
+.testimonial-quote-style .testimonial-name {
+	float: none;
+    text-align: right;
+    margin-right: 85px;    
+    padding-top: 45px;
+    padding-bottom: 15px;
+}
+.testimonial-quote-style .testimonial-name.nothumb {
+	float: none;
+    text-align: right;
+    margin-right: 0px;    
+    padding-top: 45px;
+    padding-bottom: 15px;
+}
+.testimonial-quote-style .testimonial-name p, .testimonial-quote-style .testimonial-name a {
+    line-height: 1.6em;
+}
+.testimonial-quote-style .testimonial-name p.name, .testimonial-quote-style .testimonial-name a.name {
+	display: block;
+    float: none;
+}
+.testimonial-quote-style .testimonial-name a.website, .testimonial-quote-style .testimonial-name span.website {
+    float:none;
+    line-height: 1.6em;
+}
+.testimonial-quote-style .testimonial-name a.website {
+    color: #676768;
+}
+.testimonial-quote-style .testimonial-name a.website:hover {
+    color: #6C6D03;
+}
+/* testimonials - square style */
+.testimonial-square-style {
+    margin-bottom: 60px;
+    margin-top: 20px;
+    position: relative;
+}
+.testimonial-square-style .thumbnail {
+	width: 116px;
+	height: 116px;
+    background: #fff;
+    border: 1px solid #e6e4e4;
+    left: 0;
+    padding-top: 0;
+    position: absolute;
+    top: 0;
+    box-shadow: none;
+}
+.testimonial-square-style .thumbnail img {
+	width: 116px;
+	height: 116px;
+    border-radius: 0 0 0 0;
+    height: 94px;
+    padding: 11px;
+    width: 94px;
+}
+.testimonial-square-style .testimonial-text {
+    margin-left: 136px;
+    min-height: 130px;
+    margin-top: 16px;
+}
+.testimonial-square-style .testimonial-text-full {
+    margin-left: 0px;
+    min-height: 60px;
+}
+.testimonial-square-style .testimonial-text p {
+    margin: 6px 0 0;
+}
+.testimonial-square-style .testimonial-name {
+    float: right;
+    height: 16px;
+    text-align: right;
+}
+.testimonial-square-style .testimonial-name p, .testimonial-square-style .testimonial-name a {
+    clear: both;
+    display: block;
+}
+.testimonial-square-style .testimonial-name p.name, .testimonial-square-style .testimonial-name a.name {
+    float: right;
+    padding-left: 10px;
+}
+.testimonial-square-style .testimonial-name a.website {
+    color: #1C1C1C;
+    font-size: 12px;
+}
+.testimonial-post .wp-post-image {
+	border-radius: 15px 15px 15px 15px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
+
+
+/* testimonial_slider */
+.testimonials-flexslider  {
+	margin: 0 10%;
+	position: relative;
+	margin-top: 30px;
+}
+.testimonials-flexslider p {
+	text-align:center;
+}
+.testimonials-flexslider ul.flex-direction-nav {
+	width: 100%;
+	height: 39px;
+	top: 30%;
+	position:absolute;
+}
+.testimonials-flexslider .flex-direction-nav .flex-prev {
+    background: url("../images/prev.png") no-repeat scroll 0 0 transparent;
+    height: 39px;
+    opacity: 0.8;
+    left: 0;
+	float:left;
+	margin:0px 0px 0px -10%;
+	top:0px;
+}
+.testimonials-flexslider .flex-direction-nav .flex-next {
+    background: url("../images/next.png") no-repeat scroll 0 0 transparent;
+    background-position: right;
+    height: 39px;
+    opacity: 0.8;
+	right:0px;
+    float:right;
+	margin:0px -10% 0px 0px;
+	top:0px;
+}
+.ie .testimonials-flexslider ul.slides li,
+.opera .testimonials-flexslider ul.slides li {
+    display: none;
+}
+.ie .testimonials-flexslider ul.slides li.flex-active-slide,
+.opera .testimonials-flexslider ul.slides li.flex-active-slide {
+    display: block;
+}
+.testimonials-flexslider ul li blockquote {
+    background: none repeat scroll 0 0 transparent;
+    padding: 0;
+}
+.testimonials-flexslider ul li blockquote p {
+    color: #030303;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.testimonials-flexslider ul li p.meta {
+    color: #030303;
+    font-size: 1.0714em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.testimonials-flexslider ul li p.meta strong {
+    color: #373737;
+}
+.testimonials-flexslider ul li a {
+    line-height: 24px;
+}
+
+/* section services */
+
+.section .service-wrapper .service .image-wrapper img { filter:gray; }
+.section .service-wrapper:hover .service .image-wrapper img, .section .service-wrapper .service .image-wrapper img:hover { filter:none; }
+
+.section .service-wrapper:hover {
+	box-shadow: 0 0 5px 5px #f2f2f2;
+}
+
+#ie8 .section .service-wrapper {
+	border: 2px solid #ffffff;
+	box-sizing: border-box;
+}
+
+#ie8 .section .service-wrapper:hover {
+	border: 2px solid #f2f2f2;
+	box-sizing: border-box;
+}
+
+.section .service-wrapper .service {
+	margin: 15px;
+	padding-bottom: 32px;
+	position: relative;
+}
+
+.section .service-wrapper .service h4 a {
+	color: #747373;
+}
+
+.section .service-wrapper:hover .service h4 a {
+	color: #333333;
+}
+
+.section .service-wrapper .service .image-wrapper {
+	position: relative;
+	max-width: 175px;
+	margin: 0 auto;
+}
+
+.section .service-wrapper .service a.read-more {
+	position: absolute;
+	bottom: 0;
+	background: url("../../templates/blog/sphera/images/read-more-bg.png") no-repeat scroll 6px 50% #C27D05;
+    border: 0 none;
+    box-shadow: -1px 3px #E4E4E4;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: 'Open Sans','Verdana','Arial',sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 17px;
+    padding: 5px 8px 5px 25px;
+    text-shadow: 1px 1px 1px #585858;
+	display: none;
+}
+
+.section .service-wrapper:hover a.read-more {
+	display: block;
+}
+
+.section .service-wrapper .service a.read-more:hover {
+	background-color: #DA8B00;
+}

@@ -1,0 +1,37 @@
+.kwicks {
+	/* recommended styles for kwicks ul container */
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+.kwicks .shadow {
+    background: url('../images/slider-kwicks-shadow.png') top right repeat-y;
+    height: 330px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 27px;
+}
+.kwicks li {
+    background: url('../images/preloader-black.gif') center center no-repeat;
+	/* these are required, but the values are up to you (must be pixel) */
+	width: 233px;
+	height: 330px;
+
+	/*do not change these */
+	display: block;
+	overflow: hidden;
+	padding: 0;  /* if you need padding, do so with an inner div (or implement your own box-model hack) */
+}
+
+.kwicks.horizontal li {
+  background: #000;
+	float: left;
+}
+.kwicks.horizontal #kwick_4 {
+	margin-right: none; /* cancel margin on last kiwck (if you set a margin above) */
+}
+.kwicks.vertical #kwick_4 {
+	margin-bottom: none; /* cancel margin on last kiwck (if you set a margin above) */
+}

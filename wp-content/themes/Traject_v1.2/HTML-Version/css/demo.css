@@ -1,0 +1,26 @@
+/*** 
+	Demo Styles - These do not need to be included if you are not using the demo 
+	features, including items like the skin slider for dynamic theme changing, etc. 
+***/
+
+/* skin slider */
+.ui-state-default, .ui-widget-content .ui-state-default { border:1px solid #4A4A4A; color:#4A4A4A; font-weight:bold; outline-style:none; outline-width:medium; }
+.ui-slider { position:relative; text-align:left; }
+.ui-widget-content { background:#eee; border:1px solid #ddd; color:#333; }
+.ui-slider-horizontal .ui-slider-handle { background: transparent url("../images/content/skin-changer/skinSlider-Scrum.png") no-repeat 0 0; width:19px; height:21px; border: 0; margin-left: -10px; top: -11px; }
+.ui-slider-horizontal .ui-slider-handle.ui-state-hover, .ui-slider-horizontal .ui-slider-handle.ui-state-active { background-image: url("../images/content/skin-changer/skinSlider-ScrumHover.png"); }
+.ui-slider .ui-slider-handle { cursor:default; position:absolute; z-index:2; }
+.ui-slider-horizontal { height:2px; background: #151716; border-color: #3E4342; }
+#SkinSlider .ui-state-hover, #SkinSlider .ui-state-active, #SkinSlider .ui-state-focus	{ border-color: #8A8A8A; }
+#SkinPreviewWrapper { position: relative;  height:170px; margin: 0 0 1em; }
+#SkinPreview { width: 272px; height:134px; overflow:hidden;}
+#SkinPreviewOverlay { width: 276px; height:170px; position: absolute; top: 0; z-index:29; background: transparent url("../images/content/skin-changer/skinSlider-Overlay.png") no-repeat 0 0;}
+#SkinScreenShots {position: absolute; top: 2px; left: 2px; }
+#SkinSlider { margin: 0 0 0 35px; width:200px; z-index: 30; position:absolute; bottom: 16px; }
+#SkinPreviewWrapper h4 {position: relative; z-index: 30; text-align:center; top:19px; color: #ccc;}
+#SkinPreviewWrapper #SkinSliderHelpText { bottom:12px; color:#888; font-size:0.9em; position:absolute; text-align:center; width:273px; z-index:30;}
+
+/* helper styles for real-time skin changer */
+#Logo a img, #FooterLogo a img { display: none; }
+#Logo a { width: 265px; height: 82px; }
+#FooterLogo a { display:block; width: 207px; height: 62px; }

@@ -1,0 +1,343 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>UDS Posts</title>
+	<script type="text/javascript" src="../tiny_mce_popup.js"></script>
+	<script type="text/javascript" src="../utils/mctabs.js"></script>
+	<script type="text/javascript" src="../utils/form_utils.js"></script>
+	<script type="text/javascript">
+		var udsPosts = {
+			init : function(ed) {
+				var dom = ed.dom, f = document.forms[0], n = ed.selection.getNode(), w;
+				
+				//f.text.value = ed.selection.getContent();
+			},
+		
+			update : function() {
+				var ed = tinyMCEPopup.editor, f = document.forms[0], st = '';
+				
+				var author = '';
+				if(f.author.value != '') {
+					author = 'author="' + f.author.value + '" ';
+				}
+				
+				var cat = '';
+				if(f.cat.value != '') {
+					cat = 'cat="' + f.cat.value + '" ';
+				}
+				
+				var tag = '';
+				if(f.tag.value != '') {
+					tag = 'tag="' + f.tag.value + '" ';
+				}
+				
+				var postid = '';
+				if(f.postid.value != '') {
+					postid = 'p="' + f.postid.value + '" ';
+				}
+				
+				var page = '';
+				if(f.page.value != '') {
+					page = 'page="' + f.page.value + '" ';
+				}
+				
+				var post_type = '';
+				if(f.post_type.value != '') {
+					post_type = 'post_type="' + f.post_type.value + '" ';
+				}
+				
+				var posts_per_page = '';
+				if(f.posts_per_page.value != '') {
+					posts_per_page = 'posts_per_page="' + f.posts_per_page.value + '" ';
+				}
+				
+				var paged = '';
+				if(f.paged.value != '') {
+					paged = 'paged="' + f.paged.value + '" ';
+				}
+				
+				var offset = '';
+				if(f.offset.value != '') {
+					offset = 'offset="' + f.offset.value + '" ';
+				}
+				
+				var order = '';
+				if(f.order.value != '') {
+					order = 'order="' + f.order.value + '" ';
+				}
+				
+				var orderby = '';
+				if(f.orderby.value != '') {
+					orderby = 'orderby="' + f.orderby.value + '" ';
+				}
+				
+				var count = '';
+				if(f.count.value != '') {
+					count = ' count="' + f.count.value + '"';
+				}
+				
+				var thumb = '';
+				if(!f.thumb.checked) {
+					thumb = ' thumb="false"';
+				}
+				
+				var thumb_width = '';
+				if(f.thumb_width.value != '') {
+					thumb_width = ' thumb_width="' + f.thumb_width.value + '"';
+				}
+				
+				var thumb_height = '';
+				if(f.thumb_height.value != '') {
+					thumb_height = ' thumb_height="' + f.thumb_height.value + '"';
+				}
+				
+				var title = '';
+				if(!f.title.checked) {
+					title = ' title="false"';
+				}
+				
+				var content = '';
+				if(f.content.value != 'auto') {
+					content = ' content="'+f.content.value+'"';
+				}
+				
+				var date = '';
+				if(!f.date.checked) {
+					date = ' date="false"';
+				}
+				
+				var comment_count = '';
+				if(!f.comment_count.checked) {
+					comment_count = ' comment_count="false"';
+				}
+				
+				var author = '';
+				if(!f.author.checked) {
+					author = ' author="false"';
+				}
+				
+				var read_more = '';
+				if(!f.read_more.checked) {
+					read_more = ' read_more="false"';
+				}
+				
+				var code = '[posts '+author + cat + tag + postid + page + post_type + posts_per_page
+				 + paged + offset + order + orderby + count + thumb + thumb_width + thumb_height + title 
+				 + content + date + comment_count + author + read_more+']';
+				
+				ed.execCommand("mceInsertContent", false, code);
+				tinyMCEPopup.close();
+			}
+		};
+		
+		tinyMCEPopup.requireLangPack();
+		tinyMCEPopup.onInit.add(udsPosts.init, udsPosts);
+	</script>
+	<style>
+	#general_panel table {
+		width: 100%;
+	}
+	
+	.panel_wrapper div.current {
+		height: auto;
+	}
+	
+	textarea#text {
+		width: 100%;
+		height: 100px;
+	}
+	</style>
+</head>
+<body>
+<form onsubmit="udsPosts.update();return false;" action="#">
+	<div class="tabs">
+		<ul>
+			<li id="general_tab" class="current"><span><a href="javascript:mcTabs.displayTab('general_tab','general_panel');" onmousedown="return false;">UDS Posts</a></span></li>
+		</ul>
+	</div>
+
+	<div class="panel_wrapper">
+		<div id="general_panel" class="panel current">
+			<table border="0" cellpadding="4" cellspacing="0">
+				<tr>
+                    <td colspan="2"><strong>Post selection options: </strong></td>
+                </tr>
+                <tr>
+                    <td><label for="author" title="Author ID, use comma to separate multiple, use negative to exclude">Author IDs (?)</label></td>
+                    <td>
+                    	<input type="text" name="author" id="author" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="author" title="Catrgory ID, use comma to separate multiple, use negative to exclude">Category IDs (?)</label></td>
+                    <td>
+                    	<input type="text" name="cat" id="cat" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="tag" title="Tag Name, use comma to separate multiple using OR, use + to separate multiple using AND">Tags (?)</label></td>
+                    <td>
+                    	<input type="text" name="tag" id="tag" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="postid" title="Single Post By ID">Post ID (?)</label></td>
+                    <td>
+                    	<input type="text" name="postid" id="postid" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="page" title="Single Page By ID">Page ID (?)</label></td>
+                    <td>
+                    	<input type="text" name="page" id="page" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="post_type" title="All Posts of a Type (page,post,attachment, etc.)">Post Type (?)</label></td>
+                    <td>
+                    	<input type="text" name="post_type" id="post_type" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="posts_per_page" title="Limit the number of posts shown (use -1 to show all posts)">Posts per page (?)</label></td>
+                    <td>
+                    	<input type="text" name="posts_per_page" id="posts_per_page" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="paged" title="Display posts that would be on this page, when paging is enabled">Page No. (?)</label></td>
+                    <td>
+                    	<input type="text" name="paged" id="paged" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="offset" title="Start with post with this offset">Offset (?)</label></td>
+                    <td>
+                    	<input type="text" name="offset" id="offset" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="order" title="Order of the posts">Order (?)</label></td>
+                    <td>
+                    	<select name="order" id="order">
+                    		<option value="ASC">Ascending</option>
+                    		<option value="DESC">Descending</option>
+                    	</select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="orderby" title="Order of the posts">Order By (?)</label></td>
+                    <td>
+                    	<select name="orderby" id="orderby">
+                    		<option value="none">No order</option>
+                    		<option value="id">ID</option>
+                    		<option value="author">Author</option>
+                    		<option value="title">Title</option>
+                    		<option value="date">Date</option>
+                    		<option value="modified">Last Modified</option>
+                    		<option value="parent">Parent ID</option>
+                    		<option value="rand">Random</option>
+                    		<option value="comment_count">Comment Count</option>
+                    		<option value="menu_order">Menu Order</option>
+                    	</select>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2">All options are optional, refer <a href="http://codex.wordpress.org/Template_Tags/query_posts" target="_blank">here</a> for documentation</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><strong>Display options: </strong></td>
+                </tr>
+                <tr>
+                        <td><label for="count">Count</label></td>
+                        <td>
+                        	<select name="count" id="count">
+                        		<option value="1">1</option>
+                        		<option value="2">2</option>
+                        		<option value="3">3</option>
+                        		<option value="4">4</option>
+                        		<option value="5">5</option>
+                        		<option value="6">6</option>
+                        		<option value="7">7</option>
+                        		<option value="8">8</option>
+                        		<option value="9">9</option>
+                        		<option value="10">10</option>
+                        	</select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="thumb">Show Thumbs</label></td>
+                        <td>
+                        	<input type="checkbox" name="thumb" id="thumb" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="thumb_width">Thumb Width</label></td>
+                        <td>
+                        	<input type="text" name="thumb_width" id="thumb_width" />px
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="thumb_height">Thumb Height</label></td>
+                        <td>
+                        	<input type="text" name="thumb_height" id="thumb_height" />px
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="title">Show Title</label></td>
+                        <td>
+                        	<input type="checkbox" name="title" id="title" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="content">Content</label></td>
+                        <td>
+                        	<select name="content" id="content">
+                        		<option value="auto">Auto</option>
+                        		<option value="content">Content</option>
+                        		<option value="excerpt">Excerpt</option>
+                        		<option value="false">Off</option>
+                        	</select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="date">Show Date</label></td>
+                        <td>
+                        	<input type="checkbox" name="date" id="date" />
+                        </td>
+                    </tr>                    
+                    <tr>
+                        <td><label for="comment_count">Show Comment Count</label></td>
+                        <td>
+                        	<input type="checkbox" name="comment_count" id="comment_count" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="author">Show Author</label></td>
+                        <td>
+                        	<input type="checkbox" name="author" id="author" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="read_more">Show Read More Button</label></td>
+                        <td>
+                        	<input type="checkbox" name="read_more" id="read_more" />
+                        </td>
+                    </tr>
+            </table>
+		</div>
+	</div>
+
+	<div class="mceActionPanel">
+		<div style="float: left">
+			<input type="submit" id="insert" name="insert" value="{#insert}" />
+		</div>
+
+		<div style="float: right">
+			<input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+		</div>
+	</div>
+</form>
+</body>
+</html>

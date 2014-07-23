@@ -1,0 +1,35 @@
+/* Hide real reset button */
+#jwpanel-reset-button { display:none; }
+
+
+/* Structure */
+#jwpanel-container { width:810px; overflow:hidden; margin-top:16px; background:#2f2f2f url("images/big-bg.png") no-repeat; border-radius:10px 10px 0 10px; -moz-border-radius:10px 10px 0 10px; }
+
+#jwpanel-header { overflow:hidden; height:45px; color:white; font-size:11px; text-align:right; }
+	#jwpanel-header a { margin:0 20px; padding:18px 0; color:white; text-decoration:none; display:block; float:right; line-height:11px; font-size:10px; }
+
+#jwpanel-main  { overflow:hidden; position:relative; }
+	#jwpanel-logo { position:absolute; top:10px; left:25px; }
+	#jwpanel-content { overflow:hidden; padding:40px 33px; background:#eaeaea; border-top-left-radius:10px; -moz-border-radius-topleft:10px;  }
+		.jwpanel-section { display:none; }
+			.jwpanel-option { overflow:hidden; margin-bottom:40px; position:relative; }
+	#jwpanel-sidebar  {  float:left; width:182px; padding-top:170px; padding-bottom:50px; font-family:Arial; font-weight:bold; }
+		#jwpanel-sidebar ul li { display:block; padding:17px 23px 18px 15px; line-height:13px; font-size:13px; margin-bottom:0; text-align:right; }
+		#jwpanel-sidebar ul li.jwpanel-active { background-image: url("images/sidebar-nav-li-active-bg.png"); }
+			#jwpanel-sidebar ul li a { color:white; text-decoration:none; text-shadow:1px 1px 1px black; }
+		
+
+/* Elements */
+#jwpanel-content label { display:block; float:left; width:200px; margin-right:60px; font-size:13px; color:#585858; font-weight:bold; text-shadow:1px 1px 1px #f4f4f4; }
+	#jwpanel-content label small { display:block; font-size:11px; font-weight:normal; }
+
+#jwpanel-content input[type=text], #jwpanel-content textarea, #jwpanel-content select { background:#f6f5f5; border:1px solid #c4c4c4; border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px; height:28px; width:287px; }
+#jwpanel-content textarea { height:125px; }
+
+/* Switch Element */
+.jwpanel-switch { display:block; float:left; width:94px; height:27px; }
+	.jwpanel-switch.on { background:transparent url("images/switch-on.png") no-repeat; }
+	.jwpanel-switch.off { background:transparent url("images/switch-off.png") no-repeat; }
+	
+/* Upload */
+.jwpanel-upload-message { position:absolute; top:10px; right:0; font-size:10px; font-weight:normal; }

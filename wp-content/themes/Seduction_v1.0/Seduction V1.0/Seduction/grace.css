@@ -1,0 +1,23 @@
+#grace_options .grace-showGrace_div{
+    width:250px;
+}
+#grace_options .grace-showGrace_title{
+    float:left;
+    width:150px;
+}
+#grace_options .slides_div{
+    margin-top:10px;
+    border-top:#eee solid 1px;
+}
+#grace_options .slides_div_title{
+    color:#bbb;
+    padding:10px 0;
+}
+#grace_options .slide_options{
+    float:left;
+    width:150px;
+}
+#grace_options .slide_options_block{
+    overflow: hidden;
+    margin-bottom: 5px;
+}

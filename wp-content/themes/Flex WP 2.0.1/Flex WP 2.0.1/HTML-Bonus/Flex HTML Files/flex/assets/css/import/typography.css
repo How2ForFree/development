@@ -1,0 +1,190 @@
+/* --------------------------------------------------------------    
+   Set default typography based on Blueprint   
+   http://code.google.com/p/blueprintcss/     
+-------------------------------------------------------------- */   
+
+
+body {
+    color:#666666;    
+    font: 12px Georgia, "Times New Roman", serif;
+    line-height:21px;
+}
+
+input, textarea {
+    line-height:normal !important;
+}
+
+
+
+/* HEADINGS -------------------------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6, #navigation ul li { 
+	font-weight:bold;
+
+	letter-spacing:-0.01em;
+	font-family: Arial;
+	color: #222;
+	text-transform: uppercase;
+}
+
+h1{font-size: 36px; line-height: 26px; font-weight: bold; letter-spacing: -0.04em; margin: 15px 0px 10px;}
+h2{font-size: 18px; margin: 10px 0 5px; font-weight: bold !important;}
+h3{font-size: 18px; margin: 15px 0px 10px;}
+h4{font-size: 16px; margin: 10px 0px 10px;}
+h5{font-size: 14px; margin: 5px 0px 10px;}
+h5{font-size: 12px; margin: 5px 0px 10px; font-weight: bold;}
+
+#navigation ul li{font-size: 18px; font-weight: bold !important;}
+
+
+
+
+/* TEXT ELEMENTS -------------------------------------------------------------- */
+ 
+p {
+	margin-bottom:18px;
+}
+ul, ol {
+	margin: auto;
+}
+ul {
+	list-style:none;
+}
+ol {
+	list-style-type: decimal;
+	margin-left: 40px;
+}
+ol ol {
+	list-style:upper-alpha;
+}
+ol ol ol {
+	list-style:lower-roman;
+}
+ol ol ol ol {
+	list-style:lower-alpha;
+}
+ul ul, ol ol, ul ol, ol ul {
+	margin-bottom:0;
+}
+dl	{
+    margin:0 1.5em;
+}
+dd {
+	margin-bottom:18px;
+}
+strong {
+	font-weight: bold;
+}
+cite, em, i {
+	font-style: italic;
+}
+blockquote {
+	color: #666666;
+	border-left: 3px solid #eaeaea;
+	line-height: 24px;
+	margin:30px 20px;padding-left:15px;
+}
+blockquote em, blockquote i, blockquote cite {
+	font-style:normal;
+}
+pre {
+	font:11px Monaco, monospace;
+	line-height:18px;
+	margin-bottom:18px;
+}
+code {
+	font:11px Monaco, monospace;
+}
+ins {
+	text-decoration:none;
+}
+sup,
+sub {
+	height: 0;
+	line-height: 1;
+	vertical-align: baseline;
+	_vertical-align: bottom;
+	position: relative;
+	
+}
+sup {
+	bottom: 1ex;
+}
+sub {
+	top: .5ex;
+}
+
+
+
+
+/* PULLQUOTES -------------------------------------------------------------- */
+
+blockquote.left {
+	float: left;
+	margin-right:20px;
+	text-align: right;
+	width: 33%;
+}
+blockquote.right {
+	float: right;
+	margin-left:20px;
+	text-align: left;
+	width: 33%;
+}
+
+
+
+
+/* ------------------------------------------------- */
+/* CUSTOM FORM STYLING FOR THIS THEME -------------- */
+/* ------------------------------------------------- */
+
+
+	 form{float: left; width: 520px;}
+		
+	 form input,
+	 form textarea{
+		display: block;
+		background: #f8f8f8;
+		border: 1px solid #cfcfcf;
+		padding: 6px;
+		margin: 10px 0 10px;
+	}
+	
+	 form textarea{width: 575px;}
+	
+	 form textarea,
+	 form textarea{
+		height: 100px;
+		font: 12px 'Arial';
+	}
+	
+	 form .button,
+	 form .button{
+		background: #000;
+		color: #FFF;
+		padding: 13px;
+		border:1px solid #cfcfcf;
+		width: auto;
+	}
+
+	a img:hover{opacity: 0.9;}
+	.nav_btn:hover{color: white !important;}
+
+	.wpcf7{	float: left; }
+	
+	#commentform{margin-top: -15px;}
+
+
+
+/* ------------------------------------------------- */
+/* CUSTOM WP STYLING FOR THIS THEME ---------------- */
+/* ------------------------------------------------- */
+	
+	#sidebar .widget ul ul{	margin-left: 15px}
+	#sidebar .flexipages_widget ul{list-style: square;}
+	ul.ads li{display: inline;}		
+	.aligncenter { display:block; margin:0 auto; background-color:#F6F6F6; border:1px solid #EFEFEF; padding:5px 5px; }
+	.alignleft { float:left; background-color:#F6F6F6; border:1px solid #EFEFEF; margin:0 15px 15px 0; padding:5px 5px; }
+	.alignright { float:right; background-color:#F6F6F6; border:1px solid #EFEFEF; margin:0 0 15px 15px; padding:5px 5px; }
+	.wp-caption { border:1px solid #666; text-align:center; background:#ccc; padding:10px; margin:10px }

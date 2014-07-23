@@ -1,0 +1,37 @@
+Update 1.5.1 (February 19, 2011)
+
+- Revised dummy content/dummy-content.xml
+- Revised style/js/custom.js for ticker autoplay
+
+Update 1.5 (February 1, 2011)
+
+- Revised template-home-blog.php
+- Revised template-home-blog2.php
+- Revised template-home-content.php
+- Revised 404.php
+
+Update 1.4 (January 17, 2011)
+
+- Revised help documentation
+- Revised template-portfolio1.php
+- Revised template-portfolio2.php
+- Revised template-portfolio3.php
+- Revised template-portfolio4.php
+- Revised template-home-3d.php
+
+Update 1.3 (January 6, 2011)
+
+- Added archive2.php, category2.php, search2.php, tag2.php
+- Edited functions/theme-functions.php
+- Edited template-home-blog1.php and template-home-blog2.php
+- Edited shortcode.php
+- Edited layout.css
+- Edited functions/fadelicious-functions.php
+- New dummy content
+- Updated images directory under style directory.
+
+- Note: If you have Tiny MCE uploaded please "uncheck" “Stop removing p and br tags when saving and show them in the HTML editor” in settings page and under "Advanced".
+
+Update 1.4 (January 10, 2011)
+
+- Edited shortcode.php

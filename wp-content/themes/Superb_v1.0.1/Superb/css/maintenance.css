@@ -1,0 +1,102 @@
+/* Maintence mode */
+
+.date, .time {
+	display: none;
+}
+
+#logo {
+	width: 100%;
+}
+
+.logo {
+	width: 100%;
+	text-align: center
+}
+
+.days, .hours, .minutes, .seconds {
+	float: left;
+	padding: 38px 0px;
+	background: #eee;
+	border: 1px solid #ddd;
+	font-family: 'VegurMedium';
+	font-size: 30px;
+	text-align: center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	width: 164px;
+}
+
+.colon {
+	float: left;
+	width: 38px;
+	height: 66px;
+	text-align: center;
+	font-family: 'VegurMedium';
+	font-size: 60px;
+	line-height: 185px;
+}
+
+#content {
+	padding-bottom: 38px;
+	text-align: center;
+}
+
+#main {
+	text-align: center;
+	padding-bottom: 36px;
+}
+
+#construction {
+	width: 781px;
+	margin: 0px auto 35px;
+}
+
+.number {
+	font-family: 'VegurMedium';
+	font-size: 60px;
+	margin-top: 30px;
+	text-shadow: 1px 1px 1px white;
+	text-align: center;
+}
+
+#content .maintenance-content {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.construction-twitter {
+	background: #eee;
+	border: 1px solid #ddd;
+	padding: 38px;
+	width: 701px;
+	text-align: center;
+	margin: 0 auto;
+	text-align: center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 36px;
+}
+
+.construction-twitter h2  {
+	text-align:center;
+	width: 100%;
+	line-height: 27px;
+}
+
+.construction-twitter .uds-button {
+	margin: 18px auto 0px;
+	float: none;
+	width: 150px;
+}
+
+h1.maintenance-content {
+	line-height: 36px;
+}
+
+h3.feature {
+	text-align: center;
+	width: 960px;
+}
+

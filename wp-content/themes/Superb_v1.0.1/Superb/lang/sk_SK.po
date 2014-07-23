@@ -1,0 +1,2684 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Superb 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-20 15:15+0100\n"
+"PO-Revision-Date: 2011-02-20 19:22+0100\n"
+"Last-Translator: Miroslav Zoricak <zoricak@udesign.sk>\n"
+"Language-Team: uDesignStudios <udesign@udesign.sk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Slovak\n"
+"X-Poedit-Country: SLOVAKIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: /var/www/WP/superb/wp-content/themes/superb\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:5
+#: functions/functions-utility.php:147
+#@ uds-textdomain
+msgid "404 Not Found"
+msgstr "404 Stránka Nenájdená"
+
+#: 404.php:11
+#: portfolio/portfolio-template.php:86
+#@ uds-textdomain
+msgid "type here to search"
+msgstr "hľadať"
+
+#: 404.php:24
+#@ uds-textdomain
+msgid "We don't seem to have the page you requested."
+msgstr "Zdá sa, že nemáme stránku, ktorú hľadáte."
+
+#: 404.php:26
+#@ uds-textdomain
+msgid "Why?"
+msgstr "Prečo?"
+
+#: 404.php:28
+#@ uds-textdomain
+msgid "You clicked a broken link"
+msgstr "Klikli ste na zlý odkaz"
+
+#: 404.php:29
+#@ uds-textdomain
+msgid "You misspelled the UR"
+msgstr "Spravili ste chybu pri písaní URL adresy"
+
+#: 404.php:30
+#@ uds-textdomain
+msgid "The page was deleted"
+msgstr "Stránka bola zmazaná"
+
+#: 404.php:32
+#@ uds-textdomain
+msgid "What now?"
+msgstr "Čo teraz?"
+
+#: 404.php:33
+#@ uds-textdomain
+msgid "You can use search box in the upper right section to search through existing pages."
+msgstr "Môžete skúsiť hľadanie (Vpravo hore) na prehľadanie existujúcich stránok"
+
+#: 404.php:35
+#@ uds-textdomain
+msgid "Or you can either pick a page from these."
+msgstr "Alebo si môžete vybrať jednu z týchto"
+
+#: archive.php:26
+#: index.php:12
+#: portfolio/portfolio-template.php:172
+#: single-uds-portfolio.php:37
+#: single.php:53
+#@ uds-textdomain
+msgid "&laquo; Older entries"
+msgstr "&laquo; Staršie príspevky"
+
+#: archive.php:27
+#: index.php:18
+#: portfolio/portfolio-template.php:178
+#: single-uds-portfolio.php:38
+#: single.php:54
+#@ uds-textdomain
+msgid "Newer entries &raquo;"
+msgstr "Novšie príspevky &raquo;"
+
+#: archive.php:31
+#: index.php:27
+#: page-common.php:46
+#: single-uds-portfolio.php:42
+#: single.php:58
+#@ uds-textdomain
+msgid "Sorry, no posts matched your criteria"
+msgstr "Vašim požiadavkám nevyhovuje žiadna stránka"
+
+#: comment.php:4
+#@ uds-textdomain
+msgid "By"
+msgstr "Od"
+
+#: comment.php:6
+#, php-format
+#@ uds-textdomain
+msgid "%s ago"
+msgstr "Pred %s"
+
+#: comment.php:15
+#@ uds-textdomain
+msgid "(Edit)"
+msgstr "(Upraviť)"
+
+#: comments.php:4
+#@ uds-textdomain
+msgid "Comments"
+msgstr "Komentáre"
+
+#: comments.php:20
+#@ uds-textdomain
+msgid "There are no comments yet"
+msgstr "Zatiaľ nie sú žiadne komentáre"
+
+#: comments.php:29
+#@ uds-textdomain
+msgid "Log in"
+msgstr "Prihlásiť sa"
+
+#: comments.php:29
+#@ uds-textdomain
+msgid "to post a comment"
+msgstr "pre pridanie komentára"
+
+#: comments.php:34
+#@ uds-textdomain
+msgid "Logged in as"
+msgstr "Prihlásený ako"
+
+#: comments.php:36
+#@ uds-textdomain
+msgid "Log out of this account"
+msgstr "Odhlásiť sa"
+
+#: comments.php:36
+#@ uds-textdomain
+msgid "Log out &raquo;"
+msgstr "Odhlásiť sa &raquo;"
+
+#: comments.php:41
+#@ uds-textdomain
+msgid "Leave a comment"
+msgstr "Pridať komentár"
+
+#: comments.php:41
+#, php-format
+#@ uds-textdomain
+msgid "Reply to %s"
+msgstr "Odpovedať na %s"
+
+#: comments.php:55
+#@ uds-textdomain
+msgid "Your name"
+msgstr "Vaše Meno"
+
+#: comments.php:59
+#@ uds-textdomain
+msgid "Your email"
+msgstr "Váš e-mail"
+
+#: comments.php:65
+#@ uds-textdomain
+msgid "Comment"
+msgstr "Komentár"
+
+#: comments.php:69
+#@ uds-textdomain
+msgid "Reset"
+msgstr "Reset"
+
+#: admin/importer.php:264
+#: comments.php:70
+#@ wordpress-importer
+#@ uds-textdomain
+msgid "Submit"
+msgstr "Odoslať"
+
+#: admin/settings.php:67
+#: functions/functions-utility.php:128
+#: functions.php:71
+#@ uds-textdomain
+msgid "Home"
+msgstr "Domov"
+
+#: functions.php:73
+#@ uds-textdomain
+msgid "Displayed on the home page provided that you are displaying posts"
+msgstr "Zobrazí sa na domovskej stránke, ak sa zobrazujú posty"
+
+#: functions.php:81
+#@ uds-textdomain
+msgid "Common"
+msgstr "Spoločné"
+
+#: functions.php:83
+#@ uds-textdomain
+msgid "Displayed alongside the blog AND the pages"
+msgstr "Zobrazuje sa pri blogu a stránkach"
+
+#: admin/settings.php:77
+#: functions/functions-utility.php:143
+#: functions/functions-utility.php:149
+#: functions.php:91
+#@ uds-textdomain
+msgid "Blog"
+msgstr "Blog"
+
+#: functions.php:93
+#@ uds-textdomain
+msgid "Displayed alongside the blog"
+msgstr "Zobrazuje sa pri blogu"
+
+#: functions.php:101
+#@ uds-textdomain
+msgid "Page"
+msgstr "Stránka"
+
+#: functions.php:103
+#@ uds-textdomain
+msgid "Displayed alongside the pages"
+msgstr "Zobrazuje sa pri stránkach"
+
+#: functions.php:113
+#, php-format
+#@ uds-textdomain
+msgid "Footer %u"
+msgstr "Pätička %u"
+
+#: functions.php:115
+#, php-format
+#@ uds-textdomain
+msgid "Footer Column #%u"
+msgstr "Päťička - stĺpec číslo %u"
+
+#: functions.php:128
+#@ uds-textdomain
+msgid "Per-page sidebar. Only appears on its page"
+msgstr "Sidebar pre stránku, zobrazuje sa len na tejto stránke"
+
+#: functions.php:194
+#@ uds-textdomain
+msgid "Main Menu"
+msgstr "Hlavné Menu"
+
+#: maintenance.php:47
+#@ uds-textdomain
+msgid "Days"
+msgstr "Dní"
+
+#: maintenance.php:52
+#@ uds-textdomain
+msgid "Hours"
+msgstr "Hodín"
+
+#: maintenance.php:57
+#@ uds-textdomain
+msgid "Minutes"
+msgstr "Minút"
+
+#: maintenance.php:62
+#@ uds-textdomain
+msgid "Seconds"
+msgstr "Sekúnd"
+
+#: maintenance.php:70
+#@ uds-textdomain
+msgid "Meanwhile, you can follow us on Twitter. We will announce the official launch there."
+msgstr "Zatiaľ nás môžete sledovať na Twitteri."
+
+#: maintenance.php:71
+#@ uds-textdomain
+msgid "Follow us on Twitter!"
+msgstr "Sledujte nás na Twitteri"
+
+#: maintenance.php:75
+#@ uds-textdomain
+msgid "Unlimited color options, tons of shortcodes and options and much more :). Soon."
+msgstr "Nobmedzené farebné možnosti"
+
+#: functions/functions-post.php:144
+#: page-common.php:34
+#: single-uds-portfolio.php:24
+#: single.php:30
+#@ uds-textdomain
+#@ default
+msgid "Next page &raquo;"
+msgstr "Ďalšia stránka &raquo;"
+
+#: functions/functions-post.php:145
+#: page-common.php:35
+#: single-uds-portfolio.php:25
+#: single.php:31
+#@ uds-textdomain
+#@ default
+msgid "&laquo; Previous page"
+msgstr "&laquo; Predchádzajúca stránka"
+
+#: functions/functions-post.php:101
+#: single.php:15
+#, php-format
+#@ uds-textdomain
+msgid "Posted on %s"
+msgstr "Vložené  %s"
+
+#: functions/functions-post.php:105
+#: single.php:17
+#, php-format
+#@ uds-textdomain
+msgid "Posted by %s"
+msgstr "Vložil %s"
+
+#: single.php:41
+#@ uds-textdomain
+msgid "About"
+msgstr "O nás"
+
+#: admin/admin-install.php:13
+#@ uds-textdomain
+msgid "Theme Installer"
+msgstr "Inštalátor"
+
+#: admin/admin-install.php:26
+#@ uds-textdomain
+msgid "Return to install settings"
+msgstr "Návrat na nastavenia inštalácie"
+
+#: admin/admin-install.php:31
+#@ uds-textdomain
+msgid "Please read the accompanying documentation page carefully before using this feature!"
+msgstr "Prosíme vás o dôkladné preštudovanie dokumentácie pred použitím tejto funkcie."
+
+#: admin/admin-install.php:37
+#@ uds-textdomain
+msgid "Move original About page and Hello World post to Trash"
+msgstr "Presunúť originálnu About page a Hello World post do koša"
+
+#: admin/admin-install.php:47
+#@ uds-textdomain
+msgid "Import all sample data"
+msgstr "Importovať vzorové dáta"
+
+#: admin/admin-install.php:57
+#@ uds-textdomain
+msgid "Set up permalinks"
+msgstr "Nastaviť permalinky"
+
+#: admin/admin-install.php:67
+#@ uds-textdomain
+msgid "Set up Home and Blog Pages"
+msgstr "Nastaviť Home a Blog Stránky"
+
+#: admin/admin-install.php:77
+#@ uds-textdomain
+msgid "Set up Widgets, uContact and uPricing"
+msgstr "Nastaviť Widgety, uContact a uPricing"
+
+#: admin/admin-install.php:87
+#@ uds-textdomain
+msgid "Set up uBillboard"
+msgstr "Nastaviť uBillboard"
+
+#: admin/admin-install.php:95
+#: admin/admin.php:370
+#: uBillboard/billboard-add.php:36
+#: uBillboard/billboard-add.php:57
+#: uContact/contact-add.php:109
+#: uPricing/pricing-products.php:78
+#: uPricing/pricing-structure.php:116
+#@ uds-textdomain
+msgid "Update"
+msgstr "Uložiť"
+
+#: admin/admin.php:39
+#@ uds-textdomain
+msgid "Theme Options"
+msgstr "Nastavenia Témy"
+
+#: admin/admin.php:49
+#: admin/admin.php:330
+#@ uds-textdomain
+msgid "Install"
+msgstr "Inštalácia"
+
+#: admin/admin.php:193
+#@ uds-textdomain
+msgid "Already installed"
+msgstr "Inštalácia už bola vykonaná"
+
+#: admin/admin.php:203
+#@ uds-textdomain
+msgid "Moved Hello World post to trash"
+msgstr "Moved Hello World post to trash"
+
+#: admin/admin.php:204
+#@ uds-textdomain
+msgid "Moved About page to trash"
+msgstr "Moved About page to trash"
+
+#: admin/admin.php:230
+#@ uds-textdomain
+msgid "Setting Permalink Structure"
+msgstr "Setting Permalink Structure"
+
+#: admin/admin.php:232
+#@ uds-textdomain
+msgid "Failed to create .htaccess file"
+msgstr "Zlyhalo vytváranie .htaccess súboru"
+
+#: admin/admin.php:234
+#@ uds-textdomain
+msgid "Creating .htaccess file"
+msgstr "Creating .htaccess file"
+
+#: admin/admin.php:239
+#@ uds-textdomain
+msgid "Setting Frontpage Config"
+msgstr "Setting Frontpage Config"
+
+#: admin/admin.php:247
+#@ uds-textdomain
+msgid "Setting Home and Blog Pages"
+msgstr "Setting Home and Blog Pages"
+
+#: admin/admin.php:249
+#@ uds-textdomain
+msgid "Home or Blog page does not exist"
+msgstr "Home alebo Blog stránka neexistuje"
+
+#: admin/admin.php:257
+#@ uds-textdomain
+msgid "Setting up widgets, uContact and uPricing"
+msgstr "Setting up widgets, uContact and uPricing"
+
+#: admin/admin.php:268
+#@ uds-textdomain
+msgid "Setting up uBillboard"
+msgstr "Setting up uBillboard"
+
+#: admin/admin.php:290
+#, php-format
+#@ uds-textdomain
+msgid "Howdy %s, what's up?"
+msgstr "Ahoj %s, tak ako?"
+
+#: admin/admin.php:299
+#@ uds-textdomain
+msgid "Buy more items"
+msgstr "Kúpiť ďalšie veci"
+
+#: admin/admin.php:300
+#@ uds-textdomain
+msgid "Follow on Twitter"
+msgstr "Sleduj náš Twitter"
+
+#: admin/admin.php:665
+#@ uds-textdomain
+msgid "Preview"
+msgstr "Náhľad"
+
+#: admin/admin.php:665
+#@ uds-textdomain
+msgid "Click to open Media Library"
+msgstr "Kliknite pre otvorenie Knižnice Médií"
+
+#: admin/admin.php:839
+#@ uds-textdomain
+msgid "Tagline Type"
+msgstr "Typ Tagline"
+
+#: admin/admin.php:841
+#@ uds-textdomain
+msgid "No tagline"
+msgstr "Žiaden Tagline"
+
+#: admin/admin.php:842
+#@ uds-textdomain
+msgid "Default tagline"
+msgstr "Predvolený Tagline"
+
+#: admin/admin.php:843
+#@ uds-textdomain
+msgid "Custom tagline"
+msgstr "Vlastný Tagline"
+
+#: admin/admin.php:846
+#@ uds-textdomain
+msgid "Custom Tagline"
+msgstr "Vlastný Tagline"
+
+#: admin/admin.php:863
+#: uAd/ads-admin.php:18
+#: uAd/ads-create.php:103
+#: uAd/ads-view.php:16
+#: uPricing/pricing-admin.php:19
+#: uPricing/pricing.php:32
+#@ uds-textdomain
+msgid "Name"
+msgstr "Názov"
+
+#: admin/admin.php:864
+#@ uds-textdomain
+msgid "If you fill this field, a new widget area will be created in Appearance &gt; Widgets. Widgets you add to this area will appear only on this page."
+msgstr "Ak vyplníte toto pole, vytvorí sa nový sidebar vo Vzhľad &gt; Widgety. Widgety, ktoré doňho pridáte sa objavia len na tejto stránke"
+
+#: admin/admin.php:939
+#@ uds-textdomain
+msgid "Update File is not available"
+msgstr "Súbor s update nie je dostuplný"
+
+#: admin/admin.php:944
+#@ uds-textdomain
+msgid "Update File is corrupt"
+msgstr "Súbor s update je poškodený"
+
+#: admin/importer.php:56
+#@ wordpress-importer
+msgid "Import WordPress"
+msgstr "Importovať Wordpress"
+
+#: admin/importer.php:65
+#@ wordpress-importer
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+
+#: admin/importer.php:66
+#@ wordpress-importer
+msgid "Choose a WordPress WXR file to upload, then click Upload file and import."
+msgstr "Choose a WordPress WXR file to upload, then click Upload file and import."
+
+#: admin/importer.php:229
+#@ wordpress-importer
+msgid "Assign Authors"
+msgstr "Priradiť autorov"
+
+#: admin/importer.php:230
+#@ wordpress-importer
+msgid "To make it easier for you to edit and save the imported posts and drafts, you may want to change the name of the author of the posts. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr "To make it easier for you to edit and save the imported posts and drafts, you may want to change the name of the author of the posts. For example, you may want to import all the entries as <code>admin</code>s entries."
+
+#: admin/importer.php:233
+#@ wordpress-importer
+msgid "If a new user is created by WordPress, a password will be randomly generated. Manually change the user&#8217;s details if necessary."
+msgstr "If a new user is created by WordPress, a password will be randomly generated. Manually change the user&#8217;s details if necessary."
+
+#: admin/importer.php:246
+#@ wordpress-importer
+msgid "Import author:"
+msgstr "Import author:"
+
+#: admin/importer.php:254
+#@ wordpress-importer
+msgid "Import Attachments"
+msgstr "Import Attachments"
+
+#: admin/importer.php:257
+#@ wordpress-importer
+msgid "Download and import file attachments"
+msgstr "Download and import file attachments"
+
+#: admin/importer.php:273
+#, php-format
+#@ wordpress-importer
+msgid "Create user %1$s or map to existing"
+msgstr "Create user %1$s or map to existing"
+
+#: admin/importer.php:276
+#@ wordpress-importer
+msgid "Map to existing"
+msgstr "Map to existing"
+
+#: admin/importer.php:284
+#@ wordpress-importer
+msgid "- Select -"
+msgstr "- Vybrať -"
+
+#: admin/importer.php:300
+#@ wordpress-importer
+msgid "Invalid file"
+msgstr "Neplatný súbor"
+
+#: admin/importer.php:301
+#@ wordpress-importer
+msgid "Please upload a valid WXR (WordPress eXtended RSS) export file."
+msgstr "Please upload a valid WXR (WordPress eXtended RSS) export file."
+
+#: admin/importer.php:344
+#, php-format
+#@ wordpress-importer
+msgid "Importing category <em>%s</em>&#8230;"
+msgstr "Importing category <em>%s</em>&#8230;"
+
+#: admin/importer.php:366
+#, php-format
+#@ wordpress-importer
+msgid "Importing tag <em>%s</em>&#8230;"
+msgstr "Importing tag <em>%s</em>&#8230;"
+
+#: admin/importer.php:404
+#, php-format
+#@ wordpress-importer
+msgid "Importing <em>%s</em>&#8230;"
+msgstr "Importing <em>%s</em>&#8230;"
+
+#: admin/importer.php:487
+#, php-format
+#@ wordpress-importer
+msgid "Post <em>%s</em> already exists."
+msgstr "Post <em>%s</em> already exists."
+
+#: admin/importer.php:520
+#, php-format
+#@ wordpress-importer
+msgid "Importing post <em>%s</em>..."
+msgstr "Importing post <em>%s</em>..."
+
+#: admin/importer.php:644
+#, php-format
+#@ wordpress-importer
+msgid "Importing attachment <em>%s</em>... "
+msgstr "Importing attachment <em>%s</em>... "
+
+#: admin/importer.php:652
+#, php-format
+#@ wordpress-importer
+msgid "Remote file error: %s"
+msgstr "Remote file error: %s"
+
+#: admin/importer.php:660
+#@ wordpress-importer
+msgid "Zero length file, deleting"
+msgstr "Zero length file, deleting"
+
+#: admin/importer.php:669
+#@ wordpress-importer
+msgid "Invalid file type"
+msgstr "Invalid file type"
+
+#: admin/importer.php:690
+#, php-format
+#@ wordpress-importer
+msgid "Skipping attachment <em>%s</em>"
+msgstr "Skipping attachment <em>%s</em>"
+
+#: admin/importer.php:715
+#@ wordpress-importer
+msgid "Remote server did not respond"
+msgstr "Remote server did not respond"
+
+#: admin/importer.php:721
+#, php-format
+#@ wordpress-importer
+msgid "Remote file returned error response %1$d %2$s"
+msgstr "Remote file returned error response %1$d %2$s"
+
+#: admin/importer.php:725
+#@ wordpress-importer
+msgid "Remote file is incorrect size"
+msgstr "Remote file is incorrect size"
+
+#: admin/importer.php:731
+#, php-format
+#@ default
+msgid "Remote file is too large, limit is %s"
+msgstr "Remote file is too large, limit is %s"
+
+#: admin/importer.php:863
+#@ wordpress-importer
+msgid "Sorry, there has been an error."
+msgstr "Sorry, there has been an error."
+
+#: admin/settings.php:66
+#@ uds-textdomain
+msgid "Home Page Options"
+msgstr "Možnosti Domovskej stránky"
+
+#: admin/settings.php:71
+#: portfolio/portfolio-admin.php:7
+#: uBillboard/billboard-add.php:35
+#: uPricing/pricing-structure.php:57
+#@ uds-textdomain
+msgid "General Options"
+msgstr "Všeobecné možnosti"
+
+#: admin/settings.php:72
+#@ uds-textdomain
+msgid "General"
+msgstr "Všeobecné"
+
+#: admin/settings.php:76
+#@ uds-textdomain
+msgid "Blog Options"
+msgstr "Možnosti Blogu"
+
+#: admin/settings.php:81
+#@ uds-textdomain
+msgid "Header Options"
+msgstr "Možnosti Hlavičky"
+
+#: admin/settings.php:82
+#@ uds-textdomain
+msgid "Header"
+msgstr "Záhlavie"
+
+#: admin/settings.php:86
+#@ uds-textdomain
+msgid "Footer Options"
+msgstr "Možnosti pätičky"
+
+#: admin/settings.php:87
+#@ uds-textdomain
+msgid "Footer"
+msgstr "Pätička"
+
+#: admin/settings.php:91
+#@ uds-textdomain
+msgid "Social Networks Options"
+msgstr "Možnosti sociálnych sietí"
+
+#: admin/settings.php:92
+#@ uds-textdomain
+msgid "Social Networks"
+msgstr "Sociálne Siete"
+
+#: admin/settings.php:96
+#@ uds-textdomain
+msgid "Maintenance Options"
+msgstr "Možnosti Údržby"
+
+#: admin/settings.php:97
+#@ uds-textdomain
+msgid "Maintenance"
+msgstr "Údržba"
+
+#: admin/settings.php:114
+#@ uds-textdomain
+msgid "Keywords"
+msgstr "Kľúčové slová"
+
+#: admin/settings.php:115
+#@ uds-textdomain
+msgid "SEO optimization keywords"
+msgstr "Kľúčové slová pre SEO"
+
+#: admin/settings.php:120
+#@ uds-textdomain
+msgid "Main Color"
+msgstr "Hlavná Farba"
+
+#: admin/settings.php:121
+#@ uds-textdomain
+msgid "Set your main design color"
+msgstr "Nastavte hlavnú farbu designu"
+
+#: admin/settings.php:126
+#@ uds-textdomain
+msgid "Breadcrumbs separator"
+msgstr "Odeľovač cesty (Breadcrumbs)"
+
+#: admin/settings.php:132
+#@ uds-textdomain
+msgid "Favicon"
+msgstr "Favicon"
+
+#: admin/settings.php:138
+#@ uds-textdomain
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: admin/settings.php:139
+#@ uds-textdomain
+msgid "Enable/Disable Google Analytics support"
+msgstr "Vypnúť/zapnúť Google Analytics"
+
+#: admin/settings.php:144
+#@ uds-textdomain
+msgid "Tracking Code"
+msgstr "Tracking Code"
+
+#: admin/settings.php:150
+#@ uds-textdomain
+msgid "Tracking domain"
+msgstr "Tracking domain"
+
+#: admin/settings.php:151
+#: admin/settings.php:205
+#@ uds-textdomain
+msgid "Main tagline text"
+msgstr "Hlavný Tagline Text"
+
+#: admin/settings.php:161
+#@ uds-textdomain
+msgid "Heading type"
+msgstr "Typ Nadpisu"
+
+#: admin/settings.php:162
+#@ uds-textdomain
+msgid "Heading can be text or image"
+msgstr "Nadpis môže byť buď text alebo obrázok"
+
+#: admin/settings.php:166
+#@ uds-textdomain
+msgid "Textual"
+msgstr "Textový"
+
+#: admin/settings.php:167
+#: uAd/ads-create.php:108
+#: uAd/ads-view.php:20
+#: uBillboard/billboard.php:126
+#@ uds-textdomain
+msgid "Image"
+msgstr "Obrázok"
+
+#: admin/settings.php:172
+#@ uds-textdomain
+msgid "Heading"
+msgstr "Nadpis"
+
+#: admin/settings.php:173
+#@ uds-textdomain
+msgid "Heading text"
+msgstr "Text Nadpisu"
+
+#: admin/settings.php:178
+#@ uds-textdomain
+msgid "Subheading"
+msgstr "Podnadpis"
+
+#: admin/settings.php:179
+#@ uds-textdomain
+msgid "Subeading text"
+msgstr "Text Podnadpisu"
+
+#: admin/settings.php:186
+#@ uds-textdomain
+msgid "Logo"
+msgstr "Logo"
+
+#: admin/settings.php:187
+#@ uds-textdomain
+msgid "Heading logo"
+msgstr "Logo v nadpise"
+
+#: admin/settings.php:198
+#@ uds-textdomain
+msgid "Show Tagline"
+msgstr "Zobraziť Tagline"
+
+#: admin/settings.php:199
+#@ uds-textdomain
+msgid "Enable/Disable Tagline entirely"
+msgstr "Vypnúť/Zapnúť Tagline"
+
+#: admin/settings.php:204
+#@ uds-textdomain
+msgid "Tagline text"
+msgstr "Text Tagline"
+
+#: admin/settings.php:206
+#@ uds-textdomain
+msgid "Superb is powerful Wordpress theme enhanced with modern techniques. Unlimited colors, 5 custom widgets, tons of shortcodes and so much more!"
+msgstr "Superb je mocná Wordpress téma obohatená modernými technikami. Neobmedzené farby, 5 vlastných widgetov, kilá shortcodov a omnoho viac!"
+
+#: admin/settings.php:210
+#@ uds-textdomain
+msgid "Tagline link"
+msgstr "Tagline Odkaz"
+
+#: admin/settings.php:216
+#@ uds-textdomain
+msgid "Tagline link text"
+msgstr "Tagline Text Odkazu"
+
+#: admin/settings.php:218
+#@ uds-textdomain
+msgid "Take the tour"
+msgstr "Prehliadka"
+
+#: admin/settings.php:227
+#@ uds-textdomain
+msgid "Blog Sidebar"
+msgstr "Blog Sidebar"
+
+#: admin/settings.php:228
+#@ uds-textdomain
+msgid "Blog Sidebar position"
+msgstr "Pozícia Blog Sidebar"
+
+#: admin/settings.php:232
+#@ uds-textdomain
+msgid "Right"
+msgstr "Vpravo"
+
+#: admin/settings.php:233
+#@ uds-textdomain
+msgid "Left"
+msgstr "Vľavo"
+
+#: admin/settings.php:237
+#@ uds-textdomain
+msgid "Blog page shows"
+msgstr "Blog zobrazuje"
+
+#: admin/settings.php:238
+#@ uds-textdomain
+msgid "Auto will display excerpts only when an excerpt is available, otherwise it will display the whole content"
+msgstr "Auto zobrazí excerpty len ak sú dostupné, inak zobrazí cely obsah"
+
+#: admin/settings.php:242
+#@ uds-textdomain
+msgid "Auto"
+msgstr "Automaticky"
+
+#: admin/settings.php:243
+#@ uds-textdomain
+msgid "Excerpts only"
+msgstr "Iba útržky"
+
+#: admin/settings.php:244
+#@ uds-textdomain
+msgid "Whole content"
+msgstr "Celý obsah"
+
+#: admin/settings.php:248
+#@ uds-textdomain
+msgid "Show author box"
+msgstr "Zobrazit autor box"
+
+#: admin/settings.php:249
+#@ uds-textdomain
+msgid "Little about me box below post content"
+msgstr "Malý 'O Mne' box pod samotným obsahom postu"
+
+#: admin/settings.php:257
+#@ uds-textdomain
+msgid "Footer configuration"
+msgstr "Konfigurácia Footera"
+
+#: admin/settings.php:258
+#@ uds-textdomain
+msgid "Column configuration of the footer"
+msgstr "Počet stĺpcov vo päťičke"
+
+#: admin/settings.php:262
+#@ uds-textdomain
+msgid "2 Columns"
+msgstr "2 Stĺpce"
+
+#: admin/settings.php:263
+#@ uds-textdomain
+msgid "3 Columns"
+msgstr "3 Stĺpce"
+
+#: admin/settings.php:264
+#@ uds-textdomain
+msgid "4 Columns"
+msgstr "4 Stĺpce"
+
+#: admin/settings.php:265
+#@ uds-textdomain
+msgid "5 Columns"
+msgstr "5 Stĺpcov"
+
+#: admin/settings.php:269
+#: admin/settings.php:270
+#@ uds-textdomain
+msgid "Footer Logo"
+msgstr "Logo v pätičke"
+
+#: admin/settings.php:275
+#@ uds-textdomain
+msgid "Copyright owner"
+msgstr "Vlastník práv"
+
+#: admin/settings.php:284
+#@ uds-textdomain
+msgid "RSS URL"
+msgstr "RSS URL"
+
+#: admin/settings.php:290
+#@ uds-textdomain
+msgid "Skype URL"
+msgstr "Skype URL"
+
+#: admin/settings.php:296
+#@ uds-textdomain
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: admin/settings.php:302
+#@ uds-textdomain
+msgid "Twitter URL"
+msgstr "Twitter URL"
+
+#: admin/settings.php:308
+#@ uds-textdomain
+msgid "Youtube URL"
+msgstr "Youtube URL"
+
+#: admin/settings.php:314
+#@ uds-textdomain
+msgid "Flickr URL"
+msgstr "Flickr URL"
+
+#: admin/settings.php:320
+#@ uds-textdomain
+msgid "LinkedIn URL"
+msgstr "LinkedIn URL"
+
+#: admin/settings.php:329
+#@ uds-textdomain
+msgid "Maintenance Mode"
+msgstr "Údržba"
+
+#: admin/settings.php:330
+#: admin/settings.php:350
+#@ uds-textdomain
+msgid "Logged users see site as usual, not logged visitors see a maintenance message"
+msgstr "Prihlásení používatelia vidia stránku normálne, neprihlásení vidia správu o údržbe"
+
+#: admin/settings.php:335
+#@ uds-textdomain
+msgid "Maintenance message"
+msgstr "Správa o údržbe"
+
+#: admin/settings.php:336
+#@ uds-textdomain
+msgid "A message to be show while under maintenance"
+msgstr "Správa, ktorá sa zobrazí, keď je zapnutá údržba"
+
+#: admin/settings.php:337
+#@ uds-textdomain
+msgid "We are currently under maintenance. We should be back in:"
+msgstr "Momentálne prebieha údržba, Naspäť online budeme za:"
+
+#: admin/settings.php:341
+#@ uds-textdomain
+msgid "Enable social connection (Twitter)"
+msgstr "Zapnúť Twitter prepojenie"
+
+#: admin/settings.php:342
+#@ uds-textdomain
+msgid "If Social options are filled in, links are included on the maintenance page"
+msgstr "Ak sú Možnosti Sociálnych Sietí vyplnené, linky sa zobrazia na stránke o údržbe"
+
+#: admin/settings.php:349
+#@ uds-textdomain
+msgid "Maintenance Mode Show End Date"
+msgstr "Zobraziť čas do konca údržby"
+
+#: admin/settings.php:355
+#@ uds-textdomain
+msgid "Maintenance End Date"
+msgstr "Dátum konca údržby"
+
+#: admin/settings.php:361
+#@ uds-textdomain
+msgid "Maintenance End Time"
+msgstr "Čas konca údržby"
+
+#: uAd/ads-admin.php:13
+#@ uds-textdomain
+msgid "Ads Management"
+msgstr "Správa Reklamy"
+
+#: uAd/ads-admin.php:17
+#: uBillboard/billboard-admin.php:33
+#@ uds-textdomain
+msgid "ID"
+msgstr "ID"
+
+#: uAd/ads-admin.php:19
+#: uAd/ads-create.php:145
+#: uAd/ads-view.php:37
+#@ uds-textdomain
+msgid "Showing"
+msgstr "Zobrazuje"
+
+#: uAd/ads-admin.php:20
+#@ uds-textdomain
+msgid "Display From/To"
+msgstr "Zobraziť od/do"
+
+#: uAd/ads-admin.php:21
+#@ uds-textdomain
+msgid "Click Limit"
+msgstr "Limit kliknutí"
+
+#: uAd/ads-admin.php:22
+#@ uds-textdomain
+msgid "Times Clicked"
+msgstr "Počet kliknutí"
+
+#: uAd/ads-admin.php:23
+#@ uds-textdomain
+msgid "Created"
+msgstr "Vytvorené"
+
+#: uAd/ads-admin.php:24
+#@ uds-textdomain
+msgid "Modified"
+msgstr "Zmenené"
+
+#: uAd/ads-admin.php:25
+#: uPricing/pricing-structure.php:70
+#@ uds-textdomain
+msgid "Actions"
+msgstr "Akcie"
+
+#: uAd/ads-admin.php:52
+#@ uds-textdomain
+msgid "There are no ads defined yet."
+msgstr "Zatiaľ neexistujú žiadne reklamy"
+
+#: uAd/ads-admin.php:53
+#@ uds-textdomain
+msgid "You can create your first ad"
+msgstr "Vytvorte svoju prvú reklamu"
+
+#: uAd/ads-admin.php:53
+#: uBillboard/billboard-admin.php:52
+#@ uds-textdomain
+msgid "here"
+msgstr "tu"
+
+#: uAd/ads-common.php:213
+#: uAd/ads-create.php:203
+#@ uds-textdomain
+msgid "Create ad"
+msgstr "Vytvoriť Reklamu"
+
+#: uAd/ads-common.php:214
+#@ uds-textdomain
+msgid "View ad"
+msgstr "Pozrieť Reklamu"
+
+#: uAd/ads-create.php:22
+#: uBillboard/billboard.php:282
+#: uContact/contact.php:234
+#@ uds-textdomain
+msgid "Security check failed"
+msgstr "Zlyhala bezpečnostná kontrola"
+
+#: uAd/ads-create.php:27
+#@ uds-textdomain
+msgid "Name cannot be empty"
+msgstr "Názov nemôže byť prázdny"
+
+#: uAd/ads-create.php:32
+#@ uds-textdomain
+msgid "Image cannot be empty"
+msgstr "Obrázok nemôže byť prázdny"
+
+#: uAd/ads-create.php:37
+#@ uds-textdomain
+msgid "Destination URL cannot be empty"
+msgstr "Cieľová URL nemôže byť prázdna"
+
+#: uAd/ads-create.php:62
+#@ uds-textdomain
+msgid "Ad created successfully."
+msgstr "Reklama bola úspešne vytvorená"
+
+#: uAd/ads-create.php:64
+#@ uds-textdomain
+msgid "Failed to create ad."
+msgstr "Zlyhalo vytváranie reklamy"
+
+#: uAd/ads-create.php:69
+#@ uds-textdomain
+msgid "Ad updated successfully."
+msgstr "Reklama bola úspešne upravená"
+
+#: uAd/ads-create.php:71
+#@ uds-textdomain
+msgid "Failed to update ad."
+msgstr "Zlyhala úprava reklamy"
+
+#: uAd/ads-create.php:87
+#@ uds-textdomain
+msgid "Create Ad"
+msgstr "Vytvoriť reklamu"
+
+#: uAd/ads-create.php:89
+#@ uds-textdomain
+msgid "Update Ad"
+msgstr "Upraviť reklamu"
+
+#: uAd/ads-create.php:105
+#@ uds-textdomain
+msgid "Ad name, does not have to be unique, will be displayed as image title"
+msgstr "Názov, nemusí byť unikátny, zobrazí sa ako popis obrázku"
+
+#: uAd/ads-create.php:110
+#: uBillboard/billboard.php:701
+#: uBillboard/billboard.php:703
+#@ uds-textdomain
+msgid "Add an Image"
+msgstr "Pridať obrázok"
+
+#: uAd/ads-create.php:114
+#@ uds-textdomain
+msgid "Add Image"
+msgstr "Pridať obrázok"
+
+#: uAd/ads-create.php:119
+#@ uds-textdomain
+msgid "Ad Image (required)"
+msgstr "Reklamný obrázok"
+
+#: uAd/ads-create.php:122
+#: uAd/ads-view.php:25
+#@ uds-textdomain
+msgid "Destination URL"
+msgstr "Cieľová URL"
+
+#: uAd/ads-create.php:124
+#@ uds-textdomain
+msgid "URL that the Ad points to"
+msgstr "URL kam odkazuje reklama"
+
+#: uAd/ads-create.php:127
+#: uAd/ads-view.php:29
+#@ uds-textdomain
+msgid "Format"
+msgstr "Formát"
+
+#: uAd/ads-create.php:135
+#@ uds-textdomain
+msgid "Ad image resolution"
+msgstr "Rozlíšenie reklamy"
+
+#: uAd/ads-create.php:138
+#: uAd/ads-view.php:33
+#@ uds-textdomain
+msgid "Click limit"
+msgstr "Limit kliknutí"
+
+#: uAd/ads-create.php:142
+#@ uds-textdomain
+msgid "Ad will automatically stop showing if click limit is reached."
+msgstr "Reklama sa automaticky prestane zobrazovať, ak sa dosiahne limit kliknutí"
+
+#: uAd/ads-create.php:149
+#@ uds-textdomain
+msgid "Unchecked will prevent Ad from showing."
+msgstr "Nezaškrtnuté zabráni zobrazeniu Reklamy"
+
+#: uAd/ads-create.php:152
+#: uAd/ads-view.php:41
+#: uAd/ads-widget.php:89
+#@ uds-textdomain
+msgid "Position"
+msgstr "Pozícia"
+
+#: uAd/ads-create.php:160
+#@ uds-textdomain
+msgid "Shows Ad in widget with this number"
+msgstr "Zobrazuje reklamu vo widgete s týmto číslom"
+
+#: uAd/ads-create.php:163
+#: uAd/ads-view.php:45
+#@ uds-textdomain
+msgid "Priority"
+msgstr "Priorita"
+
+#: uAd/ads-create.php:171
+#@ uds-textdomain
+msgid "This will be used to sort ads"
+msgstr "Toto sa použije pri radení reklám"
+
+#: uAd/ads-create.php:174
+#: uAd/ads-view.php:49
+#@ uds-textdomain
+msgid "Display from"
+msgstr "Zobraziť od"
+
+#: uAd/ads-create.php:178
+#@ uds-textdomain
+msgid "Don't display the Ad before this date"
+msgstr "Nezobrazovať reklamu pred týmto dátumom"
+
+#: uAd/ads-create.php:181
+#: uAd/ads-view.php:53
+#@ default
+#@ uds-textdomain
+msgid "Display to"
+msgstr "Zobraziť do"
+
+#: uAd/ads-create.php:185
+#@ uds-textdomain
+msgid "Stops showing the Ad after this date"
+msgstr "Prestane zobrazovať reklamu po tomto dátume"
+
+#: uAd/ads-create.php:188
+#: uAd/ads-view.php:57
+#@ uds-textdomain
+msgid "Ignore Date"
+msgstr "Ignorovať dátum"
+
+#: uAd/ads-create.php:192
+#@ uds-textdomain
+msgid "Ignore previous two fields"
+msgstr "Ignorovať predchádzajúce dve polia"
+
+#: uAd/ads-create.php:195
+#: uAd/ads-view.php:61
+#@ uds-textdomain
+msgid "Open in new window"
+msgstr "Otvoriť v novom okne"
+
+#: uAd/ads-create.php:199
+#@ uds-textdomain
+msgid "Adds target=&quot;_blank&quot;"
+msgstr "Prídá target=&quot;_blank&quot;"
+
+#: uAd/ads-view.php:12
+#@ uds-textdomain
+msgid "View Ad"
+msgstr "Pozrieť reklamu"
+
+#: uAd/ads-view.php:38
+#: uAd/ads-view.php:58
+#: uAd/ads-view.php:62
+#@ uds-textdomain
+msgid "Yes"
+msgstr "Áno"
+
+#: uAd/ads-view.php:38
+#: uAd/ads-view.php:58
+#: uAd/ads-view.php:62
+#@ uds-textdomain
+msgid "No"
+msgstr "Nie"
+
+#: uAd/ads-widget.php:6
+#@ uds-textdomain
+msgid "uAd widget"
+msgstr "uAd widget"
+
+#: uAd/ads-widget.php:8
+#@ uds-textdomain
+msgid "UDS Ads Widget"
+msgstr "UDS Ads Widget"
+
+#: uAd/ads-widget.php:83
+#: uBillboard/billboard.php:130
+#@ uds-textdomain
+msgid "Title"
+msgstr "Titulok"
+
+#: uAd/ads-widget.php:99
+#@ uds-textdomain
+msgid "Resolution"
+msgstr "Rozlíšenie"
+
+#: functions/functions-flickr.php:28
+#: functions/functions-flickr.php:34
+#@ uds-textdomain
+msgid "Failed to download from feed"
+msgstr "Zlyhalo sťahovanie z feedu"
+
+#: functions/functions-live-preview.php:29
+#@ uds-textdomain
+msgid "Apply color to all page elements"
+msgstr "Aplikuj farbu na všetky elementy stránky"
+
+#: functions/functions-post.php:110
+#, php-format
+#@ uds-textdomain
+msgid "%u comments"
+msgstr "%u komentárov"
+
+#: functions/functions-post.php:130
+#: portfolio/portfolio-template.php:66
+#: portfolio/portfolio-template.php:160
+#@ uds-textdomain
+msgid "Continue reading"
+msgstr "Pokračovanie"
+
+#: functions/functions-twitter.php:14
+#@ uds-textdomain
+msgid "cURL is not installed"
+msgstr "cURL nie je nainštalované"
+
+#: functions/functions-twitter.php:30
+#@ uds-textdomain
+msgid "Failed to retrieve tweets"
+msgstr "Zlyhalo získavanie tweetov"
+
+#: functions/functions-twitter.php:51
+#@ uds-textdomain
+msgid "Twitter username missing"
+msgstr "Chýba Twitter username"
+
+#: functions/functions-utility.php:140
+#: portfolio/portfolio-common.php:19
+#: shortcodes/shortcodes-blog.php:123
+#@ uds-textdomain
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: functions/functions-utility.php:145
+#: page-tagline.php:13
+#: page-tagline.php:33
+#@ uds-textdomain
+msgid "Search"
+msgstr "Hľadať"
+
+#: portfolio/portfolio-common.php:20
+#@ uds-textdomain
+msgid "Portfolio Item"
+msgstr "Položka portfólia"
+
+#: portfolio/portfolio-common.php:31
+#@ uds-textdomain
+msgid "Tags"
+msgstr "Tagy"
+
+#: portfolio/portfolio-common.php:58
+#@ uds-textdomain
+msgid "Portfolio Options (Applies only to pages used for Portfolio)"
+msgstr "Možnosti portfólia"
+
+#: portfolio/portfolio-common.php:64
+#@ uds-textdomain
+msgid "Show only posts with this tag: "
+msgstr "Zobraziť len posty s týmto tagom"
+
+#: portfolio/portfolio-common.php:65
+#@ uds-textdomain
+msgid "Will not display tag selection"
+msgstr "Nezobrazí výber tagu"
+
+#: portfolio/portfolio-common.php:83
+#@ uds-textdomain
+msgid "Options"
+msgstr "Nastavenia"
+
+#: portfolio/portfolio-common.php:89
+#@ uds-textdomain
+msgid "Content Type"
+msgstr "Typ obsahu"
+
+#: portfolio/portfolio-common.php:94
+#@ uds-textdomain
+msgid "Image or other"
+msgstr "Obrázok alebo iný"
+
+#: portfolio/portfolio-common.php:95
+#@ uds-textdomain
+msgid "Video"
+msgstr "Video"
+
+#: portfolio/portfolio-common.php:99
+#@ uds-textdomain
+msgid "Do not open in lightbox"
+msgstr "Neotváraj v Lightboxe"
+
+#: portfolio/portfolio-template.php:126
+#@ uds-textdomain
+msgid "Gallery"
+msgstr "Galéria"
+
+#: portfolio/portfolio-template.php:127
+#@ uds-textdomain
+msgid "3 Column"
+msgstr "3 stĺpce"
+
+#: portfolio/portfolio-template.php:128
+#@ uds-textdomain
+msgid "2 Column"
+msgstr "2 stĺpce"
+
+#: portfolio/portfolio-template.php:129
+#@ uds-textdomain
+msgid "1 Column"
+msgstr "1 stĺpec"
+
+#: shortcodes/shortcodes-elements.php:59
+#@ uds-textdomain
+msgid "Top"
+msgstr "Hore"
+
+#: shortcodes/shortcodes-gchart.php:25
+#@ uds-textdomain
+msgid "UDS Google Chart"
+msgstr "UDS Google Chart"
+
+#: shortcodes/shortcodes-widgets.php:29
+#@ default
+msgid "There are no statuses to display"
+msgstr "žiadne statusy nie sú k dispozícii"
+
+#: shortcodes/shortcodes-widgets.php:44
+#@ default
+msgid "Flickr Photo Stream"
+msgstr "Flickr Photo Stream"
+
+#: shortcodes/shortcodes-widgets.php:75
+#@ default
+msgid "There are no photos to display"
+msgstr "Žiadne fotky nie sú k dispozícii"
+
+#: uBillboard/billboard-add.php:23
+#@ uds-textdomain
+msgid "Create new uBillboard"
+msgstr "Vytvoriť nový uBillboard"
+
+#: uBillboard/billboard-add.php:25
+#@ uds-textdomain
+msgid "Edit uBillboard"
+msgstr "Upraviť uBillboard"
+
+#: uBillboard/billboard-add.php:28
+#: uBillboard/billboard-admin.php:28
+#@ uds-textdomain
+#@ default
+msgid "Warning!"
+msgstr "Varovanie!"
+
+#: uBillboard/billboard-add.php:28
+#: uBillboard/billboard-admin.php:28
+#, php-format
+#@ uds-textdomain
+msgid "Directory %s cache is not writable!"
+msgstr "Do adresára %s sa nedá zapisovať"
+
+#: uBillboard/billboard-add.php:46
+#@ uds-textdomain
+msgid "Reorder Billboard Items"
+msgstr "Preusporiadať položky"
+
+#: uBillboard/billboard-add.php:46
+#: uContact/contact.php:354
+#: uPricing/pricing-products.php:65
+#: uPricing/pricing-structure.php:85
+#: uPricing/pricing-structure.php:106
+#@ uds-textdomain
+msgid "Move"
+msgstr "Presunúť"
+
+#: uBillboard/billboard-add.php:47
+#@ uds-textdomain
+msgid "Delete Item"
+msgstr "Zmazať položku"
+
+#: uBillboard/billboard-add.php:47
+#: uBillboard/billboard-admin.php:36
+#: uBillboard/billboard-admin.php:46
+#: uContact/contact-admin.php:19
+#: uContact/contact-admin.php:29
+#: uContact/contact.php:355
+#: uPricing/pricing-admin.php:25
+#: uPricing/pricing-admin.php:40
+#: uPricing/pricing-products.php:66
+#: uPricing/pricing-structure.php:88
+#: uPricing/pricing-structure.php:109
+#@ uds-textdomain
+msgid "Delete"
+msgstr "Zmazať"
+
+#: uBillboard/billboard-admin.php:26
+#@ uds-textdomain
+msgid "Add/Edit uBillboards"
+msgstr "Pridať/Upraviť uBillboard"
+
+#: uBillboard/billboard-admin.php:34
+#@ uds-textdomain
+msgid "Billboard name"
+msgstr "Názov uBillboardu"
+
+#: uBillboard/billboard-admin.php:35
+#: uBillboard/billboard-admin.php:43
+#: uContact/contact-admin.php:18
+#: uContact/contact-admin.php:26
+#: uPricing/pricing-admin.php:34
+#: uPricing/pricing-admin.php:37
+#: uPricing/pricing-products.php:32
+#: uPricing/pricing-structure.php:35
+#@ uds-textdomain
+msgid "Edit"
+msgstr "Upraviť"
+
+#: uBillboard/billboard-admin.php:52
+#@ uds-textdomain
+msgid "There are no billboards yet. You can create a billboard"
+msgstr "Zatiaľ neexistujú žiadne uBillboardy. Môžete nejaký vytvoriť"
+
+#: uBillboard/billboard-import-export.php:2
+#@ uds-textdomain
+msgid "Import/Export uBillboards"
+msgstr "Importovať/Exportovať uBillboard"
+
+#: uBillboard/billboard-import-export.php:9
+#@ uds-textdomain
+msgid "Export"
+msgstr "Export"
+
+#: uBillboard/billboard-import-export.php:10
+#, php-format
+#@ uds-textdomain
+msgid "Download your exported uBillboards %shere%s."
+msgstr "Stiahnite si export uBillboardu %stu%s."
+
+#: uBillboard/billboard-import-export.php:13
+#: uBillboard/billboard-import-export.php:19
+#@ uds-textdomain
+msgid "Import"
+msgstr "Import"
+
+#: uBillboard/billboard-import-export.php:16
+#@ uds-textdomain
+msgid "Import attachments"
+msgstr "Importovať prílohy"
+
+#: uBillboard/billboard-import-export.php:18
+#@ uds-textdomain
+msgid "Upload Exported uBillboard"
+msgstr "Nahrať Exportovaný uBillboard"
+
+#: uBillboard/billboard-import-export.php:22
+#@ uds-textdomain
+msgid "Note"
+msgstr "Poznámka"
+
+#: uBillboard/billboard-import-export.php:22
+#@ uds-textdomain
+msgid "Importer will attempt to download all slide images that are not located on this host."
+msgstr "Importer sa pokúsi stiahnuť všetky slidy, ktoré sa nenachádzajú na tomto počítači"
+
+#: uBillboard/billboard.php:38
+#@ uds-textdomain
+msgid "Billboard Name"
+msgstr "Názov Billboardu"
+
+#: uBillboard/billboard.php:40
+#@ uds-textdomain
+msgid "Enter a name for this Billboard. You will use this name to create the Billboard on your site."
+msgstr "Vložte názov pre tento Billboard. Neskôr ho použijete pri vytváraní Billboardu v stránke"
+
+#: uBillboard/billboard.php:45
+#@ uds-textdomain
+msgid "Billboard Width"
+msgstr "Šírka Billboardu"
+
+#: uBillboard/billboard.php:47
+#@ uds-textdomain
+msgid "Billboard Width in pixels"
+msgstr "Šírka Billboardu v pixeloch"
+
+#: uBillboard/billboard.php:52
+#@ uds-textdomain
+msgid "Billboard Height"
+msgstr "Výška Billboardu"
+
+#: uBillboard/billboard.php:54
+#@ uds-textdomain
+msgid "Billboard Height in pixels"
+msgstr "Výška Billboardu v pixeloch"
+
+#: uBillboard/billboard.php:59
+#@ uds-textdomain
+msgid "Square Size"
+msgstr "Veľkosť štvorčeka"
+
+#: uBillboard/billboard.php:61
+#@ uds-textdomain
+msgid "Square dimension, applies only to transitions based on squares"
+msgstr "Rozmer štvorcov, má zmysel len pre prechody založené na štvorcoch"
+
+#: uBillboard/billboard.php:66
+#@ uds-textdomain
+msgid "Column Width"
+msgstr "Šírka Stĺpca"
+
+#: uBillboard/billboard.php:68
+#@ uds-textdomain
+msgid "Column width, applies only to column-based transitions"
+msgstr "Šírka Stĺpca, má zmysel len pre prechody založené na stĺpcoch"
+
+#: uBillboard/billboard.php:73
+#@ uds-textdomain
+msgid "Show Paginator"
+msgstr "Zobraziť stránkovanie"
+
+#: uBillboard/billboard.php:75
+#@ uds-textdomain
+msgid "Check to show paginator in the bottom right corner"
+msgstr "Zaškrtnite pre zobrazenie stránkovania v pravom dolnom rohu"
+
+#: uBillboard/billboard.php:80
+#@ uds-textdomain
+msgid "Show Controls"
+msgstr "Zobraziť kontrolné tlačidlá"
+
+#: uBillboard/billboard.php:82
+#@ uds-textdomain
+msgid "Check to show playback controls in the bottom left corner"
+msgstr "Zaškrtnite pre zobrazenie kontrolných tlačidiel"
+
+#: uBillboard/billboard.php:87
+#@ uds-textdomain
+msgid "Show Play/Pause button"
+msgstr "Zobraziť tlačidlo Hrať/Zastaviť "
+
+#: uBillboard/billboard.php:89
+#@ uds-textdomain
+msgid "Unchecked will pause on hover, otherwise will show Play/Pause button"
+msgstr "Nezaškrtnuté zastaví prehrávanie pri prechode myšou, inak zobrazí tlačidlo Hrať/Zastaviť"
+
+#: uBillboard/billboard.php:94
+#@ uds-textdomain
+msgid "Autoplay"
+msgstr "Automaticky prehrávať"
+
+#: uBillboard/billboard.php:96
+#@ uds-textdomain
+msgid "Automatically start playing slides, makes sense to turn this off only if Show Controls is enabled."
+msgstr "Automaticky začať prehrávať slidy"
+
+#: uBillboard/billboard.php:101
+#@ uds-textdomain
+msgid "Use Automatic Image Resizing"
+msgstr "Automatická úprava veľkosti obrázkov"
+
+#: uBillboard/billboard.php:103
+#@ uds-textdomain
+msgid "When checked, all your images will be resized and zoomed/stretched to fit the Billboard size"
+msgstr "Všetký obrázky budú upravené tak aby zodpovedali veľkosti Billboardu"
+
+#: uBillboard/billboard.php:108
+#@ uds-textdomain
+msgid "Zoom Disproportionate Images"
+msgstr "Zväčšiť neproporčné obrázky"
+
+#: uBillboard/billboard.php:110
+#@ uds-textdomain
+msgid "When checked will crop images that don't have the same proportions as Billboard. Otherwise will stretch images to fit the Billboard"
+msgstr "Oreže obrázky, ktoré majú iné proporcie ako uBillboard, inak ich roztiahne tak aby zaplnili Billboard"
+
+#: uBillboard/billboard.php:115
+#@ uds-textdomain
+msgid "Image Quality"
+msgstr "Kvalita obrázkov"
+
+#: uBillboard/billboard.php:117
+#@ uds-textdomain
+msgid "Image compression - use lower values for faster page loads and lower traffic, use high values to increase image quality. Optimal values are 60-80"
+msgstr "Kompresia obrázkov, hodnoty od 0 do 100, menšia hodnota, menšia veľkosť obrázka, rozumné hodnoty sú obyčajne okolo 60 - 80"
+
+#: uBillboard/billboard.php:134
+#@ uds-textdomain
+msgid "Link URL"
+msgstr "URL Odkazu"
+
+#: uBillboard/billboard.php:138
+#: uPricing/pricing-structure.php:80
+#: uPricing/pricing-structure.php:101
+#@ uds-textdomain
+msgid "Text"
+msgstr "Text"
+
+#: uBillboard/billboard.php:142
+#@ uds-textdomain
+msgid "Delay"
+msgstr "Oneskorenie"
+
+#: uBillboard/billboard.php:155
+#@ uds-textdomain
+msgid "Slide Layout"
+msgstr "Rozloženie Slidu"
+
+#: uBillboard/billboard.php:157
+#@ uds-textdomain
+msgid "No Description"
+msgstr "Žiaden popis"
+
+#: uBillboard/billboard.php:158
+#@ uds-textdomain
+msgid "Stripe Left"
+msgstr "Popis vľavo"
+
+#: uBillboard/billboard.php:159
+#@ uds-textdomain
+msgid "Stripe Right"
+msgstr "Popis vpravo"
+
+#: uBillboard/billboard.php:160
+#@ uds-textdomain
+msgid "Stripe Bottom"
+msgstr "Popis dole"
+
+#: uBillboard/billboard.php:161
+#@ uds-textdomain
+msgid "Alternate Stripe Left"
+msgstr "Alternatívny popis vľavo"
+
+#: uBillboard/billboard.php:162
+#@ uds-textdomain
+msgid "Alternate Stripe Right"
+msgstr "Alternatívny popis vpravo"
+
+#: uBillboard/billboard.php:163
+#@ uds-textdomain
+msgid "Alternate Stripe Bottom"
+msgstr "Alternatívny popis dole"
+
+#: uBillboard/billboard.php:169
+#@ uds-textdomain
+msgid "Transition"
+msgstr "Prechod"
+
+#: uBillboard/billboard.php:171
+#@ uds-textdomain
+msgid "Random"
+msgstr "Náhodný"
+
+#: uBillboard/billboard.php:172
+#@ uds-textdomain
+msgid "Fade"
+msgstr "Fade"
+
+#: uBillboard/billboard.php:173
+#@ uds-textdomain
+msgid "Slide from Left"
+msgstr "Slide from Left"
+
+#: uBillboard/billboard.php:174
+#@ uds-textdomain
+msgid "Slide from Top"
+msgstr "Slide from Top"
+
+#: uBillboard/billboard.php:175
+#@ uds-textdomain
+msgid "Slide from Right"
+msgstr "Slide from Right"
+
+#: uBillboard/billboard.php:176
+#@ uds-textdomain
+msgid "Slide from Bottom"
+msgstr "Slide from Bottom"
+
+#: uBillboard/billboard.php:177
+#@ uds-textdomain
+msgid "Scale from Top"
+msgstr "Scale from Top"
+
+#: uBillboard/billboard.php:178
+#@ uds-textdomain
+msgid "Scale from Center"
+msgstr "Scale from Center"
+
+#: uBillboard/billboard.php:179
+#@ uds-textdomain
+msgid "Scale from Bottom"
+msgstr "Scale from Bottom"
+
+#: uBillboard/billboard.php:180
+#@ uds-textdomain
+msgid "Scale from Right"
+msgstr "Scale from Right"
+
+#: uBillboard/billboard.php:181
+#@ uds-textdomain
+msgid "Scale from Left"
+msgstr "Scale from Left"
+
+#: uBillboard/billboard.php:182
+#@ uds-textdomain
+msgid "Squares Random"
+msgstr "Squares Random"
+
+#: uBillboard/billboard.php:183
+#@ uds-textdomain
+msgid "Squares by Rows"
+msgstr "Squares by Rows"
+
+#: uBillboard/billboard.php:184
+#@ uds-textdomain
+msgid "Squares by Columns"
+msgstr "Squares by Columns"
+
+#: uBillboard/billboard.php:185
+#@ uds-textdomain
+msgid "Squares Fly in"
+msgstr "Squares Fly in"
+
+#: uBillboard/billboard.php:186
+#@ uds-textdomain
+msgid "Squares Fly out"
+msgstr "Squares Fly out"
+
+#: uBillboard/billboard.php:187
+#@ uds-textdomain
+msgid "Columns Random"
+msgstr "Columns Random"
+
+#: uBillboard/billboard.php:188
+#@ uds-textdomain
+msgid "Column Wave"
+msgstr "Column Wave"
+
+#: uBillboard/billboard.php:189
+#@ uds-textdomain
+msgid "Curtain Right"
+msgstr "Curtain Right"
+
+#: uBillboard/billboard.php:190
+#@ uds-textdomain
+msgid "Curtain Left"
+msgstr "Curtain Left"
+
+#: uBillboard/billboard.php:191
+#@ uds-textdomain
+msgid "Curtain Rotate Right"
+msgstr "Curtain Rotate Right"
+
+#: uBillboard/billboard.php:192
+#@ uds-textdomain
+msgid "Curtain Rotate Left"
+msgstr "Curtain Rotate Left"
+
+#: uBillboard/billboard.php:193
+#@ uds-textdomain
+msgid "Interweave Left"
+msgstr "Interweave Left"
+
+#: uBillboard/billboard.php:194
+#@ uds-textdomain
+msgid "Interweave Right"
+msgstr "Interweave Right"
+
+#: uBillboard/billboard.php:379
+#@ uds-textdomain
+msgid "uBillboard"
+msgstr "uBillboard"
+
+#: uBillboard/billboard.php:380
+#@ uds-textdomain
+msgid "Add Billboard"
+msgstr "Pridať uBillboard"
+
+#: uBillboard/billboard.php:381
+#@ uds-textdomain
+msgid "Import/Export"
+msgstr "Import/Export"
+
+#: uBillboard/billboard.php:438
+#@ uds-textdomain
+msgid "Import file is empty"
+msgstr "Import súbor je prázdny"
+
+#: uBillboard/billboard.php:445
+#@ uds-textdomain
+msgid "Import file is corrupted"
+msgstr "Import súbor je poškodený"
+
+#: uBillboard/billboard.php:484
+#, php-format
+#@ uds-textdomain
+msgid "Failed to save image to %s"
+msgstr "Zlyhalo ukladanie obrázka do %s"
+
+#: uBillboard/billboard.php:488
+#@ uds-textdomain
+msgid "Uploads dir is not writable"
+msgstr "Uploads adresár nie je zapisovateľný"
+
+#: uBillboard/billboard.php:492
+#@ uds-textdomain
+msgid "Failed to download image"
+msgstr "Zluhalo sťahovanie obrázka"
+
+#: uBillboard/billboard.php:870
+#@ uds-textdomain
+msgid "Read more"
+msgstr "Viac"
+
+#: uContact/contact-add.php:31
+#@ uds-textdomain
+msgid "Create new Contact Form"
+msgstr "Vytvoriť nový kontaktný formulár"
+
+#: uContact/contact-add.php:33
+#@ uds-textdomain
+msgid "Edit Contact Form"
+msgstr "Upraviť kontaktný formulár"
+
+#: uContact/contact-add.php:36
+#@ uds-textdomain
+msgid "Drag Contact form field types from the left to the right to create contact form."
+msgstr "Ťahajte polia zľava doprava pre vytvorenie kontaktného formulára"
+
+#: uContact/contact-add.php:44
+#, php-format
+#@ uds-textdomain
+msgid "Drag to create %s"
+msgstr "Ťahajte pre vytvorenie %s"
+
+#: uContact/contact-add.php:51
+#@ uds-textdomain
+msgid "Help"
+msgstr "Pomoc"
+
+#: uContact/contact-add.php:52
+#@ uds-textdomain
+msgid "Hover over page elements to display contextual help"
+msgstr "Prejdite myšou nad elementami pre zobrazenie nápovedy"
+
+#: uContact/contact-add.php:68
+#@ uds-textdomain
+msgid "Form name"
+msgstr "Názov formulára"
+
+#: uContact/contact-add.php:73
+#@ uds-textdomain
+msgid "Submit Button Text"
+msgstr "Text odosielacieho tlačidla"
+
+#: uContact/contact-add.php:78
+#@ uds-textdomain
+msgid "Send To Email Address"
+msgstr "Poslať na emailovú adresu"
+
+#: uContact/contact-add.php:83
+#@ uds-textdomain
+msgid "Use Captcha"
+msgstr "Použiť captcha"
+
+#: uContact/contact-add.php:89
+#@ uds-textdomain
+msgid "reCaptcha Public Key"
+msgstr "reCaptcha Public Key"
+
+#: uContact/contact-add.php:94
+#@ uds-textdomain
+msgid "reCaptcha Private Key"
+msgstr "reCaptcha Private Key"
+
+#: uContact/contact-add.php:106
+#@ uds-textdomain
+msgid "Drop Fields Here"
+msgstr "Pustite polia sem"
+
+#: uContact/contact-add.php:109
+#@ uds-textdomain
+msgid "Create"
+msgstr "Vytvoriť"
+
+#: uContact/contact-admin.php:12
+#@ uds-textdomain
+msgid "Add/Edit Contact Forms"
+msgstr "Pridať/Upraviť Kontaktné formuláre"
+
+#: uContact/contact-admin.php:16
+#@ uds-textdomain
+msgid "Contact form name"
+msgstr "Názov kontaktného formulára"
+
+#: uContact/contact-admin.php:17
+#: uPricing/pricing-admin.php:20
+#@ uds-textdomain
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: uContact/contact-admin.php:35
+#, php-format
+#@ uds-textdomain
+msgid "There are no Contact forms defined yet. Create your first one %shere%s."
+msgstr "Zatiaľ neexistujú žiadne kontaktné formuláre, pridajte svoj prvý %stu%s"
+
+#: uContact/contact-widget.php:6
+#@ uds-textdomain
+msgid "Displays Contact Form in a widget area"
+msgstr "Zobrazí kontaktný formulár v oblasti pre Widgety"
+
+#: uContact/contact-widget.php:8
+#: uContact/contact.php:183
+#@ uds-textdomain
+msgid "uContact"
+msgstr "uContact"
+
+#: uContact/contact-widget.php:33
+#: widgets/widget-contact.php:42
+#: widgets/widget-flickr.php:60
+#: widgets/widget-popular-posts.php:45
+#: widgets/widget-recent-popular-posts.php:47
+#: widgets/widget-slideshow.php:52
+#: widgets/widget-twitter.php:61
+#@ uds-textdomain
+#@ default
+msgid "Title:"
+msgstr "Názov:"
+
+#: uContact/contact-widget.php:34
+#@ uds-textdomain
+msgid "Contact form name:"
+msgstr "Názov kontaktného formulára"
+
+#: uContact/contact.php:24
+#@ uds-textdomain
+msgid "Text field"
+msgstr "Textové pole"
+
+#: uContact/contact.php:25
+#@ uds-textdomain
+msgid ""
+"<p>Regular textfield. Can be used for any data that is either \n"
+"\t\t\ta singular value (like numbers) or short strings (few words or a sentence).\n"
+"\t\t\t</p><p>Validators include email and required.</p>"
+msgstr "<p>Obyčajné textoveé pole, môže byť použité na hocijaké dáta</p><p>Validátory email a požadované</p>"
+
+#: uContact/contact.php:41
+#@ uds-textdomain
+msgid "Text area"
+msgstr "Textová oblasť"
+
+#: uContact/contact.php:42
+#@ uds-textdomain
+msgid ""
+"<p>Regular textarea. Used for longer chunks of text (like a Message), \n"
+"\t\t\tprovides multiline input. Can be marked as &quot;required&quot;</p>"
+msgstr "<p>Textová oblasť, používa sa na väčšie kusy textu, môže byť označená ako  &quot;vyžadovaná&quot;</p>"
+
+#: uContact/contact.php:56
+#@ uds-textdomain
+msgid "&quot;Reply to&quot; Email"
+msgstr "&quot;Odpovedať&quot; Email"
+
+#: uContact/contact.php:57
+#@ uds-textdomain
+msgid ""
+"<p>&quot;Reply To&quot; Email. If you use this field instead of\n"
+"\t\t\tthe standard textfield with email validation, the email supplied here will be\n"
+"\t\t\tused in the &quot;Reply-to&quot; email header. So if you reply to the email \n"
+"\t\t\tfrom this contact form, you will reply directly to the person who wrote you.</p>"
+msgstr "<p>Toto pole sa použije ako odchádzajúca adresa v poslanom emaile, takže môžete na kontaktný email rovno odpovedať</p>"
+
+#: uContact/contact.php:62
+#@ uds-textdomain
+msgid "E-mail"
+msgstr "E-mail"
+
+#: uContact/contact.php:75
+#@ uds-textdomain
+msgid "reCaptcha"
+msgstr "reCaptcha"
+
+#: uContact/contact.php:76
+#@ uds-textdomain
+msgid ""
+"<p>Captcha field. Enable this option if you are getting a lot of spam\n"
+"\t\t\tfrom this contact form. We use reCaptcha, so you&quot;ll need to apply for an\n"
+"\t\t\tAPI key. Enable captcha on the right side and then drag this to the contact form\n"
+"\t\t\tto create the captcha field</p>"
+msgstr "<p>Captcha, zapnite ak dostávate spam cez kontaktný formulár</p>"
+
+#: uContact/contact.php:81
+#: uContact/contact.php:108
+#@ uds-textdomain
+msgid "Captcha"
+msgstr "Captcha"
+
+#: uContact/contact.php:98
+#@ uds-textdomain
+msgid "Non-empty"
+msgstr "Neprázdne"
+
+#: uContact/contact.php:99
+#@ uds-textdomain
+msgid "Can be used for textfields, textareas, etc."
+msgstr "Dá sa použiť na textové polia alebo textové oblasti"
+
+#: uContact/contact.php:100
+#, php-format
+#@ uds-textdomain
+msgid "%FIELD% can not be empty"
+msgstr "%FIELD% nemôže byť prázdne"
+
+#: uContact/contact.php:103
+#@ uds-textdomain
+msgid "Email"
+msgstr "Email"
+
+#: uContact/contact.php:104
+#@ uds-textdomain
+msgid "Email validation, can be used for textfields"
+msgstr "Emailová validácia sa dá použiť na textové polia"
+
+#: uContact/contact.php:105
+#, php-format
+#@ uds-textdomain
+msgid "%VALUE% is not a valid email address"
+msgstr "%VALUE% nie je platná emailová adresa"
+
+#: uContact/contact.php:109
+#@ uds-textdomain
+msgid "Captcha validator"
+msgstr "Captcha validator"
+
+#: uContact/contact.php:110
+#: uContact/contact.php:464
+#@ uds-textdomain
+msgid "Captcha verification failed"
+msgstr "Captcha verifikácia zlyhala"
+
+#: uContact/contact.php:474
+#, php-format
+#@ uds-textdomain
+msgid "Field %s is required"
+msgstr "Pole %s je vyžadované"
+
+#: uContact/contact.php:498
+#@ uds-textdomain
+msgid "Sent From"
+msgstr "Odoslané z"
+
+#: uContact/contact.php:499
+#@ uds-textdomain
+msgid "Contact Form Name"
+msgstr "Názov kontaktného formulára"
+
+#: uContact/contact.php:503
+#@ uds-textdomain
+msgid "From"
+msgstr "Z"
+
+#: uContact/contact.php:509
+#@ uds-textdomain
+msgid "Successfuly sent"
+msgstr "Úspešne odoslané"
+
+#: uContact/contact.php:512
+#@ uds-textdomain
+msgid "Failed to send email"
+msgstr "Zlyhalo odosielanie emailu"
+
+#: uContact/contact.php:516
+#@ uds-textdomain
+msgid "Form verification failed"
+msgstr "Verifikácia formulára zlyhala"
+
+#: uContact/contact.php:526
+#, php-format
+#@ uds-textdomain
+msgid "Contact form named: %s does not exist"
+msgstr "Kontaktný formulár %s neexistuje"
+
+#: uContact/contact.php:564
+#@ uds-textdomain
+msgid "Contact"
+msgstr "Kontakt"
+
+#: uPricing/pricing-admin.php:12
+#@ uds-textdomain
+msgid "Pricing Tables"
+msgstr "Cenová tabuľka"
+
+#: uPricing/pricing-admin.php:15
+#@ uds-textdomain
+msgid "Create new Pricing Table"
+msgstr "Vytvoriť novú cenovú tabuľku"
+
+#: uPricing/pricing-admin.php:21
+#: uPricing/pricing-structure.php:64
+#: uPricing/pricing.php:420
+#@ uds-textdomain
+msgid "Properties"
+msgstr "Vlastnosti"
+
+#: uPricing/pricing-admin.php:22
+#: uPricing/pricing.php:263
+#@ uds-textdomain
+msgid "Products"
+msgstr "Produkty"
+
+#: uPricing/pricing-admin.php:23
+#: uPricing/pricing-products.php:56
+#@ uds-textdomain
+msgid "Edit Structure"
+msgstr "Upraviť štruktúru"
+
+#: uPricing/pricing-admin.php:24
+#: uPricing/pricing-products.php:54
+#@ uds-textdomain
+msgid "Edit Products"
+msgstr "Upraviť produkty"
+
+#: uPricing/pricing-admin.php:46
+#, php-format
+#@ uds-textdomain
+msgid "There are no Pricing tables defined yet. Create your first one %shere%s."
+msgstr "Neexistujú žiadne Cenové Tabuľky, vytvorte svoju prvú %stu%s"
+
+#: uPricing/pricing-products.php:29
+#@ uds-textdomain
+msgid "Edit Pricing Table Products"
+msgstr "Upraviť produkty v cenovej tabuľke"
+
+#: uPricing/pricing-products.php:38
+#: uPricing/pricing-structure.php:41
+#@ uds-textdomain
+msgid "Load"
+msgstr "Načítať"
+
+#: uPricing/pricing-products.php:55
+#@ uds-textdomain
+msgid "Open All"
+msgstr "Otvoriť všetky"
+
+#: uPricing/pricing-products.php:57
+#@ uds-textdomain
+msgid "Don't render any product as Featured"
+msgstr "Nezvýrazňovať žiadne produkty"
+
+#: uPricing/pricing-products.php:74
+#@ uds-textdomain
+msgid "Add new"
+msgstr "Pridať nový"
+
+#: uPricing/pricing-products.php:83
+#@ uds-textdomain
+msgid "You need to select a table that you want to add products to."
+msgstr "Musíte vybrať tabuľku, do ktorej chcete pridať produkty"
+
+#: uPricing/pricing-structure.php:29
+#@ uds-textdomain
+msgid "Create new Pricing Table structure"
+msgstr "Vytvoriť novú štruktúru Cenovej Tabuľky"
+
+#: uPricing/pricing-structure.php:31
+#@ uds-textdomain
+msgid "Edit Pricing Table Structure"
+msgstr "Upraviť štruktúru cenovej tabuľky"
+
+#: uPricing/pricing-structure.php:59
+#@ uds-textdomain
+msgid "Add/Edit Products"
+msgstr "Pridať/Upraviť produkty"
+
+#: uPricing/pricing-structure.php:68
+#@ uds-textdomain
+msgid "Label"
+msgstr "Názov"
+
+#: uPricing/pricing-structure.php:69
+#@ uds-textdomain
+msgid "Type"
+msgstr "Typ"
+
+#: uPricing/pricing-structure.php:81
+#: uPricing/pricing-structure.php:102
+#@ uds-textdomain
+msgid "Checkbox"
+msgstr "Zaškrtávacie pole"
+
+#: uPricing/pricing-structure.php:112
+#@ uds-textdomain
+msgid "Add"
+msgstr "Pridať"
+
+#: uPricing/pricing.php:38
+#@ uds-textdomain
+msgid "Skin"
+msgstr "Farby"
+
+#: uPricing/pricing.php:40
+#@ uds-textdomain
+msgid "Default"
+msgstr "Predvolené"
+
+#: uPricing/pricing.php:41
+#@ uds-textdomain
+msgid "Dark"
+msgstr "Tmavá"
+
+#: uPricing/pricing.php:42
+#@ uds-textdomain
+msgid "Light"
+msgstr "Svetlá"
+
+#: uPricing/pricing.php:43
+#@ uds-textdomain
+msgid "Blue and yellow"
+msgstr "Blue and yellow"
+
+#: uPricing/pricing.php:44
+#@ uds-textdomain
+msgid "Lime"
+msgstr "Lime"
+
+#: uPricing/pricing.php:54
+#@ uds-textdomain
+msgid "Product Name"
+msgstr "Názov produktu"
+
+#: uPricing/pricing.php:56
+#@ uds-textdomain
+msgid "Name of the product you are comparing"
+msgstr "Názov produktu"
+
+#: uPricing/pricing.php:60
+#@ uds-textdomain
+msgid "Product Price"
+msgstr "Cena produktu"
+
+#: uPricing/pricing.php:62
+#@ uds-textdomain
+msgid "Price of the product, include currency, exclude units"
+msgstr "Cena, zahŕňa menu ale nie jednotku"
+
+#: uPricing/pricing.php:66
+#@ uds-textdomain
+msgid "Unit"
+msgstr "Jednotka"
+
+#: uPricing/pricing.php:68
+#@ uds-textdomain
+msgid "Unit of the price of the product (e.g. /month, per piece, per kilo)"
+msgstr "Jednotka ceny produktu"
+
+#: uPricing/pricing.php:72
+#@ uds-textdomain
+msgid "Call to action Link"
+msgstr "Call to action Link"
+
+#: uPricing/pricing.php:74
+#@ uds-textdomain
+msgid "URL of the product page"
+msgstr "URL produktovej stránky"
+
+#: uPricing/pricing.php:78
+#@ uds-textdomain
+msgid "Call to action Label"
+msgstr "Call to action Label"
+
+#: uPricing/pricing.php:80
+#@ uds-textdomain
+msgid "Call to action button text (e.g. Buy This!)"
+msgstr "Call to action text tlačítka"
+
+#: uPricing/pricing.php:84
+#@ uds-textdomain
+msgid "Featured"
+msgstr "Vybrané"
+
+#: uPricing/pricing.php:86
+#@ uds-textdomain
+msgid "One product can be featured"
+msgstr "Jeden produkt môže byť zvýraznený"
+
+#: uPricing/pricing.php:261
+#@ uds-textdomain
+msgid "uPricing"
+msgstr "uPricing"
+
+#: uPricing/pricing.php:262
+#@ uds-textdomain
+msgid "Structure"
+msgstr "Štruktúra"
+
+#: uPricing/pricing.php:530
+#@ uds-textdomain
+msgid "Table name can not be empty"
+msgstr "Názov tabuľky nemôže byť prázdny"
+
+#: uPricing/pricing.php:577
+#@ uds-textdomain
+msgid "This pricing table does not exist!"
+msgstr "Cenová tabuľka neexistuje"
+
+#: uPricing/pricing.php:688
+#@ uds-textdomain
+msgid "There are no Pricing Tables defined."
+msgstr "Nie su definované žiadne Cenové Tabuľky"
+
+#: uPricing/pricing.php:704
+#, php-format
+#@ uds-textdomain
+msgid "Pricing Table named %s does not exist."
+msgstr "Cenová tabuľka %s neexistuje"
+
+#: uPricing/pricing.php:708
+#, php-format
+#@ uds-textdomain
+msgid "Pricing Table named %s does not have any Properties."
+msgstr "Cenová tabuľka %s nemá žiadne vlastnosti"
+
+#: uPricing/pricing.php:712
+#, php-format
+#@ uds-textdomain
+msgid "Pricing Table named %s does not have any Products."
+msgstr "Cenová tabuľka %s nemá žiadne produkty"
+
+#: widgets/widget-flickr.php:8
+#@ uds-textdomain
+msgid "Displays photos from a Flickr Feed"
+msgstr "Zobraziť fotky z Flikcera"
+
+#: widgets/widget-flickr.php:10
+#@ uds-textdomain
+msgid "UDS Flickr"
+msgstr "UDS Flickr"
+
+#: widgets/widget-flickr.php:61
+#@ uds-textdomain
+msgid "Flickr ID:"
+msgstr "Flickr ID:"
+
+#: widgets/widget-flickr.php:62
+#@ uds-textdomain
+msgid "Flickr IDs:"
+msgstr "Flickr IDs:"
+
+#: widgets/widget-flickr.php:63
+#@ uds-textdomain
+msgid "Flickr Tags:"
+msgstr "Flickr Tags:"
+
+#: widgets/widget-flickr.php:64
+#@ uds-textdomain
+msgid "Flickr Tagmode (any or all):"
+msgstr "Flickr Tagmode (any or all):"
+
+#: widgets/widget-gmap.php:6
+#@ uds-textdomain
+msgid "Displays Google Map. With the new API v3, no API key is needed."
+msgstr "Zobrazí Google Mapu"
+
+#: widgets/widget-gmap.php:8
+#@ uds-textdomain
+msgid "UDS Google Map"
+msgstr "UDS Google Map"
+
+#: widgets/widget-popular-posts.php:6
+#@ uds-textdomain
+msgid "Displays most popular posts based on comment count"
+msgstr "Zobrazí najpopulárnejšie posty podľa počtu komentárov"
+
+#: widgets/widget-popular-posts.php:8
+#@ uds-textdomain
+msgid "UDS Popular Posts"
+msgstr "UDS Popular Posts"
+
+#: widgets/widget-popular-posts.php:46
+#: widgets/widget-recent-popular-posts.php:48
+#@ uds-textdomain
+msgid "Post Count:"
+msgstr "Počet postov"
+
+#: widgets/widget-recent-popular-posts.php:6
+#@ uds-textdomain
+msgid "Similar to Popular Posts, but prefers newer posts over older ones"
+msgstr "Podobné ako Popular Posts ale preferuje novšie posty pred staršími"
+
+#: widgets/widget-recent-popular-posts.php:8
+#@ uds-textdomain
+msgid "UDS Recent Popular Posts"
+msgstr "UDS Recent Popular Posts"
+
+#: widgets/widget-twitter.php:7
+#@ uds-textdomain
+msgid "UDS Twitter"
+msgstr "UDS Twitter"
+
+#: widgets/widget-twitter.php:41
+#@ uds-textdomain
+msgid "follow us on twitter"
+msgstr "nasleduj na twitteri"
+
+#: widgets/widget-twitter.php:62
+#@ uds-textdomain
+msgid "Twitter Screen Name:"
+msgstr "Používateľské meno na Twitteri"
+
+#: widgets/widget-twitter.php:63
+#@ uds-textdomain
+msgid "Tweet count:"
+msgstr "Počet tweetov"
+
+#: admin/admin.php:294
+#@ uds-textdomain
+msgid "update is available on ThemeForest"
+msgid_plural "updates are available on ThemeForest"
+msgstr[0] "aktualizácií je dostupných na ThemeForeste"
+msgstr[1] "aktualizácia je dostupná na ThemeForeste"
+msgstr[2] "aktualizácie sú dostupné na ThemeForeste"
+
+#: admin/importer.php:616
+#, php-format
+#@ wordpress-importer
+msgid "(%s comment)"
+msgid_plural "(%s comments)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: shortcodes/shortcodes-blog.php:48
+#@ uds-textdomain
+msgid "Pages"
+msgstr "Stránky"
+
+#: shortcodes/shortcodes-blog.php:73
+#@ uds-textdomain
+msgid "Posts"
+msgstr "Posty"
+
+#: shortcodes/shortcodes-blog.php:89
+#@ uds-textdomain
+msgid "Categories"
+msgstr "Kategórie"
+
+#: uAd/ads-create.php:205
+#@ uds-textdomain
+msgid "Update ad"
+msgstr "Upraviť reklamu"
+
+#: uContact/contact-add.php:21
+#@ uds-textdomain
+msgid "Secuity check failed"
+msgstr "Bezpečnostná ochrana zlyhala"
+
+#: uContact/contact.php:184
+#@ uds-textdomain
+msgid "Add Contact Form"
+msgstr "Pridať Kontaktný Formulár"
+
+#: uPricing/pricing.php:535
+#@ uds-textdomain
+msgid "There already is a table named &quot;&quot;"
+msgstr "Tabuľka &quot;%s&quot; už existuje"
+
+#: widgets/widget-contact.php:8
+#@ uds-textdomain
+msgid "Displays contact info in a styled fashion"
+msgstr "Zobrazí kontaktné informácie"
+
+#: widgets/widget-contact.php:10
+#@ uds-textdomain
+msgid "Contact Info"
+msgstr "Kontaktné informácie"
+
+#: widgets/widget-contact.php:43
+#@ uds-textdomain
+msgid "Name:"
+msgstr "Meno"
+
+#: widgets/widget-contact.php:44
+#@ uds-textdomain
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#: widgets/widget-contact.php:45
+#@ uds-textdomain
+msgid "Phone:"
+msgstr "Telefón:"
+
+#: widgets/widget-contact.php:46
+#@ uds-textdomain
+msgid "Address Line 1:"
+msgstr "Adresa Riadok 1:"
+
+#: widgets/widget-contact.php:47
+#@ uds-textdomain
+msgid "Address Line 2:"
+msgstr "Adresa Riadok 2:"
+
+#: widgets/widget-contact.php:48
+#@ uds-textdomain
+msgid "Address Line 3:"
+msgstr "Adresa Riadok 3:"
+

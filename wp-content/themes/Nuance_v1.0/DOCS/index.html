@@ -1,0 +1,388 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="author" content="justindesign" />
+	<meta name="description" content="This is the documentation of the WordPress theme: Brainstorm." />
+	<meta name="keywords" content="documentation, Brainstorm" />
+	<title>Documentation for the WordPress theme: Nuance </title>
+	
+	<!-- Favorites icon -->
+	<link rel="shortcut icon" href="favicon.ico" />
+
+	<!-- Stylesheets -->
+	<link href="assets/css/reset.css" rel="stylesheet" media="screen" />
+	<link href="assets/css/default.css" rel="stylesheet" media="screen" />
+	<link href="assets/css/basics.css" rel="stylesheet" media="screen" />
+	<link href="assets/css/jquery.fancybox-1.3.1.css" rel="stylesheet" type="text/css" media="screen" />
+		
+	<!-- Bugfixes for IE -->
+	<!--[if IE]><link href="assets/css/ie.css" rel="stylesheet" type="text/css"><![endif]-->
+	
+	<!-- jQuery framework --> 
+	<script type="text/javascript" src="assets/js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.easing.1.2.js"></script>
+	
+	<!-- Custom JS -->
+	<script type="text/javascript" src="assets/js/custom.js"></script>
+	
+	<!-- Tooltip -->
+	<script type="text/javascript" src="assets/js/tooltip.js"></script>
+	
+	<!-- Cufon, titles replaced by images -->
+	<script type="text/javascript" src="assets/js/cufon-yui.js"></script>
+	<script type="text/javascript" src="assets/js/Myriad_Pro.js"></script>
+	
+	<!-- Fancybox -->
+	<script type="text/javascript" src="assets/js/jquery.fancybox-1.3.1.js"></script>
+	
+	<script type="text/javascript">
+		Cufon.replace('h1, h2, h3, h4, h5, h6');				
+	</script>
+	
+</head>
+<body>
+<div id="wrapper">
+
+	<div id="top">
+		<div id="logoWrap">
+			<div id="templ-logo"><a href="http://themeforest.net/user/jvanoel/portfolio" title="Go to my portfolio page on Themeforest"><img src="assets/images/templ-logo.png" alt="Lifeline logo" /></a></div>
+		</div>
+	</div>
+	<div id="templ-name"><h1>Nuance documentation by JVANOEL Team v1.0 (wplocker.com)</h1></div>
+
+	<div id="content-top"></div>
+	<div id="content">
+
+		<div class="boxWrap">
+			<div class="box left">
+				<h2>Some info about...</h2>
+				<p>Created: June 13th, 2011<br />By: JVANOEL Team<br />Website: <a href="http://www.jvanoel.com">jvanoel.com</a><br />Email: <a href="mail:jvanoelhelp@gmail.com">jvanoelhelp@gmail.com</a><br />Last editted: June 13th, 2011</p>
+			</div>
+			<div class="box left">
+				<h2>You made a <span class="highlight">great</span> choice!</h2>
+				<p>Thank you for purchasing Nuance. If you have any questions that are beyond the of this documentation, please feel free to email via my user page contact form <a href="http://themeforest.net/user/jvanoel">here</a>.</p>
+				<p>Also if you see some parts of this documentation that are not totally clear, please let us know so we can improve this documentation and help you with something when it's needed.</p>
+			</div>
+		<!-- end boxWrap -->
+		</div>
+
+		<div class="hr"></div>
+		
+		<div class="boxWrap">
+			<div class="box left">
+				<h2 id="toc">The Theme. <span class="highlight">How it works</span></h2>
+				<ol>
+					<li><a href="#installation">Installation</a></li>
+					<li><a href="#jwpanel">JWPanel</a></li>
+					<li><a href="#adding-content">Adding Content</a>
+						<ul>
+							<li><a href="#adding-content-portfolio">Portfolio</a></li>						
+							<li><a href="#adding-content-testimonials">Testimonials</a></li>
+						</ul>
+					</li>
+					<li><a href="#composer">Content Composer</a></li>
+					<li><a href="#shortcodes">Shortcodes</a>
+						<ul>
+							<li><a href="#shortcode-columns">Columns</a></li>
+							<li><a href="#shortcode-styled-elements">Styled Elements</a></li>
+						</ul>
+					</li>
+					<li><a href="#widgets">Custom Widgets</a></li>
+				</ol>
+			</div>
+			
+		<!-- end boxWrap -->
+		</div>
+		
+		<div class="hr"></div>
+		
+		<div class="boxWrap">
+			<div class="box big">
+				
+				<h2 id="installation"><span>1) Installation</span><a href="#toc">Top</a></h2>
+				<p>
+					1) Extract the package file you downloaded from ThemeForest. You'll see these directories:
+					<ul>
+						<li><strong>Nuance</strong> - Contains the zipped file you'll use to install the theme</li>
+						<li><strong>Documentation</strong> - The documentation files (you're viewing the documentation now.</li>
+						<li><strong>PSD</strong> - The Photoshop files</li>
+						<li><strong>Licensing</strong> - The theme license</li>
+					</ul>
+				</p>
+				<p>2) If you're not using the latest WordPress version please update it.</p>
+				<p>3) Go to WordPress Admin &rarr; Themes (under Appearance) &rarr; Install Themes (located on top) &rarr; Upload (menu on top) &rarr; Find the theme in your computer and upload it &rarr; Activate (check the screenshot bellow).</p>
+				
+				<p><img src="assets/images/documentation/activate-theme.png" alt="Activate Theme" /></p>
+				
+			</div>
+		
+		<!-- end boxWrap -->
+		</div>
+		
+		<div class="hr"></div>
+		
+		<div class="boxWrap">
+			<div class="box big">
+				<h2 id="jwpanel"><span>2) JWPanel</span><a href="#toc">Top</a></h2>
+				<p><strong>JWPanel</strong> is a custom made theme options panel. Options in Nuance are separated into 4 sections: General, Portfolio, Blog and Appearance.</p>
+				<p>Everything is straight forward and explained right there.</p>
+				<p>In the sidebar menu under "Comments" you'll see "Nuance Options", that's it.</p>
+			</div>
+		</div>
+		
+		<div class="hr"></div>
+		
+		<div class="boxWrap">
+			<div class="box big">
+				<h2 id="adding-content"><span>3) Adding Content</span><a href="#toc">Top</a></h2>
+				
+				<p>&nbsp;</p>
+				
+				<iframe src="http://www.screenr.com/embed/mBss" width="650" height="396" frameborder="0"></iframe>
+				
+				<p>&nbsp;</p>
+				
+				<p>We tried to make it as easier as possible to use and give you the enormous flexibility in content management. Here is how to add some pages, posts, sliders...</p>
+			</div>
+		</div>
+		
+		<div class="hr"></div>
+		
+		<div class="boxWrap">
+			<div class="box big">
+				<h3 id="adding-content-portfolio"><span>3a) Portfolio</span></h3>
+				
+				<h4>Portfolio Posts</h4>
+				
+				<p>&nbsp;</p>
+				
+				<iframe src="http://www.screenr.com/embed/FH8s" width="650" height="396" frameborder="0"></iframe>
+				
+				<p>&nbsp;</p>
+				
+				<p>This is a custom post type. In the left menu in WordPress admin you'll notice "Portfolio" section bellow "Posts", everything else is same like when adding a post.</p>
+				
+				<p>You can use the content composer on portfolio posts, add a top slider, add lightbox images... Those options are located in custom meta boxes bellow the "title" and "content" and are explained right there.</p>
+				
+				<h4>Portfolio listing</h4>
+				
+				<p>&nbsp;</p>
+				
+				<iframe src="http://www.screenr.com/embed/cBss" width="650" height="396" frameborder="0"></iframe>
+				
+				<p>To add a page with the portfolio listing simply go to create a new page, and as the "Page template" choose Portfolio. After you do that you can choose numerous options in the meta boxes bellow the "Title" and "Content" field.</p>
+				
+			</div>
+		</div>
+		
+		<div class="hr"></div>
+		
+		<div class="boxWrap">
+			<div class="box big">
+			
+				<h3 id="adding-content-testimonials"><span>3b) Testimonials</span></h3>
+				
+				<p>This is a custom post type. In the left menu in WordPress admin you'll notice "Testimonials" section bellow "Portfolio" And "Posts", everything else is same like when adding a post. When adding a testimonials you'll see 3 fields: Author, Position and Testimonial. Position is for example "CEO of Company.inc" or something like that (what is the author of the testimonial) the other 2 fields are self-explanatory.</p>
+				<p>You can also assign categories to testimonials. The "Testimonials" module in the "Content composer" has an option to select a category from which you want to show the testimonials</p>
+				<p>One custom widget is related to the testimonials, it's "JW - Testimonials" which will show the testimonials with a nice little fading effect. You can find more info about that in the widgets section of the documentation.</p>
+				<p>One composer module is related to the testimonials, it's the "Testimonials" module, it gives you a bit more flexibility then the widget.</p>
+				
+			</div>
+		</div>
+		
+		<div class="hr"></div>
+		
+		<div class="boxWrap">
+			<div class="box big">
+				<h2 id="composer"><span>4) Content Composer</span><a href="#toc">Top</a></h2>
+				
+				
+				<p>We think we can say that we've made one of the most flexible ways to manage your content in a WordPress theme.</p>
+				<p>It's powered with modules. These modules are specially made for the Content Composer. For now you can use these modules:
+				<ul>
+					<li><strong>Blank</strong> - This module doesn't have a specific purpose like the rest of them. There's a textarea field tere and you can use it for any content you want, either it's a simple textual paragraph or a shortocode or whatever you want.</li>
+					<li><strong>Separator</strong> - As the name says this module is used for content separation, it will clear the floats and make spacing between sections of the page. You can also add an optional dashed line to the separator.</li>
+					<li><strong>Latest Tweet</strong> - Simple, it shows you latest tweet. If you for example want a listing of the latest tweets you can use the "Blank" module with a shortcode but more about that in the shortcodes section of this documentation.</li>
+					<li><strong>Service</strong> - This is one element that every single theme has so it deserves a special module. Show content with an image on the left side of the content, there are quite a lot of icons to choose from.</li>
+					<li><strong>Testimonials</strong> - The name says it all, this module is used to show your latest testimonial with a few options. Chosoe the category, type (scroller or list) and other options you might need.</li>
+					<li><strong>Portfolio</strong> - Show your most recent portfolio posts (from a specific category if you want) with a lot of flexibility in layout.</li>
+					<li><strong>Blog</strong> - Pretty much the same as "Portfolio" module but for blog posts.</li>
+					<li><strong>Contact Form</strong> - Shows a contact form. This module has no special options, the email address to which you will receive emails is set in the JWPanel.</li>
+				</ul>
+				</p>
+				<p>Every one of these modules has 3 common fields besides the one that are module specific. Those common fields are:
+				<ul>
+					<li><strong>Title</strong> - This field is for your own descriptional purpose only. The text you enter here will be shown in the drag&amp;drop part of the content composer for easier understanding of what the modules you inserted are for.</li>
+					<li><strong>Before</strong> - What you enter here will be shown before the actual content that's outputed by the module. It can be a heading or a text paragraph or whatever you need there.</li>
+					<li><strong>After</strong> - What you enter here will be shown after the actual content that's outputed by the module. It can be a heading or a text paragraph or whatever you need there.</li>
+				</ul>
+				</p>
+				
+				<p>&nbsp;</p>
+				
+				<iframe src="http://www.screenr.com/embed/0Hss" width="650" height="396" frameborder="0"></iframe>
+				
+				<p>&nbsp;</p>
+				
+				<iframe src="http://www.screenr.com/embed/lNss" width="650" height="396" frameborder="0"></iframe>
+				
+				<p>&nbsp;</p>
+				
+				<iframe src="http://www.screenr.com/embed/vNss" width="650" height="396" frameborder="0"></iframe>
+				
+				<p>&nbsp;</p>
+				
+			</div>
+		</div>
+		
+		<div class="hr"></div>
+		
+		<div class="boxWrap">
+			<div class="box big">
+				<h2 id="shortcodes"><span>5) Shortcodes</span><a href="#toc">Top</a></h2>
+			</div>
+		</div>
+		
+		<div class="hr"></div>
+		
+		<div class="boxWrap">
+			<div class="box big">
+				<h3 id="shortcode-columns"><span>5a) Columns</span></h3>
+				<p>First of all you might not need to use these shortcodes, because the "Content composer" makes columns managment en easy task.</p>
+				<p>You probably know how to use these shortcodes already since like every theme has columns. But in case you don't let's go over it.</p>
+			</div>
+			<div class="box left">
+				<h3>Available shortcodes</h3>
+				<ul>
+					<li>[one_half]</li>
+					<li>[one_half_last]</li>
+					<li>[one_third]</li>
+					<li>[one_third_last]</li>
+					<li>[two_third]</li>
+					<li>[two_third_last]</li>
+					<li>[one_fourth]</li>
+					<li>[one_fourth_last]</li>
+					<li>[three_fourth]</li>
+					<li>[three_fourth_last]</li>
+				</ul>
+			</div>
+			<div class="box left">
+				<h3>Usage</h3>
+				<p>Simply wrap your content with the appropriate shortcode.</p>
+				<pre>[one_half]Content[/one_half]</pre>
+			</div>
+			<div class="box big">
+				<h3>Things you should have in mind</h3>
+				<p>1) <strong>The "last"</strong> - As you can see all the shortcodes have 2 variations like [one_half] and [one_half_last]. The last column is always with the "last". Like this example:</p>
+				<pre>[one_third]content[/one_third]
+[one_third]content[/one_third]
+[one_third_last]content[/one_third]
+
+[one_third]content[/one_third]
+[two_third_last]content[/two_third_last]</pre>
+				<p>2) The shortcodes are always relative to the full width (960px), so if you're for example using the column shortcodes in a page with a sidebar have in mind that the shortcodes will be wide the same as they would be on a full width page (no sidebar). So it would be like:</p>
+				<pre>[one_third]content[/one_third]
+[one_third_last]content[/one_third_last]</pre>
+				
+			</div>
+		<!-- end boxWrap -->
+		</div>
+		
+		<div class="hr"></div>
+		
+		<div class="boxWrap">
+			<div class="box big">
+				<h3 id="shortcode-styled-elements"><span>5b) Styled Elements</span></h3>
+			</div>
+		</div>
+		
+		<div class="hr"></div>
+		
+		<div class="boxWrap">
+			<div class="box big">
+				
+				<h4>Notifications</h4>
+				<pre>[error]Text to highlight[/error]
+[notification]Text to highlight[/notification]
+[information]Text to highlight[/information]
+[download]Text to highlight[/download]</pre>
+					
+				<h4>Buttons</h4>
+				<pre>[button color="grey|black|orange|blue|green|purple|pink|red" link="http://your-link-here.com"]Button text[/button]</pre>
+				
+				<h4>Toggle</h4>
+				<pre>[toggle title="Title of the toggle"]Content of the toggle[/toggle]</pre>
+				<p>When you're using more then one toggle after each other wrap them with [toggles] shortcode which will remove the automatic brake tags WordPress makes.</p>
+				<pre>[toggles]
+	[toggle title="Title of the toggle"]Content of the toggle[/toggle]
+	[toggle title="Title of the toggle"]Content of the toggle[/toggle]
+	[toggle title="Title of the toggle"]Content of the toggle[/toggle]
+[/toggles]</pre>
+				
+				<h4>Separator</h4>
+				<pre>[separator]
+[separator line="no"]</pre>
+				
+				<h4>Contact Form</h4>
+				<p>The email is set in JWPanel under "General".</p>
+				<pre>[contact_form]</pre>
+
+				<h4>Box</h4>
+				<p>A simple wrapped content box:</p>
+				<pre>[box]The content goes here[/box]</pre>
+				<p>Wrapped content box with title:</p>
+				<pre>[box title="The title goes here" color="orange|green|pink|blue|brown|black"]The content goes here[/box]</pre>
+				
+				<h4>Tabs</h4>
+				<pre>[tabs color="red|brown|pink|green|blue|purple|black" title_1="1st tab title" title_2="2nd tab title" title_3="3rd tab title"]
+	[tab]Content of the first tab.[/tab]
+	[tab]Content of the second tab.[/tab]
+	[tab]Content of the third tab.[/tab]
+[/tabs]</pre>
+
+			</div>
+		</div>
+		
+		<div class="hr"></div>
+		
+		<div class="boxWrap">
+			<div class="box big">
+				<h2 id="widgets"><span>4) Custom Widgets</span><a href="#toc">Top</a></h2>
+				<p>Nuance comes with 6 custom made widgets:
+					<ul>
+						<li><strong>JW - Contact Form</strong> - Shows a contact form. This widget has no special options, the email address to which you will receive emails is set in the JWPanel.</li>
+						<li><strong>JW - Latest Posts</strong> - Shows a list of latest posts. You can choose the amount you want to show and the type of posts(blog or portfolio).</li>
+						<li><strong>JW - Popular/Latest/Comments</strong> - Shows popular and latest posts and comments in tabs.</li>
+						<li><strong>JW - Recent Tweets</strong> - Show a list of recent tweets.</li>
+						<li><strong>JW - Slider Posts</strong> - Shows latest posts(blog or portfolio) in a slider.</li>
+						<li><strong>JW - Testimonials</strong> - Shows a list of latest testimonials.</li>
+					</ul>
+				</p>
+				
+			</div>			
+		</div>
+		
+		<div class="hr"></div>
+		
+		<div class="boxWrap">
+			<div class="box big">
+				<h2 id="thanks"><span>Thanks word</span><a href="#toc">Top</a></h2>
+				<p>Once again, thank you so much for purchasing this WordPress theme. As I said at the beginning, 
+				I'd be glad to help you if you have any questions relating to this theme. No guarantees, 
+				but I'll do my best to assist.
+				</p>
+				<p>Justin van Oel</p>
+			</div>
+		<!-- end boxWrap -->
+		</div>
+		
+	<!-- end content -->
+	</div>
+<!-- end wrapper -->
+</div>
+
+<script type="text/javascript"> Cufon.now(); </script>
+
+</body>
+</html>

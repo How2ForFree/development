@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* Theme Name: Seduction TD panel
+Theme URI: http://www.theme-dutch.com/presents/seduction
+Description: Seduction a premium wordpress theme made by Theme Dutch
+Version: TD Panel 1.0 
+
+01. TD PANEL I HOME HTML EDITOR TEXTAREA
+02. TD PANEL I MENU - ICONS
+03. TD PANEL I BUTTONS
+04. TD PANEL I SLIDE BUTTON
+05. TD PANEL I INPUT FIELDS
+06. TD PANEL I SELECT / SCROLLBOX / OPTIONS
+
+/* ________________________________________________________________________________________________________________
+ 										             TD PANEL
+ ________________________________________________________________________________________________________________ */
+
+.wrap {background-color:#494949;width:800px;min-height:900px;height:auto;-moz-border-radius: 10px 10px 10px 10px;}
+.content-admin {background-color:#494949;min-height:600px;height:auto;}
+#wpbody-content {background-color:#666;}
+.tdpanel {height:120px; margin-top:10px; width:180px; background-image: url("images/td-panel/td-panel.jpg");}
+.tdpanellarge {position:absolute; left:360px; height:120px; width:620px; background-image: url('images/td-panel/td-panel-620x120.jpg');	}
+.general {height:60px; width:180px; margin:0 0 0 0; cursor:pointer;background: url("images/td-panel/general.png") no-repeat scroll ;z-index:10;}
+h1 {margin:15px 0 0 0; padding-bottom: 10px; border-bottom:#ddd solid 1px;}
+
+/* ________________________________________________________________________________________________________________
+ 										01. TD PANEL I HOME HTML EDITOR TEXTAREA
+ ________________________________________________________________________________________________________________ */
+ 
+#_screen-home-text {width: 100%;border-width: 0px;margin: 0px;border-radius: 0px; }
+div.td-panel .clear	{ clear:both;}
+div.td-panel ul.wrapper_nav	{list-item:none; margin:0; padding:0; width:179px;}
+div.td-panel ul.wrapper_nav li	{position:relative; padding:0; margin:0;}
+div.td-panel ul.wrapper_nav li, div.td-panel ul.wrapper_nav li .active, div.td-panel ul.wrapper_nav li .passive	{ width:179px; height:60px; display:block;  }
+div.td-panel ul.wrapper_nav li .active, div.td-panel ul.wrapper_nav li .passive, div.td-panel ul.wrapper_nav li a	{ position:absolute;  }
+div.td-panel ul.wrapper_nav li .passive	{ background:url(lib/td-panel-img/nav_item_bg.png);}
+div.td-panel ul.wrapper_nav li .active	{ background:url(lib/td-panel-img/nav_item_bg_active.png);}
+div.td-panel ul.wrapper_nav li a	{ padding:0 0 0 55px; width:128px; height:60px; line-height:60px; text-decoration:none; font-weight:bold; font-size:11px; text-shadow:1px 1px #000; }
+div.td-panel ul.wrapper_nav li a:hover {color:#ffffff;}
+div.td-panel .shadow_bottom	{ width:179px; height:30px; background:url(lib/td-panel-img/shadow_bottom.png) no-repeat;}
+
+
+/* ________________________________________________________________________________________________________________
+ 										02. TD PANEL I MENU - ICONS
+ ________________________________________________________________________________________________________________ */
+
+div.td-panel ul.wrapper_nav li a.general		{ background:url(lib/td-panel-img/icons/general.png); background-repeat:no-repeat; background-position:-2px 2px;}
+div.td-panel ul.wrapper_nav li a.home			{ background:url(lib/td-panel-img/icons/home.png); background-repeat:no-repeat; background-position:-2px 2px;}
+div.td-panel ul.wrapper_nav li a.logo			{ background:url(lib/td-panel-img/icons/logo.png); background-repeat:no-repeat; background-position:-2px 2px;}
+div.td-panel ul.wrapper_nav li a.copyright		{ background:url(lib/td-panel-img/icons/copyright.png); background-repeat:no-repeat; background-position:-2px 2px;}
+div.td-panel ul.wrapper_nav li a.sidebars		{ background:url(lib/td-panel-img/icons/sidebars.png); background-repeat:no-repeat; background-position:-2px 2px;}
+div.td-panel ul.wrapper_nav li a.footer-bars	{ background:url(lib/td-panel-img/icons/footer-bars.png); background-repeat:no-repeat; background-position:-2px 2px;}
+div.td-panel ul.wrapper_nav li a.footer-menu	{ background:url(lib/td-panel-img/icons/footer-menu.png); background-repeat:no-repeat; background-position:-2px 2px;}
+div.td-panel ul.wrapper_nav li a.social-media	{ background:url(lib/td-panel-img/icons/social-media.png); background-repeat:no-repeat; background-position:-2px 2px;}
+div.td-panel ul.wrapper_nav li a.blog			{ background:url(lib/td-panel-img/icons/blog.png); background-repeat:no-repeat; background-position:-2px 2px;}
+div.td-panel ul.wrapper_nav li a.colors			{ background:url(lib/td-panel-img/icons/colors.png); background-repeat:no-repeat; background-position:-2px 2px;}
+div.td-panel ul.wrapper_nav li a.translaitions	{ background:url(lib/td-panel-img/icons/translaitions.png); background-repeat:no-repeat; background-position:-2px 2px;}
+div.td-panel ul.wrapper_nav li a.fsgallery		{ background:url(lib/td-panel-img/icons/fsgallery.png); background-repeat:no-repeat; background-position:-2px 2px;}
+div.td-panel ul.wrapper_nav li a.support		{ background:url(lib/td-panel-img/icons/support-td.png); background-repeat:no-repeat; background-position:-2px 2px;}
+
+
+/* ________________________________________________________________________________________________________________
+ 										03. TD PANEL I BUTTONS
+ ________________________________________________________________________________________________________________ */
+
+div.td-panel .btn_small	{ padding:2px 9px 4px 9px; border-top:1px solid #6f6f6f; background:url(lib/td-panel-img/btn_small_bg.png) repeat-x; text-decoration:none; font-size:10px; font-weight:bold; text-shadow:1px 1px #000; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-box-shadow: 0px 1px 2px #000; -moz-box-shadow: 0px 1px 2px #000; box-shadow: 0px 1px 2px #000; }
+div.td-panel .btn_small:hover {background-position:0 -19px; border-top:1px solid #888;}
+div.td-panel .btn_nav	{}
+div.td-panel .btn_nav_left	{width:24px; height:19px; display:block; background:url(lib/td-panel-img/btn_small_nav_left.png) no-repeat; float:left; border-top:1px solid #6f6f6f; -webkit-box-shadow: 0px 1px 2px #000; -moz-box-shadow: 0px 1px 2px #000; box-shadow: 0px 1px 2px #000; -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 0px; -webkit-border-bottom-right-radius: 0px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 0px; -moz-border-radius-bottomright: 0px; -moz-border-radius-bottomleft: 5px; border-top-left-radius: 5px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 5px; cursor:pointer; }
+div.td-panel .btn_nav_right	{width:24px; height:19px; display:block; background:url(lib/td-panel-img/btn_small_nav_right.png) no-repeat; float:left; border-top:1px solid #6f6f6f; -webkit-box-shadow: 0px 1px 2px #000; -moz-box-shadow: 0px 1px 2px #000; box-shadow: 0px 1px 2px #000; -webkit-border-top-left-radius: 0px; -webkit-border-top-right-radius: 5px; -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 0px; -moz-border-radius-topleft: 0px; -moz-border-radius-topright: 5px; -moz-border-radius-bottomright: 5px; -moz-border-radius-bottomleft: 0px; border-top-left-radius: 0px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 0px; cursor:pointer; }
+div.td-panel .btn_nav_left:hover	{ background-position:0 -19px;}
+div.td-panel .btn_nav_right:hover	{ background-position:0 -19px;}
+div.td-panel .btn_big_blue	{ height:34px; line-height:34px; font-size:12px; font-weight:bold; text-shadow:1px 1px #000; text-decoration:none; background:url(lib/td-panel-img/btn_big_blue_left.png) no-repeat top left; padding:7px 0 12px 10px;}
+div.td-panel .btn_big_blue span	{ height:34px; line-height:34px; background:url(lib/td-panel-img/btn_big_blue_right.png) no-repeat top right; padding:7px 15px 12px 5px;}
+div.td-panel .btn_save	{ width:114px; height:34px; background:url(lib/td-panel-img/btn_save.png) no-repeat; cursor:pointer; margin:60px 0 40px 153px;}
+div.td-panel .btn_reset	{ width:66px; height:32px; background:url(lib/td-panel-img/btn_reset.png) no-repeat; cursor:pointer; margin:60px 0 0 177px; text-indent:-9999px;}
+div.td-panel .theme_version	{ width:640px; margin:0 auto; font-size:10px; color:#666; background:#; text-align:right; font-style:italic; text-shadow:1px 1px #000; padding:10px;}
+
+/* ________________________________________________________________________________________________________________
+ 										04.  TD PANEL I SLIDE BUTTON
+ ________________________________________________________________________________________________________________ */
+
+div.td-panel .btn_switch .over	{ margin:0; position:absolute;}
+/*div.td-panel .switch {position:relative; margin:0 0 10px 0;}*/
+div.td-panel .switch .btn_switch	{width:94px; height:30px; /*float:left;*/ position:relative; overflow:hidden; background:url(lib/td-panel-img/btn_switch_overlay.png) no-repeat; margin:25px 0 0 0;}
+div.td-panel .switch .btn_switch	img {cursor:pointer;}
+div.td-panel .switch .switch_title    {float:left; width:150px;}
+div.td-panel .on_off {width:147px; height:30px; position:absolute; background:url(lib/td-panel-img/on_off.png) no-repeat; left:-53px;}
+
+
+/* ________________________________________________________________________________________________________________
+ 										05.  TD PANEL I INPUT FIELDS
+ ________________________________________________________________________________________________________________ */
+
+div.td-panel .input	{margin:0 0 10px 0;}
+div.td-panel input[type=text] {
+	width:420px;
+	background:url(lib/td-panel-img/input_text.png);
+	background-repeat:no-repeat;
+	padding:13px 15px 13px 15px;
+	border:none;
+	font-family:"Trebuchet MS", "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFF;
+	border:none;
+	text-shadow:1px 1px #000;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+div.td-panel input[type=submit] {background-repeat:no-repeat; padding:13px 15px 13px 15px; border:none; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:12px; color:#FFF; border:none; text-shadow:1px 1px #000; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px;}
+div.td-panel textarea.td-panel {width:420px; height:250px; background:url(lib/td-panel-img/input_textarea.png); background-repeat:no-repeat; padding:13px 15px 13px 15px; border:none; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:12px; color:#FFF; border:none; text-shadow:1px 1px #000; -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; }
+
+/* ________________________________________________________________________________________________________________
+ 										06.  TD PANEL I SELECT / SCROLLBOX / OPTIONS
+ ________________________________________________________________________________________________________________ */
+
+div.td-panel .select	{ margin:0 0 10px 0;}
+div.td-panel .selectbox_wrapper	{ width:420px; padding:0; line-height:41px; float:left; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:12px; text-shadow:#000 1px 1px; }
+div.td-panel .selected	{ padding:0 60px 0 15px; line-height:41px; background:url(lib/td-panel-img/selectbox_bg.png) no-repeat; cursor:pointer;}
+div.td-panel .selected:hover	{background-position:0 -41px;}
+div.td-panel .select_options_wrapper	{ position:absolute; z-index:50; width:420px; display:none; }
+div.td-panel .select_options_container	{ height:200px; overflow:hidden; float:left;}
+div.td-panel ul.select_options	{ float:left; width:390px; list-style:none; margin:0; padding:0; position:relative; }
+div.td-panel ul.select_options li	{ float:left; width:375px; height:40px; line-height:40px; padding:0 0 0 15px; margin:0; background:#343434; cursor:pointer;  }
+div.td-panel ul.select_options li:hover	{background:url(lib/td-panel-img/selectbox_option_bg.png) repeat-x;}
+div.td-panel .scrollbox	{position:relative; float:left; background:url(lib/td-panel-img/scrollbox_bg.png) repeat-y; width:30px;}
+div.td-panel .scrollbox .scrollbar_wrapper	{ position:absolute; width:28px; background:url(lib/td-panel-img/scrollbar_bg.png); float:left; border:1px solid #333; border-tops:1px solid #717171; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+div.td-panel .scrollbox .scrollbar_wrapper:hover	{ background:url(lib/td-panel-img/scrollbar_bg.png) -28px 0; }
+div.td-panel .scrollbox .scrollbar	{ width:30px; background:url(lib/td-panel-img/scrollbar_handle.png) no-repeat center center; float:left;}
+div.td-panel .select_shadow	{ width:420px; height:20px; background:url(lib/td-panel-img/selectbox_shadow.png) no-repeat;}

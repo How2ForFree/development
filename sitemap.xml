@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://www.how2forfree.com/wp-content/plugins/sitemap-generator-for-webmasters/sitemap.xsl"?><!-- generator="wordpress/3.9.1" -->
+<!-- sitemap-generator-url="http://www.iwebslog.com" sitemap-generator-version="1.5" -->
+<!-- generated-on="July 19, 2014 2:13 am" -->
+<!-- Debug: Total comment count: 0 -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://www.how2forfree.com/</loc>
+		<lastmod>2014-07-18T07:30:16+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Postings -->
+	<url>
+		<loc>http://www.how2forfree.com/submit-your-how-to-for-free/</loc>
+		<lastmod>2014-07-18T08:30:59+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://www.how2forfree.com/how-to-do-it-for-free-community-library/</loc>
+		<lastmod>2014-07-18T08:16:56+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 25: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://www.how2forfree.com/2014/07/18/sign-up/sign-up/tag/introducing-how2forfree-com-day-1/</loc>
+		<lastmod>2014-07-18T06:46:47+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: End Postings -->
+<!-- Debug: Start Custom Pages -->
+<!-- Debug: End Custom Pages -->
+<!-- Debug: Start additional URLs -->
+<!-- Debug: End additional URLs -->
+</urlset>

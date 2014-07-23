@@ -1,0 +1,847 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Nuance\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-04 20:52+0100\n"
+"PO-Revision-Date: 2011-06-04 20:52+0100\n"
+"Last-Translator: Slobodan <skustrimovic@gmail.com>\n"
+"Language-Team: wpScientist\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:15
+msgid "404 - Not Found"
+msgstr ""
+
+#: ../404.php:16
+msgid "The content you were looking for could not be found."
+msgstr ""
+
+#: ../archive.php:58
+#: ../template-blog.php:82
+msgid "Read More &rarr;"
+msgstr ""
+
+#: ../archive.php:59
+#: ../template-blog.php:83
+msgid "By"
+msgstr ""
+
+#: ../archive.php:59
+#: ../template-blog.php:83
+msgid "With"
+msgstr ""
+
+#: ../archive.php:59
+#: ../template-blog.php:83
+msgid "no comments"
+msgstr ""
+
+#: ../archive.php:59
+#: ../template-blog.php:83
+msgid "one comment"
+msgstr ""
+
+#: ../archive.php:59
+#: ../template-blog.php:83
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: ../archive.php:66
+#: ../search.php:61
+#: ../template-blog.php:90
+msgid "No posts found"
+msgstr ""
+
+#: ../comments.php:24
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:38
+msgid "No Responses"
+msgstr ""
+
+#: ../comments.php:38
+msgid "One Response"
+msgstr ""
+
+#: ../comments.php:38
+msgid "% Responses"
+msgstr ""
+
+#: ../comments.php:56
+msgid "Comment on this post"
+msgstr ""
+
+#: ../comments.php:56
+#, php-format
+msgid "Reply to %s"
+msgstr ""
+
+#: ../comments.php:59
+msgid "You must be logged in to post a comment."
+msgstr ""
+
+#: ../comments.php:68
+msgid "Logged in as"
+msgstr ""
+
+#: ../comments.php:68
+msgid "Log out"
+msgstr ""
+
+#: ../comments.php:73
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:77
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:81
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:93
+msgid "Submit Comment"
+msgstr ""
+
+#: ../footer.php:26
+#: ../sidebar-blog.php:34
+#: ../sidebar-portfolio.php:84
+#: ../sidebar.php:33
+msgid "No Widgets Added Yet"
+msgstr ""
+
+#: ../footer.php:27
+#: ../sidebar-blog.php:35
+#: ../sidebar-portfolio.php:85
+#: ../sidebar.php:34
+msgid "Please add them in the WordPress admin page under Appearance &rarr; Widgets. The widget section is"
+msgstr ""
+
+#: ../header.php:31
+msgid "Tag Archive for &quot;"
+msgstr ""
+
+#: ../header.php:31
+#: ../header.php:39
+msgid "&quot; - "
+msgstr ""
+
+#: ../header.php:35
+msgid " Archive - "
+msgstr ""
+
+#: ../header.php:39
+msgid "Search for &quot;"
+msgstr ""
+
+#: ../header.php:47
+msgid "Not Found - "
+msgstr ""
+
+#: ../header.php:210
+msgid "Archive"
+msgstr ""
+
+#: ../searchform.php:23
+msgid "Search"
+msgstr ""
+
+#: ../sidebar-portfolio.php:39
+msgid "Project info"
+msgstr ""
+
+#: ../sidebar-portfolio.php:43
+msgid "Author: "
+msgstr ""
+
+#: ../sidebar-portfolio.php:48
+msgid "Client:"
+msgstr ""
+
+#: ../sidebar-portfolio.php:56
+msgid "What we did:"
+msgstr ""
+
+#: ../sidebar-portfolio.php:72
+msgid "Release Date:"
+msgstr ""
+
+#: ../template-portfolio.php:82
+#: ../template-portfolio.php:95
+msgid "All"
+msgstr ""
+
+#: ../template-portfolio.php:89
+msgid "Filter by category"
+msgstr ""
+
+#: ../template-portfolio.php:137
+#: ../functions/quicksand-load.php:68
+#: ../functions/shortcodes.php:1170
+msgid "Client"
+msgstr ""
+
+#: ../template-portfolio.php:145
+#: ../functions/quicksand-load.php:76
+#: ../functions/shortcodes.php:1177
+msgid "What we did"
+msgstr ""
+
+#: ../template-portfolio.php:160
+#: ../functions/metaboxes.php:688
+#: ../functions/quicksand-load.php:91
+#: ../functions/shortcodes.php:1189
+msgid "Author"
+msgstr ""
+
+#: ../template-portfolio.php:164
+#: ../functions/quicksand-load.php:95
+#: ../functions/shortcodes.php:1193
+msgid "Date"
+msgstr ""
+
+#: ../template-portfolio.php:171
+msgid "zoom"
+msgstr ""
+
+#: ../template-portfolio.php:180
+msgid "more"
+msgstr ""
+
+#: ../template-portfolio.php:189
+#: ../template-portfolio.php:248
+#: ../functions/quicksand-load.php:120
+#: ../functions/quicksand-load.php:163
+#: ../functions/shortcodes.php:1131
+#: ../functions/shortcodes.php:1219
+msgid "The portfolio is empty"
+msgstr ""
+
+#: ../content-parts/contact-send.php:42
+msgid "Your message is sent."
+msgstr ""
+
+#: ../content-parts/contact-send.php:44
+msgid "There was a problem. Try again later."
+msgstr ""
+
+#: ../functions/common.php:53
+msgid "Your comment is awaiting moderation"
+msgstr ""
+
+#: ../functions/common.php:56
+msgid "Reply"
+msgstr ""
+
+#: ../functions/common.php:140
+msgid "About the author"
+msgstr ""
+
+#: ../functions/common.php:143
+msgid "Currently there is no additional info about this author."
+msgstr ""
+
+#: ../functions/core.php:278
+msgid "You are here:"
+msgstr ""
+
+#: ../functions/core.php:279
+msgid "Home"
+msgstr ""
+
+#: ../functions/metaboxes-framework.php:189
+msgid "Yes"
+msgstr ""
+
+#: ../functions/metaboxes-framework.php:190
+msgid "No"
+msgstr ""
+
+#: ../functions/metaboxes-framework.php:210
+msgid "Active widget section:"
+msgstr ""
+
+#: ../functions/metaboxes-framework.php:210
+msgid "remove"
+msgstr ""
+
+#: ../functions/metaboxes-framework.php:219
+msgid "Create New"
+msgstr ""
+
+#: ../functions/metaboxes-framework.php:220
+msgid "or"
+msgstr ""
+
+#: ../functions/metaboxes-framework.php:221
+msgid "Select Existing"
+msgstr ""
+
+#: ../functions/metaboxes-framework.php:223
+msgid "- Select -"
+msgstr ""
+
+#: ../functions/metaboxes-framework.php:295
+msgid "There aren\\'t any categories yet. All will be shown."
+msgstr ""
+
+#: ../functions/metaboxes-framework.php:315
+msgid "Currently active slides:"
+msgstr ""
+
+#: ../functions/metaboxes-framework.php:315
+msgid "+ Add slides"
+msgstr ""
+
+#: ../functions/metaboxes-framework.php:333
+msgid "Add slides:"
+msgstr ""
+
+#: ../functions/metaboxes-framework.php:333
+#: ../functions/metaboxes-framework.php:505
+msgid "&larr; Finish adding"
+msgstr ""
+
+#: ../functions/metaboxes-framework.php:360
+#: ../functions/metaboxes-framework.php:531
+msgid "Added"
+msgstr ""
+
+#: ../functions/metaboxes-framework.php:379
+msgid "Edit slide"
+msgstr ""
+
+#: ../functions/metaboxes-framework.php:381
+#: ../functions/metaboxes.php:153
+#: ../functions/metaboxes.php:422
+#: ../functions/metaboxes.php:659
+msgid "Title"
+msgstr ""
+
+#: ../functions/metaboxes-framework.php:382
+#: ../functions/metaboxes.php:160
+#: ../functions/metaboxes.php:429
+#: ../functions/metaboxes.php:519
+#: ../functions/metaboxes.php:666
+msgid "Description"
+msgstr ""
+
+#: ../functions/metaboxes-framework.php:383
+msgid "Link"
+msgstr ""
+
+#: ../functions/metaboxes-framework.php:384
+msgid "Save"
+msgstr ""
+
+#: ../functions/metaboxes-framework.php:384
+msgid "Cancel"
+msgstr ""
+
+#: ../functions/metaboxes-framework.php:487
+msgid "Currently active images:"
+msgstr ""
+
+#: ../functions/metaboxes-framework.php:487
+msgid "+ Add image"
+msgstr ""
+
+#: ../functions/metaboxes-framework.php:505
+msgid "Add images:"
+msgstr ""
+
+#: ../functions/metaboxes.php:19
+#: ../functions/metaboxes.php:35
+#: ../functions/metaboxes.php:51
+msgid "Content composer"
+msgstr ""
+
+#: ../functions/metaboxes.php:27
+#: ../functions/metaboxes.php:43
+#: ../functions/metaboxes.php:59
+msgid "Layout & Other Settings"
+msgstr ""
+
+#: ../functions/metaboxes.php:67
+msgid "Testimonial Information"
+msgstr ""
+
+#: ../functions/metaboxes.php:101
+#: ../functions/metaboxes.php:310
+#: ../functions/metaboxes.php:466
+msgid "Layout"
+msgstr ""
+
+#: ../functions/metaboxes.php:102
+#: ../functions/metaboxes.php:311
+#: ../functions/metaboxes.php:467
+msgid "Choose the layout for this page. The options for portfolio and other page types is different."
+msgstr ""
+
+#: ../functions/metaboxes.php:124
+#: ../functions/metaboxes.php:334
+#: ../functions/metaboxes.php:490
+msgid "Custom sidebar"
+msgstr ""
+
+#: ../functions/metaboxes.php:125
+msgid "Bellow you can create a new \"widgets section\" for the sidebar or select one that you previously made. To create a new one just type in the name (ex. My Widgets). The default \"widget section\" is \"Page Widgets\"."
+msgstr ""
+
+#: ../functions/metaboxes.php:147
+#: ../functions/metaboxes.php:416
+#: ../functions/metaboxes.php:653
+msgid "Tagline"
+msgstr ""
+
+#: ../functions/metaboxes.php:148
+#: ../functions/metaboxes.php:417
+#: ../functions/metaboxes.php:654
+msgid "If you don't want the title on the page to be the same as the page title enter it here."
+msgstr ""
+
+#: ../functions/metaboxes.php:178
+#: ../functions/metaboxes.php:357
+#: ../functions/metaboxes.php:593
+msgid "Slider"
+msgstr ""
+
+#: ../functions/metaboxes.php:179
+#: ../functions/metaboxes.php:358
+#: ../functions/metaboxes.php:594
+msgid "The slider that appears at the very top of the page."
+msgstr ""
+
+#: ../functions/metaboxes.php:185
+#: ../functions/metaboxes.php:364
+#: ../functions/metaboxes.php:600
+msgid "Slider type"
+msgstr ""
+
+#: ../functions/metaboxes.php:186
+#: ../functions/metaboxes.php:365
+#: ../functions/metaboxes.php:601
+msgid "Choose between a regular and a 3D slider."
+msgstr ""
+
+#: ../functions/metaboxes.php:194
+#: ../functions/metaboxes.php:373
+#: ../functions/metaboxes.php:609
+msgid "Slider height"
+msgstr ""
+
+#: ../functions/metaboxes.php:195
+#: ../functions/metaboxes.php:374
+#: ../functions/metaboxes.php:610
+msgid "Width is 960px and can't be changed, but height is not specific. Enter the amount of pixels you want the images to be resized to. Default: 250."
+msgstr ""
+
+#: ../functions/metaboxes.php:202
+#: ../functions/metaboxes.php:381
+#: ../functions/metaboxes.php:617
+msgid "Slides delay"
+msgstr ""
+
+#: ../functions/metaboxes.php:203
+#: ../functions/metaboxes.php:382
+#: ../functions/metaboxes.php:618
+msgid "The amount of seconds between 2 slides. Default: 10."
+msgstr ""
+
+#: ../functions/metaboxes.php:210
+#: ../functions/metaboxes.php:389
+#: ../functions/metaboxes.php:625
+msgid "Link type"
+msgstr ""
+
+#: ../functions/metaboxes.php:211
+#: ../functions/metaboxes.php:390
+#: ../functions/metaboxes.php:626
+msgid "Choose the link type you want for those slides for which you set a link."
+msgstr ""
+
+#: ../functions/metaboxes.php:219
+#: ../functions/metaboxes.php:398
+#: ../functions/metaboxes.php:634
+msgid "Slider images"
+msgstr ""
+
+#: ../functions/metaboxes.php:220
+#: ../functions/metaboxes.php:399
+#: ../functions/metaboxes.php:635
+msgid "Images that will apear in the slider. Use \"Add slides +\" link to add images(only images wider or equal 960px will show). You can drag&amp;drop the added images to change the order."
+msgstr ""
+
+#: ../functions/metaboxes.php:238
+msgid "Portfolio categories"
+msgstr ""
+
+#: ../functions/metaboxes.php:239
+msgid "From which categories to show the portfolio posts. Important: If none selected it will show from all categories."
+msgstr ""
+
+#: ../functions/metaboxes.php:245
+msgid "Categories"
+msgstr ""
+
+#: ../functions/metaboxes.php:246
+msgid "Which categories to show on this portfolio."
+msgstr ""
+
+#: ../functions/metaboxes.php:253
+msgid "Enable Filter"
+msgstr ""
+
+#: ../functions/metaboxes.php:254
+msgid "Enable or disable the categories filter which will show on top of the listing. Notice: You need to select at least two categories for it to work."
+msgstr ""
+
+#: ../functions/metaboxes.php:261
+msgid "Filter Type"
+msgstr ""
+
+#: ../functions/metaboxes.php:262
+msgid "Choose between two types, a simple textual one and a button type filter."
+msgstr ""
+
+#: ../functions/metaboxes.php:270
+msgid "Filter Color"
+msgstr ""
+
+#: ../functions/metaboxes.php:271
+msgid "<em>Notice: This is only for \"Buttons\" type filters.</em> Choose between a variety of colors for the filters."
+msgstr ""
+
+#: ../functions/metaboxes.php:335
+msgid "Bellow you can create a new \"widgets section\" for the sidebar or select one that you previously made. To create a new one just type in the name (ex. My Widgets). The default \"widget section\" is \"Blog Widgets\"."
+msgstr ""
+
+#: ../functions/metaboxes.php:491
+msgid "Bellow you can create a new \"widgets section\" for the sidebar or select one that you previously made. To create a new one just type in the name (ex. My Widgets). The default \"widget section\" is \"Portfolio Widgets\"."
+msgstr ""
+
+#: ../functions/metaboxes.php:514
+msgid "Information about this portfolio item, will be shown on portfolio listing popup grid and in the sidebar of a single portfolio item page. At the end you'll see Video URL field, in case you want to show a video in a lightbox for this item instead of images enter the url there."
+msgstr ""
+
+#: ../functions/metaboxes.php:521
+msgid "The description of this portfolio item. Will be shown at the top of the sidebar on a portfolio detail page."
+msgstr ""
+
+#: ../functions/metaboxes.php:527
+msgid "Author name"
+msgstr ""
+
+#: ../functions/metaboxes.php:528
+#: ../functions/metaboxes.php:537
+msgid "Shown in the portfolio information."
+msgstr ""
+
+#: ../functions/metaboxes.php:535
+msgid "Client name"
+msgstr ""
+
+#: ../functions/metaboxes.php:543
+msgid "Website URL"
+msgstr ""
+
+#: ../functions/metaboxes.php:545
+msgid "Outside link to the project."
+msgstr ""
+
+#: ../functions/metaboxes.php:551
+msgid "Video URL"
+msgstr ""
+
+#: ../functions/metaboxes.php:552
+msgid "If you want to show a video in the lightbox instead of images enter the url here (ex. http://www.youtube.com/watch?v=nU5pRGd5caQ)"
+msgstr ""
+
+#: ../functions/metaboxes.php:570
+msgid "Lighbox images"
+msgstr ""
+
+#: ../functions/metaboxes.php:571
+msgid "Images that will be shown in the lightbox. Click \"Add images\", then select which images you want. After you're done with that click \"Finish adding\". You can reorder the images by drag&amp;drop."
+msgstr ""
+
+#: ../functions/metaboxes.php:576
+msgid "Portfolio images"
+msgstr ""
+
+#: ../functions/metaboxes.php:683
+msgid "Testimonial info"
+msgstr ""
+
+#: ../functions/metaboxes.php:689
+msgid "Name of the testimonial author."
+msgstr ""
+
+#: ../functions/metaboxes.php:696
+msgid "Position"
+msgstr ""
+
+#: ../functions/metaboxes.php:697
+msgid "For example \"CEO of Google\" and such."
+msgstr ""
+
+#: ../functions/metaboxes.php:704
+#: ../functions/post-types.php:66
+msgid "Testimonial"
+msgstr ""
+
+#: ../functions/metaboxes.php:706
+msgid "The content of the testimonial."
+msgstr ""
+
+#: ../functions/post-types.php:38
+msgid "Portfolio"
+msgstr ""
+
+#: ../functions/post-types.php:39
+msgid "Portfolio Post"
+msgstr ""
+
+#: ../functions/post-types.php:40
+#: ../functions/post-types.php:67
+msgid "Add New"
+msgstr ""
+
+#: ../functions/post-types.php:41
+msgid "Add New Portfolio Post"
+msgstr ""
+
+#: ../functions/post-types.php:42
+#: ../functions/post-types.php:69
+msgid "Edit"
+msgstr ""
+
+#: ../functions/post-types.php:43
+msgid "Edit Portfolio Post"
+msgstr ""
+
+#: ../functions/post-types.php:44
+msgid "New Portfolio Post"
+msgstr ""
+
+#: ../functions/post-types.php:45
+msgid "View Portfolio"
+msgstr ""
+
+#: ../functions/post-types.php:46
+msgid "View Portfolio Post"
+msgstr ""
+
+#: ../functions/post-types.php:47
+msgid "Search Portfolio Posts"
+msgstr ""
+
+#: ../functions/post-types.php:48
+msgid "No portfolio posts found"
+msgstr ""
+
+#: ../functions/post-types.php:49
+msgid "No portfolio posts in Trash"
+msgstr ""
+
+#: ../functions/post-types.php:50
+msgid "Parent Portfolio"
+msgstr ""
+
+#: ../functions/post-types.php:65
+msgid "Testimonials"
+msgstr ""
+
+#: ../functions/post-types.php:68
+msgid "Add New Testimonial"
+msgstr ""
+
+#: ../functions/post-types.php:70
+msgid "Edit Testimonial"
+msgstr ""
+
+#: ../functions/post-types.php:71
+msgid "New Testimonial Post"
+msgstr ""
+
+#: ../functions/post-types.php:72
+msgid "View Testimonials"
+msgstr ""
+
+#: ../functions/post-types.php:73
+msgid "View Testmonial"
+msgstr ""
+
+#: ../functions/post-types.php:74
+msgid "Search Testimonials"
+msgstr ""
+
+#: ../functions/post-types.php:75
+msgid "No testimonial found"
+msgstr ""
+
+#: ../functions/post-types.php:76
+msgid "No testimonial in Trash"
+msgstr ""
+
+#: ../functions/post-types.php:77
+msgid "Parent Testimonial"
+msgstr ""
+
+#: ../functions/shortcodes.php:1354
+msgid "The blog is empty"
+msgstr ""
+
+#: ../functions/shortcodes.php:1759
+msgid "Similar Posts"
+msgstr ""
+
+#: ../functions/shortcodes.php:1802
+msgid "Similar Projects"
+msgstr ""
+
+#: ../functions/sidebars.php:31
+msgid "Widgets inserted here will show up in the sidebar sections for pages."
+msgstr ""
+
+#: ../functions/sidebars.php:44
+msgid "Widgets inserted here will show up in the sidebar sections for the blog."
+msgstr ""
+
+#: ../functions/sidebars.php:57
+msgid "Widgets inserted here will show up in the sidebar sections for the portfolio."
+msgstr ""
+
+#: ../functions/sidebars.php:70
+msgid "Widgets inserted here will show up in the footer."
+msgstr ""
+
+#: ../functions/widgets/widget.contact.php:21
+msgid "Show contact form. Location: Anywhere"
+msgstr ""
+
+#: ../functions/widgets/widget.contact.php:27
+msgid "JW - Contact Form"
+msgstr ""
+
+#: ../functions/widgets/widget.contact.php:68
+msgid "Contact Us"
+msgstr ""
+
+#: ../functions/widgets/widget.contact.php:73
+#: ../functions/widgets/widget.recent-posts.php:78
+#: ../functions/widgets/widget.recent-tweets.php:79
+#: ../functions/widgets/widget.slider-posts.php:100
+#: ../functions/widgets/widget.testimonials.php:76
+msgid "Title:"
+msgstr ""
+
+#: ../functions/widgets/widget.popular-recent-comments.php:21
+msgid "Show popular posts, latest posts and latest comments from the blog. Location: Sidebar"
+msgstr ""
+
+#: ../functions/widgets/widget.popular-recent-comments.php:27
+msgid "JW - Popular/Latest/Comments"
+msgstr ""
+
+#: ../functions/widgets/widget.popular-recent-comments.php:46
+msgid "Popular"
+msgstr ""
+
+#: ../functions/widgets/widget.popular-recent-comments.php:47
+msgid "Latest"
+msgstr ""
+
+#: ../functions/widgets/widget.popular-recent-comments.php:48
+msgid "Comments"
+msgstr ""
+
+#: ../functions/widgets/widget.popular-recent-comments.php:187
+#: ../functions/widgets/widget.recent-posts.php:73
+msgid "Recent Posts"
+msgstr ""
+
+#: ../functions/widgets/widget.popular-recent-comments.php:191
+#: ../functions/widgets/widget.recent-posts.php:101
+#: ../functions/widgets/widget.recent-tweets.php:99
+#: ../functions/widgets/widget.slider-posts.php:141
+#: ../functions/widgets/widget.testimonials.php:86
+msgid "Amount:"
+msgstr ""
+
+#: ../functions/widgets/widget.recent-posts.php:21
+msgid "Show latest posts from blog or portfolio."
+msgstr ""
+
+#: ../functions/widgets/widget.recent-posts.php:27
+msgid "JW - Latest Posts"
+msgstr ""
+
+#: ../functions/widgets/widget.recent-posts.php:79
+#: ../functions/widgets/widget.testimonials.php:77
+msgid "Title will show up as \"heading\" for the widget in the sidebar"
+msgstr ""
+
+#: ../functions/widgets/widget.recent-posts.php:88
+msgid "Post type:"
+msgstr ""
+
+#: ../functions/widgets/widget.recent-posts.php:89
+msgid "What do you want to show posts from, blog or portfolio?"
+msgstr ""
+
+#: ../functions/widgets/widget.recent-posts.php:102
+#: ../functions/widgets/widget.testimonials.php:87
+msgid "How many posts to show"
+msgstr ""
+
+#: ../functions/widgets/widget.recent-tweets.php:21
+msgid "Show recent tweets."
+msgstr ""
+
+#: ../functions/widgets/widget.recent-tweets.php:27
+msgid "JW - Recent Tweets"
+msgstr ""
+
+#: ../functions/widgets/widget.recent-tweets.php:89
+msgid "Profile:"
+msgstr ""
+
+#: ../functions/widgets/widget.slider-posts.php:21
+msgid "Show blog or portfolio post in a slider. Location: Anywhere"
+msgstr ""
+
+#: ../functions/widgets/widget.slider-posts.php:27
+msgid "JW - Slider Posts"
+msgstr ""
+
+#: ../functions/widgets/widget.slider-posts.php:112
+msgid "Post Type:"
+msgstr ""
+
+#: ../functions/widgets/widget.slider-posts.php:129
+msgid "Tag/Category:"
+msgstr ""
+
+#: ../functions/widgets/widget.slider-posts.php:161
+msgid "Other options:"
+msgstr ""
+
+#: ../functions/widgets/widget.testimonials.php:21
+msgid "Show latest testimonials with a fading effect."
+msgstr ""
+
+#: ../functions/widgets/widget.testimonials.php:27
+msgid "JW - Testimonials"
+msgstr ""
+

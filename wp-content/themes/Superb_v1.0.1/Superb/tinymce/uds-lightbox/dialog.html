@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>UDS Lightbox</title>
+	<script type="text/javascript" src="../tiny_mce_popup.js"></script>
+	<script type="text/javascript" src="../utils/mctabs.js"></script>
+	<script type="text/javascript" src="../utils/form_utils.js"></script>
+	<script type="text/javascript">
+		var udsLightbox = {
+			init : function(ed) {
+				var dom = ed.dom, f = document.forms[0], n = ed.selection.getNode(), w;
+				
+				//f.text.value = ed.selection.getContent();
+			},
+		
+			update : function() {
+				var ed = tinyMCEPopup.editor, f = document.forms[0], st = '';
+				
+				var small = '';
+				if(f.small.value != '') {
+					small = ' small="' + f.small.value + '"';
+				}
+				
+				var full = '';
+				if(f.full.value != '') {
+					full = ' full="' + f.full.value + '"';
+				}
+				
+				var group = '';
+				if(f.group.value != '') {
+					group = ' group="' + f.group.value + '"';
+				}
+				
+				var title = '';
+				if(f.title.value != '') {
+					title = ' title="' + f.title.value + '"';
+				}
+				
+				var align = '';
+				if(f.align.value != '') {
+					align = ' align="' + f.align.value + '"';
+				}
+				
+				var autothumb = '';
+				if(f.autothumb.checked) {
+					autothumb = ' autothumb="true"';
+				}
+				
+				var code = '[lightbox'+small+full+group+align+title+autothumb+']';
+								
+				ed.execCommand("mceInsertContent", false, code);
+				tinyMCEPopup.close();
+			}
+		};
+		
+		tinyMCEPopup.requireLangPack();
+		tinyMCEPopup.onInit.add(udsLightbox.init, udsLightbox);
+	</script>
+	<style>
+	#general_panel table {
+		width: 100%;
+	}
+	
+	.panel_wrapper div.current {
+		height: auto;
+	}
+	
+	textarea#text {
+		width: 100%;
+		height: 100px;
+	}
+	</style>
+</head>
+<body>
+<form onsubmit="udsLightbox.update();return false;" action="#">
+	<div class="tabs">
+		<ul>
+			<li id="general_tab" class="current"><span><a href="javascript:mcTabs.displayTab('general_tab','general_panel');" onmousedown="return false;">UDS Lightbox</a></span></li>
+		</ul>
+	</div>
+
+	<div class="panel_wrapper">
+		<div id="general_panel" class="panel current">
+			<table border="0" cellpadding="4" cellspacing="0">
+                    <tr>
+                        <td><label for="small" title="Insert the URL of the image to be used as thumb">Small image URL (Optional with autothumb on) (?)</label></td>
+                        <td>
+                        	<input type="text" name="small" id="small" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="full" title="Insert the URL of the full size image">Full size image URL (?)</label></td>
+                        <td>
+                        	<input type="text" name="full" id="full" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="group" title="Use to group images">Group (optional) (?)</label></td>
+                        <td>
+                        	<input type="text" name="group" id="group" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="title" title="Use as image description">Title (optional) (?)</label></td>
+                        <td>
+                        	<input type="text" name="title" id="title" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="title" title="Lightbox alignment">Align (optional) (?)</label></td>
+                        <td>
+                        	<select name="align" id="align">
+                        		<option value="">None</option>
+                        		<option value="left">Left</option>
+                        		<option value="right">Right</option>
+                        	</select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="autothumb" title="If you supply only full size image, autothub can create the small one">Automatic thumb creation (?)</label></td>
+                        <td>
+                        	<input type="checkbox" name="autothumb" id="autothumb" />
+                        </td>
+                    </tr>
+            </table>
+		</div>
+	</div>
+
+	<div class="mceActionPanel">
+		<div style="float: left">
+			<input type="submit" id="insert" name="insert" value="{#insert}" />
+		</div>
+
+		<div style="float: right">
+			<input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+		</div>
+	</div>
+</form>
+</body>
+</html>

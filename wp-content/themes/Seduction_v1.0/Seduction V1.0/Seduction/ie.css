@@ -1,0 +1,19 @@
+.ie7 { clear:none; }
+
+#header .menu ul li a {
+	padding-top: 10px;
+}
+
+#header .menu ul li a .menu-subtitle {
+	color:#999;
+	display:block;  
+	font-size:12px;
+	letter-spacing:.75px; 
+	margin-top:-2px; 
+	margin-bottom: 10px;
+	text-transform:none; 
+}
+
+.gallery-thumbnails{
+	position:relative;
+}

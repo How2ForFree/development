@@ -1,0 +1,19 @@
+{
+	"updates": [
+		{
+			"version": "1.0.0",
+			"ready": true,
+			"features": [
+				"Feature 1",
+				"Feature 2"
+			]
+		}, {
+			"version": "1.0.2",
+			"ready": false,
+			"features": [
+				"Feature 1",
+				"Feature 2"
+			]
+		}
+	]
+}

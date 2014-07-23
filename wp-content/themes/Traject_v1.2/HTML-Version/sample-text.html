@@ -1,0 +1,672 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta  http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+	<meta name="author" content="Parallelus" />
+	<meta name="description" content="A brief description of this website or your business." />
+	<meta name="keywords" content="keywords, or phrases, associated, with each page, are best" />
+	<title>Traject - Aim For The Next Level</title>
+	
+	<!-- Favorites icon -->
+	<link rel="shortcut icon" href="http://para.llel.us/favicon.ico" />
+	
+	<!-- Style sheets -->
+	<link rel="stylesheet" type="text/css" href="css/reset.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/default.css" />
+	<link rel="stylesheet" type="text/css" href="css/menu.css" />
+	<link rel="stylesheet" type="text/css" href="css/fancybox.css" />
+
+	<!-- Skin Style Sheet -->
+	<link rel="stylesheet" href="css/skins/skin-1.css" type="text/css" id="SkinCSS" />
+
+	<!-- jQuery framework and utilities -->
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript"> $j = jQuery.noConflict(); </script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.min.js"></script>
+	<script type="text/javascript" src="js/hoverIntent.min.js"></script>
+	<!-- Drop down menus -->
+	<script type="text/javascript" src="js/menu.js"></script>
+	<!-- Font replacement (cufon) -->
+	<script type="text/javascript" src="js/cufon-yui.js"></script>
+	<script type="text/javascript" src="js/Vegur.font.js"></script>
+	<script type="text/javascript" src="js/Vegur.Light.font.js"></script>
+	<!-- Input labels -->
+	<script type="text/javascript" src="js/jquery.overlabel.min.js"></script>
+	<!-- Inline popups/modal windows -->
+	<script type="text/javascript" src="js/jquery.fancybox-1.3.1.pack.js"></script>
+
+	
+
+	<!-- IE only includes (PNG Fix and other things for sucky browsers -->
+	
+	<!--[if lt IE 7]>
+		<link rel="stylesheet" type="text/css" href="css/ie-6.css">
+		<script type="text/javascript" src="js/pngFix.min.js"></script>
+		<script type="text/javascript"> 
+			$j(document).ready(function(){ 
+				$j(document.body).supersleight();
+			}); 
+		</script> 
+	<![endif]-->
+	<!--[if IE]><link rel="stylesheet" type="text/css" href="css/ie-all-versions.css"><![endif]-->
+
+
+
+	<!-- BEGIN: For Demo Only -->
+		<!--			
+		These entries are only needed for demo features, such as the real-time skin changer.
+		They can be deleted for production installs without effecting the theme's design or 
+		any of the funcionality.
+		-->
+		<script type="text/javascript" src="js/demo.js"></script>	
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- END: For Demo Only -->
+
+
+
+	<!-- Functions to initialize after page load -->
+	<script type="text/javascript" src="js/onLoad.js"></script>
+
+
+</head>
+<body>
+
+<div id="Wrapper">
+
+	<div id="Top">
+		<div id="TopContainer">
+			
+			<!-- Search -->
+			<div id="SearchWrapper">
+				<div id="Search">
+					<form action="#" id="SearchForm" method="post">
+						<p style="margin:0;"><input type="text" name="SearchInput" id="SearchInput" value="" /></p>
+						<p style="margin:0;"><input type="submit" name="SearchSubmit" id="SearchSubmit" class="noStyle" value="" /></p>
+					</form>
+				</div>
+			</div>
+			
+			<!-- Main Menu: MegaMenu -->
+			<div id="MainMenu">
+				<ul id="MegaMenu">
+				
+					<li class="current"><a href="index.html">Home</a></li>
+					<li>
+						<a href="#">Features</a>
+						<div class="sub">
+							<div class="row">
+								<ul style="width: 200px;">
+									<li><h2><a href="#">Home page</a></h2></li>
+									<li><a href="index.html">Home 1 (default)</a></li>
+									<li><a href="index-2.html">Home 2 (Products)</a></li>
+									<li><a href="index-3.html">Home 3 (Nivo)</a></li>
+									<li><br /><h2><a href="sample-layout.html">Theme Resources</a></h2></li>
+									<li><a href="sample-text.html">Text Styles</a></li>
+									<li><a href="sample-layout.html">Layout Overview</a></li>
+								</ul>
+								<ul style="width: 200px;">
+									<li><h2><a href="#">Sample Pages</a></h2></li>
+									<li><a href="sample-portfolio.html">Portfolio</a></li>
+									<li><a href="sample-portfolio-2.html">Portfolio 2</a></li>
+									<li><a href="sample-blog.html">Blog</a></li>
+									<li><a href="sample-blog-page.html">Blog (single post)</a></li>
+									<li><a href="sample-contact.html">Contact Form</a></li>
+									<li><a href="sample-faq.html">FAQ's</a></li>
+								</ul>
+								<ul style="width: 200px;">
+									<li><h2><a href="#">Mega Menus</a></h2></li>
+									<li>
+										<p>Add unlimited content, links, images and detailed information in your drop-down menus with Mega Menus.</p>
+										<p>Usability testing shows mega drop-downs are more efficient and overcome the downsides of traditional menus.</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="#">Skins</a>
+						<div style="" class="sub">
+							<div class="row">
+								<ul>
+									<li style="text-align: center;"><a href="#" onclick="switchSkin('1');" style="background: none; padding: 0.75em 0;"><img class="skin" src="images/content/skin-changer/skin-1.jpg" width="130" alt="Skin 1" /></a></li>
+									<li style="text-align: center;"><h2><a href="#" onclick="switchSkin('1');">Skin 1</a></h2></li>
+								</ul>
+								<ul>
+									<li style="text-align: center;"><a href="#" onclick="switchSkin('2');" style="background: none; padding: 0.75em 0;"><img class="skin" src="images/content/skin-changer/skin-2.jpg" width="135" alt="Skin 2" /></a></li>
+									<li style="text-align: center;"><h2><a href="#" onclick="switchSkin('2');">Skin 2</a></h2></li>
+								</ul>
+								<ul>
+									<li style="text-align: center;"><a href="#" onclick="switchSkin('3');" style="background: none; padding: 0.75em 0;"><img class="skin" src="images/content/skin-changer/skin-3.jpg" width="135" alt="Skin 3" /></a></li>
+									<li style="text-align: center;"><h2><a href="#" onclick="switchSkin('3');">Skin 3</a></h2></li>
+								</ul>
+								<ul>
+									<li style="text-align: center;"><a href="#" onclick="switchSkin('4');" style="background: none; padding: 0.75em 0;"><img class="skin" src="images/content/skin-changer/skin-4.jpg" width="135" alt="Skin 4" /></a></li>
+									<li style="text-align: center;"><h2><a href="#" onclick="switchSkin('4');">Skin 4</a></h2></li>
+								</ul>
+							</div>
+							<div class="row">
+								<ul>
+									<li style="text-align: center;"><a href="#" onclick="switchSkin('5');" style="background: none; padding: 0.75em 0;"><img class="skin" src="images/content/skin-changer/skin-5.jpg" width="135" alt="Skin 5" /></a></li>
+									<li style="text-align: center;"><h2><a href="#" onclick="switchSkin('5');">Skin 5</a></h2></li>
+								</ul>
+								<ul>
+									<li style="text-align: center;"><a href="#" onclick="switchSkin('6');" style="background: none; padding: 0.75em 0;"><img class="skin" src="images/content/skin-changer/skin-6.jpg" width="135" alt="Skin 6" /></a></li>
+									<li style="text-align: center;"><h2><a href="#" onclick="switchSkin('6');">Skin 6</a></h2></li>
+								</ul>
+								<ul>
+									<li style="text-align: center;"><a href="#" onclick="switchSkin('7');" style="background: none; padding: 0.75em 0;"><img class="skin" src="images/content/skin-changer/skin-7.jpg" width="135" alt="Skin 7" /></a></li>
+									<li style="text-align: center;"><h2><a href="#" onclick="switchSkin('7');">Skin 7</a></h2></li>
+								</ul>
+								<ul>
+									<li style="text-align: center;"><a href="#" onclick="switchSkin('8');" style="background: none; padding: 0.75em 0;"><img class="skin" src="images/content/skin-changer/skin-8.jpg" width="135" alt="Skin 8" /></a></li>
+									<li style="text-align: center;"><h2><a href="#" onclick="switchSkin('8');">Skin 8</a></h2></li>
+								</ul>
+							</div>
+							<div class="row" style="text-align: center;">
+								<ul style="width: auto; float:none; ">
+									<li>
+										<label for="WideFormatDesign">
+											<input type="checkbox" id="WideFormatDesign" name="WideFormatDesign" /> Enable alternate wide format design? This will toggle the "page" style design on and off.
+										</label>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li><a href="sample-faq.html">FAQ's</a></li>	
+					<li><a href="sample-contact.html">Contact</a></li>	
+
+				</ul>
+			</div> <!-- END id="MainMenu" -->
+			
+			
+			
+			
+		</div>
+	</div> <!-- END id="Top" -->
+	
+	<a href="index.html" id="LogoHeader" class="logoMedium"></a>
+	
+	<div id="PageTop"></div>
+	<div id="PageWrapper">
+		
+		<div id="PageOverlay">
+			<div id="PageOverlayContent">
+					
+					<div class="contentArea">
+						<h1 class="pageTitle">Text Style Options</h1>
+						<div class="pageIcon"><img src="images/icons/write.png" width="128" height="128" alt="Text Samples" /></div>
+					</div>
+
+			</div> <!-- END id="PageOverlayContent" -->
+		</div> <!-- END id="PageOveraly" -->
+
+
+		<div id="Showcase">
+			<div id="ShowcaseContent">
+				<div class="contentArea">
+					<h2 class="pageTagLine">Examples of the various font formatting and text styles.</h2>
+				</div> <!-- END class="contentArea" -->
+			</div> <!-- END id="ShowcaseContent" -->
+		</div> <!-- END id="Showcase" -->
+
+
+		<div id="MainPage">
+			<div id="MainPageContent">
+				<div class="contentArea">
+					
+					<div class="two_third">
+						<div class="breadcrumbs">
+							<a href="index.html">Home</a> &nbsp;\&nbsp; <a href="#">Some Page</a> &nbsp;\&nbsp; <a href="#">Some Page</a> &nbsp;\&nbsp; This Page
+						</div>
+
+						<!-- Text samples -->
+		
+						<h2 class="title">Headings</h2>
+						<div class="hr"></div>
+		
+						<p>
+							Samples of the heading text for this theme: <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>, <code>&lt;h5&gt;</code>, <code>&lt;h6&gt;</code>
+						</p>
+						<div style="padding: 15px 35px;">
+							<h1>This is a Heading 1 Element</h1>
+							<h2>This is a Heading 2 Element</h2>
+							<h3>This is a Heading 3 Element</h3>
+							<h4>This is a Heading 4 Element</h4>
+							<h5>This is a Heading 5 Element</h5>
+							<h6>This is a Heading 6 Element</h6>
+						</div>
+						
+						<br />
+						<h2 class="title">Headlines / Page Titles</h2>
+						<div class="hr"></div>
+
+						<p>
+							Headlines are often a different color than standard headings and can be assigned to any H1-H6 tag using <code>class="headline"</code>.
+							To create a highlight, place <code>&lt;strong&gt;</code> tags around the words to be highlighted.
+						</p>
+						
+						<div style="padding: 15px 35px;">
+							<h1 class="headline">Headline with a <strong>highlight</strong>.</h1>
+							<code>&lt;h1 class="headline"&gt;Headline with a &lt;strong&gt;highlight&lt;/strong&gt;.&lt;/h1&gt;</code>
+						</div>
+							
+						<br />
+						<h2 class="title">Sub-Headings</h2>
+						<div class="hr"></div>
+
+						<p>
+							Add a sub-heading to any H1-H6 tag using <code>&lt;span class="subTitle"&gt;</code> tag.
+						</p>
+						
+						<div style="padding: 15px 35px;">
+							<h2>
+								Heading Text
+								<span class="subTitle">This is a sub-heading</span>
+							</h2>
+													
+							<code>&lt;h2&gt;Heading Text&lt;span class="subTitle"&gt;This is a sub-heading&lt;/span&gt;&lt;/h2&gt;</code>
+						</div>
+		
+						<!-- End of Content -->
+						<div class="clear"></div>
+		
+						
+					
+					</div>
+					
+					<div class="one_third last">
+					
+						<div class="sidebar">
+							<div class="sidebarBox-1">
+								<div class="sidebarBox-2">
+								
+									<h3>Sub Navigation</h3>
+									<ul class="sideNav">
+										<li><a href="#">Sample Navigation Link</a></li>
+										<li class="currentPage"><a href="#">Current Page Sample</a></li>
+										<li><a href="#">Sample Navigation Link</a></li>
+										<li><a href="#">Sample Navigation Link</a></li>
+										<li><a href="#">Sample Navigation Link</a></li>
+									</ul>
+
+									<p>&nbsp;</p>
+									
+									<div class="callout" style="margin-bottom: 0;">
+										<p style="margin-bottom: 1em;">"I'm impressed! I want to tell everyone but I'd give away my secret weapon!"</p>
+										<cite>-Leigh Smith, Park Ave. Graphics</cite>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						
+					</div>
+						
+					<!-- End of Content -->
+					<div class="clear"></div>
+
+
+					<!-- Title / Page Headline -->
+					<br />
+					<h2 class="title">List Styles</h2>
+					<div class="hr"></div>
+
+				
+					<div class="half_page">
+						
+						<h4>Bulleted Lists</h4>
+						<p>The following styles for bulleted lists are available. Add the class name associated with a bullet to the UL tag for your list to use the desired style.</p>
+						<ul class="bullet-check">
+							<li>Check mark</li> 
+							<li><code>&lt;ul class="<strong>bullet-check</strong>"&gt;</code></li>
+						</ul>
+						<ul class="bullet-black">
+							<li>Black</li> 
+							<li><code>&lt;ul class="<strong>bullet-black</strong>"&gt;</code></li>
+						</ul>
+						<ul class="bullet-gray">
+		
+							<li>Gray (defalut if no class entered)</li> 
+							<li><code>&lt;ul class="<strong>bullet-gray</strong>"&gt;</code></li>
+						</ul>
+						<ul class="bullet-silver">
+							<li>Silver</li> 
+							<li><code>&lt;ul class="<strong>bullet-silver</strong>"&gt;</code></li>
+						</ul>
+						<ul class="bullet-blue">
+							<li>Blue</li> 
+							<li><code>&lt;ul class="<strong>bullet-blue</strong>"&gt;</code></li>
+						</ul>
+						<ul class="bullet-green">
+							<li>Green</li> 
+							<li><code>&lt;ul class="<strong>bullet-green</strong>"&gt;</code></li>
+						</ul>
+						<ul class="bullet-orange">
+							<li>Orange</li> 
+							<li><code>&lt;ul class="<strong>bullet-orange</strong>"&gt;</code></li>
+						</ul>
+						<ul class="bullet-red">
+							<li>Red</li> 
+							<li><code>&lt;ul class="<strong>bullet-red</strong>"&gt;</code></li>
+						</ul>
+						<ul class="bullet-disc-black">
+							<li>Disc Black</li> 
+							<li><code>&lt;ul class="<strong>bullet-disc-black</strong>"&gt;</code></li>
+						</ul>
+						<ul class="bullet-disc-gray">
+							<li>Disc Gray</li> 
+							<li><code>&lt;ul class="<strong>bullet-disc-gray</strong>"&gt;</code></li>
+						</ul>
+						<ul class="bullet-disc-silver">
+							<li>Disc Silver</li> 
+							<li><code>&lt;ul class="<strong>bullet-disc-silver</strong>"&gt;</code></li>
+						</ul>
+						<ul class="bullet-disc-blue">
+							<li>Disc Blue</li> 
+							<li><code>&lt;ul class="<strong>bullet-disc-blue</strong>"&gt;</code></li>
+						</ul>
+						<ul class="bullet-disc-green">
+							<li>Disc Green</li> 
+							<li><code>&lt;ul class="<strong>bullet-disc-green</strong>"&gt;</code></li>
+						</ul>
+						<ul class="bullet-disc-orange">
+							<li>Disc Orange</li> 
+							<li><code>&lt;ul class="<strong>bullet-disc-orange</strong>"&gt;</code></li>
+						</ul>
+						<ul class="bullet-disc-red">
+							<li>Disc Red</li> 
+							<li><code>&lt;ul class="<strong>bullet-disc-red</strong>"&gt;</code></li>
+						</ul>
+						
+						<!-- End of Content -->
+						<div class="clear"></div>					
+					
+					</div>
+								
+					<div class="half_page last">
+						<h4>Numbered Lists</h4>
+						<p>Choose from the following numbered list styles.</p>
+						<ol class="number-pad">
+							<li>Numbered item <code>&lt;ol class="<strong>number-pad</strong>"&gt;</code></li>
+							<li>Numbered item</li>
+							<li>Numbered item</li>
+							<li>Numbered item</li>
+							<li>Numbered item</li>
+						</ol>
+						<ol>
+							<li>Numbered item (defalut, no class)</li>
+							<li>Numbered item</li>
+							<li>Numbered item</li>
+							<li>Numbered item</li>
+							<li>Numbered item</li>
+						</ol>
+		
+						<h4>Custom Lists</h4>
+						<p>
+							A custom list style for displaying previews of news or blog posts. <br />
+							<code>&lt;ul class="<strong>post-list</strong>"&gt;</code>.
+						</p>
+						<ul class="post-list" style="width: 300px;">
+							<li>
+								<a href="#" class="img"><img src="images/content/placeholder_48x48.png" width="48" height="48" alt="Recent News" style="border-color: #A9AAAB;" /></a>
+								<a href="#">News/Blog Posts List</a>
+								<p>Include information such as title, date and description.</p>
+							</li>
+							<li>
+								<a href="#" class="img"><img src="images/content/placeholder_48x48.png" width="48" height="48" alt="Recent News" style="border-color: #A9AAAB;" /></a>
+								<a href="#">News/Blog Posts List</a>
+								<p>Include information such as title, date and description.</p>
+							</li>
+							<li>
+								<a href="#" class="img"><img src="images/content/placeholder_48x48.png" width="48" height="48" alt="Recent News" style="border-color: #A9AAAB;" /></a>
+								<a href="#">News/Blog Posts List</a>
+								<p>Include information such as title, date and description.</p>
+							</li>
+						</ul>
+						<p>The "post-list" style can include the following HTML elements: <code>IMG</code>, <code>A</code>, <code>P</code>. Below is a sample implementation of the style.</p>
+<pre>
+&lt;ul class="post-list"&gt;
+&lt;li&gt;
+	&lt;img src="image.jpg" /&gt;
+	&lt;a href="#"&gt;Title&lt;/a&gt;
+	&lt;p&gt;Description text for this entry.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+	&lt;img src="image.jpg" /&gt;
+	&lt;a href="#"&gt;Title&lt;/a&gt;
+	&lt;p&gt;Description text for this entry.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+	&lt;img src="image.jpg" /&gt;
+	&lt;a href="#"&gt;Title&lt;/a&gt;
+	&lt;p&gt;Description text for this entry.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+						<!-- End of Content -->
+						<div class="clear"></div>
+						
+					</div>
+					
+					<!-- End of Content -->
+					<div class="clear"></div>
+
+					<br />
+					<h2 class="title">Blockquote</h2>
+					<div class="hr"></div>
+	
+					<blockquote>
+						<div>This is the default blockquote style applied to this theme's <code>&lt;blockquote&gt;</code> tags. Each skin has a custom color for the blockquote style. You can also create your own custom styles to match any skin using the following code in your stylesheet:</div>
+						
+<pre style="margin-top:8px;">
+blockquote {
+border-color: [your color];
+}
+</pre>
+					</blockquote>
+	
+					<br />
+					<h2 class="title">Other Text</h2>
+					<div class="hr"></div>
+	
+					<h4>Paragraph text sample:</h4>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pretium, leo ac hendrerit vulputate, libero libero congue ipsum, nec consectetur nunc arcu in tortor. Phasellus eu cursus nunc. Duis eros nulla, mollis eu molestie id, commodo gravida massa. Nullam mollis, nisl nec sodales hendrerit, diam nunc auctor arcu, eget suscipit lectus metus nec lacus.</p>
+	<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse nibh tortor, aliquet vel pellentesque ac, interdum non mauris. Donec est eros, fringilla vitae commodo non, pretium vel tortor. Quisque sed elit mi. Sed tortor nunc, egestas eu suscipit sed, faucibus a nisl. Praesent eros orci, viverra vitae vestibulum quis, luctus feugiat ipsum.</p>
+	<p>Nullam tristique nunc quis ante dapibus vel tincidunt turpis ornare. Nullam ante arcu, viverra ac rhoncus id, pretium eget magna. Aliquam quis massa urna, accumsan pellentesque sapien. </p>
+					<br />
+
+					
+					<div class="hr-small"></div>	
+
+					<p><br /></p>
+
+
+					<div class="half_page">
+					
+						<h4>Abbreviation, acronym, cite, delete, insert...</h4>
+						
+						<table cellpadding="0" cellspacing="0">
+							<tr>
+								<td style="padding: 3px 8px 3px 0;"><abbr>abbr</abbr></td>
+								<td style="padding: 3px 8px 3px 0;"><code>&lt;abbr&gt;</code></td>
+							</tr>
+							<tr>
+								<td style="padding: 3px 8px 3px 0;"><acronym>a.c.r.o.n.y.m</acronym></td>
+								<td style="padding: 3px 8px 3px 0;"><code>&lt;acronym&gt;</code></td>
+							</tr>
+							<tr>
+								<td style="padding: 3px 8px 3px 0;"><cite>This is cited.</cite></td>
+								<td style="padding: 3px 8px 3px 0;"><code>&lt;cite&gt;</code></td>
+							</tr>
+							<tr>
+								<td style="padding: 3px 8px 3px 0;"><del>Deleted text</del></td>
+								<td style="padding: 3px 8px 3px 0;"><code>&lt;del&gt;</code></td>
+							</tr>
+							<tr>
+								<td style="padding: 3px 8px 3px 0;"><ins>Inserted text</ins></td>
+								<td style="padding: 3px 8px 3px 0;"><code>&lt;ins&gt;</code></td>
+							</tr>
+							<tr>
+								<td style="padding: 3px 8px 3px 0;"><dfn>This is a definition.</dfn></td>
+								<td style="padding: 3px 8px 3px 0;"><code>&lt;dfn&gt;</code></td>
+							</tr>
+							<tr>
+								<td style="padding: 3px 8px 3px 0;"><em>With emphysis</em></td>
+								<td style="padding: 3px 8px 3px 0;"><code>&lt;em&gt;</code></td>
+							</tr>
+							<tr>
+								<td style="padding: 3px 8px 3px 0;"><strong>Strong (bold)</strong></td>
+								<td style="padding: 3px 8px 3px 0;"><code>&lt;strong&gt;</code></td>
+							</tr>
+							<tr>
+								<td style="padding: 3px 8px 3px 0;"><code>Code text sample</code></td>
+								<td style="padding: 3px 8px 3px 0;"><code>&lt;code&gt;</code></td>
+							</tr>
+						</table>
+						
+						<p><br /></p>
+
+						<!-- End of Content -->
+						<div class="clear"></div>					
+		
+					</div>
+
+					<div class="half_page last">
+					
+						<h4>Predefined text:</h4>
+<pre style="width: 400px;">
+This is predefined text with custom spacing and tabs.
+
+body {
+	margin: 0;
+	padding: 0;
+	background: none;
+	font-style: normal;
+	color: #000;
+}
+</pre> 
+		
+		
+						<p><br /></p>
+	
+						<!-- End of Content -->
+						<div class="clear"></div>					
+						
+					</div>
+					
+					
+					<!-- End of Content -->
+					<div class="clear"></div>
+					
+					<div class="hr-small"></div>	
+
+					<p><br /></p>
+
+					<h4>Table layout:</h4>
+					<table cellspacing="0" cellpadding="0" id="FeatureMatrix">
+						<tbody>
+							<tr>
+								<th id="MatrixItems">&nbsp;</th>
+								<th class="matrixColumn">
+									<h6>Column Title</h6>
+									<p><a href="#">Column Link</a></p>
+								</th>
+								<th class="matrixColumn">
+									<h6>Column Title</h6>
+									<p><a href="#">Column Link</a></p>
+								</th>
+								<th class="matrixColumn">
+									<h6>Column Title</h6>
+									<p><a href="#">Column Link</a></p>
+								</th>
+								<th class="matrixColumn">
+									<h6>Column Title</h6>
+									<p><a href="#">Column Link</a></p>
+								</th>
+							</tr>
+							<tr>
+								<td class="matrixItem">Item</td>
+								<td class="matrixOdd">value / option</td>
+								<td class="matrixEven">value / option</td>
+								<td class="matrixOdd">value / option</td>
+								<td class="matrixEven">value / option</td>
+							</tr>
+							<tr>
+								<td class="matrixItem">Item</td>
+								<td class="matrixOdd">value / option</td>
+								<td class="matrixEven">value / option</td>
+								<td class="matrixOdd">value / option</td>
+								<td class="matrixEven">value / option</td>
+							</tr>
+							<tr>
+								<td class="matrixItem">Item</td>
+								<td class="matrixOdd">value / option</td>
+								<td class="matrixEven">value / option</td>
+								<td class="matrixOdd">value / option</td>
+								<td class="matrixEven">value / option</td>
+							</tr>
+							<tr>
+								<td class="matrixItem">Item</td>
+								<td class="matrixOdd">value / option</td>
+								<td class="matrixEven">value / option</td>
+								<td class="matrixOdd">value / option</td>
+								<td class="matrixEven">value / option</td>
+							</tr>
+							<tr>
+								<td class="matrixItem last">Item</td>
+								<td class="matrixOdd checkMark last">&nbsp;</td>
+								<td class="matrixEven checkMark last">&nbsp;</td>
+								<td class="matrixOdd checkMark last">&nbsp;</td>
+								<td class="matrixEven checkMark last">&nbsp;</td>
+							</tr>
+						</tbody>
+					</table>
+	
+					<br />
+					
+					<!-- End of Content -->
+					<div class="clear"></div>					
+
+
+				</div> <!-- END class="contentArea" -->
+			</div> <!-- END id="MainPageContent" -->
+		</div> <!-- END id="MainPage" -->
+		
+		
+	</div> <!-- END id="PageWrapper" -->
+
+	<div id="FooterWrapper">
+		<div id="Footer">
+			<div id="FooterContent">
+				
+				<div class="contentArea">
+					
+					<div class="copyright right">
+						Copyright &copy; 2010 - <a href="http://para.llel.us">Parallelus</a> - All rights reserved. |  
+						Valid <a href="http://validator.w3.org/check?uri=referer">XHTML</a> &amp; 
+						<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">CSS</a>.
+					</div>
+					
+					<ul id="FooterMenu" class="horizList left">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#">Features</a></li>
+						<li><a href="sample-faq.html">FAQ's</a></li>
+						<li><a href="sample-contact.html">Contact</a></li>
+					</ul>
+					
+					<div class="clear"></div>
+					
+				</div> <!-- END class="contentArea" -->
+				
+			</div> <!-- END id="FooterContent" -->
+		</div> <!-- END id="Footer" -->
+	</div> <!-- END id="FooterWrapper" -->
+	
+</div> <!-- END id="Wrapper" -->
+
+<!-- Activate Font Replacement (cufon) -->
+<script type="text/javascript"> Cufon.now(); </script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+general:
+  # ********************************************************************  
+  # General Options
+  box_general_start:
+    type:       box_start
+    name:       General Settings
+  logo_url:        
+    name:       Logo URL
+    type:       textfield
+    default:    /wp-content/themes/trademark/files/images/logo.png
+  logo_text:        
+    name:       Logo Text
+    type:       textfield
+    default:    TRADEMARK
+  bottom_text:
+    name: Content bottom
+    type: textarea
+    default: >
+      <a href="#"><img class="alignleft" src="/wp-content/themes/trademark/files/images/icons/buy-now.png" alt="" /></a>
+      <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+      <ul class="socialize clearfix">
+      <li><a href="#"><img src="/wp-content/themes/trademark/files/images/icons/facebook.png" alt="facebook" /></a></li>
+      <li><a href="#"><img src="/wp-content/themes/trademark/files/images/icons/flickr.png" alt="flickr" /></a></li>
+      <li><a href="#"><img src="/wp-content/themes/trademark/files/images/icons/twitter.png" alt="twitter" /></a></li>
+      <li><a href="#"><img src="/wp-content/themes/trademark/files/images/icons/youtube.png" alt="youtube" /></a></li>
+      <li><a href="#"><img src="/wp-content/themes/trademark/files/images/icons/rss.png" alt="RSS" /></a></li>
+      </ul>      
+  footer_text:
+    name:       Footer Text
+    type:       textarea
+    default:    © 2010 Copyright by <a href="http://www.ait.sk">AIT</a>. All rights reserved.
+  ga_code:        
+    name:       GA Tracking Code
+    type:       textfield
+  box_general_end:
+    type: box_end
+
+  # ********************************************************************  
+  # Appearance Settings
+  box_appearance_start:
+    type:       box_start
+    name:       Appearance Settings
+  no_gradients:
+    name:       Disable Gradients
+    type:       checkbox
+  show_header_box:
+    name:		Show Header Box
+    type:       checkbox
+    desc:		If enable so disable header menu
+  header_box_width:
+    name:		Header Box Width (px)
+    type:		textfield
+    default:	100
+  header_box_text:
+    name:		Header Box Text
+    type:		textarea
+  main_menu_position:
+    name:		Main Menu Postion
+    type:       select   
+    default:    top
+    options:    { top: Top, bottom: Bottom }
+  show_themebox:
+    name:       Show Themebox
+    type:       checkbox     
+  theme_variant:
+    name:       Theme Variant
+    type:       select
+    default:    dark
+    options:    {dark: Dark, light: Light}         
+  show_featured:
+    name:       Show Featured Images in Blog
+    type:       checkbox         
+  background_color:
+    name:       Background Color
+    class:      colorpic-background
+    type:       textfield
+    default:    "#222222"     
+  header_color:
+    name:       Header Color
+    class:      colorpic-header
+    type:       textfield
+    default:    "#222222"
+  titles_color:
+    name:       Titles Color
+    class:      colorpic-titles
+    type:       textfield
+    default:    "#FFFFFF" 
+  slider_color:
+    name:       Slider Color
+    class:      colorpic-slider
+    type:       textfield
+    default:    "#444444" 
+  toolbar_color:
+    name:       Toolbar Color
+    class:      colorpic-toolbar
+    type:       textfield
+    default:    "#000000"       
+  navigation_color:
+    name:       Navigation Color
+    class:      colorpic-navigation
+    type:       textfield
+    default:    "#000000"   
+  footer_color:
+    name:       Footer Color
+    class:      colorpic-footer
+    type:       textfield
+    default:    "#000000"       
+  main_color:
+    name:       Main Color
+    class:      colorpic-main
+    type:       textfield
+    default:    "#222222"  
+  links_color:
+    name:       Links Color
+    class:      colorpic-links
+    type:       textfield
+    default:    "#b0d719"          
+  background_image:
+    name:       BG Image
+    type:       textfield  
+  background_image_v:
+    name:       BG Vertical Position
+    type:       select    
+    default:    top
+    options:    { top: Top, center: Center, bottom: Bottom, }
+  background_image_h:
+    name:       BG Horizontal Position
+    type:       select   
+    default:    top
+    options:    { left: Left, center: Center, right: Right }    
+  background_image_repeat:
+    name:       BG Repeat
+    type:       select
+    default:    no-repeat
+    options:    { no-repeat: No Repeat, repeat: Repeat, repeat-x: Repeat X, repeat-y: Repeat Y }
+  backround_attachment:
+    name:		BG Attachment
+    type:		select
+    default:	scroll
+    options:	{ scroll: Scroll, fixed: Fixed }
+  box_appearance_end:
+    type:       box_end

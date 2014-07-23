@@ -1,0 +1,18 @@
+.wpcf7                      { position: relative; }
+.wpcf7 br                   { clear: both; height: 10px; }
+.wpcf7 textarea             { background: #F4F4F4; border: 1px solid #E8E8E8; color: #636363; font-family: 'Arial', sans-serif; font-size: 12px; margin: 0px; padding: 7px 8px; width: 482px; 
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.wpcf7 input                { background: #F4F4F4; border: 1px solid #E8E8E8; color: #636363; font-family: 'Arial', sans-serif; font-size: 12px; margin: 0px; padding: 7px 8px; width: 241px; 
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.wpcf7 select               { background: #F4F4F4; border: 1px solid #E8E8E8; color: #636363; font-family: 'Arial', sans-serif; font-size: 12px; margin: 0px; padding: 7px 8px; width: 257px; }
+.wpcf7 img                  { border: 2px solid #cacaca; margin: 0px 10px 0px 0px; vertical-align: middle; }
+.wpcf7 .wpcf7-submit        { background: #f9f9f9; border: 1px solid #E8E8E8; cursor: pointer; font-weight: bold; padding: 7px 8px; position: absolute; left: 0px; width: auto; }
+.wpcf7 .button              { float: left; }
+.wpcf7 .button input        { background-color: transparent; border: 0px; padding: 0px; position: inherit; }
+.wpcf7 .button img          { display: none; font}

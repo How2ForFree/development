@@ -1,0 +1,5 @@
+The software box template file allows you to create your own software box design inside the existing PSD main folder, "Front panel". When done designing your box, select the folder "Front panel" and run the included action file (Box Template.atn) and you will get a finished 3D box with shading. 
+
+For more information on using Photoshop Actions or how to load an action into your copy of Photoshop visit:  http://forums.devshed.com/photoshop-help-88/how-to-import-actions-106127.html
+
+Or try searching: "photoshop import actions"

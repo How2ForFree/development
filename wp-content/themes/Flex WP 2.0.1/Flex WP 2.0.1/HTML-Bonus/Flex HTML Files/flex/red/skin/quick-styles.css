@@ -1,0 +1,22 @@
+body {
+	background:none;
+	background:#eee url(images/bg.gif) repeat fixed center top;
+}
+
+a {color:#a20000;}
+a:hover {color:#a20000;}
+#footer a.url {color:#fbd5d5;}
+
+.rounded {border:1px solid #DEDEDE;}
+#top_bar {background:transparent url(images/headerbg.png) repeat-x top left;}
+#right_links a{color: white !important;}
+#footer {background:black url(images/footerbg_carbon.png) repeat-x top left;}
+#footer{color: white;}
+#footer h2{color: white !important;}
+#footer a {color:#fbd5d5;}
+#footer ul li{font-style: italic;}
+
+
+
+
+

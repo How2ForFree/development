@@ -1,0 +1,117 @@
+/* INPUT FIELD CSS Copy this to your style sheet
+------------------------------------------------------------- */
+#contactform {
+	
+}
+#contactform form {
+	font:normal 11px/18px Tahoma, "Trebuchet MS", Arial, sans-serif;
+	margin:0 0;
+	padding:0;
+	margin-top:20px;
+}
+#contactform fieldset {
+	padding:10px 0;
+	margin:0 0 15px 0;
+}
+
+
+
+#contactform form label {
+	display:block;
+	float:left;
+	width:150px;
+	padding:9px 0 0 10px;
+	margin:0px;
+	text-align:left;
+}
+#contactform input.inpt, #contactform select {
+	width: 260px;
+	height: 18px;
+	float:left;
+	margin:5px 0 5px 0;
+	padding: 4px 20px 4px 9px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background-color: white;
+	border: 1px solid #cfcfcf;
+}
+
+#contactform textarea {
+	width: 434px;
+	height: 107px;
+	border: 0;
+	padding:9px;
+	margin:5px 0 5px 0;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	background-color: white;
+	border: 1px solid #cfcfcf;
+	letter-spacing: 1px;
+	font:normal 11px/18px Tahoma, "Trebuchet MS", Arial, sans-serif;
+}
+
+form br {
+	clear:left;
+}
+
+#contactform input.required {
+	background:white url('images/exc.png') center right no-repeat;
+	
+}
+
+#contactform .select select:focus {
+	border-color: #9b9b9b;
+}
+
+label#load {
+	display: none;
+}
+#contactform button
+	{
+		clear: both;
+		float: none;
+		margin: 0;
+		padding: 0;
+		margin-top: 5px;
+		display: block;
+		
+	}
+
+form.c1 input:hover,textarea:hover
+	{
+		border:1px solid #d8d8d8;
+	}
+
+/* Error / Success / Notice 
+------------------------------------------------------------- */
+
+.notes		{ background:#f0f0f0; border:1px solid #b8b8b8; }
+.success	{ background:#ccfcd1; border:1px solid #60a400; }
+.error		{ background:#f9e3e3; border:1px solid #e79e9e; }
+.notice		{ background:#fcf0cc; border:1px solid #ecc735; }
+
+.notes,.notice,.success,.error
+			{
+				padding:10px;
+				font-size:11px;
+				color:#000;
+				-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+			}
+
+.notes span,.notice span,.success span,.error span 
+			{
+				font-weight:bold;
+				font-size:1.2em;
+			}
+
+.notes p,.success p,.error p,.notice p
+			{
+				margin:0px;
+				padding:0px;
+			}
+
+#note {width:100%; }

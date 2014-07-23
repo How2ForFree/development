@@ -1,0 +1,2685 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Superb 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-20 19:29+0100\n"
+"PO-Revision-Date: 2011-02-20 19:29+0100\n"
+"Last-Translator: Miroslav Zoricak <zoricak@udesign.sk>\n"
+"Language-Team: uDesignStudios <udesign@udesign.sk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: /var/www/WP/superb/wp-content/themes/superb\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:5
+#: functions/functions-utility.php:147
+#@ uds-textdomain
+msgid "404 Not Found"
+msgstr "404 Not Found"
+
+#: 404.php:11
+#: portfolio/portfolio-template.php:86
+#@ uds-textdomain
+msgid "type here to search"
+msgstr "type here to search"
+
+#: 404.php:24
+#@ uds-textdomain
+msgid "We don't seem to have the page you requested."
+msgstr "We don't seem to have the page you requested."
+
+#: 404.php:26
+#@ uds-textdomain
+msgid "Why?"
+msgstr "Why?"
+
+#: 404.php:28
+#@ uds-textdomain
+msgid "You clicked a broken link"
+msgstr "You clicked a broken link"
+
+#: 404.php:29
+#@ uds-textdomain
+msgid "You misspelled the UR"
+msgstr "You misspelled the UR"
+
+#: 404.php:30
+#@ uds-textdomain
+msgid "The page was deleted"
+msgstr "The page was deleted"
+
+#: 404.php:32
+#@ uds-textdomain
+msgid "What now?"
+msgstr "What now?"
+
+#: 404.php:33
+#@ uds-textdomain
+msgid "You can use search box in the upper right section to search through existing pages."
+msgstr "You can use search box in the upper right section to search through existing pages."
+
+#: 404.php:35
+#@ uds-textdomain
+msgid "Or you can either pick a page from these."
+msgstr "Or you can either pick a page from these."
+
+#: archive.php:26
+#: index.php:12
+#: portfolio/portfolio-template.php:172
+#: single-uds-portfolio.php:37
+#: single.php:53
+#@ uds-textdomain
+msgid "&laquo; Older entries"
+msgstr "&laquo; Older entries"
+
+#: archive.php:27
+#: index.php:18
+#: portfolio/portfolio-template.php:178
+#: single-uds-portfolio.php:38
+#: single.php:54
+#@ uds-textdomain
+msgid "Newer entries &raquo;"
+msgstr "Newer entries &raquo;"
+
+#: archive.php:31
+#: index.php:27
+#: page-common.php:46
+#: single-uds-portfolio.php:42
+#: single.php:58
+#@ uds-textdomain
+msgid "Sorry, no posts matched your criteria"
+msgstr "Sorry, no posts matched your criteria"
+
+#: comment.php:4
+#@ uds-textdomain
+msgid "By"
+msgstr "By"
+
+#: comment.php:6
+#, php-format
+#@ uds-textdomain
+msgid "%s ago"
+msgstr "%s ago"
+
+#: comment.php:15
+#@ uds-textdomain
+msgid "(Edit)"
+msgstr "(Edit)"
+
+#: comments.php:4
+#@ uds-textdomain
+msgid "Comments"
+msgstr "Comments"
+
+#: comments.php:20
+#@ uds-textdomain
+msgid "There are no comments yet"
+msgstr "There are no comments yet"
+
+#: comments.php:29
+#@ uds-textdomain
+msgid "Log in"
+msgstr "Log in"
+
+#: comments.php:29
+#@ uds-textdomain
+msgid "to post a comment"
+msgstr "to post a comment"
+
+#: comments.php:34
+#@ uds-textdomain
+msgid "Logged in as"
+msgstr "Logged in as"
+
+#: comments.php:36
+#@ uds-textdomain
+msgid "Log out of this account"
+msgstr "Log out of this account"
+
+#: comments.php:36
+#@ uds-textdomain
+msgid "Log out &raquo;"
+msgstr "Log out &raquo;"
+
+#: comments.php:41
+#@ uds-textdomain
+msgid "Leave a comment"
+msgstr "Leave a comment"
+
+#: comments.php:41
+#, php-format
+#@ uds-textdomain
+msgid "Reply to %s"
+msgstr "Reply to %s"
+
+#: comments.php:55
+#@ uds-textdomain
+msgid "Your name"
+msgstr "Your name"
+
+#: comments.php:59
+#@ uds-textdomain
+msgid "Your email"
+msgstr "Your email"
+
+#: comments.php:65
+#@ uds-textdomain
+msgid "Comment"
+msgstr "Comment"
+
+#: comments.php:69
+#@ uds-textdomain
+msgid "Reset"
+msgstr "Reset"
+
+#: admin/importer.php:264
+#: comments.php:70
+#@ wordpress-importer
+#@ uds-textdomain
+msgid "Submit"
+msgstr "Submit"
+
+#: admin/settings.php:67
+#: functions/functions-utility.php:128
+#: functions.php:71
+#@ uds-textdomain
+msgid "Home"
+msgstr "Home"
+
+#: functions.php:73
+#@ uds-textdomain
+msgid "Displayed on the home page provided that you are displaying posts"
+msgstr "Displayed on the home page provided that you are displaying posts"
+
+#: functions.php:81
+#@ uds-textdomain
+msgid "Common"
+msgstr "Common"
+
+#: functions.php:83
+#@ uds-textdomain
+msgid "Displayed alongside the blog AND the pages"
+msgstr "Displayed alongside the blog AND the pages"
+
+#: admin/settings.php:77
+#: functions/functions-utility.php:143
+#: functions/functions-utility.php:149
+#: functions.php:91
+#@ uds-textdomain
+msgid "Blog"
+msgstr "Blog"
+
+#: functions.php:93
+#@ uds-textdomain
+msgid "Displayed alongside the blog"
+msgstr "Displayed alongside the blog"
+
+#: functions.php:101
+#@ uds-textdomain
+msgid "Page"
+msgstr "Page"
+
+#: functions.php:103
+#@ uds-textdomain
+msgid "Displayed alongside the pages"
+msgstr "Displayed alongside the pages"
+
+#: functions.php:113
+#, php-format
+#@ uds-textdomain
+msgid "Footer %u"
+msgstr "Footer %u"
+
+#: functions.php:115
+#, php-format
+#@ uds-textdomain
+msgid "Footer Column #%u"
+msgstr "Footer Column #%u"
+
+#: functions.php:128
+#@ uds-textdomain
+msgid "Per-page sidebar. Only appears on its page"
+msgstr "Per-page sidebar. Only appears on its page"
+
+#: functions.php:194
+#@ uds-textdomain
+msgid "Main Menu"
+msgstr "Main Menu"
+
+#: maintenance.php:47
+#@ uds-textdomain
+msgid "Days"
+msgstr "Days"
+
+#: maintenance.php:52
+#@ uds-textdomain
+msgid "Hours"
+msgstr "Hours"
+
+#: maintenance.php:57
+#@ uds-textdomain
+msgid "Minutes"
+msgstr "Minutes"
+
+#: maintenance.php:62
+#@ uds-textdomain
+msgid "Seconds"
+msgstr "Seconds"
+
+#: maintenance.php:70
+#@ uds-textdomain
+msgid "Meanwhile, you can follow us on Twitter. We will announce the official launch there."
+msgstr "Meanwhile, you can follow us on Twitter. We will announce the official launch there."
+
+#: maintenance.php:71
+#@ uds-textdomain
+msgid "Follow us on Twitter!"
+msgstr "Follow us on Twitter!"
+
+#: maintenance.php:75
+#@ uds-textdomain
+msgid "Unlimited color options, tons of shortcodes and options and much more :). Soon."
+msgstr "Unlimited color options, tons of shortcodes and options and much more :). Soon."
+
+#: functions/functions-post.php:144
+#: page-common.php:34
+#: single-uds-portfolio.php:24
+#: single.php:30
+#@ uds-textdomain
+#@ default
+msgid "Next page &raquo;"
+msgstr "Next page &raquo;"
+
+#: functions/functions-post.php:145
+#: page-common.php:35
+#: single-uds-portfolio.php:25
+#: single.php:31
+#@ uds-textdomain
+#@ default
+msgid "&laquo; Previous page"
+msgstr "&laquo; Previous page"
+
+#: functions/functions-utility.php:145
+#: page-tagline.php:13
+#: page-tagline.php:33
+#@ uds-textdomain
+msgid "Search"
+msgstr ""
+
+#: functions/functions-post.php:101
+#: single.php:15
+#, php-format
+#@ uds-textdomain
+msgid "Posted on %s"
+msgstr "Posted on %s"
+
+#: functions/functions-post.php:105
+#: single.php:17
+#, php-format
+#@ uds-textdomain
+msgid "Posted by %s"
+msgstr "Posted by %s"
+
+#: single.php:41
+#@ uds-textdomain
+msgid "About"
+msgstr "About"
+
+#: admin/admin-install.php:13
+#@ uds-textdomain
+msgid "Theme Installer"
+msgstr "Theme Installer"
+
+#: admin/admin-install.php:26
+#@ uds-textdomain
+msgid "Return to install settings"
+msgstr "Return to install settings"
+
+#: admin/admin-install.php:31
+#@ uds-textdomain
+msgid "Please read the accompanying documentation page carefully before using this feature!"
+msgstr "Please read the accompanying documentation page carefully before using this feature!"
+
+#: admin/admin-install.php:37
+#@ uds-textdomain
+msgid "Move original About page and Hello World post to Trash"
+msgstr "Move original About page and Hello World post to Trash"
+
+#: admin/admin-install.php:47
+#@ uds-textdomain
+msgid "Import all sample data"
+msgstr "Import all sample data"
+
+#: admin/admin-install.php:57
+#@ uds-textdomain
+msgid "Set up permalinks"
+msgstr "Set up permalinks"
+
+#: admin/admin-install.php:67
+#@ uds-textdomain
+msgid "Set up Home and Blog Pages"
+msgstr "Set up Home and Blog Pages"
+
+#: admin/admin-install.php:77
+#@ uds-textdomain
+msgid "Set up Widgets, uContact and uPricing"
+msgstr "Set up Widgets, uContact and uPricing"
+
+#: admin/admin-install.php:87
+#@ uds-textdomain
+msgid "Set up uBillboard"
+msgstr "Set up uBillboard"
+
+#: admin/admin-install.php:95
+#: admin/admin.php:370
+#: uBillboard/billboard-add.php:36
+#: uBillboard/billboard-add.php:57
+#: uContact/contact-add.php:109
+#: uPricing/pricing-products.php:78
+#: uPricing/pricing-structure.php:116
+#@ uds-textdomain
+msgid "Update"
+msgstr "Update"
+
+#: admin/admin.php:39
+#@ uds-textdomain
+msgid "Theme Options"
+msgstr "Theme Options"
+
+#: admin/admin.php:49
+#: admin/admin.php:330
+#@ uds-textdomain
+msgid "Install"
+msgstr "Install"
+
+#: admin/admin.php:193
+#@ uds-textdomain
+msgid "Already installed"
+msgstr "Already installed"
+
+#: admin/admin.php:203
+#@ uds-textdomain
+msgid "Moved Hello World post to trash"
+msgstr "Moved Hello World post to trash"
+
+#: admin/admin.php:204
+#@ uds-textdomain
+msgid "Moved About page to trash"
+msgstr "Moved About page to trash"
+
+#: admin/admin.php:230
+#@ uds-textdomain
+msgid "Setting Permalink Structure"
+msgstr "Setting Permalink Structure"
+
+#: admin/admin.php:232
+#@ uds-textdomain
+msgid "Failed to create .htaccess file"
+msgstr "Failed to create .htaccess file"
+
+#: admin/admin.php:234
+#@ uds-textdomain
+msgid "Creating .htaccess file"
+msgstr "Creating .htaccess file"
+
+#: admin/admin.php:239
+#@ uds-textdomain
+msgid "Setting Frontpage Config"
+msgstr "Setting Frontpage Config"
+
+#: admin/admin.php:247
+#@ uds-textdomain
+msgid "Setting Home and Blog Pages"
+msgstr "Setting Home and Blog Pages"
+
+#: admin/admin.php:249
+#@ uds-textdomain
+msgid "Home or Blog page does not exist"
+msgstr "Home or Blog page does not exist"
+
+#: admin/admin.php:257
+#@ uds-textdomain
+msgid "Setting up widgets, uContact and uPricing"
+msgstr "Setting up widgets, uContact and uPricing"
+
+#: admin/admin.php:268
+#@ uds-textdomain
+msgid "Setting up uBillboard"
+msgstr "Setting up uBillboard"
+
+#: admin/admin.php:290
+#, php-format
+#@ uds-textdomain
+msgid "Howdy %s, what's up?"
+msgstr "Howdy %s, what's up?"
+
+#: admin/admin.php:299
+#@ uds-textdomain
+msgid "Buy more items"
+msgstr "Buy more items"
+
+#: admin/admin.php:300
+#@ uds-textdomain
+msgid "Follow on Twitter"
+msgstr "Follow on Twitter"
+
+#: admin/admin.php:665
+#@ uds-textdomain
+msgid "Preview"
+msgstr "Preview"
+
+#: admin/admin.php:665
+#@ uds-textdomain
+msgid "Click to open Media Library"
+msgstr "Click to open Media Library"
+
+#: admin/admin.php:839
+#@ uds-textdomain
+msgid "Tagline Type"
+msgstr "Tagline Type"
+
+#: admin/admin.php:841
+#@ uds-textdomain
+msgid "No tagline"
+msgstr "No tagline"
+
+#: admin/admin.php:842
+#@ uds-textdomain
+msgid "Default tagline"
+msgstr "Default tagline"
+
+#: admin/admin.php:843
+#@ uds-textdomain
+msgid "Custom tagline"
+msgstr "Custom tagline"
+
+#: admin/admin.php:846
+#@ uds-textdomain
+msgid "Custom Tagline"
+msgstr "Custom Tagline"
+
+#: admin/admin.php:863
+#: uAd/ads-admin.php:18
+#: uAd/ads-create.php:103
+#: uAd/ads-view.php:16
+#: uPricing/pricing-admin.php:19
+#: uPricing/pricing.php:32
+#@ uds-textdomain
+msgid "Name"
+msgstr "Name"
+
+#: admin/admin.php:864
+#@ uds-textdomain
+msgid "If you fill this field, a new widget area will be created in Appearance &gt; Widgets. Widgets you add to this area will appear only on this page."
+msgstr "If you fill this field, a new widget area will be created in Appearance &gt; Widgets. Widgets you add to this area will appear only on this page."
+
+#: admin/admin.php:939
+#@ uds-textdomain
+msgid "Update File is not available"
+msgstr "Update File is not available"
+
+#: admin/admin.php:944
+#@ uds-textdomain
+msgid "Update File is corrupt"
+msgstr "Update File is corrupt"
+
+#: admin/importer.php:56
+#@ wordpress-importer
+msgid "Import WordPress"
+msgstr "Import WordPress"
+
+#: admin/importer.php:65
+#@ wordpress-importer
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+
+#: admin/importer.php:66
+#@ wordpress-importer
+msgid "Choose a WordPress WXR file to upload, then click Upload file and import."
+msgstr "Choose a WordPress WXR file to upload, then click Upload file and import."
+
+#: admin/importer.php:229
+#@ wordpress-importer
+msgid "Assign Authors"
+msgstr "Assign Authors"
+
+#: admin/importer.php:230
+#@ wordpress-importer
+msgid "To make it easier for you to edit and save the imported posts and drafts, you may want to change the name of the author of the posts. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr "To make it easier for you to edit and save the imported posts and drafts, you may want to change the name of the author of the posts. For example, you may want to import all the entries as <code>admin</code>s entries."
+
+#: admin/importer.php:233
+#@ wordpress-importer
+msgid "If a new user is created by WordPress, a password will be randomly generated. Manually change the user&#8217;s details if necessary."
+msgstr "If a new user is created by WordPress, a password will be randomly generated. Manually change the user&#8217;s details if necessary."
+
+#: admin/importer.php:246
+#@ wordpress-importer
+msgid "Import author:"
+msgstr "Import author:"
+
+#: admin/importer.php:254
+#@ wordpress-importer
+msgid "Import Attachments"
+msgstr "Import Attachments"
+
+#: admin/importer.php:257
+#@ wordpress-importer
+msgid "Download and import file attachments"
+msgstr "Download and import file attachments"
+
+#: admin/importer.php:273
+#, php-format
+#@ wordpress-importer
+msgid "Create user %1$s or map to existing"
+msgstr "Create user %1$s or map to existing"
+
+#: admin/importer.php:276
+#@ wordpress-importer
+msgid "Map to existing"
+msgstr "Map to existing"
+
+#: admin/importer.php:284
+#@ wordpress-importer
+msgid "- Select -"
+msgstr "- Select -"
+
+#: admin/importer.php:300
+#@ wordpress-importer
+msgid "Invalid file"
+msgstr "Invalid file"
+
+#: admin/importer.php:301
+#@ wordpress-importer
+msgid "Please upload a valid WXR (WordPress eXtended RSS) export file."
+msgstr "Please upload a valid WXR (WordPress eXtended RSS) export file."
+
+#: admin/importer.php:344
+#, php-format
+#@ wordpress-importer
+msgid "Importing category <em>%s</em>&#8230;"
+msgstr "Importing category <em>%s</em>&#8230;"
+
+#: admin/importer.php:366
+#, php-format
+#@ wordpress-importer
+msgid "Importing tag <em>%s</em>&#8230;"
+msgstr "Importing tag <em>%s</em>&#8230;"
+
+#: admin/importer.php:404
+#, php-format
+#@ wordpress-importer
+msgid "Importing <em>%s</em>&#8230;"
+msgstr "Importing <em>%s</em>&#8230;"
+
+#: admin/importer.php:487
+#, php-format
+#@ wordpress-importer
+msgid "Post <em>%s</em> already exists."
+msgstr "Post <em>%s</em> already exists."
+
+#: admin/importer.php:520
+#, php-format
+#@ wordpress-importer
+msgid "Importing post <em>%s</em>..."
+msgstr "Importing post <em>%s</em>..."
+
+#: admin/importer.php:644
+#, php-format
+#@ wordpress-importer
+msgid "Importing attachment <em>%s</em>... "
+msgstr "Importing attachment <em>%s</em>... "
+
+#: admin/importer.php:652
+#, php-format
+#@ wordpress-importer
+msgid "Remote file error: %s"
+msgstr "Remote file error: %s"
+
+#: admin/importer.php:660
+#@ wordpress-importer
+msgid "Zero length file, deleting"
+msgstr "Zero length file, deleting"
+
+#: admin/importer.php:669
+#@ wordpress-importer
+msgid "Invalid file type"
+msgstr "Invalid file type"
+
+#: admin/importer.php:690
+#, php-format
+#@ wordpress-importer
+msgid "Skipping attachment <em>%s</em>"
+msgstr "Skipping attachment <em>%s</em>"
+
+#: admin/importer.php:715
+#@ wordpress-importer
+msgid "Remote server did not respond"
+msgstr "Remote server did not respond"
+
+#: admin/importer.php:721
+#, php-format
+#@ wordpress-importer
+msgid "Remote file returned error response %1$d %2$s"
+msgstr "Remote file returned error response %1$d %2$s"
+
+#: admin/importer.php:725
+#@ wordpress-importer
+msgid "Remote file is incorrect size"
+msgstr "Remote file is incorrect size"
+
+#: admin/importer.php:731
+#, php-format
+#@ default
+msgid "Remote file is too large, limit is %s"
+msgstr "Remote file is too large, limit is %s"
+
+#: admin/importer.php:863
+#@ wordpress-importer
+msgid "Sorry, there has been an error."
+msgstr "Sorry, there has been an error."
+
+#: admin/settings.php:66
+#@ uds-textdomain
+msgid "Home Page Options"
+msgstr "Home Page Options"
+
+#: admin/settings.php:71
+#: portfolio/portfolio-admin.php:7
+#: uBillboard/billboard-add.php:35
+#: uPricing/pricing-structure.php:57
+#@ uds-textdomain
+msgid "General Options"
+msgstr "General Options"
+
+#: admin/settings.php:72
+#@ uds-textdomain
+msgid "General"
+msgstr "General"
+
+#: admin/settings.php:76
+#@ uds-textdomain
+msgid "Blog Options"
+msgstr "Blog Options"
+
+#: admin/settings.php:81
+#@ uds-textdomain
+msgid "Header Options"
+msgstr "Header Options"
+
+#: admin/settings.php:82
+#@ uds-textdomain
+msgid "Header"
+msgstr "Header"
+
+#: admin/settings.php:86
+#@ uds-textdomain
+msgid "Footer Options"
+msgstr "Footer Options"
+
+#: admin/settings.php:87
+#@ uds-textdomain
+msgid "Footer"
+msgstr "Footer"
+
+#: admin/settings.php:91
+#@ uds-textdomain
+msgid "Social Networks Options"
+msgstr "Social Networks Options"
+
+#: admin/settings.php:92
+#@ uds-textdomain
+msgid "Social Networks"
+msgstr "Social Networks"
+
+#: admin/settings.php:96
+#@ uds-textdomain
+msgid "Maintenance Options"
+msgstr "Maintenance Options"
+
+#: admin/settings.php:97
+#@ uds-textdomain
+msgid "Maintenance"
+msgstr "Maintenance"
+
+#: admin/settings.php:114
+#@ uds-textdomain
+msgid "Keywords"
+msgstr ""
+
+#: admin/settings.php:115
+#@ uds-textdomain
+msgid "SEO optimization keywords"
+msgstr ""
+
+#: admin/settings.php:120
+#@ uds-textdomain
+msgid "Main Color"
+msgstr ""
+
+#: admin/settings.php:121
+#@ uds-textdomain
+msgid "Set your main design color"
+msgstr ""
+
+#: admin/settings.php:126
+#@ uds-textdomain
+msgid "Breadcrumbs separator"
+msgstr ""
+
+#: admin/settings.php:132
+#@ uds-textdomain
+msgid "Favicon"
+msgstr ""
+
+#: admin/settings.php:138
+#@ uds-textdomain
+msgid "Google Analytics"
+msgstr ""
+
+#: admin/settings.php:139
+#@ uds-textdomain
+msgid "Enable/Disable Google Analytics support"
+msgstr ""
+
+#: admin/settings.php:144
+#@ uds-textdomain
+msgid "Tracking Code"
+msgstr ""
+
+#: admin/settings.php:150
+#@ uds-textdomain
+msgid "Tracking domain"
+msgstr ""
+
+#: admin/settings.php:151
+#: admin/settings.php:205
+#@ uds-textdomain
+msgid "Main tagline text"
+msgstr ""
+
+#: admin/settings.php:161
+#@ uds-textdomain
+msgid "Heading type"
+msgstr ""
+
+#: admin/settings.php:162
+#@ uds-textdomain
+msgid "Heading can be text or image"
+msgstr ""
+
+#: admin/settings.php:166
+#@ uds-textdomain
+msgid "Textual"
+msgstr ""
+
+#: admin/settings.php:167
+#: uAd/ads-create.php:108
+#: uAd/ads-view.php:20
+#: uBillboard/billboard.php:126
+#@ uds-textdomain
+msgid "Image"
+msgstr ""
+
+#: admin/settings.php:172
+#@ uds-textdomain
+msgid "Heading"
+msgstr ""
+
+#: admin/settings.php:173
+#@ uds-textdomain
+msgid "Heading text"
+msgstr ""
+
+#: admin/settings.php:178
+#@ uds-textdomain
+msgid "Subheading"
+msgstr ""
+
+#: admin/settings.php:179
+#@ uds-textdomain
+msgid "Subeading text"
+msgstr ""
+
+#: admin/settings.php:186
+#@ uds-textdomain
+msgid "Logo"
+msgstr ""
+
+#: admin/settings.php:187
+#@ uds-textdomain
+msgid "Heading logo"
+msgstr ""
+
+#: admin/settings.php:198
+#@ uds-textdomain
+msgid "Show Tagline"
+msgstr ""
+
+#: admin/settings.php:199
+#@ uds-textdomain
+msgid "Enable/Disable Tagline entirely"
+msgstr ""
+
+#: admin/settings.php:204
+#@ uds-textdomain
+msgid "Tagline text"
+msgstr ""
+
+#: admin/settings.php:206
+#@ uds-textdomain
+msgid "Superb is powerful Wordpress theme enhanced with modern techniques. Unlimited colors, 5 custom widgets, tons of shortcodes and so much more!"
+msgstr ""
+
+#: admin/settings.php:210
+#@ uds-textdomain
+msgid "Tagline link"
+msgstr ""
+
+#: admin/settings.php:216
+#@ uds-textdomain
+msgid "Tagline link text"
+msgstr ""
+
+#: admin/settings.php:218
+#@ uds-textdomain
+msgid "Take the tour"
+msgstr ""
+
+#: admin/settings.php:227
+#@ uds-textdomain
+msgid "Blog Sidebar"
+msgstr ""
+
+#: admin/settings.php:228
+#@ uds-textdomain
+msgid "Blog Sidebar position"
+msgstr ""
+
+#: admin/settings.php:232
+#@ uds-textdomain
+msgid "Right"
+msgstr ""
+
+#: admin/settings.php:233
+#@ uds-textdomain
+msgid "Left"
+msgstr ""
+
+#: admin/settings.php:237
+#@ uds-textdomain
+msgid "Blog page shows"
+msgstr ""
+
+#: admin/settings.php:238
+#@ uds-textdomain
+msgid "Auto will display excerpts only when an excerpt is available, otherwise it will display the whole content"
+msgstr ""
+
+#: admin/settings.php:242
+#@ uds-textdomain
+msgid "Auto"
+msgstr ""
+
+#: admin/settings.php:243
+#@ uds-textdomain
+msgid "Excerpts only"
+msgstr ""
+
+#: admin/settings.php:244
+#@ uds-textdomain
+msgid "Whole content"
+msgstr ""
+
+#: admin/settings.php:248
+#@ uds-textdomain
+msgid "Show author box"
+msgstr ""
+
+#: admin/settings.php:249
+#@ uds-textdomain
+msgid "Little about me box below post content"
+msgstr ""
+
+#: admin/settings.php:257
+#@ uds-textdomain
+msgid "Footer configuration"
+msgstr ""
+
+#: admin/settings.php:258
+#@ uds-textdomain
+msgid "Column configuration of the footer"
+msgstr ""
+
+#: admin/settings.php:262
+#@ uds-textdomain
+msgid "2 Columns"
+msgstr ""
+
+#: admin/settings.php:263
+#@ uds-textdomain
+msgid "3 Columns"
+msgstr ""
+
+#: admin/settings.php:264
+#@ uds-textdomain
+msgid "4 Columns"
+msgstr ""
+
+#: admin/settings.php:265
+#@ uds-textdomain
+msgid "5 Columns"
+msgstr ""
+
+#: admin/settings.php:269
+#: admin/settings.php:270
+#@ uds-textdomain
+msgid "Footer Logo"
+msgstr ""
+
+#: admin/settings.php:275
+#@ uds-textdomain
+msgid "Copyright owner"
+msgstr ""
+
+#: admin/settings.php:284
+#@ uds-textdomain
+msgid "RSS URL"
+msgstr ""
+
+#: admin/settings.php:290
+#@ uds-textdomain
+msgid "Skype URL"
+msgstr ""
+
+#: admin/settings.php:296
+#@ uds-textdomain
+msgid "Facebook URL"
+msgstr ""
+
+#: admin/settings.php:302
+#@ uds-textdomain
+msgid "Twitter URL"
+msgstr ""
+
+#: admin/settings.php:308
+#@ uds-textdomain
+msgid "Youtube URL"
+msgstr ""
+
+#: admin/settings.php:314
+#@ uds-textdomain
+msgid "Flickr URL"
+msgstr ""
+
+#: admin/settings.php:320
+#@ uds-textdomain
+msgid "LinkedIn URL"
+msgstr ""
+
+#: admin/settings.php:329
+#@ uds-textdomain
+msgid "Maintenance Mode"
+msgstr ""
+
+#: admin/settings.php:330
+#: admin/settings.php:350
+#@ uds-textdomain
+msgid "Logged users see site as usual, not logged visitors see a maintenance message"
+msgstr ""
+
+#: admin/settings.php:335
+#@ uds-textdomain
+msgid "Maintenance message"
+msgstr ""
+
+#: admin/settings.php:336
+#@ uds-textdomain
+msgid "A message to be show while under maintenance"
+msgstr ""
+
+#: admin/settings.php:337
+#@ uds-textdomain
+msgid "We are currently under maintenance. We should be back in:"
+msgstr ""
+
+#: admin/settings.php:341
+#@ uds-textdomain
+msgid "Enable social connection (Twitter)"
+msgstr ""
+
+#: admin/settings.php:342
+#@ uds-textdomain
+msgid "If Social options are filled in, links are included on the maintenance page"
+msgstr ""
+
+#: admin/settings.php:349
+#@ uds-textdomain
+msgid "Maintenance Mode Show End Date"
+msgstr ""
+
+#: admin/settings.php:355
+#@ uds-textdomain
+msgid "Maintenance End Date"
+msgstr ""
+
+#: admin/settings.php:361
+#@ uds-textdomain
+msgid "Maintenance End Time"
+msgstr ""
+
+#: functions/functions-flickr.php:28
+#: functions/functions-flickr.php:34
+#@ uds-textdomain
+msgid "Failed to download from feed"
+msgstr ""
+
+#: functions/functions-live-preview.php:29
+#@ uds-textdomain
+msgid "Apply color to all page elements"
+msgstr ""
+
+#: functions/functions-post.php:110
+#, php-format
+#@ uds-textdomain
+msgid "%u comments"
+msgstr ""
+
+#: functions/functions-post.php:130
+#: portfolio/portfolio-template.php:66
+#: portfolio/portfolio-template.php:160
+#@ uds-textdomain
+msgid "Continue reading"
+msgstr ""
+
+#: functions/functions-twitter.php:14
+#@ uds-textdomain
+msgid "cURL is not installed"
+msgstr ""
+
+#: functions/functions-twitter.php:30
+#@ uds-textdomain
+msgid "Failed to retrieve tweets"
+msgstr ""
+
+#: functions/functions-twitter.php:51
+#@ uds-textdomain
+msgid "Twitter username missing"
+msgstr ""
+
+#: functions/functions-utility.php:140
+#: portfolio/portfolio-common.php:19
+#: shortcodes/shortcodes-blog.php:123
+#@ uds-textdomain
+msgid "Portfolio"
+msgstr ""
+
+#: portfolio/portfolio-common.php:20
+#@ uds-textdomain
+msgid "Portfolio Item"
+msgstr ""
+
+#: portfolio/portfolio-common.php:31
+#@ uds-textdomain
+msgid "Tags"
+msgstr ""
+
+#: portfolio/portfolio-common.php:58
+#@ uds-textdomain
+msgid "Portfolio Options (Applies only to pages used for Portfolio)"
+msgstr ""
+
+#: portfolio/portfolio-common.php:64
+#@ uds-textdomain
+msgid "Show only posts with this tag: "
+msgstr ""
+
+#: portfolio/portfolio-common.php:65
+#@ uds-textdomain
+msgid "Will not display tag selection"
+msgstr ""
+
+#: portfolio/portfolio-common.php:83
+#@ uds-textdomain
+msgid "Options"
+msgstr ""
+
+#: portfolio/portfolio-common.php:89
+#@ uds-textdomain
+msgid "Content Type"
+msgstr ""
+
+#: portfolio/portfolio-common.php:94
+#@ uds-textdomain
+msgid "Image or other"
+msgstr ""
+
+#: portfolio/portfolio-common.php:95
+#@ uds-textdomain
+msgid "Video"
+msgstr ""
+
+#: portfolio/portfolio-common.php:99
+#@ uds-textdomain
+msgid "Do not open in lightbox"
+msgstr ""
+
+#: portfolio/portfolio-template.php:126
+#@ uds-textdomain
+msgid "Gallery"
+msgstr ""
+
+#: portfolio/portfolio-template.php:127
+#@ uds-textdomain
+msgid "3 Column"
+msgstr ""
+
+#: portfolio/portfolio-template.php:128
+#@ uds-textdomain
+msgid "2 Column"
+msgstr ""
+
+#: portfolio/portfolio-template.php:129
+#@ uds-textdomain
+msgid "1 Column"
+msgstr ""
+
+#: shortcodes/shortcodes-elements.php:59
+#@ uds-textdomain
+msgid "Top"
+msgstr ""
+
+#: shortcodes/shortcodes-gchart.php:25
+#@ uds-textdomain
+msgid "UDS Google Chart"
+msgstr ""
+
+#: shortcodes/shortcodes-widgets.php:29
+#@ default
+msgid "There are no statuses to display"
+msgstr ""
+
+#: shortcodes/shortcodes-widgets.php:44
+#@ default
+msgid "Flickr Photo Stream"
+msgstr ""
+
+#: shortcodes/shortcodes-widgets.php:75
+#@ default
+msgid "There are no photos to display"
+msgstr ""
+
+#: uAd/ads-admin.php:13
+#@ uds-textdomain
+msgid "Ads Management"
+msgstr ""
+
+#: uAd/ads-admin.php:17
+#: uBillboard/billboard-admin.php:33
+#@ uds-textdomain
+msgid "ID"
+msgstr ""
+
+#: uAd/ads-admin.php:19
+#: uAd/ads-create.php:145
+#: uAd/ads-view.php:37
+#@ uds-textdomain
+msgid "Showing"
+msgstr ""
+
+#: uAd/ads-admin.php:20
+#@ uds-textdomain
+msgid "Display From/To"
+msgstr ""
+
+#: uAd/ads-admin.php:21
+#@ uds-textdomain
+msgid "Click Limit"
+msgstr ""
+
+#: uAd/ads-admin.php:22
+#@ uds-textdomain
+msgid "Times Clicked"
+msgstr ""
+
+#: uAd/ads-admin.php:23
+#@ uds-textdomain
+msgid "Created"
+msgstr ""
+
+#: uAd/ads-admin.php:24
+#@ uds-textdomain
+msgid "Modified"
+msgstr ""
+
+#: uAd/ads-admin.php:25
+#: uPricing/pricing-structure.php:70
+#@ uds-textdomain
+msgid "Actions"
+msgstr ""
+
+#: uAd/ads-admin.php:52
+#@ uds-textdomain
+msgid "There are no ads defined yet."
+msgstr ""
+
+#: uAd/ads-admin.php:53
+#@ uds-textdomain
+msgid "You can create your first ad"
+msgstr ""
+
+#: uAd/ads-admin.php:53
+#: uBillboard/billboard-admin.php:52
+#@ uds-textdomain
+msgid "here"
+msgstr ""
+
+#: uAd/ads-common.php:213
+#: uAd/ads-create.php:203
+#@ uds-textdomain
+msgid "Create ad"
+msgstr ""
+
+#: uAd/ads-common.php:214
+#@ uds-textdomain
+msgid "View ad"
+msgstr ""
+
+#: uAd/ads-create.php:22
+#: uBillboard/billboard.php:282
+#: uContact/contact.php:234
+#@ uds-textdomain
+msgid "Security check failed"
+msgstr ""
+
+#: uAd/ads-create.php:27
+#@ uds-textdomain
+msgid "Name cannot be empty"
+msgstr ""
+
+#: uAd/ads-create.php:32
+#@ uds-textdomain
+msgid "Image cannot be empty"
+msgstr ""
+
+#: uAd/ads-create.php:37
+#@ uds-textdomain
+msgid "Destination URL cannot be empty"
+msgstr ""
+
+#: uAd/ads-create.php:62
+#@ uds-textdomain
+msgid "Ad created successfully."
+msgstr ""
+
+#: uAd/ads-create.php:64
+#@ uds-textdomain
+msgid "Failed to create ad."
+msgstr ""
+
+#: uAd/ads-create.php:69
+#@ uds-textdomain
+msgid "Ad updated successfully."
+msgstr ""
+
+#: uAd/ads-create.php:71
+#@ uds-textdomain
+msgid "Failed to update ad."
+msgstr ""
+
+#: uAd/ads-create.php:87
+#@ uds-textdomain
+msgid "Create Ad"
+msgstr ""
+
+#: uAd/ads-create.php:89
+#@ uds-textdomain
+msgid "Update Ad"
+msgstr ""
+
+#: uAd/ads-create.php:105
+#@ uds-textdomain
+msgid "Ad name, does not have to be unique, will be displayed as image title"
+msgstr ""
+
+#: uAd/ads-create.php:110
+#: uBillboard/billboard.php:701
+#: uBillboard/billboard.php:703
+#@ uds-textdomain
+msgid "Add an Image"
+msgstr ""
+
+#: uAd/ads-create.php:114
+#@ uds-textdomain
+msgid "Add Image"
+msgstr ""
+
+#: uAd/ads-create.php:119
+#@ uds-textdomain
+msgid "Ad Image (required)"
+msgstr ""
+
+#: uAd/ads-create.php:122
+#: uAd/ads-view.php:25
+#@ uds-textdomain
+msgid "Destination URL"
+msgstr ""
+
+#: uAd/ads-create.php:124
+#@ uds-textdomain
+msgid "URL that the Ad points to"
+msgstr ""
+
+#: uAd/ads-create.php:127
+#: uAd/ads-view.php:29
+#@ uds-textdomain
+msgid "Format"
+msgstr ""
+
+#: uAd/ads-create.php:135
+#@ uds-textdomain
+msgid "Ad image resolution"
+msgstr ""
+
+#: uAd/ads-create.php:138
+#: uAd/ads-view.php:33
+#@ uds-textdomain
+msgid "Click limit"
+msgstr ""
+
+#: uAd/ads-create.php:142
+#@ uds-textdomain
+msgid "Ad will automatically stop showing if click limit is reached."
+msgstr ""
+
+#: uAd/ads-create.php:149
+#@ uds-textdomain
+msgid "Unchecked will prevent Ad from showing."
+msgstr ""
+
+#: uAd/ads-create.php:152
+#: uAd/ads-view.php:41
+#: uAd/ads-widget.php:89
+#@ uds-textdomain
+msgid "Position"
+msgstr ""
+
+#: uAd/ads-create.php:160
+#@ uds-textdomain
+msgid "Shows Ad in widget with this number"
+msgstr ""
+
+#: uAd/ads-create.php:163
+#: uAd/ads-view.php:45
+#@ uds-textdomain
+msgid "Priority"
+msgstr ""
+
+#: uAd/ads-create.php:171
+#@ uds-textdomain
+msgid "This will be used to sort ads"
+msgstr ""
+
+#: uAd/ads-create.php:174
+#: uAd/ads-view.php:49
+#@ uds-textdomain
+msgid "Display from"
+msgstr ""
+
+#: uAd/ads-create.php:178
+#@ uds-textdomain
+msgid "Don't display the Ad before this date"
+msgstr ""
+
+#: uAd/ads-create.php:181
+#: uAd/ads-view.php:53
+#@ default
+#@ uds-textdomain
+msgid "Display to"
+msgstr ""
+
+#: uAd/ads-create.php:185
+#@ uds-textdomain
+msgid "Stops showing the Ad after this date"
+msgstr ""
+
+#: uAd/ads-create.php:188
+#: uAd/ads-view.php:57
+#@ uds-textdomain
+msgid "Ignore Date"
+msgstr ""
+
+#: uAd/ads-create.php:192
+#@ uds-textdomain
+msgid "Ignore previous two fields"
+msgstr ""
+
+#: uAd/ads-create.php:195
+#: uAd/ads-view.php:61
+#@ uds-textdomain
+msgid "Open in new window"
+msgstr ""
+
+#: uAd/ads-create.php:199
+#@ uds-textdomain
+msgid "Adds target=&quot;_blank&quot;"
+msgstr ""
+
+#: uAd/ads-create.php:205
+#, fuzzy
+#@ uds-textdomain
+msgid "Update ad"
+msgstr "Update"
+
+#: uAd/ads-view.php:12
+#@ uds-textdomain
+msgid "View Ad"
+msgstr ""
+
+#: uAd/ads-view.php:38
+#: uAd/ads-view.php:58
+#: uAd/ads-view.php:62
+#@ uds-textdomain
+msgid "Yes"
+msgstr ""
+
+#: uAd/ads-view.php:38
+#: uAd/ads-view.php:58
+#: uAd/ads-view.php:62
+#@ uds-textdomain
+msgid "No"
+msgstr ""
+
+#: uAd/ads-widget.php:6
+#@ uds-textdomain
+msgid "uAd widget"
+msgstr ""
+
+#: uAd/ads-widget.php:8
+#@ uds-textdomain
+msgid "UDS Ads Widget"
+msgstr ""
+
+#: uAd/ads-widget.php:83
+#: uBillboard/billboard.php:130
+#@ uds-textdomain
+msgid "Title"
+msgstr ""
+
+#: uAd/ads-widget.php:99
+#@ uds-textdomain
+msgid "Resolution"
+msgstr ""
+
+#: uBillboard/billboard-add.php:23
+#@ uds-textdomain
+msgid "Create new uBillboard"
+msgstr ""
+
+#: uBillboard/billboard-add.php:25
+#@ uds-textdomain
+msgid "Edit uBillboard"
+msgstr ""
+
+#: uBillboard/billboard-add.php:28
+#: uBillboard/billboard-admin.php:28
+#@ uds-textdomain
+#@ default
+msgid "Warning!"
+msgstr ""
+
+#: uBillboard/billboard-add.php:28
+#: uBillboard/billboard-admin.php:28
+#, php-format
+#@ uds-textdomain
+msgid "Directory %s cache is not writable!"
+msgstr ""
+
+#: uBillboard/billboard-add.php:46
+#@ uds-textdomain
+msgid "Reorder Billboard Items"
+msgstr ""
+
+#: uBillboard/billboard-add.php:46
+#: uContact/contact.php:354
+#: uPricing/pricing-products.php:65
+#: uPricing/pricing-structure.php:85
+#: uPricing/pricing-structure.php:106
+#@ uds-textdomain
+msgid "Move"
+msgstr ""
+
+#: uBillboard/billboard-add.php:47
+#@ uds-textdomain
+msgid "Delete Item"
+msgstr ""
+
+#: uBillboard/billboard-add.php:47
+#: uBillboard/billboard-admin.php:36
+#: uBillboard/billboard-admin.php:46
+#: uContact/contact-admin.php:19
+#: uContact/contact-admin.php:29
+#: uContact/contact.php:355
+#: uPricing/pricing-admin.php:25
+#: uPricing/pricing-admin.php:40
+#: uPricing/pricing-products.php:66
+#: uPricing/pricing-structure.php:88
+#: uPricing/pricing-structure.php:109
+#@ uds-textdomain
+msgid "Delete"
+msgstr ""
+
+#: uBillboard/billboard-admin.php:26
+#@ uds-textdomain
+msgid "Add/Edit uBillboards"
+msgstr ""
+
+#: uBillboard/billboard-admin.php:34
+#@ uds-textdomain
+msgid "Billboard name"
+msgstr ""
+
+#: uBillboard/billboard-admin.php:35
+#: uBillboard/billboard-admin.php:43
+#: uContact/contact-admin.php:18
+#: uContact/contact-admin.php:26
+#: uPricing/pricing-admin.php:34
+#: uPricing/pricing-admin.php:37
+#: uPricing/pricing-products.php:32
+#: uPricing/pricing-structure.php:35
+#@ uds-textdomain
+msgid "Edit"
+msgstr ""
+
+#: uBillboard/billboard-admin.php:52
+#@ uds-textdomain
+msgid "There are no billboards yet. You can create a billboard"
+msgstr ""
+
+#: uBillboard/billboard-import-export.php:2
+#@ uds-textdomain
+msgid "Import/Export uBillboards"
+msgstr ""
+
+#: uBillboard/billboard-import-export.php:9
+#@ uds-textdomain
+msgid "Export"
+msgstr ""
+
+#: uBillboard/billboard-import-export.php:10
+#, php-format
+#@ uds-textdomain
+msgid "Download your exported uBillboards %shere%s."
+msgstr ""
+
+#: uBillboard/billboard-import-export.php:13
+#: uBillboard/billboard-import-export.php:19
+#@ uds-textdomain
+msgid "Import"
+msgstr ""
+
+#: uBillboard/billboard-import-export.php:16
+#@ uds-textdomain
+msgid "Import attachments"
+msgstr ""
+
+#: uBillboard/billboard-import-export.php:18
+#@ uds-textdomain
+msgid "Upload Exported uBillboard"
+msgstr ""
+
+#: uBillboard/billboard-import-export.php:22
+#@ uds-textdomain
+msgid "Note"
+msgstr ""
+
+#: uBillboard/billboard-import-export.php:22
+#@ uds-textdomain
+msgid "Importer will attempt to download all slide images that are not located on this host."
+msgstr ""
+
+#: uBillboard/billboard.php:38
+#@ uds-textdomain
+msgid "Billboard Name"
+msgstr ""
+
+#: uBillboard/billboard.php:40
+#@ uds-textdomain
+msgid "Enter a name for this Billboard. You will use this name to create the Billboard on your site."
+msgstr ""
+
+#: uBillboard/billboard.php:45
+#@ uds-textdomain
+msgid "Billboard Width"
+msgstr ""
+
+#: uBillboard/billboard.php:47
+#@ uds-textdomain
+msgid "Billboard Width in pixels"
+msgstr ""
+
+#: uBillboard/billboard.php:52
+#@ uds-textdomain
+msgid "Billboard Height"
+msgstr ""
+
+#: uBillboard/billboard.php:54
+#@ uds-textdomain
+msgid "Billboard Height in pixels"
+msgstr ""
+
+#: uBillboard/billboard.php:59
+#@ uds-textdomain
+msgid "Square Size"
+msgstr ""
+
+#: uBillboard/billboard.php:61
+#@ uds-textdomain
+msgid "Square dimension, applies only to transitions based on squares"
+msgstr ""
+
+#: uBillboard/billboard.php:66
+#@ uds-textdomain
+msgid "Column Width"
+msgstr ""
+
+#: uBillboard/billboard.php:68
+#@ uds-textdomain
+msgid "Column width, applies only to column-based transitions"
+msgstr ""
+
+#: uBillboard/billboard.php:73
+#@ uds-textdomain
+msgid "Show Paginator"
+msgstr ""
+
+#: uBillboard/billboard.php:75
+#@ uds-textdomain
+msgid "Check to show paginator in the bottom right corner"
+msgstr ""
+
+#: uBillboard/billboard.php:80
+#@ uds-textdomain
+msgid "Show Controls"
+msgstr ""
+
+#: uBillboard/billboard.php:82
+#@ uds-textdomain
+msgid "Check to show playback controls in the bottom left corner"
+msgstr ""
+
+#: uBillboard/billboard.php:87
+#@ uds-textdomain
+msgid "Show Play/Pause button"
+msgstr ""
+
+#: uBillboard/billboard.php:89
+#@ uds-textdomain
+msgid "Unchecked will pause on hover, otherwise will show Play/Pause button"
+msgstr ""
+
+#: uBillboard/billboard.php:94
+#@ uds-textdomain
+msgid "Autoplay"
+msgstr ""
+
+#: uBillboard/billboard.php:96
+#@ uds-textdomain
+msgid "Automatically start playing slides, makes sense to turn this off only if Show Controls is enabled."
+msgstr ""
+
+#: uBillboard/billboard.php:101
+#@ uds-textdomain
+msgid "Use Automatic Image Resizing"
+msgstr ""
+
+#: uBillboard/billboard.php:103
+#@ uds-textdomain
+msgid "When checked, all your images will be resized and zoomed/stretched to fit the Billboard size"
+msgstr ""
+
+#: uBillboard/billboard.php:108
+#@ uds-textdomain
+msgid "Zoom Disproportionate Images"
+msgstr ""
+
+#: uBillboard/billboard.php:110
+#@ uds-textdomain
+msgid "When checked will crop images that don't have the same proportions as Billboard. Otherwise will stretch images to fit the Billboard"
+msgstr ""
+
+#: uBillboard/billboard.php:115
+#@ uds-textdomain
+msgid "Image Quality"
+msgstr ""
+
+#: uBillboard/billboard.php:117
+#@ uds-textdomain
+msgid "Image compression - use lower values for faster page loads and lower traffic, use high values to increase image quality. Optimal values are 60-80"
+msgstr ""
+
+#: uBillboard/billboard.php:134
+#@ uds-textdomain
+msgid "Link URL"
+msgstr ""
+
+#: uBillboard/billboard.php:138
+#: uPricing/pricing-structure.php:80
+#: uPricing/pricing-structure.php:101
+#@ uds-textdomain
+msgid "Text"
+msgstr ""
+
+#: uBillboard/billboard.php:142
+#@ uds-textdomain
+msgid "Delay"
+msgstr ""
+
+#: uBillboard/billboard.php:155
+#@ uds-textdomain
+msgid "Slide Layout"
+msgstr ""
+
+#: uBillboard/billboard.php:157
+#@ uds-textdomain
+msgid "No Description"
+msgstr ""
+
+#: uBillboard/billboard.php:158
+#@ uds-textdomain
+msgid "Stripe Left"
+msgstr ""
+
+#: uBillboard/billboard.php:159
+#@ uds-textdomain
+msgid "Stripe Right"
+msgstr ""
+
+#: uBillboard/billboard.php:160
+#@ uds-textdomain
+msgid "Stripe Bottom"
+msgstr ""
+
+#: uBillboard/billboard.php:161
+#@ uds-textdomain
+msgid "Alternate Stripe Left"
+msgstr ""
+
+#: uBillboard/billboard.php:162
+#@ uds-textdomain
+msgid "Alternate Stripe Right"
+msgstr ""
+
+#: uBillboard/billboard.php:163
+#@ uds-textdomain
+msgid "Alternate Stripe Bottom"
+msgstr ""
+
+#: uBillboard/billboard.php:169
+#@ uds-textdomain
+msgid "Transition"
+msgstr ""
+
+#: uBillboard/billboard.php:171
+#@ uds-textdomain
+msgid "Random"
+msgstr ""
+
+#: uBillboard/billboard.php:172
+#@ uds-textdomain
+msgid "Fade"
+msgstr ""
+
+#: uBillboard/billboard.php:173
+#@ uds-textdomain
+msgid "Slide from Left"
+msgstr ""
+
+#: uBillboard/billboard.php:174
+#@ uds-textdomain
+msgid "Slide from Top"
+msgstr ""
+
+#: uBillboard/billboard.php:175
+#@ uds-textdomain
+msgid "Slide from Right"
+msgstr ""
+
+#: uBillboard/billboard.php:176
+#@ uds-textdomain
+msgid "Slide from Bottom"
+msgstr ""
+
+#: uBillboard/billboard.php:177
+#@ uds-textdomain
+msgid "Scale from Top"
+msgstr ""
+
+#: uBillboard/billboard.php:178
+#@ uds-textdomain
+msgid "Scale from Center"
+msgstr ""
+
+#: uBillboard/billboard.php:179
+#@ uds-textdomain
+msgid "Scale from Bottom"
+msgstr ""
+
+#: uBillboard/billboard.php:180
+#@ uds-textdomain
+msgid "Scale from Right"
+msgstr ""
+
+#: uBillboard/billboard.php:181
+#@ uds-textdomain
+msgid "Scale from Left"
+msgstr ""
+
+#: uBillboard/billboard.php:182
+#@ uds-textdomain
+msgid "Squares Random"
+msgstr ""
+
+#: uBillboard/billboard.php:183
+#@ uds-textdomain
+msgid "Squares by Rows"
+msgstr ""
+
+#: uBillboard/billboard.php:184
+#@ uds-textdomain
+msgid "Squares by Columns"
+msgstr ""
+
+#: uBillboard/billboard.php:185
+#@ uds-textdomain
+msgid "Squares Fly in"
+msgstr ""
+
+#: uBillboard/billboard.php:186
+#@ uds-textdomain
+msgid "Squares Fly out"
+msgstr ""
+
+#: uBillboard/billboard.php:187
+#@ uds-textdomain
+msgid "Columns Random"
+msgstr ""
+
+#: uBillboard/billboard.php:188
+#@ uds-textdomain
+msgid "Column Wave"
+msgstr ""
+
+#: uBillboard/billboard.php:189
+#@ uds-textdomain
+msgid "Curtain Right"
+msgstr ""
+
+#: uBillboard/billboard.php:190
+#@ uds-textdomain
+msgid "Curtain Left"
+msgstr ""
+
+#: uBillboard/billboard.php:191
+#@ uds-textdomain
+msgid "Curtain Rotate Right"
+msgstr ""
+
+#: uBillboard/billboard.php:192
+#@ uds-textdomain
+msgid "Curtain Rotate Left"
+msgstr ""
+
+#: uBillboard/billboard.php:193
+#@ uds-textdomain
+msgid "Interweave Left"
+msgstr ""
+
+#: uBillboard/billboard.php:194
+#@ uds-textdomain
+msgid "Interweave Right"
+msgstr ""
+
+#: uBillboard/billboard.php:379
+#@ uds-textdomain
+msgid "uBillboard"
+msgstr ""
+
+#: uBillboard/billboard.php:380
+#@ uds-textdomain
+msgid "Add Billboard"
+msgstr ""
+
+#: uBillboard/billboard.php:381
+#@ uds-textdomain
+msgid "Import/Export"
+msgstr ""
+
+#: uBillboard/billboard.php:438
+#@ uds-textdomain
+msgid "Import file is empty"
+msgstr ""
+
+#: uBillboard/billboard.php:445
+#@ uds-textdomain
+msgid "Import file is corrupted"
+msgstr ""
+
+#: uBillboard/billboard.php:484
+#, php-format
+#@ uds-textdomain
+msgid "Failed to save image to %s"
+msgstr ""
+
+#: uBillboard/billboard.php:488
+#@ uds-textdomain
+msgid "Uploads dir is not writable"
+msgstr ""
+
+#: uBillboard/billboard.php:492
+#@ uds-textdomain
+msgid "Failed to download image"
+msgstr ""
+
+#: uBillboard/billboard.php:870
+#@ uds-textdomain
+msgid "Read more"
+msgstr ""
+
+#: uContact/contact-add.php:21
+#@ uds-textdomain
+msgid "Secuity check failed"
+msgstr ""
+
+#: uContact/contact-add.php:31
+#@ uds-textdomain
+msgid "Create new Contact Form"
+msgstr ""
+
+#: uContact/contact-add.php:33
+#@ uds-textdomain
+msgid "Edit Contact Form"
+msgstr ""
+
+#: uContact/contact-add.php:36
+#@ uds-textdomain
+msgid "Drag Contact form field types from the left to the right to create contact form."
+msgstr ""
+
+#: uContact/contact-add.php:44
+#, php-format
+#@ uds-textdomain
+msgid "Drag to create %s"
+msgstr ""
+
+#: uContact/contact-add.php:51
+#@ uds-textdomain
+msgid "Help"
+msgstr ""
+
+#: uContact/contact-add.php:52
+#@ uds-textdomain
+msgid "Hover over page elements to display contextual help"
+msgstr ""
+
+#: uContact/contact-add.php:68
+#@ uds-textdomain
+msgid "Form name"
+msgstr ""
+
+#: uContact/contact-add.php:73
+#@ uds-textdomain
+msgid "Submit Button Text"
+msgstr ""
+
+#: uContact/contact-add.php:78
+#@ uds-textdomain
+msgid "Send To Email Address"
+msgstr ""
+
+#: uContact/contact-add.php:83
+#@ uds-textdomain
+msgid "Use Captcha"
+msgstr ""
+
+#: uContact/contact-add.php:89
+#@ uds-textdomain
+msgid "reCaptcha Public Key"
+msgstr ""
+
+#: uContact/contact-add.php:94
+#@ uds-textdomain
+msgid "reCaptcha Private Key"
+msgstr ""
+
+#: uContact/contact-add.php:106
+#@ uds-textdomain
+msgid "Drop Fields Here"
+msgstr ""
+
+#: uContact/contact-add.php:109
+#@ uds-textdomain
+msgid "Create"
+msgstr ""
+
+#: uContact/contact-admin.php:12
+#@ uds-textdomain
+msgid "Add/Edit Contact Forms"
+msgstr ""
+
+#: uContact/contact-admin.php:16
+#@ uds-textdomain
+msgid "Contact form name"
+msgstr ""
+
+#: uContact/contact-admin.php:17
+#: uPricing/pricing-admin.php:20
+#@ uds-textdomain
+msgid "Shortcode"
+msgstr ""
+
+#: uContact/contact-admin.php:35
+#, php-format
+#@ uds-textdomain
+msgid "There are no Contact forms defined yet. Create your first one %shere%s."
+msgstr ""
+
+#: uContact/contact-widget.php:6
+#@ uds-textdomain
+msgid "Displays Contact Form in a widget area"
+msgstr ""
+
+#: uContact/contact-widget.php:8
+#: uContact/contact.php:183
+#@ uds-textdomain
+msgid "uContact"
+msgstr ""
+
+#: uContact/contact-widget.php:33
+#: widgets/widget-contact.php:42
+#: widgets/widget-flickr.php:60
+#: widgets/widget-popular-posts.php:45
+#: widgets/widget-recent-popular-posts.php:47
+#: widgets/widget-slideshow.php:52
+#: widgets/widget-twitter.php:61
+#@ uds-textdomain
+#@ default
+msgid "Title:"
+msgstr ""
+
+#: uContact/contact-widget.php:34
+#@ uds-textdomain
+msgid "Contact form name:"
+msgstr ""
+
+#: uContact/contact.php:24
+#@ uds-textdomain
+msgid "Text field"
+msgstr ""
+
+#: uContact/contact.php:25
+#@ uds-textdomain
+msgid ""
+"<p>Regular textfield. Can be used for any data that is either \n"
+"\t\t\ta singular value (like numbers) or short strings (few words or a sentence).\n"
+"\t\t\t</p><p>Validators include email and required.</p>"
+msgstr ""
+
+#: uContact/contact.php:41
+#@ uds-textdomain
+msgid "Text area"
+msgstr ""
+
+#: uContact/contact.php:42
+#@ uds-textdomain
+msgid ""
+"<p>Regular textarea. Used for longer chunks of text (like a Message), \n"
+"\t\t\tprovides multiline input. Can be marked as &quot;required&quot;</p>"
+msgstr ""
+
+#: uContact/contact.php:56
+#@ uds-textdomain
+msgid "&quot;Reply to&quot; Email"
+msgstr ""
+
+#: uContact/contact.php:57
+#@ uds-textdomain
+msgid ""
+"<p>&quot;Reply To&quot; Email. If you use this field instead of\n"
+"\t\t\tthe standard textfield with email validation, the email supplied here will be\n"
+"\t\t\tused in the &quot;Reply-to&quot; email header. So if you reply to the email \n"
+"\t\t\tfrom this contact form, you will reply directly to the person who wrote you.</p>"
+msgstr ""
+
+#: uContact/contact.php:62
+#@ uds-textdomain
+msgid "E-mail"
+msgstr ""
+
+#: uContact/contact.php:75
+#@ uds-textdomain
+msgid "reCaptcha"
+msgstr ""
+
+#: uContact/contact.php:76
+#@ uds-textdomain
+msgid ""
+"<p>Captcha field. Enable this option if you are getting a lot of spam\n"
+"\t\t\tfrom this contact form. We use reCaptcha, so you&quot;ll need to apply for an\n"
+"\t\t\tAPI key. Enable captcha on the right side and then drag this to the contact form\n"
+"\t\t\tto create the captcha field</p>"
+msgstr ""
+
+#: uContact/contact.php:81
+#: uContact/contact.php:108
+#@ uds-textdomain
+msgid "Captcha"
+msgstr ""
+
+#: uContact/contact.php:98
+#@ uds-textdomain
+msgid "Non-empty"
+msgstr ""
+
+#: uContact/contact.php:99
+#@ uds-textdomain
+msgid "Can be used for textfields, textareas, etc."
+msgstr ""
+
+#: uContact/contact.php:100
+#, php-format
+#@ uds-textdomain
+msgid "%FIELD% can not be empty"
+msgstr ""
+
+#: uContact/contact.php:103
+#@ uds-textdomain
+msgid "Email"
+msgstr ""
+
+#: uContact/contact.php:104
+#@ uds-textdomain
+msgid "Email validation, can be used for textfields"
+msgstr ""
+
+#: uContact/contact.php:105
+#, php-format
+#@ uds-textdomain
+msgid "%VALUE% is not a valid email address"
+msgstr ""
+
+#: uContact/contact.php:109
+#@ uds-textdomain
+msgid "Captcha validator"
+msgstr ""
+
+#: uContact/contact.php:110
+#: uContact/contact.php:464
+#@ uds-textdomain
+msgid "Captcha verification failed"
+msgstr ""
+
+#: uContact/contact.php:184
+#@ uds-textdomain
+msgid "Add Contact Form"
+msgstr ""
+
+#: uContact/contact.php:474
+#, php-format
+#@ uds-textdomain
+msgid "Field %s is required"
+msgstr ""
+
+#: uContact/contact.php:498
+#@ uds-textdomain
+msgid "Sent From"
+msgstr ""
+
+#: uContact/contact.php:499
+#@ uds-textdomain
+msgid "Contact Form Name"
+msgstr ""
+
+#: uContact/contact.php:503
+#@ uds-textdomain
+msgid "From"
+msgstr ""
+
+#: uContact/contact.php:509
+#@ uds-textdomain
+msgid "Successfuly sent"
+msgstr ""
+
+#: uContact/contact.php:512
+#@ uds-textdomain
+msgid "Failed to send email"
+msgstr ""
+
+#: uContact/contact.php:516
+#@ uds-textdomain
+msgid "Form verification failed"
+msgstr ""
+
+#: uContact/contact.php:526
+#, php-format
+#@ uds-textdomain
+msgid "Contact form named: %s does not exist"
+msgstr ""
+
+#: uContact/contact.php:564
+#@ uds-textdomain
+msgid "Contact"
+msgstr ""
+
+#: uPricing/pricing-admin.php:12
+#@ uds-textdomain
+msgid "Pricing Tables"
+msgstr ""
+
+#: uPricing/pricing-admin.php:15
+#@ uds-textdomain
+msgid "Create new Pricing Table"
+msgstr ""
+
+#: uPricing/pricing-admin.php:21
+#: uPricing/pricing-structure.php:64
+#: uPricing/pricing.php:420
+#@ uds-textdomain
+msgid "Properties"
+msgstr ""
+
+#: uPricing/pricing-admin.php:22
+#: uPricing/pricing.php:263
+#@ uds-textdomain
+msgid "Products"
+msgstr ""
+
+#: uPricing/pricing-admin.php:23
+#: uPricing/pricing-products.php:56
+#@ uds-textdomain
+msgid "Edit Structure"
+msgstr ""
+
+#: uPricing/pricing-admin.php:24
+#: uPricing/pricing-products.php:54
+#@ uds-textdomain
+msgid "Edit Products"
+msgstr ""
+
+#: uPricing/pricing-admin.php:46
+#, php-format
+#@ uds-textdomain
+msgid "There are no Pricing tables defined yet. Create your first one %shere%s."
+msgstr ""
+
+#: uPricing/pricing-products.php:29
+#@ uds-textdomain
+msgid "Edit Pricing Table Products"
+msgstr ""
+
+#: uPricing/pricing-products.php:38
+#: uPricing/pricing-structure.php:41
+#@ uds-textdomain
+msgid "Load"
+msgstr ""
+
+#: uPricing/pricing-products.php:55
+#@ uds-textdomain
+msgid "Open All"
+msgstr ""
+
+#: uPricing/pricing-products.php:57
+#@ uds-textdomain
+msgid "Don't render any product as Featured"
+msgstr ""
+
+#: uPricing/pricing-products.php:74
+#@ uds-textdomain
+msgid "Add new"
+msgstr ""
+
+#: uPricing/pricing-products.php:83
+#@ uds-textdomain
+msgid "You need to select a table that you want to add products to."
+msgstr ""
+
+#: uPricing/pricing-structure.php:29
+#@ uds-textdomain
+msgid "Create new Pricing Table structure"
+msgstr ""
+
+#: uPricing/pricing-structure.php:31
+#@ uds-textdomain
+msgid "Edit Pricing Table Structure"
+msgstr ""
+
+#: uPricing/pricing-structure.php:59
+#@ uds-textdomain
+msgid "Add/Edit Products"
+msgstr ""
+
+#: uPricing/pricing-structure.php:68
+#@ uds-textdomain
+msgid "Label"
+msgstr ""
+
+#: uPricing/pricing-structure.php:69
+#@ uds-textdomain
+msgid "Type"
+msgstr ""
+
+#: uPricing/pricing-structure.php:81
+#: uPricing/pricing-structure.php:102
+#@ uds-textdomain
+msgid "Checkbox"
+msgstr ""
+
+#: uPricing/pricing-structure.php:112
+#@ uds-textdomain
+msgid "Add"
+msgstr ""
+
+#: uPricing/pricing.php:38
+#@ uds-textdomain
+msgid "Skin"
+msgstr ""
+
+#: uPricing/pricing.php:40
+#@ uds-textdomain
+msgid "Default"
+msgstr ""
+
+#: uPricing/pricing.php:41
+#@ uds-textdomain
+msgid "Dark"
+msgstr ""
+
+#: uPricing/pricing.php:42
+#@ uds-textdomain
+msgid "Light"
+msgstr ""
+
+#: uPricing/pricing.php:43
+#@ uds-textdomain
+msgid "Blue and yellow"
+msgstr ""
+
+#: uPricing/pricing.php:44
+#@ uds-textdomain
+msgid "Lime"
+msgstr ""
+
+#: uPricing/pricing.php:54
+#@ uds-textdomain
+msgid "Product Name"
+msgstr ""
+
+#: uPricing/pricing.php:56
+#@ uds-textdomain
+msgid "Name of the product you are comparing"
+msgstr ""
+
+#: uPricing/pricing.php:60
+#@ uds-textdomain
+msgid "Product Price"
+msgstr ""
+
+#: uPricing/pricing.php:62
+#@ uds-textdomain
+msgid "Price of the product, include currency, exclude units"
+msgstr ""
+
+#: uPricing/pricing.php:66
+#@ uds-textdomain
+msgid "Unit"
+msgstr ""
+
+#: uPricing/pricing.php:68
+#@ uds-textdomain
+msgid "Unit of the price of the product (e.g. /month, per piece, per kilo)"
+msgstr ""
+
+#: uPricing/pricing.php:72
+#@ uds-textdomain
+msgid "Call to action Link"
+msgstr ""
+
+#: uPricing/pricing.php:74
+#@ uds-textdomain
+msgid "URL of the product page"
+msgstr ""
+
+#: uPricing/pricing.php:78
+#@ uds-textdomain
+msgid "Call to action Label"
+msgstr ""
+
+#: uPricing/pricing.php:80
+#@ uds-textdomain
+msgid "Call to action button text (e.g. Buy This!)"
+msgstr ""
+
+#: uPricing/pricing.php:84
+#@ uds-textdomain
+msgid "Featured"
+msgstr ""
+
+#: uPricing/pricing.php:86
+#@ uds-textdomain
+msgid "One product can be featured"
+msgstr ""
+
+#: uPricing/pricing.php:261
+#@ uds-textdomain
+msgid "uPricing"
+msgstr ""
+
+#: uPricing/pricing.php:262
+#@ uds-textdomain
+msgid "Structure"
+msgstr ""
+
+#: uPricing/pricing.php:530
+#@ uds-textdomain
+msgid "Table name can not be empty"
+msgstr ""
+
+#: uPricing/pricing.php:577
+#@ uds-textdomain
+msgid "This pricing table does not exist!"
+msgstr ""
+
+#: uPricing/pricing.php:688
+#@ uds-textdomain
+msgid "There are no Pricing Tables defined."
+msgstr ""
+
+#: uPricing/pricing.php:704
+#, php-format
+#@ uds-textdomain
+msgid "Pricing Table named %s does not exist."
+msgstr ""
+
+#: uPricing/pricing.php:708
+#, php-format
+#@ uds-textdomain
+msgid "Pricing Table named %s does not have any Properties."
+msgstr ""
+
+#: uPricing/pricing.php:712
+#, php-format
+#@ uds-textdomain
+msgid "Pricing Table named %s does not have any Products."
+msgstr ""
+
+#: widgets/widget-flickr.php:8
+#@ uds-textdomain
+msgid "Displays photos from a Flickr Feed"
+msgstr ""
+
+#: widgets/widget-flickr.php:10
+#@ uds-textdomain
+msgid "UDS Flickr"
+msgstr ""
+
+#: widgets/widget-flickr.php:61
+#@ uds-textdomain
+msgid "Flickr ID:"
+msgstr ""
+
+#: widgets/widget-flickr.php:62
+#@ uds-textdomain
+msgid "Flickr IDs:"
+msgstr ""
+
+#: widgets/widget-flickr.php:63
+#@ uds-textdomain
+msgid "Flickr Tags:"
+msgstr ""
+
+#: widgets/widget-flickr.php:64
+#@ uds-textdomain
+msgid "Flickr Tagmode (any or all):"
+msgstr ""
+
+#: widgets/widget-gmap.php:6
+#@ uds-textdomain
+msgid "Displays Google Map. With the new API v3, no API key is needed."
+msgstr ""
+
+#: widgets/widget-gmap.php:8
+#@ uds-textdomain
+msgid "UDS Google Map"
+msgstr ""
+
+#: widgets/widget-popular-posts.php:6
+#@ uds-textdomain
+msgid "Displays most popular posts based on comment count"
+msgstr ""
+
+#: widgets/widget-popular-posts.php:8
+#@ uds-textdomain
+msgid "UDS Popular Posts"
+msgstr ""
+
+#: widgets/widget-popular-posts.php:46
+#: widgets/widget-recent-popular-posts.php:48
+#@ uds-textdomain
+msgid "Post Count:"
+msgstr ""
+
+#: widgets/widget-recent-popular-posts.php:6
+#@ uds-textdomain
+msgid "Similar to Popular Posts, but prefers newer posts over older ones"
+msgstr ""
+
+#: widgets/widget-recent-popular-posts.php:8
+#@ uds-textdomain
+msgid "UDS Recent Popular Posts"
+msgstr ""
+
+#: widgets/widget-twitter.php:7
+#@ uds-textdomain
+msgid "UDS Twitter"
+msgstr ""
+
+#: widgets/widget-twitter.php:41
+#@ uds-textdomain
+msgid "follow us on twitter"
+msgstr ""
+
+#: widgets/widget-twitter.php:62
+#@ uds-textdomain
+msgid "Twitter Screen Name:"
+msgstr ""
+
+#: widgets/widget-twitter.php:63
+#@ uds-textdomain
+msgid "Tweet count:"
+msgstr ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: admin/admin.php:294
+#@ uds-textdomain
+msgid "update is available on ThemeForest"
+msgid_plural "updates are available on ThemeForest"
+msgstr[0] ""
+msgstr[1] ""
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: admin/importer.php:616
+#, php-format
+#@ wordpress-importer
+msgid "(%s comment)"
+msgid_plural "(%s comments)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: shortcodes/shortcodes-blog.php:48
+#@ uds-textdomain
+msgid "Pages"
+msgstr ""
+
+#: shortcodes/shortcodes-blog.php:73
+#@ uds-textdomain
+msgid "Posts"
+msgstr ""
+
+#: shortcodes/shortcodes-blog.php:89
+#@ uds-textdomain
+msgid "Categories"
+msgstr ""
+
+#: uPricing/pricing.php:535
+#@ uds-textdomain
+msgid "There already is a table named &quot;&quot;"
+msgstr ""
+
+#: widgets/widget-contact.php:8
+#@ uds-textdomain
+msgid "Displays contact info in a styled fashion"
+msgstr ""
+
+#: widgets/widget-contact.php:10
+#@ uds-textdomain
+msgid "Contact Info"
+msgstr ""
+
+#: widgets/widget-contact.php:43
+#@ uds-textdomain
+msgid "Name:"
+msgstr ""
+
+#: widgets/widget-contact.php:44
+#@ uds-textdomain
+msgid "E-mail:"
+msgstr ""
+
+#: widgets/widget-contact.php:45
+#@ uds-textdomain
+msgid "Phone:"
+msgstr ""
+
+#: widgets/widget-contact.php:46
+#@ uds-textdomain
+msgid "Address Line 1:"
+msgstr ""
+
+#: widgets/widget-contact.php:47
+#@ uds-textdomain
+msgid "Address Line 2:"
+msgstr ""
+
+#: widgets/widget-contact.php:48
+#@ uds-textdomain
+msgid "Address Line 3:"
+msgstr ""
+

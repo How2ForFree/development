@@ -1,0 +1,13 @@
+This WordPress theme is comprised of two parts:
+
+
+ 
+
+First part: The PHP/HTML/CSS/JavaScript/Design code are licensed according to the 
+license purchased. You can read about it on ThemeForest.net site under address 
+http://themeforest.net/legal/licences
+
+
+Second part: WordPress code is licensed under GPL license. You can read about it under address http://codex.wordpress.org/GPL
+
+  

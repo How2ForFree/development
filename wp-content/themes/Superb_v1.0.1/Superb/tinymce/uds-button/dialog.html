@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>UDS Button</title>
+	<script type="text/javascript" src="../tiny_mce_popup.js"></script>
+	<script type="text/javascript" src="../utils/mctabs.js"></script>
+	<script type="text/javascript" src="../utils/form_utils.js"></script>
+	<script type="text/javascript">
+		var udsButton = {
+			init : function(ed) {
+				var dom = ed.dom, f = document.forms[0], n = ed.selection.getNode(), w;
+				
+				//f.text.value = ed.selection.getContent();
+			},
+		
+			update : function() {
+				var ed = tinyMCEPopup.editor, f = document.forms[0], st = '';
+		
+				var content = ed.selection.getContent();
+				
+				var type = '';
+				if(f.type.value != '') {
+					type = ' type="' + f.type.value + '"';
+				}
+				
+				var link = '';
+				if(f.link.value != '') {
+					link = ' link="' + f.link.value + '"';
+				}
+				
+				var target = '';
+				if(f.target.value != '') {
+					target = ' target="' + f.target.value + '"';
+				}
+				
+				var align = '';
+				if(f.align.value != '') {
+					align = ' align="' + f.align.value + '"';
+				}
+				
+				var text = '';
+				if(f.text.value != '') {
+					text = f.text.value;
+				} else {
+					text = content;
+				}
+				
+				var code = '[button '+type+link+target+align+']' + text + '[/button]';
+				
+				ed.execCommand("mceInsertContent", false, code);
+				tinyMCEPopup.close();
+			}
+		};
+		
+		tinyMCEPopup.requireLangPack();
+		tinyMCEPopup.onInit.add(udsButton.init, udsButton);
+	</script>
+	<style>
+	#general_panel table {
+		width: 100%;
+	}
+	
+	.panel_wrapper div.current {
+		height: auto;
+	}
+	
+	textarea#text {
+		width: 100%;
+		height: 100px;
+	}
+	</style>
+</head>
+<body>
+<form onsubmit="udsButton.update();return false;" action="#">
+	<div class="tabs">
+		<ul>
+			<li id="general_tab" class="current"><span><a href="javascript:mcTabs.displayTab('general_tab','general_panel');" onmousedown="return false;">UDS Button</a></span></li>
+		</ul>
+	</div>
+
+	<div class="panel_wrapper">
+		<div id="general_panel" class="panel current">
+			<table border="0" cellpadding="4" cellspacing="0">
+					<tr>
+                        <td><label for="link">Link</label></td>
+                        <td>
+                        	<input type="text" name="link" id="link" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="text">Button Text</label></td>
+                        <td>
+                        	<input type="text" name="text" id="text" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="target">Open in</label></td>
+                        <td>
+                        	<select name="target" id="target">
+                        		<option value="">Same Window</option>
+                        		<option value="_blank">New Window</option>
+                        	</select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="align">Align</label></td>
+                        <td>
+                        	<select name="align" id="align">
+	                        	<option value="">None</option>
+                        		<option value="left">Left</option>
+                        		<option value="right">Right</option>
+                        	</select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="type">Type</label></td>
+                        <td>
+                        	<select name="type" id="type">
+                        		<option value="">Normal</option>
+                        		<option value="transformable">Main theme color</option>
+                        		<option value="black">Black</option>
+                        		<option value="blue">Blue</option>
+                        		<option value="brown">Brown</option>
+                        		<option value="green">Green</option>
+                        		<option value="grey">Grey</option>
+                        		<option value="orange">Orange</option>
+                        		<option value="purple">Purple</option>
+                        		<option value="red">Red</option>
+                        		<option value="yellow">Yellow</option>
+                        	</select>
+                        </td>
+                    </tr>
+            </table>
+		</div>
+	</div>
+
+	<div class="mceActionPanel">
+		<div style="float: left">
+			<input type="submit" id="insert" name="insert" value="{#insert}" />
+		</div>
+
+		<div style="float: right">
+			<input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+		</div>
+	</div>
+</form>
+</body>
+</html>

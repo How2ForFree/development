@@ -1,0 +1,11 @@
+.clearfix 	{ height: 1%; }
+
+#navigation-header ul,
+.widget-container ul.menu,
+.widget-container ul.menu ul,
+.widget_categories li,
+.widget_archive ul,
+.widget_flickr ul,
+.gallery,
+.wpcf7 p,
+.navigation	 			{ height: 1%; }

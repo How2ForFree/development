@@ -1,0 +1,546 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta  http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+	<meta name="author" content="Parallelus" />
+	<meta name="description" content="A brief description of this website or your business." />
+	<meta name="keywords" content="keywords, or phrases, associated, with each page, are best" />
+	<title>Traject - Aim For The Next Level</title>
+	
+	<!-- Favorites icon -->
+	<link rel="shortcut icon" href="http://para.llel.us/favicon.ico" />
+	
+	<!-- Style sheets -->
+	<link rel="stylesheet" type="text/css" href="css/reset.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/default.css" />
+	<link rel="stylesheet" type="text/css" href="css/menu.css" />
+	<link rel="stylesheet" type="text/css" href="css/fancybox.css" />
+
+	<!-- Skin Style Sheet -->
+	<link rel="stylesheet" href="css/skins/skin-1.css" type="text/css" id="SkinCSS" />
+
+	<!-- jQuery framework and utilities -->
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript"> $j = jQuery.noConflict(); </script>
+	<script type="text/javascript" src="js/jquery-ui-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.min.js"></script>
+	<script type="text/javascript" src="js/hoverIntent.min.js"></script>
+	<!-- Drop down menus -->
+	<script type="text/javascript" src="js/menu.js"></script>
+	<!-- Font replacement (cufon) -->
+	<script type="text/javascript" src="js/cufon-yui.js"></script>
+	<script type="text/javascript" src="js/Vegur.font.js"></script>
+	<script type="text/javascript" src="js/Vegur.Light.font.js"></script>
+	<!-- Input labels -->
+	<script type="text/javascript" src="js/jquery.overlabel.min.js"></script>
+	<!-- Inline popups/modal windows -->
+	<script type="text/javascript" src="js/jquery.fancybox-1.3.1.pack.js"></script>
+
+	<!-- Carousel (for featured content) -->
+		<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+		<script type="text/javascript">
+		function mycarousel_initCallback(carousel) {		
+			jQuery('#FeaturedNext').bind('click', function() { carousel.next(); return false; });
+			jQuery('#FeaturedPrev').bind('click', function() { carousel.prev(); return false; });
+		};
+		// Load product carousel...
+		jQuery(document).ready(function() {
+			jQuery("#FeaturedContent").jcarousel({
+				scroll: 3,
+				visible: 5,
+				initCallback: mycarousel_initCallback,
+				buttonNextHTML: null,
+				buttonPrevHTML: null
+			});
+		});
+		</script>
+
+	<!-- Slide shows -->
+		<!-- Cycle 	(default) -->
+		<script type="text/javascript" src="js/jquery.cycle.all.min.js"></script>
+		<script type="text/javascript">
+			// initialize slideshow (Cycle)
+			jQuery(document).ready(function($) {
+				if ($('#Slides').length > 0) {
+					$('#Slides').cycle({ 
+						fx: 'fade',
+						speed: 750,
+						timeout: 4000, 
+						randomizeEffects: false, 
+						easing: 'easeOutCubic',
+						next:   '.slideNext', 
+						prev:   '.slidePrev',
+						pager:  '#SlidePager',
+						before: function() {
+							// reset the overlay for the next slide
+							jQuery('#SlideShow').css('cursor','default').unbind('click'); },
+						after: function() {
+							// get the link and apply it to the overlay
+							var theLink = jQuery(this);
+							var linkURL = (theLink) ? theLink.attr('href') : false;
+							if (linkURL) {
+								jQuery('#SlideShow').css('cursor','pointer').click( function() {
+									document.location.href = linkURL;
+								});
+							}
+						}
+					});
+				}
+			});
+		</script>
+
+
+	<!-- IE only includes (PNG Fix and other things for sucky browsers -->
+	
+	<!--[if lt IE 7]>
+		<link rel="stylesheet" type="text/css" href="css/ie-6.css">
+		<script type="text/javascript" src="js/pngFix.min.js"></script>
+		<script type="text/javascript"> 
+			$j(document).ready(function(){ 
+				$j(document.body).supersleight();
+			}); 
+		</script> 
+	<![endif]-->
+	<!--[if IE]><link rel="stylesheet" type="text/css" href="css/ie-all-versions.css"><![endif]-->
+
+
+	<!-- BEGIN: For Demo Only -->
+		<!--			
+		These entries are only needed for demo features, such as the real-time skin changer.
+		They can be deleted for production installs without effecting the theme's design or 
+		any of the funcionality.
+		-->
+		<script type="text/javascript" src="js/demo.js"></script>	
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- END: For Demo Only -->
+
+
+	<!-- Functions to initialize after page load -->
+	<script type="text/javascript" src="js/onLoad.js"></script>
+
+</head>
+<body>
+
+<div id="Wrapper">
+
+	<div id="Top">
+		<div id="TopContainer">
+			
+			<!-- Search -->
+			<div id="SearchWrapper">
+				<div id="Search">
+					<form action="#" id="SearchForm" method="post">
+						<p style="margin:0;"><input type="text" name="SearchInput" id="SearchInput" value="" /></p>
+						<p style="margin:0;"><input type="submit" name="SearchSubmit" id="SearchSubmit" class="noStyle" value="" /></p>
+					</form>
+				</div>
+			</div>
+			
+			<!-- Main Menu: MegaMenu -->
+			<div id="MainMenu">
+				<ul id="MegaMenu">
+				
+					<li class="current"><a href="index.html">Home</a></li>
+					<li>
+						<a href="#">Features</a>
+						<div class="sub">
+							<div class="row">
+								<ul style="width: 200px;">
+									<li><h2><a href="#">Home page</a></h2></li>
+									<li><a href="index.html">Home 1 (default)</a></li>
+									<li><a href="index-2.html">Home 2 (Products)</a></li>
+									<li><a href="index-3.html">Home 3 (Nivo)</a></li>
+									<li><br /><h2><a href="sample-layout.html">Theme Resources</a></h2></li>
+									<li><a href="sample-text.html">Text Styles</a></li>
+									<li><a href="sample-layout.html">Layout Overview</a></li>
+								</ul>
+								<ul style="width: 200px;">
+									<li><h2><a href="#">Sample Pages</a></h2></li>
+									<li><a href="sample-portfolio.html">Portfolio</a></li>
+									<li><a href="sample-portfolio-2.html">Portfolio 2</a></li>
+									<li><a href="sample-blog.html">Blog</a></li>
+									<li><a href="sample-blog-page.html">Blog (single post)</a></li>
+									<li><a href="sample-contact.html">Contact Form</a></li>
+									<li><a href="sample-faq.html">FAQ's</a></li>
+								</ul>
+								<ul style="width: 200px;">
+									<li><h2><a href="#">Mega Menus</a></h2></li>
+									<li>
+										<p>Add unlimited content, links, images and detailed information in your drop-down menus with Mega Menus.</p>
+										<p>Usability testing shows mega drop-downs are more efficient and overcome the downsides of traditional menus.</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="#">Skins</a>
+						<div style="" class="sub">
+							<div class="row">
+								<ul>
+									<li style="text-align: center;"><a href="#" onclick="switchSkin('1');" style="background: none; padding: 0.75em 0;"><img class="skin" src="images/content/skin-changer/skin-1.jpg" width="130" alt="Skin 1" /></a></li>
+									<li style="text-align: center;"><h2><a href="#" onclick="switchSkin('1');">Skin 1</a></h2></li>
+								</ul>
+								<ul>
+									<li style="text-align: center;"><a href="#" onclick="switchSkin('2');" style="background: none; padding: 0.75em 0;"><img class="skin" src="images/content/skin-changer/skin-2.jpg" width="135" alt="Skin 2" /></a></li>
+									<li style="text-align: center;"><h2><a href="#" onclick="switchSkin('2');">Skin 2</a></h2></li>
+								</ul>
+								<ul>
+									<li style="text-align: center;"><a href="#" onclick="switchSkin('3');" style="background: none; padding: 0.75em 0;"><img class="skin" src="images/content/skin-changer/skin-3.jpg" width="135" alt="Skin 3" /></a></li>
+									<li style="text-align: center;"><h2><a href="#" onclick="switchSkin('3');">Skin 3</a></h2></li>
+								</ul>
+								<ul>
+									<li style="text-align: center;"><a href="#" onclick="switchSkin('4');" style="background: none; padding: 0.75em 0;"><img class="skin" src="images/content/skin-changer/skin-4.jpg" width="135" alt="Skin 4" /></a></li>
+									<li style="text-align: center;"><h2><a href="#" onclick="switchSkin('4');">Skin 4</a></h2></li>
+								</ul>
+							</div>
+							<div class="row">
+								<ul>
+									<li style="text-align: center;"><a href="#" onclick="switchSkin('5');" style="background: none; padding: 0.75em 0;"><img class="skin" src="images/content/skin-changer/skin-5.jpg" width="135" alt="Skin 5" /></a></li>
+									<li style="text-align: center;"><h2><a href="#" onclick="switchSkin('5');">Skin 5</a></h2></li>
+								</ul>
+								<ul>
+									<li style="text-align: center;"><a href="#" onclick="switchSkin('6');" style="background: none; padding: 0.75em 0;"><img class="skin" src="images/content/skin-changer/skin-6.jpg" width="135" alt="Skin 6" /></a></li>
+									<li style="text-align: center;"><h2><a href="#" onclick="switchSkin('6');">Skin 6</a></h2></li>
+								</ul>
+								<ul>
+									<li style="text-align: center;"><a href="#" onclick="switchSkin('7');" style="background: none; padding: 0.75em 0;"><img class="skin" src="images/content/skin-changer/skin-7.jpg" width="135" alt="Skin 7" /></a></li>
+									<li style="text-align: center;"><h2><a href="#" onclick="switchSkin('7');">Skin 7</a></h2></li>
+								</ul>
+								<ul>
+									<li style="text-align: center;"><a href="#" onclick="switchSkin('8');" style="background: none; padding: 0.75em 0;"><img class="skin" src="images/content/skin-changer/skin-8.jpg" width="135" alt="Skin 8" /></a></li>
+									<li style="text-align: center;"><h2><a href="#" onclick="switchSkin('8');">Skin 8</a></h2></li>
+								</ul>
+							</div>
+							<div class="row" style="text-align: center;">
+								<ul style="width: auto; float:none; ">
+									<li>
+										<label for="WideFormatDesign">
+											<input type="checkbox" id="WideFormatDesign" name="WideFormatDesign" /> Enable alternate wide format design? This will toggle the "page" style design on and off.
+										</label>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li><a href="sample-faq.html">FAQ's</a></li>	
+					<li><a href="sample-contact.html">Contact</a></li>	
+
+				</ul>
+			</div> <!-- END id="MainMenu" -->
+			
+		</div>
+	</div> <!-- END id="Top" -->
+	
+	<a href="index.html" id="LogoHeader"></a>
+	
+	<div id="SlideShow">
+		<div id="SlideShow-Images">
+			<div id="CyclePlugin">
+				<div id="Slides">
+					<img src="images/content/demo-only/placeholder.jpg" width="974" height="385" alt="slide 1" />
+					<img src="images/content/demo-only/placeholder.jpg" width="974" height="385" alt="slide 2" />
+					<div style="display:none;">
+						<img src="images/content/demo-only/placeholder.jpg" width="974" height="385" alt="slide 3" />
+						<div class="ssOverlay-1">
+							<div class="ssOverlayText">
+								<h3>Lorem ipsum dolor sit amet, consectetur adipiscing.</h3>
+								<p>Suspendisse in condimentum erat. Etiam lacinia eleifend sollicitudin. Sed ac suscipit sem. Aenean mollis augue pretium elit luctus dignissim. Donec consequat libero quis nunc suscipit vehicula. Pellentesque tincidunt dui orci, in vehicula mauris.</p>
+							</div>
+						</div>
+					</div>
+					<div style="display:none;">
+						<img src="images/content/demo-only/placeholder.jpg" width="974" height="385" alt="slide 4" />
+						<div class="ssOverlay-2">
+							<div class="ssOverlayText">
+								<h3>Lorem ipsum dolor sit amet, consectetur adipiscing</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="SlideShow-Controls">
+			<div id="SlideNextPrev">
+				<a href="#" class="slideNext"></a>
+				<a href="#" class="slidePrev"></a>
+			</div>
+			<div id="SlidePager"></div>
+		</div>
+		<div id="SlideShow-Top"></div>
+		<div id="SlideShow-Middle"></div>
+		<div id="SlideShow-Bottom"></div>
+	</div> <!-- END id="SlideShow" -->
+	
+	<div id="SlideShow-Shadow"></div>
+	
+	<div id="PageTop"></div>
+	<div id="PageWrapper">
+		
+		<div id="PageOverlay">
+			<div id="PageOverlayContent">
+					
+					<div class="contentArea" style="position:relative; width:974px;">
+					
+						<div id="FeaturedContent">
+							<div class="featuredItems">
+								<ul>
+									<li>
+										<a href="images/content/demo-only/placeholder.jpg" class="imgSmall noIcon zoom" rel="featured">
+											<img src="images/content/demo-only/placeholder.jpg" width="160" height="108" alt="Featured Image" />
+											<span class="imgFrame"></span>
+										</a>
+										<h3 class="featuredTitle">Curabitur Dolor</h3>
+									</li>
+									<li>
+										<a href="images/content/demo-only/placeholder.jpg" class="imgSmall noIcon zoom" rel="featured">
+											<img src="images/content/demo-only/placeholder.jpg" width="160" height="108" alt="Featured Image" />
+											<span class="imgFrame"></span>
+										</a>
+										<h3 class="featuredTitle">Curabitur Dolor</h3>
+									</li>
+									<li>
+										<a href="images/content/demo-only/placeholder.jpg" class="imgSmall noIcon zoom" rel="featured">
+											<img src="images/content/demo-only/placeholder.jpg" width="160" height="108" alt="Featured Image" />
+											<span class="imgFrame"></span>
+										</a>
+										<h3 class="featuredTitle">Curabitur Dolor</h3>
+									</li>
+									<li>
+										<a href="images/content/demo-only/placeholder.jpg" class="imgSmall noIcon zoom" rel="featured">
+											<img src="images/content/demo-only/placeholder.jpg" width="160" height="108" alt="Featured Image" />
+											<span class="imgFrame"></span>
+										</a>
+										<h3 class="featuredTitle">Curabitur Dolor</h3>
+									</li>
+									<li>
+										<a href="images/content/demo-only/placeholder.jpg" class="imgSmall noIcon zoom" rel="featured">
+											<img src="images/content/demo-only/placeholder.jpg" width="160" height="108" alt="Featured Image" />
+											<span class="imgFrame"></span>
+										</a>
+										<h3 class="featuredTitle">Curabitur Dolor</h3>
+									</li>
+									<li>
+										<a href="images/content/demo-only/placeholder.jpg" class="imgSmall noIcon zoom" rel="featured">
+											<img src="images/content/demo-only/placeholder.jpg" width="160" height="108" alt="Featured Image" />
+											<span class="imgFrame"></span>
+										</a>
+										<h3 class="featuredTitle">Curabitur Dolor</h3>
+									</li>
+									<li>
+										<a href="images/content/demo-only/placeholder.jpg" class="imgSmall noIcon zoom" rel="featured">
+											<img src="images/content/demo-only/placeholder.jpg" width="160" height="108" alt="Featured Image" />
+											<span class="imgFrame"></span>
+										</a>
+										<h3 class="featuredTitle">Curabitur Dolor</h3>
+									</li>
+									<li>
+										<a href="images/content/demo-only/placeholder.jpg" class="imgSmall noIcon zoom" rel="featured">
+											<img src="images/content/demo-only/placeholder.jpg" width="160" height="108" alt="Featured Image" />
+											<span class="imgFrame"></span>
+										</a>
+										<h3 class="featuredTitle">Curabitur Dolor</h3>
+									</li>
+									<li>
+										<a href="images/content/demo-only/placeholder.jpg" class="imgSmall noIcon zoom" rel="featured">
+											<img src="images/content/demo-only/placeholder.jpg" width="160" height="108" alt="Featured Image" />
+											<span class="imgFrame"></span>
+										</a>
+										<h3 class="featuredTitle">Curabitur Dolor</h3>
+									</li>
+									<li>
+										<a href="images/content/demo-only/placeholder.jpg" class="imgSmall noIcon zoom" rel="featured">
+											<img src="images/content/demo-only/placeholder.jpg" width="160" height="108" alt="Featured Image" />
+											<span class="imgFrame"></span>
+										</a>
+										<h3 class="featuredTitle">Curabitur Dolor</h3>
+									</li>
+									<li>
+										<a href="images/content/demo-only/placeholder.jpg" class="imgSmall noIcon zoom" rel="featured">
+											<img src="images/content/demo-only/placeholder.jpg" width="160" height="108" alt="Featured Image" />
+											<span class="imgFrame"></span>
+										</a>
+										<h3 class="featuredTitle">Curabitur Dolor</h3>
+									</li>
+								</ul>
+							</div>
+							<div class="featuredScroll">
+								<a href="#" id="FeaturedNext">Next</a>
+								<a href="#" id="FeaturedPrev">Previous</a>
+							</div>
+							
+						</div> <!-- END id="FeaturedContent" -->
+						<div class="clear"></div>					
+					
+					</div>
+
+			</div> <!-- END id="PageOverlayContent" -->
+		</div> <!-- END id="PageOveraly" -->
+
+
+		<div id="Showcase">
+			<div id="ShowcaseContent">
+				<div class="contentArea">
+					<div class="two_third">
+						<h1 class="noMargin">You can't just aim at the target, to succeed you have to shoot for what's on the other side.</h1>
+					</div>
+					<div class="one_third last">
+						<h2 style="margin-bottom: 1px;">Socialize much?</h2>
+						<ul class="horizList socialLinks" style="margin: 0 0 -5px;">
+							<li><a href="#"><img src="images/icons/social/social_balloon-15.png" width="32" height="32" alt="RSS" /></a></li>
+							<li><a href="#"><img src="images/icons/social/social_balloon-05.png" width="32" height="32" alt="Twitter" /></a></li>
+							<li><a href="#"><img src="images/icons/social/social_balloon-03.png" width="32" height="32" alt="Flickr" /></a></li>
+							<li><a href="#"><img src="images/icons/social/social_balloon-14.png" width="32" height="32" alt="Facebook" /></a></li>
+							<li><a href="#"><img src="images/icons/social/social_balloon-16.png" width="32" height="32" alt="Technorati" /></a></li>
+							<li><a href="#"><img src="images/icons/social/social_balloon-18.png" width="32" height="32" alt="YouTube" /></a></li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+				</div> <!-- END class="contentArea" -->
+			</div> <!-- END id="ShowcaseContent" -->
+		</div> <!-- END id="Showcase" -->
+
+
+		<div id="MainPage">
+			<div id="MainPageContent">
+				<div class="contentArea">
+					<div class="two_third">
+					
+						<!-- Page Content -->
+						
+						<h2 class="title">What can Traject do for you?</h2>
+						<div class="hr"></div>
+						
+						<div class="imgTall">
+							<img src="images/content/demo-only/placeholder.jpg" width="180" height="235" alt="Traject Info" />
+							<span class="imgFrame"></span>
+						</div>
+						
+						<p>Traject is a new way of showcasing your products and service to your website visitors. Designed from the ground up to bring attention to your most important information first, Traject makes content organization easy. The template puts your key products or services at the forefront, presenting them in an interesting way to be sure and grab the attention of your viewer. The layout is organized to ensures your services, products or content become the focal point so users can quickly find what they want.
+						</p>
+						
+						<p>Jump in with the included sample pages and pre-built features to save you time. Preview the various layouts including 2 portfolio options, blog pages, FAQ's, working contact form and more. There are several skins included which you can preview using the skin slider below or by select one from the "Skins" drop down in the main menu. Other features include:</p>
+						
+						<ul class="bullet-disc-silver">
+							<li>Easy to setup, easy to use.</li>
+							<li>Save time using the included content layouts.</li>
+							<li>Choose from a pre-made skin or create your own in minutes.</li>
+							<li>Standards compliant for maximum compatability.</li>
+							<li>jQuery integrated to provide high quality, dynamic design features.</li>
+							<li>Compatible with major browsers. IE 6,7,8, Firefox 3.5+, Opera 10+, Chrome, Safari 4+.</li>
+						</ul>
+
+						<p><button type="button" class="btn" onclick="document.location.href='index.html';">More information</button></p>
+					
+						<div class="hr-small" style="margin: 2em 0;"></div>
+
+						<div class="one_third">
+							<div class="callout" style="margin-bottom: 0;">
+								<p style="margin-bottom: 1em;">"I'm impressed! I want to tell everyone but I'd give away my secret weapon!"</p>
+								<cite>-Leigh Smith, Park Ave. Graphics</cite>
+							</div>
+						</div>
+						
+						<div class="one_third last">
+						
+							<!-- Skin Changer -->
+							<div id="SkinPreviewWrapper">
+								<div id="SkinScreenShots">
+									<div id="SkinPreview">
+										<img class="skin" src="images/content/skin-changer/skinChanger-1.jpg" width="272" height="134" alt="Skin 1" />
+										<img class="skin" src="images/content/skin-changer/skinChanger-2.jpg" width="272" height="134" alt="Skin 2" />
+										<img class="skin" src="images/content/skin-changer/skinChanger-3.jpg" width="272" height="134" alt="Skin 3" />
+										<img class="skin" src="images/content/skin-changer/skinChanger-4.jpg" width="272" height="134" alt="Skin 4" />
+										<img class="skin" src="images/content/skin-changer/skinChanger-5.jpg" width="272" height="134" alt="Skin 5" />
+										<img class="skin" src="images/content/skin-changer/skinChanger-6.jpg" width="272" height="134" alt="Skin 6" />
+										<img class="skin" src="images/content/skin-changer/skinChanger-7.jpg" width="272" height="134" alt="Skin 7" />
+										<img class="skin" src="images/content/skin-changer/skinChanger-8.jpg" width="272" height="134" alt="Skin 8" />
+									</div>
+								</div>
+								<div id="SkinPreviewOverlay"></div>
+								<div id="SkinSlider"></div>
+							</div>
+
+						</div>
+						
+					</div>
+					<div class="one_third last">
+					
+						<div class="sidebar">
+							<div class="sidebarBox-1">
+								<div class="sidebarBox-2">
+								
+									<h3>Sub Navigation</h3>
+									<ul class="sideNav">
+										<li><a href="#">Sample Navigation Link</a></li>
+										<li class="currentPage"><a href="#">Current Page Sample</a></li>
+										<li><a href="#">Sample Navigation Link</a></li>
+										<li><a href="#">Sample Navigation Link</a></li>
+										<li><a href="#">Sample Navigation Link</a></li>
+										<li><a href="#">Sample Navigation Link</a></li>
+									</ul>
+									
+									<div style="margin: 2em 0;" class="hr"></div>
+									
+									<h3>Clients</h3>
+									<p><img src="images/ClientLogos.png" width="245" height="181" alt="Clients" /></p>
+
+									<div style="margin: 2em 0;" class="hr"></div>
+									
+									<div>
+										<img class="right" style="margin: 0 -15px 0 0;" src="images/icons/iphone-black.png" width="107" height="128" alt="Contact Us" />
+										<h3 class="left" style="margin-top: 11px;">Contact Us</h3>
+										<p class="left">
+											<span style="font-size: 1.35em;">(555) 443.3221</span><br />
+											<a href="#">contact@traject-inc.com</a>
+										</p>
+										<p class="left"><a href="sample-contact.html" class="boxLink">Contact Form</a></p>
+										<div class="clear"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					<div class="clear"></div>
+				</div> <!-- END class="contentArea" -->
+			</div> <!-- END id="MainPageContent" -->
+		</div> <!-- END id="MainPage" -->
+		
+		
+	</div> <!-- END id="PageWrapper" -->
+
+	<div id="FooterWrapper">
+		<div id="Footer">
+			<div id="FooterContent">
+				
+				<div class="contentArea">
+					
+					<div class="copyright right">
+						Copyright &copy; 2010 - <a href="http://para.llel.us">Parallelus</a> - All rights reserved. |  
+						Valid <a href="http://validator.w3.org/check?uri=referer">XHTML</a> &amp; 
+						<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">CSS</a>.
+					</div>
+					
+					<ul id="FooterMenu" class="horizList left">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#">Features</a></li>
+						<li><a href="sample-faq.html">FAQ's</a></li>
+						<li><a href="sample-contact.html">Contact</a></li>
+					</ul>
+					
+					<div class="clear"></div>
+					
+				</div> <!-- END class="contentArea" -->
+				
+			</div> <!-- END id="FooterContent" -->
+		</div> <!-- END id="Footer" -->
+	</div> <!-- END id="FooterWrapper" -->
+	
+</div> <!-- END id="Wrapper" -->
+
+<!-- Activate Font Replacement (cufon) -->
+<script type="text/javascript"> Cufon.now(); </script>
+</body>
+</html>

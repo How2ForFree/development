@@ -1,0 +1,64 @@
+body {
+	height: 100%;
+	width: 100%;
+	background-color: #b1a79c;
+	background-image: url(../images/body-shine.png);
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	font-size: 62.5%;
+	line-height: 190%;
+	color: #3c3c3c;
+}
+
+#wrapper {
+	height: 100%;
+	width: 100%;
+	font-size: 120%;
+}
+
+#top {
+	width: 100%;
+	height: 67px;
+	background: url(../images/bar-top.png) repeat-x top left;
+}
+
+#templ-logo {
+	margin-top: 12px;
+}
+
+#logoWrap {
+	width: 960px;
+	height: 59px;
+	margin: 0 auto;
+	padding-top: 8px;
+}
+
+#content-top {
+	width: 960px;
+	height: 60px;
+	background: url(../images/bar-top.png) repeat-x top left;
+	margin: 0 auto;
+}
+
+#content {
+	width: 900px;
+	margin: 0 auto;
+	padding: 0 20px 60px 40px;
+	background-color: #ffffff;
+}
+
+/* CONTENT BOXES */
+.boxWrap {
+	width: 920px;
+	overflow: hidden;
+}
+
+.boxWrap .box {
+	width: 45%;
+	float: left;
+	padding-right: 20px;
+}
+
+.boxWrap .box.big {
+	width: 90%;
+}

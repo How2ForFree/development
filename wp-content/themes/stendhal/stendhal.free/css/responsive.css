@@ -1,0 +1,198 @@
+/* Large desktop */
+@media (min-width: 1200px) { }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 1200px) {
+    #nav ul { margin-left:-24px; }
+    #nav ul li a { padding:12px 24px; }
+    #nav .sf-sub-indicator { right:25px; }
+    #nav ul.sub-menu li, #nav ul.children li { padding-left:24px; padding-right:24px; }
+    #nav ul.level-1 > li > a { font-size:90% !important; }
+}
+
+/* iPad portrait */
+@media (min-width: 768px) and (max-width: 979px) { 
+	#nav > ul { width: 100%; }
+	                                              
+    #nav ul { margin-left:-15px; }
+	#nav ul li a { padding:12px; }           
+    #nav ul.sub-menu li, #nav ul.children li { padding-left:12px !important; padding-right:12px !important; }
+    #nav ul.level-1 > li > a { font-size:80% !important; }  
+    #nav .sf-sub-indicator { right:12px; }
+	.widget_nav_menu li.columns-2, .widget_nav_menu li.cols-2, .widget_nav_menu li.col2 { float: none }	
+	.testimonial-circle-style .testimonial-quote { background-position: 0px bottom; }   
+	#nav > ul li a, #nav .menu > ul li a { padding: 7px 14px; }
+	#nav ul.sub-menu li, #nav ul.children li { padding: 2px 0 1px 6px }
+	#logo.span6, #header-sidebar { width: auto; }
+	#header-sidebar { float: right; }		
+	.testimonial-quote-style .thumbnail { position: static; }
+	.testimonial-quote-style .testimonial-name {
+		float: none;
+		text-align: center;
+		margin-right: 0;
+		padding-top: 15px;
+		padding-bottom: 0;
+	}
+	.testimonial-circle-style .testimonial-quote { background: none; }
+	.testimonial { overflow: auto; }
+	.testimonial .thumbnail {
+		float: left;
+		width: 100%;
+		clear: both;
+		position: static;
+	}
+	
+	.testimonial .thumbnail img {
+		float: right;
+	}
+	.testimonial .testimonial-name {
+		margin: 0;
+		padding-top: 5px;
+		float: left;
+		width: 100%;
+	}
+	
+	.slider.fixed-image { margin-top:30px; }	
+}
+
+@media (min-width: 768px) {
+	#nav .menu-responsive { display: none; }
+	#nav .container .menu > ul, #nav .container > ul { display: block; }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {                                  
+    /* === HEADER */           
+    #logo { position:relative; z-index:1; margin-top: 0 }
+    #topbar { display:none; } 
+	#header #logo #logo-img + #tagline { line-height: 1.6em; margin-left: 0 }
+	#header #logo #logo-img + #tagline.multiline { margin-left: 0; padding-left: 0; border: none }
+	#nav { margin-bottom: 0; border:none; margin-bottom:10px; }
+	#nav .menu-responsive .navigate-text { margin-top:2px !important; }
+    #page-meta .slogan h2 { font-size:24px !important; margin-bottom:0; }
+    #page-meta .slogan h3 { font-size:18px !important; }
+    #header-sidebar { text-align:center; position:static; }
+    #header-sidebar .widget { margin:10px 7px; }
+	.menu-select { margin-bottom: 0 }
+	.menu-select.no-slider { margin-bottom: 20px }
+    /* === BLOG */
+    .comment .comment-content { margin-top:10px; }
+    .comment.parent > div > .comment-container .parent-line { display:none; }
+    /* === SERVICES */
+    .section .service-wrapper .service { padding-bottom:15px; padding-top:30px; }
+    .section .service-wrapper .service .image-wrapper { float:left; margin-top:-38px; }
+    .section .service-wrapper .service a.read-more { bottom:10px; }
+    /* === COMMENTS */
+    #respond p { display:inline-block; width:100% !important; max-width:100%; clear:both; }  
+	.testimonial blockquote { padding-left: 30px }
+	.content blockquote { padding-left: 30px; padding-top: 5px }
+	/* === FOOTER */
+	#footer [class*="span"] { float: left; margin-bottom: 10px }
+	#copyright .container { padding-left:20px; padding-right:20px; }
+	#copyright .right { padding-top:15px; }	
+	/*=== NEW MENU */
+	#nav .container > ul { display: none; }
+	#nav .menu-responsive { position: relative; margin-right: -3px; }
+	#nav .menu-responsive .navigate-text {
+		font-size: 12px;
+		line-height: 18px;
+		border: 1px solid #585757;
+		margin: 10px 0;
+		padding: 9px 0;
+		background-color: #444444;
+		color: #bfbebe;
+	}
+	
+	#nav .menu-responsive .menu-arrow { 
+		width: 38px; 
+		background: url('../images/menu-responsive-arrow.png') no-repeat scroll left top #b3b2b2; 
+		min-height: 36px;
+		line-height: 38px;
+		position: absolute;
+		top: 1px;
+		right: 1px;
+		cursor: pointer;
+	}
+	
+	#nav .menu-responsive .menu-arrow.opened {
+		background: url('../images/menu-responsive-arrow.png') no-repeat scroll left bottom #b3b2b2;  
+	}
+	
+	#nav .menu-responsive ul { display: none; margin-top: -10px; margin-left: 0px; }
+	#nav .menu-responsive .sub-menu {
+		display: block;
+		width: 100%;
+		position: relative;
+		margin-bottom: 0;
+    	margin-top: 0;
+    	padding-bottom: 0;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	#nav .menu-responsive ul li, #nav .menu-responsive .sub-menu li {
+		display: block;
+		width: 100%;
+		font-size: 12px;
+		line-height: 18px;
+		border: none;
+		margin-top: -1px;
+		padding: 0px !important;
+		background-color: #444444;
+	}
+	
+	#nav .menu-responsive ul li:hover, #nav .menu-responsive .sub-menu li:hover {
+		background-color: #333333;
+	}
+	
+	#nav .menu-responsive ul li a , #nav .menu-responsive .sub-menu li a {
+		border: 1px solid #585757;
+		padding: 9px 0px 9px 20px;
+		font-size: 12px;
+		line-height: 18px;
+		text-align: left;
+		color: #bfbebe;
+	}
+	
+	#nav .menu-responsive .sub-menu li a {
+		padding-left: 40px;
+	}
+	
+	#nav .menu-responsive li a:hover {
+		color: #bfbebe;
+	}
+	
+	#nav .menu-responsive ul.sub-menu li ul, #nav .menu-responsive ul.children li ul { top: 0; left: 0;}
+	
+	#nav .menu-responsive .sf-sub-indicator { display: none !important; }
+	
+	#nav .menu-responsive .current-menu-ancestor > a, #nav .menu-responsive .current_page_ancestor > a {
+		background-color: #333333;
+		color: #bfbebe;
+	}
+	
+	#nav .menu-responsive .current-menu-item, #nav .menu-responsive .current-menu-item > a, div#nav .menu-responsive ul .current_page_item, div#nav .menu-responsive ul .current_page_item > a {
+		background-color: #333333;
+		color: #bfbebe;
+	}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    #header #tagline { display: none; }
+    .top-border { border: 0px; margin-top: 0px; }
+    #page-meta .title, #page-meta .breadcrumbs { float: none; }
+    #page-meta .breadcrumbs { margin-top: -20px; }
+    .breadcrumbs span.before-text, p#yit-breadcrumb { line-height: 70px; }
+    #copyright .container { padding-left: 20px; padding-right: 20px; }
+    .testimonials-flexslider ul li blockquote p { line-height: 23px; }
+}
+ 
+/* Portrait phones and down */
+@media (max-width: 321px) { 
+    #copyright div p:first-child { margin-top: 15px; }    
+    /* === SERVICES */
+    .section .service-wrapper .service { padding-bottom:30px; padding-top:0px; }
+    .section .service-wrapper .service .image-wrapper { float:none; margin-top:0; }
+    .section .service-wrapper .service a.read-more { bottom:10px; }
+}

@@ -1,0 +1,11 @@
+=========
+CHANGELOG
+=========
+Version 1.0
+
+26 januari 2011
+- fix page/post Grace slider adding slides.
+
+27 januari 2011
+- float fix sidebar top shadow
+- float fix submit button

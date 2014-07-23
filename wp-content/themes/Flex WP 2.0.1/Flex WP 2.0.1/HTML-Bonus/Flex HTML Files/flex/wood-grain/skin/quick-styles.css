@@ -1,0 +1,22 @@
+body {
+	background:none;
+	background:#fff url(images/woodgrain.jpg) repeat fixed center top;
+}
+
+a {color:#c21515;}
+a:hover {color:#c21515;}
+#footer a.url {color:white;}
+
+.rounded {border:1px solid #DEDEDE;}
+#top_bar {background:transparent url(images/header_bg.jpg) repeat-x top left;}
+#right_links a{color: white !important;}
+#footer {background:black url(images/footer_bg.jpg) repeat-x top left;}
+#footer{color: #efefef;}
+#footer h2{color: white !important;}
+#footer a {color:#c21515;}
+#footer ul li{font-style: italic;}
+
+
+
+
+

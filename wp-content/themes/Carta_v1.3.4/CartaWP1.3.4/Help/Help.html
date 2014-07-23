@@ -1,0 +1,557 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Carta Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="help-assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="help-assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="help-assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="help-assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">Documentation</h3>
+		
+		<hr>
+		
+		<h1 class="center"><a href="Help.html"><img src="help-assets/images/ver.png" alt="Version" /></a></h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Started in November 2010<br>
+					By Stefano Giliberti<br>
+					winterbits.com<br />
+					kompulsive@gmail.com</strong>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0"><b>Thank you</b> for buying my theme. If you have any questions that are beyond the scope of this help file or any feature request, please feel free to contact me via my user page <a href="http://themeforest.net/user/winterbits">here</a> or sending me a direct message to the email address on your left.</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#Installation">Installation</a></li>
+			<li><a href="#Aesthetics">Setting up a Website</a>
+				<ol style="margin-bottom:0">
+					<li><a href="#Aesthetics">The Aesthetics and Brand</a></li>
+					<li><a href="#Menu">The Menu</a></li>
+					<li><a href="#Slider">The Slider</a></li>
+					<li><a href="#Frontpage">The Frontpage Content</a></li>
+					<li><a href="#Footer">The Footer</a></li>
+					<li><a href="#Gallery">The Gallery</a></li>
+					<li><a href="#Projects">The Projects</a> <small>(Or Portfolio)</small></li>
+					<li><a href="#Blog">The Blog</a></li>
+					<li><a href="#Contact">The Contact Form</a></li>
+				</ol>
+			</li>
+			<li><a href="#Shortcodes">Shortcodes</a></li>
+			<li><a href="#Widgets">Widgets</a></li>
+			<li>
+				<a href="#NewTheme">Extend</a>
+				<ul style="margin-bottom:0">
+					<li><a href="#NewTheme">Creating a new Theme or Skin</a></li>
+					<li><a href="#NewFont">Adding a new Font</a></li>
+				</ul>
+			</li>
+			<li><a href="#Samples">Page Samples</a></li>
+			<li><a href="#CSSjQuery">CSS and jQuery</a></li>
+			<li><a href="#PSD">PSD Source Files</a></li>
+			<li><a href="#Extras">Extras</a></li>
+			<li><a href="#Credits">Ending Credits</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="Installation"><strong>Theme Installation</strong></h3>
+		<p>Installing a WordPress theme is pretty simple, and there are two ways to do it:</p>
+		<ol>
+			<li><b>The FTP Upload</b>, you just unzip the "Carta.zip" file and upload the "Carta" folder in your <code>wp-content/themes</code> folder using your favourite ftp application (like FileZilla or CyberDuck).</li>
+			<li><b>Via WordPress</b>, going to your Themes section, then selecting the "Install Themes" tab and choosing as method the <b>Upload</b>.<br />Be sure to upload the "Carta.zip" file, not the entire Carta Folder.</li>
+		</ol>	
+		<p class="center"><img src="help-assets/images/1.png" alt="" /></p>
+		<p>The last thing you need to do is activate the theme. Go to the Themes section in the Appearance settings, then click the <b>Activate</b> link below the Carta thumbnail.</p> 
+		<h4><strong>Permissions</strong></h4>
+		<p>This Theme makes an extensive use of TimThumb, a PHP script for images resizing. A great feature of this script is that it creates a Cache copy of every resized image to improve the loading performances. To ensure that the script has the permission to write these copies you need to set the permissions on the cache and temp folder.
+		</p>
+		<ul>
+			<li>Open your favourite FTP application</li>
+			<li>Go to your <code>wp-content/themes</code> folder, then <code>Carta/engine/includes</code></li>
+			<li>Set the <code>777</code> permissions on the <code>cache</code> and <code>temp</code> folder (usually accessible with a  right click)</li>
+		</ul>
+		<p class="center"><img src="help-assets/images/15.png" alt="" /></p>
+		
+		<hr />
+		
+		<h3 id="Aesthetics">1. <strong>Aesthetics and Brand</strong>  - <a href="#toc">top</a></h3>
+		<p>Creating a new Website, the first thing you may want to do is to adapt the visual aspect to your needs.<br />
+		In Carta, there are many ways to personalize the look and feeling of the theme.</p>
+		<h4><strong>The Theme</strong></h4>
+		<p>Carta includes many Themes completely different from each other and switching from a theme to another its the more easy thing to do.<br/>From the <img src="help-assets/images/ui.png" /> Options Panel, select the <img src="help-assets/images/general.png" /> tab, then choose the theme you prefer from the "Theme Stylesheet" select box under the "Aesthetics" section. To save the changes, click on the "Save Changes" button.</p>
+		<h4><strong>The Headings Font</strong></h4>
+		<p>The Typography is the second big aspect of the style of your website. This theme comes with 15 pre-installed fonts and with the possibility to add a new one whenever you want. <small>(See "<a href="#NewFont">Adding a new Font</a>" for more info)</small></p>
+		<p>To change your Headings font, select the <img src="help-assets/images/general.png" /> tab, then choose a font from the "Cuf&oacute;n font" select box under the "Aesthetics" section.<br /> You can also edit the <code>Cuf&oacute;n Selectors List</code>, this list contains all the text elements that will be replaced with the font you have chosen.</p>
+		</p>
+		<h4><strong>The Brand</strong></h4>
+		<p>Last but not least, what makes your website really recognizable, the Logo.<br />
+		You can find all the Branding options in the <img src="help-assets/images/brand.png" /> tab.<br />There are two ways of setting your logo:
+		</p>
+		<ol>
+			<li>Using an <b>Image</b><br />Under the "Logo Image" section, you can directly upload your logo image and it will be applied instantly.</li>
+			<li>Using a <b>Textual</b> Logo<br />
+			Checking the "Use a textual logo" checkbox under the "Plain Text Logo" section, you can type anything you want and you logo will be displayed as text with the Heading font you've chosen.
+			</li>
+		</ol>
+		<p>Of course, any logo is different and it has its own dimensions and spacing. This theme offers you the possibility to adjust any Width, Height, Top Spacing and Font Size (in case you're using the Textual Logo) property directly from the Back-End.</p>
+		<p>Under the "Adjustements" section, in the <img src="help-assets/images/brand.png" /> tab, you'll find this:</p>
+		<p class="center"><img src="help-assets/images/2.png" alt="" /></p>
+		<p>When you're done, always remember to click the <b>Save Changes</b> button.</p>
+		
+		<hr />
+		
+		<h3 id="Menu">2. <strong>The Menu</strong>  - <a href="#toc">top</a></h3>
+		<p>Carta uses the new WordPress 3 Menu System, with a 3 Levels Dropdown support.</p>
+		<p>In WordPress 3, to add and configure a new menu, go to the Menus panel in the Appareance settings and create a new menu, then apply it to the "Head Menu" Location.</p>
+		<p class="center"><img src="help-assets/images/3.png" alt="" /></p>
+		<p>As you may have noticed, this theme also lets you add a sub-title for each first level menu item. That text is actually the Title Attribute of the menu item.</p>
+		<p class="center"><img src="help-assets/images/4.png" alt="" /></p>
+		
+		<hr />
+		
+		<h3 id="Slider">3. <strong>The Slider</strong>  - <a href="#toc">top</a></h3>
+		<p>Carta comes with two frontpage Sliders, the Carta Accordion and the amazing Nivo Slider from dev7studios. It also integrates a complete Slides Manager with a full Settings Panel for both sliders.</p>
+		<p class="center"><img src="help-assets/images/5.png" alt="" /></p>
+		<h4><strong>Switching Slider</strong></h4>
+		<p>You can switch from a Slider to another whenever you want from the <img src="help-assets/images/general.png" /> tab, then selecting the slider that you prefer from the "Frontpage Slider" select box.
+		</p>
+		<h4><strong>Slider Setup</strong></h4>
+		<p>Every action related to the selected Slider and its Slides is managed through the <img src="help-assets/images/ui2.png" alt="" /> Slides Manager.<br /> It is completely relative to the Slider Type you've chosen, so if you switch the Slider Type, you don't need to re-edit anything - every slide will be automatically re-adapted to the new Slider.</p>
+		<p class="center"><img src="help-assets/images/6.png" alt="" /></p>
+		<p>The <b>Manage</b> section is dedicated to every Slide management action. Let's see how it works and looks.</p>
+		<p class="center"><img src="help-assets/images/7.png" alt="" /></p>
+		<p>The Content Type let you choose the style of the content you want to add in your slide. For example, if you choose the Carta Accordion, there are two type of content: the <code>Note</code> which is made for short and concise comment and the <code>Post-it</code> for a more extensive description with links and more.</p>
+		
+		<hr />
+		
+		<h3 id="Frontpage">4. <strong>The Frontpage Content</strong>  - <a href="#toc">top</a></h3>
+		<p>With Carta, setting the Homepage Content is the most simple thing to do.<br /> Create a new Page with anything you want, go to the <img src="help-assets/images/ui.png" alt="" /> Options Panel, select the <img src="help-assets/images/general.png" /> tab and choose the page you just created from the select box "Take content from" under the "Frontpage" section.</p>
+		<p class="center"><img src="help-assets/images/8.png" alt="" /></p>
+		<p>When the page you've chosen will be visualizated, it will automatically display the Homepage instead of the singular page.</p>
+		
+		<hr />
+		
+		<h3 id="Footer">5. <strong>The Footer</strong>  - <a href="#toc">top</a></h3>
+		<p>The Footer contains all the Copyright Informations and the Social Network Icons. You can find all the settings under the <img src="help-assets/images/footer.png" /> tab in your <img src="help-assets/images/ui.png" alt="" /> Options Panel.</p>
+		<p>The Social Network Icons are displayed automatically if you configure a social network account in the <img src="help-assets/images/general.png" alt="" /> tab.
+		</p>
+		<p class="center"><img src="help-assets/images/9.png" alt="" /></p>
+		
+		<hr />
+		
+		<h3 id="Gallery">6. <strong>The Gallery</strong>  - <a href="#toc">top</a></h3>
+		<p>This theme includes a powerful Gallery system based on new WordPress features like Custom Post Types and Featured Images, so the overall managing is simpler than ever.</p>
+		<p class="center"><img src="help-assets/images/13.png" alt="" /></p>
+		<h4><strong>Creating the Gallery</strong></h4>
+		<p>To create the Gallery, the first thing you're going to do is create a new Page with any name, for example "My Gallery".<br /> Then, you need to assign the Gallery Template to the page you've created, and you can do it in two ways:</p>
+		<ol>
+			<li>Via <img src="help-assets/images/ui.png" alt="" /> Options Panel under the <img src="help-assets/images/gallery.png" alt="" /> tab.</li>
+			<li>Through the WordPress Page editing and assigning to the page the Gallery Template.</li>
+		</ol>
+		<p class="center"><img src="help-assets/images/10.png" alt="" /></p>
+		<h4><strong>Adding a Box</strong></h4>
+		<p>To add something to your Gallery, select the <img src="help-assets/images/ui3.png" alt="" /> Gallery menu, then "Add New Box".<br /> A Gallery entry consists of a <small>(optional)</small> Title, a short Description and a Full Size Picture. So, the Title will be entered in the Title field, the Description as the <em>Excerpt</em> and the Picture will be the <em>Featured Image</em>.
+		<p id="FeaturedPicture">To set the Featured Image, follow these steps:</p>
+		<ol>
+			<li>Click the "Set featured image" link on the right column</li>
+			<li>Upload or choose a picture from your WordPress Media</li>
+			<li>Select the size (usually Large or Full Size) then click "Use as featured image".</li>
+		</ol>
+		<p class="center"><img src="help-assets/images/11.png" alt="" /></p>
+		<p>The Full Size Picture will be automatically resized and used as Thumbnail (you can disable this feature from the <img src="help-assets/images/gallery.png" alt="" /> tab).</p>
+		<h4><strong>Adding a Video Box</strong></h4>
+		<p>To add a Video to your Gallery, follow the same procedure of a normal box then add a Custom Field named <code>Media</code> and paste your Youtube, Vimeo or Swf link. Carta will automatically create the Video Thumbnail.</p>
+		<p class="center"><img src="help-assets/images/30.png" alt="" /></p>
+		<h4><strong>Using Custom Links</strong></h4>
+		<p>You can specify a Custom Link when adding a new entry if you don't need a Lightbox or you want to redirect the user to a more detailed description of the item. To do so, you need to add a Custom Field named <code>Link</code> and paste your link.</p>
+		<p class="center"><img src="help-assets/images/31.png" alt="" /></p>
+		<h4><strong>Creating a Lightbox Gallery</strong></h4>
+		<p>To create a Lightbox Navigation between zoomed Gallery pictures, you can specify a Custom Field named <code>Gallery</code> using the same value on the entries you want to link.</p>
+		<ul>
+			<li><b>Picture 1</b><br /><code>Gallery</code>: mygallery</li>
+			<li><b>Picture 2</b><br /><code>Gallery</code>: mygallery</li>
+			<li><b>Picture 3</b><br /><code>Gallery</code>: mygallery2</li>
+			<li><b>Picture 4</b><br /><code>Gallery</code>: mygallery2</li>
+		</ul>
+		</p>
+		<p class="center"><img src="help-assets/images/32.png" alt="" /></p>
+		<h4><strong>Using an different Lightbox Style</strong></h4>
+		<p>While you can choose to use two Lightbox Styles from the <img src="help-assets/images/ui.png" alt="" /> Options Panel, you may want to use a different one for a single Gallery item. To do that, you can add a Custom Field named <code>Lightbox</code> using "Zoom" or "Fullzoom" as value.</p>
+		<p class="center"><img src="help-assets/images/33.png" alt="" /></p>
+		<h4><strong>Using a custom Thumbnail Picture</strong></h4>
+		<p>To use a different Thumbnail Picture, you can specify a Custom Field named <code>Thumbnail</code>, using your Thumbnail Picture URL as value.</p>
+		<p class="center"><img src="help-assets/images/35.png" alt="" /></p>
+		
+		<hr />
+		
+		<h3 id="Projects">7. <strong>The Projects</strong>  - <a href="#toc">top</a></h3>
+		<p>The Projects section is dedicated to the presentation of your Portfolio, or simply anything that requires a strong presentation.</p>
+		<p class="center"><img src="help-assets/images/12.png" alt="" /></p>
+		<p>It is similiar to the Gallery, the differences are that any entry has its own page - in addition to the thumbnail - where you can add a more extensive Description, a longer Excerpt and a bigger thumbnail Picture.</p>
+		<p>Every setting regarding the Projects section is filed under the <img src="help-assets/images/projects.png" alt="" /> tab.</p>
+		<h4><strong>Creating the Projects</strong></h4>
+		<p>To create the Projects section, the first thing you're going to do is create a new Page with any name, for example "Portfolio".<br /> Now you need to assign the Projects Template to the page you've created, and you can do it in two ways:</p>
+		<ol>
+			<li>Via <img src="help-assets/images/ui.png" alt="" /> Options Panel under the <img src="help-assets/images/projects.png" alt="" /> tab.</li>
+			<li>Through the WordPress Page editing and assigning to the page the Projects Template.</li>
+		</ol>
+		<p class="center"><img src="help-assets/images/14.png" alt="" /></p>
+		<h4><strong>Adding a Project</strong></h4>
+		<p>To add a project to your Projects section (or Portfolio), click the "Add New" link under the <img src="help-assets/images/ui4.png" alt="" /> Projects menu.
+		</p>
+		<p>For instructions on how to set the Thumbnail picture, follow the <a href="#FeaturedPicture">steps</a> in the Gallery section.</p>
+		<h4><strong>Using Custom Links</strong></h4>
+		<p>You can specify a Custom Link when adding a new entry if you want to redirect the user to another page. To do so, you need to add a Custom Field named <code>Link</code> and paste your link.</p>
+		<p class="center"><img src="help-assets/images/31.png" alt="" /></p>
+		<h4><strong>Using the Lightbox</strong></h4>
+		<p>If you just want to show an image rather than a detailed description about a Project, you can add a Custom Field named <code>Lightbox</code> and use as value "Zoom" or "Fullzoom".</p>
+		<p class="center"><img src="help-assets/images/34.png" alt="" /></p>
+		<h4><strong>Using a custom Thumbnail Picture</strong></h4>
+		<p>To use a different Thumbnail Picture, you can specify a Custom Field named <code>Thumbnail</code>, using your Thumbnail Picture URL as value.</p>
+		<p class="center"><img src="help-assets/images/35.png" alt="" /></p>
+		
+		<hr />
+		
+		<h3 id="Blog">8. <strong>The Blog</strong>  - <a href="#toc">top</a></h3>
+		<p>One of the strongest feature of Carta is the Blog, because it wasn't conceived as an addition, but as a main feature with a different design and a unique way of browsing it with an always visible Toolbar <small>(That you can disable, of course)</small></p>
+		<p>Every Blog Setting can be found in under the <img src="help-assets/images/blog.png" alt="" /> tab in your <img src="help-assets/images/ui.png" alt="" /> Options Panel.</p>
+		<h4><strong>Setting up the Blog</strong></h4>
+		<p>The Blog section process is the same of the Gallery and Projects so if you followed the previous steps I bet you can do everything without reading this guide :)<br />
+		Create a new page with any name, then assign the Blog Template to that page.<br />You can assign a Section Template in two ways:</p>
+		<ol>
+			<li>Via <img src="help-assets/images/ui.png" alt="" /> Options Panel under the <img src="help-assets/images/blog.png" alt="" /> tab.</li>
+			<li>Through the WordPress Page editing and assigning to the page the Blog Template.</li>
+		</ol>
+		<p class="center"><img src="help-assets/images/16.png" alt="" /></p>
+		
+		<hr />
+		
+		<h3 id="Contact">9. <strong>The Contact Form</strong>  - <a href="#toc">top</a></h3>
+		<p>Contrary to what you might think, this last step does not need much explanation because, with Carta, the only thing you need to do creating a Contact Page with a Contact Form, is this: <code>[wb_contact-form]</code></p>
+		<p>This little and powerful Shortcode automatically creates a secure Contact Form using your email address, that you can configure in the <img src="help-assets/images/contact.png" alt="" /> tab - otherwise, the Administrator email will be used. <small>(See the "<a href="#ContactFormShortcode">Shortcodes</a>" section if you want to use a different address for each Contact Form and more)</small></p>
+		<p class="center"><img src="help-assets/images/17.png" alt="" /></p>
+		
+		<hr />
+		
+		<h3 id="Shortcodes"><strong>Shortcodes</strong>  - <a href="#toc">top</a></h3>
+		<p>Shortcodes help you to add simple to complex content to any page using a specific <code>[command]</code> enclosed between brackets.<br />This theme comes with many Shortcodes that are accessible directly from the WordPress editing page.</p>
+		<p class="center"><img src="help-assets/images/18.png" alt="" /></p>
+		<p>In this guide you'll find informations about the Shortcodes that needs a further documentation, omitting the basic ones like the <code>[header]Header[/header]</code> or the <code>[intro]Intro[/intro]</code>.</p>
+		<h4><strong>Raw Formatting</strong></h4>
+		<p>To help you in the formatting of your content, WordPress automatically formats your code even if you're using the HTML mode. The problem is that sometimes it can be really annoying because it adds extra paragraphs that means extra space. To resolve this issue you can use the <code>[raw]</code> shortcode and wrap all your content in this shortcode.</p>
+		Usage sample:
+		<pre><code>[raw]
+&lt;h1>Some content&lt;/h1>
+...
+[/raw]</code></pre>
+		<p></p>
+		<h4 id="ColumnsShortcode"><strong>Columns Shortcodes</strong></h4>
+		<p>This Theme comes with a series of shortcodes to help you in the creation of a custom layout.<br /> Here's a list of the available column shortcodes:
+		</p>
+		<ul>
+			<li><code>[col-s]</code> A 220 pixels wide column</li>
+			<li><code>[col-m]</code> 300 pixels wide</li>
+			<li><code>[col-xm]</code> 380 pixels wide</li>
+			<li><code>[col-half]</code> 460 pixels wide</li>
+			<li><code>[col-l]</code> 540 pixels wide</li>
+			<li><code>[col-xl]</code> 700 pixels wide</li>
+			<li><code>[col-50]</code> 50% of the container</li>
+		</ul>
+		<p>While some columns are aligned by default to a side, you may want to align your column to a different side. To do that you can add the <code>align</code> property to any Column shortcode.</p>
+		Usage sample:
+		<pre><code>[col-l align="left"]
+	&lt;h3>Col-l&lt;/h3>
+[/col-l]
+[col-xm align="right"]
+	&lt;h3>Col-xm&lt;/h3>
+[/col-xm]
+[clear]</code></pre>
+		<p>You can use the <code>[clear]</code> shortcode to reset the floats.</p>
+		<h4><strong>Image Shortcode</strong></h4>
+		<p>With the <code>[image]</code> shortcode you can simple show any image, but you can also automatically resize it and align it to a side.</p>
+		<p class="center"><img src="help-assets/images/19.png" alt="" /></p>
+		<p>Through the <code>size</code> property you can resize your image using a preconfigured dimension like <code>s</code>, <code>m</code>, <code>l</code> or a custom, like <code>100x500</code>.</p>
+		Usage samples:
+		<pre><code>[image]mypicture.jpg[/image]</code></pre>
+		<pre><code>[image size="m"]mypicture.jpg[/image]</code></pre>
+		<pre><code>[image align="left"]mypicture.jpg[/image]</code></pre>
+		<pre><code>[image size="l" align="left"]mypicture.jpg[/image]</code></pre>
+		<pre><code>[image size="100x500" align="right"]mypicture.jpg[/image]</code></pre>
+		<p></p>
+		<p></p>
+		<h4><strong>Project Picture Shortcode</strong></h4>
+		<p>The <code>[project-image]</code> shortcode automatically prints the Project Picture Url in the Project View page.</p>
+		Usage samples:
+		<pre><code>[image][project-image][/image]</code></pre>
+		<p></p>
+		<h4><strong>Notifications Shortcode</strong></h4>
+		<p>This Theme comes with a series of shortcodes to show notification messages. They are <code>[notice]</code>, <code>[success]</code> and <code>[error]</code>. By default, every notification messages shows a close button on the upper right corner to hide the message itself. To make a notification message <em>sticky</em> and hide the close button, you can add the <code>type</code> property and set it to <code>sticky</code>.</p>
+		Usage samples:
+		<pre><code>[notice]Subscribe to my RSS feed[/notice]</code></pre>
+		<pre><code>[notice type="sticky"]Subscribe to my RSS feed[/notice]</code></pre>
+		<pre><code>[success]Your brain has been successfully mesmerized by Apple![/success]</code></pre>
+		<pre><code>[error]You Suck![/error]</code></pre>
+		<p></p>
+		<h4><strong>Accordion Shortcode</strong></h4>
+		<p>This Shortcode let you add a custom Carta Accordion in any page, in addition to the Frontpage Slider - and it is super easy.
+		</p>
+		<p>A Shortcode Accordion consists in a container, <code>[accordion]</code> and slides <code>[slides]</code>. If you want to add content to your slide, you must use two parameters: <code>type</code> for the content style and <code>cap</code> for the content. The <code>type</code> property can be <code>note</code> or <code>postit</code>.</p>
+		This:
+<pre><code>[accordion]
+	[slide type="note" cap="Hello!"]mypicture1.jpg[/slide]
+	[slide]mypicture2.jpg[/slide]
+	[slide type="postit" cap="Slide using the Post-it style"]mypicture3.jpg[/slide]
+[/accordion]</code></pre>
+		Will output this:
+		<p></p>
+		<p class="center"><img src="help-assets/images/20.png" alt="" /></p>
+		<h4><strong>Lightbox Shortcodes</strong></h4>
+		<p>Carta includes 4 Lightbox Shortcodes, each one made for different uses.<br /> The quick <code>[zoom]</code> shortcode made principally for image zooming, the <code>[fullzoom]</code> for content that requires a more emphasized presentation <small>(darkens the background and uses a different zoom-out effect)</small>, <code>[window]</code> shortcode to display entire pages and <code>[media]</code> for videos and similiar.
+		</p>
+		<p>While there is a specific lightbox shortcode to display pages, <code>[window]</code>, you can use the <code>type</code> property and set it to <code>iframe</code> to display pages with the <code>[zoom]</code> and <code>[fullzoom]</code> shortcodes too.</p>
+		Usage samples:
+		<pre><code>[zoom href="mypicture.jpg"]Hyperlink[/zoom]</code></pre>
+		<pre><code>[zoom href="mypicture.jpg"]
+	[image size="s"]mypicture.jpg[/image]
+[/zoom]</code></pre>
+		<pre><code>[fullzoom href="mypicture.jpg"]Hyperlink[/fullzoom]</code></pre>
+		<pre><code>[window href="http://www.google.com"]Hyperlink[/window]</code></pre>
+		<pre><code>[zoom type="iframe" href="http://www.google.com"]Hyperlink[/zoom]</code></pre>
+		<p></p>
+		Video Lightbox
+		<pre><code>[media href="http://www.youtube.com/watch?v=09s-c2JVI40"]Youtube[/media]</code></pre>
+		<pre><code>[media href="http://vimeo.com/11932087"]Vimeo[/media]</code></pre>
+		<pre><code>[media href="http://www.adobe.com/jp/events/cs3_web_edition_tour/swfs/perform.swf"]Swf[/media]</code></pre>
+		<pre><code>[media thumb="yes" href="http://www.youtube.com/watch?v=09s-c2JVI40"]Thumbnail Title[/media]</code></pre>
+		<pre><code>[media thumb="yes" href="http://vimeo.com/11932087"]Thumbnail Title[/media]</code></pre>
+		<p></p>
+		<h4><strong>Video Shortcodes</strong></h4>
+		<p>You can embed a video in any page using the <code>[youtube]</code> shortcode or <code>[vimeo]</code> shortcode. You just need to add the url of your video, without caring about the ID or stuff like that.</p>
+		Usage samples:
+		<pre><code>[youtube]http://www.youtube.com/watch?v=DX1iplQQJTo[/youtube]</code></pre>
+		<pre><code>[vimeo]http://vimeo.com/14958082[/vimeo]</code></pre>
+		<pre><code>[swf]http://www.adobe.com/jp/events/cs3_web_edition_tour/swfs/perform.swf[/swf]</code></pre>
+		<p></p>
+		<h4 id="ContactFormShortcode"><strong>Contact Form Shortcode</strong></h4>
+		<p>This Theme includes a powerful and secure Contact Form system directly linked to the <img src="help-assets/images/ui.png" alt="" /> Options Panel, but at the same time completely indipendent and versatile.</p>
+		<p class="center"><img src="help-assets/images/21.png" alt="" /></p>
+		<p>You can add a Contact Form to any page using the <code>[wb_contact-form]</code> shortcode.<br />The email address where the Contact Form will send the messages can be configurated in the <img src="help-assets/images/contact.png" alt="" /> tab of your <img src="help-assets/images/ui.png" alt="" /> Options Panel, if there is no email configurated, the Admin user address will be used.</p>
+		<p>So <b>how to use a different email address for each contact form?</b><br />There are two configurable properties that you can use: <code>email</code> and <code>help</code>.<br />If you set the <code>email</code> property, the messages will be sended to that email address, if you set the <code>help</code> property to <code>show</code> a kind message will display the email <small>(encrypted)</small> where the contact form will send the emails, for people that do not like forms.</p>
+		Usage samples:
+		<pre><code>[wb_contact-form]</code></pre>
+		<pre><code>[wb_contact-form email="another@address.com"]</code></pre>
+		<pre><code>[wb_contact-form help="show"]</code></pre>
+		
+		<hr />
+		
+		<h3 id="Widgets"><strong>Widgets</strong>  - <a href="#toc">top</a></h3>
+		<p>This Theme comes with 7 Custom Widgets and 5 available Widgets Areas to place them.</p>
+		<p class="center"><img src="help-assets/images/22.png" alt="" /></p>
+		
+		<h4><strong>Carta Note</strong></h4>
+		<p>This custom Widget displays a short message with a link. It can be placed properly only in the <code>Footer Right Area</code>.</p>
+		<p class="center"><img src="help-assets/images/24.png" alt="" /></p>
+		
+		<h4><strong>Tweets Stream Widget</strong></h4>
+		<p>This Widget simply displays the latest tweets of any account.</p>
+		<p class="center"><img src="help-assets/images/23.png" alt="" /></p>
+		
+		<h4><strong>Flickr Photostream</strong></h4>
+		<p>You can use this Widget to display your Flickr account photos.</p>
+		
+		<h4><strong>Popular Posts</strong></h4>
+		<p>This Widget displays a list of the posts with more comments.</p>
+		
+		<h4><strong>Google Adsense</strong></h4>
+		<p>You can use this Widget to display your Google Adsense Advertising.</p>
+		
+		<h4><strong>Advertisements</strong></h4>
+		<p>With this Widget you can add a custom Advertisement setting the Image and the Link you desire.</p>
+		
+		<h4><strong>Video Embed</strong></h4>
+		<p>Using this Widget you can display a Youtube or Vimeo video in any Widget Area with just a couple clicks.</p>
+		<p class="center"><img src="help-assets/images/25.png" alt="" /></p>
+		
+		<hr />
+		
+		<h3 id="NewTheme">1. <strong>Creating a new Theme or Skin</strong>  - <a href="#toc">top</a></h3>
+		<p>One of the greatest feature of Carta is the versatility. It is possible because this Theme was built on a solid layout that is at the same time completely personalizable.</p>
+		<p>While you've got 5 Themes, you may want to add a new one , and you can do it very easly.</p>
+		<h4><strong>Theme System Explanation</strong></h4>
+		<p>A Carta Theme is a <code>CSS</code> file that contains <b>all</b> the color, font, background etc. properties that will be applied to the structure. So to add a new theme to the Theme Switcher list, you just need to create or move your <code>CSS</code> file to the <code>themes</code> folder and the Engine will automatically recognize the theme and list it.</p>
+		<p class="center"><img src="help-assets/images/26.png" alt="" /></p>
+		<h4><strong>New Skin</strong></h4>
+		<p>Creating a completely new Theme needs time and you may want to make just some retouches to a Theme while using the same Graphics. You can do that just naming your <code>CSS</code> Theme File with an underscore <code>_</code></p>
+		<p>So if you want to add a skin for the Shout Theme, you'll name your <code>CSS</code> file <code>Shout_MySkin.css</code><br />Doing this, the Engine will automatically take all the images from the <code>Shout</code> folder.</p>
+		
+		<hr />
+		
+		<h3 id="NewFont">2. <strong>Adding a new Font</strong>  - <a href="#toc">top</a></h3>
+		<p>This Theme uses the amazing Cuf&oacute;n Text Replacement to let you use any Font on your website without caring of the compatibility or stuff like that.</p>
+		<p>To add a new font, you need to use the <a href="http://cufon.shoqolate.com/generate/">Cuf&oacute;n Generator</a> to convert your Font to a <code>JS</code> file. When the converting is completed, you just need to move the generated <code>JS</code> file in the <code>Carta/js/fonts</code> folder and Carta will automatically recognize it.</p><p>
+		<p class="center"><img src="help-assets/images/27.png" alt="" /></p>
+		<p>You can find many Fonts for Commercial Use on <a href="http://fontsquirrel.com">Font Squirrel</a>, but I always recommend to take a look to the License and see if you can use it freely.</p>
+		
+		<hr />
+		
+		<h3 id="Samples"><strong>Page Samples</strong>  - <a href="#toc">top</a></h3>
+		<p>Creating a Page Template using the Column Shortcodes can be a little difficult for some users, that's why I've included some Page Samples that you can paste in your WordPress Page Editor to help you in the creation of a Custom Layout.</p>
+		<ul>
+			<li><b>Homepage Sample</b>
+			<br /><a target="_blank" href="samples/homepage.txt">homepage.txt</a></li>
+			<li><b>Half-page Columns Layout</b>
+			<br /><a target="_blank" href="samples/col-half.txt">col-half.txt</a></li>
+			<li><b>Two Columns Layout A</b>
+			<br /><a target="_blank" href="samples/col-l_col-xm.txt">col-l_col-xm.txt</a></li>
+			<li><b>Two Columns Layout B</b>
+			<br /><a target="_blank" href="samples/col-l_col-xm.txt">col-l_col-xm.txt</a></li>
+			<li><b>Three Columns</b>
+			<br /><a target="_blank" href="samples/col-m.txt">col-m.txt</a></li>
+			<li><b>Four Columns</b>
+			<br /><a target="_blank" href="samples/col-s.txt">col-s.txt</a></li>
+		</ul>
+		<p>As you can see, just combining different Column Shortcodes you can create a infinite number of Layouts. The keys for a perfect result are the <code>[raw]</code> and the <code>[clear]</code> shortcode. See the <a href="#Shortcodes">Shortcodes</a> for more informations about the Shortcodes.</p></p>
+		
+		<hr />
+		
+		<h3 id="CSSjQuery"><strong>CSS and jQuery</strong>  - <a href="#toc">top</a></h3>
+		<h4><strong>CSS Files</strong></h4>
+		<p>This Theme uses one main CSS file: <code>structure.css</code><br />
+		This file sets the main structure of the Theme and also includes the other necessary files. Here's a list of the files included through the structure file.</p>
+		<ul>
+			<li><b>reset.css</b> <small>(located in <code>/css</code>)</small>
+			<br />Many browser interpret the default behavior of html elements differently. By using this reset <code>CSS</code> file, we can work round this.</li>
+			<li><b>superfish.css</b> <small>(located in <code>/css</code>)</small>
+			<br />The <code>CSS</code> file for the Superfish jQuery plugin, used for the dropdown menus.</li>
+			<li><b>css3.css</b> <small>(located in <code>/css</code>)</small>
+			<br />This <code>CSS</code> file adds some extra retouches using new <code>CSS3</code> features like shadows and animations. The con is that Old Browsers do not support this features.</li>
+			<li><b>jquery.fancybox-%.css</b> <small>(located in <code>/js/fancybox</code>)</small>
+			<br />This <code>CSS</code> file required for the FancyBox jQuery plugin.</li>
+			<li><b>nivo-slider.css</b> <small>(located in <code>/js/nivoslider</code>)</small>
+			<br />This <code>CSS</code> file required for the Nivo Slider jQuery plugin.</li>
+		</ul>
+		<p>Every section of the <code>structure.css</code> file is delimited by a comment to help you find the exact part of the theme you want to edit.</p>
+<pre><code>/* Typography */
+p { 
+	font-size: 1.4em;
+	line-height: 1.5em;
+	padding-bottom: 20px;
+}
+...
+
+/* Footer */
+#footer {
+	width: 100%;
+	margin-top: 35px;
+}
+
+etc, etc.</code></pre>
+		<br />
+		<p>The other <code>CSS</code> files that Carta uses are the Theme files. They are all located in the <code>themes</code> folder and they contain all the color and image-related properties to applied on the structure.</p>
+<pre><code>/* Hyperlinks */
+a {
+	color: #000;
+}
+...
+
+/* Logo */
+#head h1#logo { 
+	background: url(Aqua/logo.png) no-repeat;
+}
+
+etc, etc.</code></pre>
+		<br />
+		<p>There's a last <code>CSS</code> file called <code>ie.css</code> used to fix all the <a href="http://www.google.com/search?q=internet+explorer+bugs">Internet Explorer</a> oddities and is included only if the visitor uses the <abbr title="Internet Explorer">malefic browser</abbr>.</p>
+		<br />
+		<h4><strong>jQuery Scripts</strong></h4>
+		<p>This Theme imports a total of ten Javascript files, and some of them are included only in some cases.</p>
+		<ul>
+			<li><b>jquery.min.js</b>
+			<br />jQuery is a Javascript library that greatly reduces the amount of code that you must write.</li>
+			<li><b>jquery.wb_accordion.js</b>
+			<br />The Carta Accordion plugin.</li>
+			<li><b>jquery.nivo.slider.pack.js</b>
+			<br />The Nivo Slider plugin <small>(included only if you selected it as Slider Type)</small></li>
+			<li><b>cufon-yui.js</b>
+			<br />Cufon is a text replacement plugin to use any font on your webpage.</li>
+			<li><b>jquery.easing.js</b>
+			<br />A jQuery plugin for advanced animations <small>(optional)</small></li>
+			<li><b>superfish.js</b>
+			<br />CSS &amp; jQuery Dropdown Menu</li>
+			<li><b>jquery.fancybox.pack.js</b>
+			<br />FancyBox is a tool to show content in a Mac-style "lightbox" that floats overtop of web page.</li>
+			<li><b>init.js</b>
+			<br />This file enables all the plugins mentioned before and also includes many great features like the Contact Form System or the Gallery and Projects animations.</li>
+		</ul>
+		<p>There's a last Javascript file called <code>DD_belatedPNG_%-min.js</code> used to enable the PNG Transparency on Internet Explorer and is included only if the visitor uses the <abbr title="Internet Explorer">malefic browser</abbr>.</p>
+		
+		<hr />
+		
+		<h3 id="PSD"><strong>PSD Sources</strong>  - <a href="#toc">top</a></h3>
+		<p>Mostly any structure image used to create this Theme is available as PSD source file.<br />I've included 13 sliced psds and all the Full Page sources for the Aqua Theme.</p>
+		<p class="center"><img src="help-assets/images/28.png" alt="" /></p>
+		<p>The sliced psd files are the same I've used to code this theme, so you don't need to resize or rename any image you want to edit. Just save them as the same file type of the original.</p>
+		
+		<hr />
+		
+		<h3 id="Extras"><strong>Extras</strong>  - <a href="#toc">top</a></h3>
+		<p class="center"><img src="help-assets/images/29.png" alt="" /></p>
+		<p>To help you in the creation of your beautiful website, I've also included 10 High Res Backgrounds that you can use anywhere and how you want. No restrictions.</p>
+		
+		<hr />
+		
+		<h3 id="Credits"><strong>Ending Credits</strong>  - <a href="#toc">top</a></h3>
+		<p>Here's a list of all the external stuff that helped me a lot in the creation of Carta with some useful links.</p>
+		<ul>
+			<li>Pictures from <a href=“http://photos8.com/“>photos8.com</a>, <a href=“http://www.flickr.com/photos/tambako/“>tambako</a> and <a href=“http://www.flickr.com/photos/simon-bouchard/“>Simon Bouchard</a></li>
+			<li><a href="http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/">Eric Meyer CSS Reset</a></li>
+			<li><a href="http://jquery.com/">jQuery</a>
+			<li><a href="http://users.tpg.com.au/j_birch/plugins/superfish/">Superfish</a> - <a href="http://users.tpg.com.au/j_birch/plugins/superfish/#options">Options</a></li>
+			<li><a href="http://cufon.shoqolate.com/generate/">Cuf&oacute;n</a> - <a href="http://github.com/sorccu/cufon/wiki">Documentation</a></li>
+			<li><a href="http://www.flat-it.com/index.html">Bebas</a> font</li>
+			<li><a href="http://www.theleagueofmoveabletype.com/">ChunkFive</a> font</li>
+			<li><a href="http://www.carrois.com/">Colaborate</a> font</li>
+			<li><a href="http://www.garagefonts.com/">District Thin</a> font</li>
+			<li><a href="http://moorstation.org/typoasis/designers/lab/index.htm">Lane</a> font</li>
+			<li>Bigelow &amp; Holmes <b>Luxi Sans</b> font</li>
+			<li><a href="http://www.josbuivenga.demon.nl/">Museo, Museo Sans and Museo Slab</a> fonts</li>
+			<li><a href="http://www.tenbytwenty.com/products/category/typefaces">Nevis</a> font</li>
+			<li><a href="http://fonts.ru/">PT Sans</a> font</li>
+			<li><a href="http://www.andrewpaglinawan.com/">Quicksand</a> font</li>
+			<li>Bernd Montag <b>Sansation</b> font</li>
+			<li><a href="http://www.dillerdesign.com/experiment/DD_belatedPNG/">DD_belatedPNG</a></li>
+			<li><a href="http://fancybox.net/">FancyBox</a> - <a href="http://fancybox.net/api">Options</a></li>
+			<li><a href="http://cherne.net/brian/resources/jquery.hoverIntent.html">hoverIntent</a></li>
+			<li><a href="http://gsgd.co.uk/sandbox/jquery/easing/">jQuery Easing</a></li>
+			<li><a href="http://nivo.dev7studios.com/">Nivo Slider</a></li>
+			<li><a href="http://www.binarymoon.co.uk/projects/timthumb/">TimThumb</a></li>
+		</ul>
+		<br /><br />
+		<p>Once again, thank you for buying Carta. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist.</p>
+		<p class="append-bottom alt large"><strong>Stefano Giliberti</strong></p>
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

@@ -1,0 +1,145 @@
+
+/***  Skin Styles  ***/
+
+body 		{ background-image: url("../../images/skins/skin-8/Bg.jpg"); color: #474747;}	/* background image and default font color */
+body, #SlideShow-Images { background-color: #E6ECEC; }	/* primary background color */
+
+/* main content area */
+#MainPage { border-color: #fff; background: #fff; }	/* page background (for content areas)  */
+
+/* logo */
+#LogoHeader				{ background-image: url("../../images/skins/skin-8/logo-Large.png"); }
+#LogoHeader.logoMedium	{ background-image: url("../../images/skins/skin-8/logo-Medium.png"); }
+
+/* showcase & footer*/
+#Showcase, .alternate #FooterWrapper	{ border-color: #E3E6E4 #2B2B2B; background-color: #141414;							/* border color, bg color */
+										  background-image: url("../../images/skins/skin-8/showcase-BgRepeat.jpg"); }	/* background image */
+#ShowcaseContent, 
+.alternate #FooterContent	{ background-image: url("../../images/skins/skin-8/showcase-Bg.jpg"); }
+#FooterWrapper				{ background-image: url("../../images/skins/skin-8/Footer-Bg.png"); }
+
+/* links */
+a:link, a:visited	{ color: #1E6777; }
+a:hover, a:active	{ color: #899; }
+
+	/* box style links */
+	a.boxLink:link, a.boxLink:visited	{ color: #fff; background-color: #1E6777; }
+	a.boxLink:hover, a.boxLink:active 	{ background-color: #899; }
+
+	/* Main Menu */
+	#MainMenu a:link, #MainMenu a:visited	{ color: #bbb; }	/* menu links - top level items */
+	#MainMenu a:hover, #MainMenu a:active	{ color: #fff; }
+	
+	/* mega menu */
+	ul#MegaMenu .sub ul li { color: #fff; }
+	ul#MegaMenu .sub ul li a:link, ul#MegaMenu .sub ul li a:visited { color: #bbb; }			/* menu links - sub menus */
+	ul#MegaMenu .sub ul li a:hover, ul#MegaMenu .sub ul li a:active { color: #fff; }
+	ul#MegaMenu .sub ul li h2 a:link, ul#MegaMenu .sub ul li h2 a:visited { color: #fff; }		/* menu titles */
+	ul#MegaMenu .sub ul li h2 a:hover, ul#MegaMenu .sub ul li h2 a:active { color: #ccc; }
+
+	/* top content sections and footer links */
+	#FooterContent a:link, #FooterContent a:visited, #Showcase a:link, #Showcase a:visited, #PageOverlay a:link, #PageOverlay a:visited { color: #999; }
+	#FooterContent a:hover, #FooterContent a:active, #Showcase a:hover, #Showcase a:active, #PageOverlay a:hover, #PageOverlay a:active { color: #fff; }
+	
+/* headings */
+h1, h2, h3, h4, h5, h6, .headline, .title, #fancybox-title-main { color: #424242; }
+h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong, .headline strong	{ color: #000;}
+h1 .subTitle, h2 .subTitle, h3 .subTitle, h4 .subTitle, h5 .subTitle, h6 .subTitle, .headline .subTitle, .title .subTitle	{ color: #999;}
+.headline	{ color: #424242; }
+
+	/* showcase title */
+	#Showcase h1, #Showcase h2, #Showcase h3, #Showcase h4, #Showcase h5, #Showcase h6,
+	#MainMenu h1, #MainMenu h2, #MainMenu h3, #MainMenu h4, #MainMenu h5, #MainMenu h6  { color: #fff; }
+	/* page title */
+	.pageTitle,#PageOverlay h1, #PageOverlay h2, #PageOverlay h3, #PageOverlay h4, #PageOverlay h5, #PageOverlay h6  { color: #838383; }
+
+/* text */
+blockquote				{ border-left-color: #bbb;}	
+code, pre				{ background-color: #E8EBEC; border-color: #bbb; color: #333; }
+.impact					{ color: #444; }
+.callout				{ color: #000; background-color: #eee; border-color: #ddd; }	/* quote container */
+.callout cite			{ color: #747474; }
+.copyright, #Showcase	{ color: #ccc; }	/* footer and showcase text */
+#PageOverlay			{ color: #2B2B2B; }	/* page header text */
+
+/* side navigation - bullets */
+ul.sideNav li a:link, ul.sideNav li a:visited							{ color: #999; }		/* sub-navigation - link */
+ul.sideNav li a:hover, ul.sideNav li a:active							{ color: #132128; }		/* sub-navigation - hover */
+ul.sideNav li.currentPage a:link, ul.sideNav li.currentPage a:visited	{ color: #555; }		/* sub-navigation - current page */
+ul.sideNav li {background-image: url("../../images/skins/skin-8/hr-Small.gif"); }
+ul.sideNav li a { background-image: url("../../images/skins/skin-8/bullet-nav.gif");  }
+
+/* forms and inputs */
+input, textarea			{ color: #333; }
+textarea, .textInput	{ background-color: #eee; border-color: #ccc; }	/* input */
+.textInput.inputFocus	{ background-color: #f3f3f3; border-color: #b3b3b3; }								/* input - focus */
+label.overlabel 		{ color: #ccc; } /* overlabel text */
+
+/* search */
+#SearchInput 					{ color: #fff; }	/* search text */
+#Search							{ background-image: url("../../images/skins/skin-8/SearchBg.gif"); }
+
+/* common styles */
+.hr				{ background-image: url("../../images/skins/skin-8/hr-Large.gif"); }
+.hr-small		{ background-image: url("../../images/skins/skin-8/hr-Small.gif"); }
+
+/* pagination */
+.pagination a			{ border-color: #D3D3D3; background: #fff; }
+.pagination a.current 	{ border-color: #BCBCBC; background: #D8D9DA; }
+	
+/* sidebar */
+.sidebar		{ background-image: url("../../images/skins/skin-8/subMenu-leftRepeat.gif"); }
+.sidebarBox-1	{ background-image: url("../../images/skins/skin-8/subMenu-leftTop.gif"); }
+.sidebarBox-2	{ background-image: url("../../images/skins/skin-8/subMenu-leftBottom.gif");}
+
+/* sidebar - right */
+.last .sidebar		{ background-image: url("../../images/skins/skin-8/subMenu-repeat.gif"); }
+.last .sidebarBox-1	{ background-image: url("../../images/skins/skin-8/subMenu-top.gif"); }
+.last .sidebarBox-2	{ background-image: url("../../images/skins/skin-8/subMenu-bottom.gif"); }
+
+		
+/* breadcrumbs */
+.breadcrumbs	{ color: #999; background-image: transparent url("../../images/skins/skin-8/hr-Small.gif"); }
+.breadcrumbs a:link, .breadcrumbs a:visited	{ color: #999; }
+.breadcrumbs a:hover, .breadcrumbs a:active	{ color: #333; }
+
+/* buttons */
+button.btn		{ background-image: url("../../images/skins/skin-8/button-sprite.gif"); }
+button.btn span	{ background-image: url("../../images/skins/skin-8/button-sprite.gif"); color: #747474; }	/* button text */
+button.btn:hover span, button.btnHover span { color: #434747; text-shadow: #E8F0F0 1px 1px 0px; }			/* button text - hover */
+	
+/* top */
+#Top			{ background-image: url("../../images/skins/skin-8/topMenu-Repeat.png"); }	/* top menu bg */
+#TopContainer	{ background-image: url("../../images/skins/skin-8/topMenu-Middle.png"); }
+
+/* featured nav buttons */
+#FeaturedPrev { background-image: url("../../images/skins/skin-8/Featured-ButtonPrev.png"); }
+#FeaturedNext { background-image: url("../../images/skins/skin-8/Featured-ButtonNext.png"); }
+
+/* page header */
+#PageTop 						{ background-image: url("../../images/skins/skin-8/pageOverlay-Top.png"); }	/* page header bg */
+#PageWrapper					{ background-image: url("../../images/skins/skin-8/Page-Bg.png"); }
+#PageOverlay 					{ background-image: url("../../images/skins/skin-8/pageOverlay-Repeat.jpg"); }
+#PageOverlayContent 			{ background-image: url("../../images/skins/skin-8/pageOverlay-Middle.jpg"); }
+.alternate #PageOverlay 		{ background-image: url("../../images/skins/skin-8/pageOverlay-FullRepeat.png"); }
+.alternate #PageOverlayContent 	{ background-image: url("../../images/skins/skin-8/pageOverlay-FullMiddle.png"); }
+	
+/* blog post */
+.postTitle 		{ background-image: url("../../images/skins/skin-8/hr-Small.gif"); }
+.blogPostInfo 	{ color: #999; background-image: url("../../images/skins/skin-8/hr-Small.gif"); }
+
+/* faq's page */
+.faqs li 		{ background-image: url("../../images/skins/skin-8/hr-Small.gif"); }
+
+/* drop down container */
+ul#MegaMenu li a span.mm-arrow { background-image: url("../../images/skins/skin-8/mm-arrows.gif"); }
+ul#MegaMenu .sub ul li a { background-image: url("../../images/skins/skin-8/MegaMenu-Sub-Bullet.gif"); }
+.mm-sub-tr { background-image: url("../../images/skins/skin-8/MegaMenu-Sub-TR.png"); }
+.mm-sub-tl { background-image: url("../../images/skins/skin-8/MegaMenu-Sub-TL.png"); }
+.mm-sub-tm { background-image: url("../../images/skins/skin-8/MegaMenu-Sub-TM.png"); }
+.mm-sub-br { background-image: url("../../images/skins/skin-8/MegaMenu-Sub-BR.png"); }
+.mm-sub-bl { background-image: url("../../images/skins/skin-8/MegaMenu-Sub-BL.png"); }
+.mm-sub-bm { background-image: url("../../images/skins/skin-8/MegaMenu-Sub-BM.png"); }
+.mm-sub-r { background-image: url("../../images/skins/skin-8/MegaMenu-Sub-R.png"); }
+.mm-sub-l { background-image: url("../../images/skins/skin-8/MegaMenu-Sub-L.png"); }
+.mm-sub-m { background-image: url("../../images/skins/skin-8/MegaMenu-Sub-Repeat.gif"); }

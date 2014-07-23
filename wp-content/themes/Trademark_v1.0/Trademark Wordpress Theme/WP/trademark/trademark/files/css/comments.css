@@ -1,0 +1,49 @@
+/* Comments */
+
+#comments                           { }
+#comments #comments-title			{ margin-bottom: 25px; font-weight: bold; }
+#comments #comments-title em		{ font-weight: normal; }
+#comments ul,
+#comments li                        { list-style: none; padding: 0px; }
+#comments ol                        { padding: 0px 0px 0px 0px; }
+#comments label                     { background-color: #F4F4F4; font-weight: bold; left: 10px; line-height: 21px; position: absolute; top: 3px;  }
+#comments label span                { font-size: 11px; font-weight: normal; }
+#comments input,
+#comments input                     { width: 241px; }
+#comments textarea                  { width: 85%; }
+#comments p                         { margin: 0px 0px 20px 0px; position: relative }
+#comments p.comment-notes .required	{ display: none; }
+#comments #commentform              { overflow: hidden; padding: 0px 0px 0px 0px; position: relative; }
+#comments #submit                   { color: #111111; border-width: 1px; cursor: pointer; display: inline; font-weight: bold; width: auto; background-image: url('../images/glass_dark.png'); background-position: top center; background-repeat: repeat-x; text-shadow: 1px 1px 1px rgba( 255, 255, 255, 0.5);}
+#comments #submit:hover				{ color: #FFFFFF; }
+#comments .commentlist              { margin: 0px 0px 20px 0px; }
+#comments .commentlist ul           { margin: 0px 0px 0px 54px; }
+#comments .commentlist li           { list-style: none !important; padding-bottom: 0px; }
+#comments #reply-title              { margin: 0px 0px 15px 0px; }
+#comments #commentform              { margin: 0px 0px 0px 0px; }
+#comments li #reply-title           { margin: 0px 0px 10px 54px; position: relative; background: url('../images/sidebar-dots.png') repeat-x left bottom; padding-bottom: 10px;}
+#comments li #commentform           { margin: 0px 0px 0px 54px; margin-bottom: 20px; background: url('../images/sidebar-dots.png') repeat-x left bottom; padding-bottom: 5px;}
+#comments .vcard img                { display: block; border-width: 0px; float: left; padding: 2px; background: url('../images/container-image-bg.png');}
+#comments .vcard .says              { display: none; }
+#comments .vcard .fn                { font: normal 18px 'CantarellRegular', sans-serif; margin: 0px 0px 0px 10px; }
+#comments .commentmetadata          { font-size: 11px; }
+#comments .commentmetadata a        { text-decoration: none; margin: 0px 0px 0px 10px; }
+#comments .comment-body             { margin: 15px 0px 0px 54px; }
+#comments .reply                    { display: none; position: absolute; right: 0px; top: 0px; text-align: right; }
+#comments .reply a                  { font-weight: normal; text-decoration: none; text-transform: lowercase; }
+#comments .comment-edit-link        { color: #ff0000; }
+
+#respond					{ padding-top: 20px; }
+.commentlist #respond		{ padding-top: 0px; }
+
+#comments .comment-wrapper                          { position: relative; }
+#comments .comment-wrapper:hover .reply             { display: block; }
+#content #comments h3 a#cancel-comment-reply-link  	{ color: #ff0000 !important; font-weight: bold; font-family: 'Arial', sans-serif; letter-spacing: 0px; position: absolute; top: 0px; right: 0px;}
+#comments input,
+#comments textarea          { background: #F4F4F4; border: 1px solid #E8E8E8; color: #636363; display: block; font-family: 'Arial', sans-serif; font-size: 12px; margin: 0px; padding: 5px 8px; 
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.required	{display: block; font-size: 0px; line-height: 0px; text-indent: -9999px; width: 5px; height: 5px; position: absolute; top: 0px; left: 0px; background: url('../images/icons/required.gif') top left no-repeat;}
